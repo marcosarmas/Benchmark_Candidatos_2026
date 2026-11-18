@@ -34,6 +34,7 @@ def normalize(c):
             p["costo"] = p.get("costo") or None
             if p.get("competencia") not in ("si", "parcial", "no"):
                 p["competencia"] = None
+            p.setdefault("intereses", [])
     return c
 
 
@@ -50,6 +51,15 @@ def main():
     data["ejes"] = EJES
     data["candidatos"] = [normalize(c) for c in data["candidatos"]]
     SRC.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+    cat = json.loads((ROOT / "data" / "intereses.json").read_text(encoding="utf-8"))["intereses"]
+    ids = {i["id"] for i in cat}
+    for c in data["candidatos"]:
+        for ps in c["propuestas"].values():
+            for p in ps:
+                bad = [t for t in p.get("intereses", []) if t not in ids]
+                if bad:
+                    sys.exit(f"Interés desconocido {bad} en {c['id']}")
+    data["intereses"] = cat
     OUT.write_text("// Generado por scripts/build_data.py — editar data/candidatos.json\nwindow.BENCHMARK = "
                    + json.dumps(data, ensure_ascii=False, indent=1) + ";\n", encoding="utf-8")
     n = sum(len(v) for c in data["candidatos"] for v in c["propuestas"].values())

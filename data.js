@@ -21,7 +21,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/PABEL-MUNOIZ.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "mov_buses"
+      ]
      },
      {
       "texto": "Programa permanente urbano y rural de mantenimiento vial, bacheo y mejoramiento de aceras.",
@@ -31,7 +34,11 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/PABEL-MUNOIZ.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "mov_vias",
+       "mov_activa"
+      ]
      },
      {
       "texto": "Gestión de la velocidad en las vías de mayor siniestralidad y zonas peatonales, y repotenciación de terminales para su integración con otros modos.",
@@ -41,7 +48,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/PABEL-MUNOIZ.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "mov_seguridad_vial"
+      ]
      },
      {
       "texto": "Consolidar una red integrada de transporte público, corredores peatonales e infraestructura ciclista.",
@@ -51,7 +61,11 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/PABEL-MUNOIZ.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "mov_integracion",
+       "mov_activa"
+      ]
      },
      {
       "texto": "Extensión del Metro de Quito hasta La Ofelia, entre sus ofrecimientos de campaña.",
@@ -61,7 +75,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.eluniverso.com/politica/elecciones/la-campana-electoral-se-despliega-en-la-sierra-con-recorridos-y-encuentros-daniel-noboa-visito-quito-y-latacunga-nota/",
       "medio": "El Universo",
-      "fecha": "2026-11-16"
+      "fecha": "2026-11-16",
+      "intereses": [
+       "mov_metro"
+      ]
      }
     ],
     "seguridad": [
@@ -73,7 +90,10 @@ window.BENCHMARK = {
       "competencia": "parcial",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/PABEL-MUNOIZ.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "seg_camaras"
+      ]
      },
      {
       "texto": "Presencia permanente del personal municipal de control (CBQ, AMT, AMC, CACMQ, EP Emseguridad) en los puntos rojos del mapa delictivo.",
@@ -83,7 +103,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/PABEL-MUNOIZ.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "seg_agentes"
+      ]
      },
      {
       "texto": "Proyecto de prevención del reclutamiento criminal de niños, niñas y adolescentes, con acompañamiento en salud mental.",
@@ -93,7 +116,10 @@ window.BENCHMARK = {
       "competencia": "parcial",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/PABEL-MUNOIZ.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "seg_prevencion_jovenes"
+      ]
      },
      {
       "texto": "Fortalecer los Centros de Equidad y Justicia y las Juntas de Protección de Derechos para atención inmediata y mediación.",
@@ -103,7 +129,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/PABEL-MUNOIZ.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "seg_mujeres"
+      ]
      },
      {
       "texto": "Transporte seguro y cero tolerancia al acoso: presencia operativa, iluminación, monitoreo y canales de denuncia en corredores, estaciones y paradas.",
@@ -113,7 +142,11 @@ window.BENCHMARK = {
       "competencia": "parcial",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/PABEL-MUNOIZ.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "seg_mujeres",
+       "seg_iluminacion"
+      ]
      },
      {
       "texto": "Fortalecer el Sistema Metropolitano de Alerta Temprana y las obras de mitigación de riesgos, con relocalización de familias en zonas de riesgo.",
@@ -123,7 +156,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/PABEL-MUNOIZ.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "seg_riesgos"
+      ]
      }
     ],
     "servicios": [
@@ -135,7 +171,11 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/PABEL-MUNOIZ.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "ser_agua",
+       "amb_paramos"
+      ]
      },
      {
       "texto": "Estrategia para la Descontaminación de Ríos de Quito: plantas de tratamiento de aguas residuales (PTAR) e interceptores en zonas priorizadas, incluidas PTAR rurales.",
@@ -145,7 +185,11 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/PABEL-MUNOIZ.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "ser_ptar",
+       "amb_rios"
+      ]
      },
      {
       "texto": "Construcción de un Complejo Ambiental para la gestión integral de residuos sólidos, con reciclaje inclusivo y aprovechamiento energético.",
@@ -155,7 +199,12 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/PABEL-MUNOIZ.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "ser_relleno",
+       "ser_reciclaje",
+       "ser_recicladores"
+      ]
      },
      {
       "texto": "Proyecto Quito Azul: drenaje urbano sostenible, control de inundaciones y recuperación de cauces.",
@@ -165,7 +214,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/PABEL-MUNOIZ.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "amb_esponja"
+      ]
      }
     ],
     "ambiente": [
@@ -177,7 +229,13 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/PABEL-MUNOIZ.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "amb_arboles",
+       "amb_parques",
+       "amb_aire",
+       "amb_clima"
+      ]
      },
      {
       "texto": "Proyecto Red Metropolitana de Espacios Públicos y entornos seguros.",
@@ -187,7 +245,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/PABEL-MUNOIZ.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "amb_parques"
+      ]
      },
      {
       "texto": "Repotenciar la red metropolitana de monitoreo meteorológico y de calidad de aire y agua.",
@@ -197,7 +258,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/PABEL-MUNOIZ.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "amb_aire"
+      ]
      },
      {
       "texto": "Aplicar el resultado de la consulta popular Quito Sin Minería Metálica mediante control del uso del suelo, LUAE y veeduría ambiental.",
@@ -207,7 +271,10 @@ window.BENCHMARK = {
       "competencia": "parcial",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/PABEL-MUNOIZ.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "amb_mineria"
+      ]
      },
      {
       "texto": "Fortalecer el Subsistema Metropolitano de Áreas Protegidas y la Red Verde Urbana.",
@@ -217,7 +284,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/PABEL-MUNOIZ.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "amb_paramos"
+      ]
      }
     ],
     "economia": [
@@ -229,7 +299,11 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/PABEL-MUNOIZ.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "eco_semilla",
+       "eco_empleo_joven"
+      ]
      },
      {
       "texto": "Repotenciar la red de mercados municipales con modernización y nueva infraestructura comercial.",
@@ -239,7 +313,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/PABEL-MUNOIZ.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "eco_mercados"
+      ]
      },
      {
       "texto": "Promover polígonos industriales y redes de logística con incentivos y simplificación de trámites para atraer inversión.",
@@ -249,7 +326,11 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/PABEL-MUNOIZ.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "eco_inversion",
+       "eco_tramites"
+      ]
      },
      {
       "texto": "Fortalecer la Economía Popular y Solidaria Innovadora (EPSi) mediante financiamiento e incubación.",
@@ -259,7 +340,11 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/PABEL-MUNOIZ.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "eco_eps",
+       "eco_incubadoras"
+      ]
      },
      {
       "texto": "Construcción de un instituto técnico en el sur de Quito, entre sus ofrecimientos de campaña.",
@@ -269,7 +354,10 @@ window.BENCHMARK = {
       "competencia": "parcial",
       "fuente": "https://www.eluniverso.com/politica/elecciones/la-campana-electoral-se-despliega-en-la-sierra-con-recorridos-y-encuentros-daniel-noboa-visito-quito-y-latacunga-nota/",
       "medio": "El Universo",
-      "fecha": "2026-11-16"
+      "fecha": "2026-11-16",
+      "intereses": [
+       "bar_educacion"
+      ]
      }
     ],
     "barrios": [
@@ -281,7 +369,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/PABEL-MUNOIZ.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "bar_vivienda"
+      ]
      },
      {
       "texto": "Culminar la regularización de barrios y la titularización de tierras, con dotación progresiva de infraestructura y prevención de asentamientos informales.",
@@ -291,7 +382,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/PABEL-MUNOIZ.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "bar_regularizacion"
+      ]
      },
      {
       "texto": "Construcción de espacios Quitopía en el norte y sur y de dos Casas Somos, entre sus ofrecimientos de campaña.",
@@ -301,7 +395,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.eluniverso.com/politica/elecciones/la-campana-electoral-se-despliega-en-la-sierra-con-recorridos-y-encuentros-daniel-noboa-visito-quito-y-latacunga-nota/",
       "medio": "El Universo",
-      "fecha": "2026-11-16"
+      "fecha": "2026-11-16",
+      "intereses": [
+       "bar_integral"
+      ]
      },
      {
       "texto": "Programa de centralidades productivas urbano-rurales y reducción de brechas de vialidad, servicios básicos y conectividad en parroquias rurales.",
@@ -311,7 +408,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/PABEL-MUNOIZ.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "bar_rural"
+      ]
      },
      {
       "texto": "Institucionalizar los Gabinetes en Territorio como mecanismo de respuesta a barrios, parroquias y comunas.",
@@ -321,7 +421,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/PABEL-MUNOIZ.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "bar_centralidades"
+      ]
      }
     ],
     "finanzas": [
@@ -333,7 +436,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/PABEL-MUNOIZ.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "fin_financiamiento"
+      ]
      },
      {
       "texto": "Ampliar el Sistema de Gestión Antisoborno y los canales confidenciales de denuncia de corrupción.",
@@ -343,7 +449,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/PABEL-MUNOIZ.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "fin_anticorrupcion"
+      ]
      },
      {
       "texto": "Portales de datos abiertos y herramientas de rendición de cuentas para seguimiento en tiempo real de la gestión.",
@@ -353,7 +462,11 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/PABEL-MUNOIZ.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "fin_datos",
+       "fin_seguimiento"
+      ]
      },
      {
       "texto": "Incrementar trámites simplificados y automatizados consolidando la Sede Electrónica Municipal.",
@@ -363,7 +476,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/PABEL-MUNOIZ.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "fin_digital"
+      ]
      }
     ],
     "cultura": [
@@ -375,7 +491,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/PABEL-MUNOIZ.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "cul_agenda"
+      ]
      },
      {
       "texto": "Fomento a economías culturales mediante fondos concursables, circuitos territoriales y festivales.",
@@ -385,7 +504,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/PABEL-MUNOIZ.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "cul_industrias"
+      ]
      },
      {
       "texto": "Proyectos de infraestructura cultural territorial e infraestructura patrimonial.",
@@ -395,7 +517,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/PABEL-MUNOIZ.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "cul_centro"
+      ]
      },
      {
       "texto": "Proyecto Visit Quito y posicionamiento de Quito como destino turístico y gastronómico.",
@@ -405,7 +530,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/PABEL-MUNOIZ.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "cul_turismo"
+      ]
      },
      {
       "texto": "Preparar la celebración de los 200 años de Quito como capital de la República.",
@@ -415,7 +543,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/PABEL-MUNOIZ.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "cul_eventos"
+      ]
      },
      {
       "texto": "Actividades recreativas y deportivas gratuitas en escuelas, parques y equipamientos municipales.",
@@ -425,7 +556,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/PABEL-MUNOIZ.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "cul_deporte"
+      ]
      }
     ]
    },
@@ -449,7 +583,11 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/HAROLD-BURBANO.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "mov_buses",
+       "mov_integracion"
+      ]
      },
      {
       "texto": "Integración progresiva de operación, información, medios de pago y tarifas del transporte público.",
@@ -459,7 +597,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/HAROLD-BURBANO.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "mov_integracion"
+      ]
      },
      {
       "texto": "Plataforma unificada de rutas, tiempos, incidencias y pago ('Un solo viaje, una sola información').",
@@ -469,7 +610,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/HAROLD-BURBANO.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "mov_integracion"
+      ]
      },
      {
       "texto": "Centro de Gestión de Movilidad con semaforización adaptativa e información en tiempo real.",
@@ -479,7 +623,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/HAROLD-BURBANO.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "mov_semaforos"
+      ]
      },
      {
       "texto": "Programa 'Cero accidentes Quito': control de velocidad, cruces protegidos y gestión de puntos negros.",
@@ -489,7 +636,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/HAROLD-BURBANO.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "mov_seguridad_vial"
+      ]
      },
      {
       "texto": "Mesa contractual con operadores para la transición de rutas, calidad y recaudo.",
@@ -499,7 +649,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/HAROLD-BURBANO.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "mov_operadores"
+      ]
      },
      {
       "texto": "Aceras continuas y accesibilidad universal hacia estaciones, escuelas y servicios ('Ciudad caminable').",
@@ -509,7 +662,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/HAROLD-BURBANO.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "mov_activa"
+      ]
      },
      {
       "texto": "Banco de proyectos para accesos a valles, intercambiadores y terminales, sin anunciar obras sin estudios ni financiamiento.",
@@ -519,7 +675,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/HAROLD-BURBANO.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "mov_obras_viales"
+      ]
      }
     ],
     "seguridad": [
@@ -531,7 +690,10 @@ window.BENCHMARK = {
       "competencia": "parcial",
       "fuente": "https://www.eltelegrafo.com.ec/noticias/nacionales/210/harold-burbano-precandidato-para-la-alcaldia-por-adn-los-quitenos-estamos-cansados-de-que-se-utilice-a-quito-como-una-trinchera-politica",
       "medio": "El Telégrafo",
-      "fecha": "2026-08-11"
+      "fecha": "2026-08-11",
+      "intereses": [
+       "seg_agentes"
+      ]
      },
      {
       "texto": "Programa 'Territorios seguros 24/7': intervención integral en polígonos priorizados con iluminación, cámaras, agentes, limpieza y control.",
@@ -541,7 +703,12 @@ window.BENCHMARK = {
       "competencia": "parcial",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/HAROLD-BURBANO.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "seg_iluminacion",
+       "seg_camaras",
+       "seg_agentes"
+      ]
      },
      {
       "texto": "Sala Metropolitana permanente de Coordinación Territorial con Policía Nacional, ECU 911, Fiscalía y Bomberos, y mapa único de incidentes.",
@@ -551,7 +718,10 @@ window.BENCHMARK = {
       "competencia": "parcial",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/HAROLD-BURBANO.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "seg_centro"
+      ]
      },
      {
       "texto": "Rutas y entornos seguros con estándares de iluminación y vigilancia en escuelas, mercados, hospitales y estaciones.",
@@ -561,7 +731,11 @@ window.BENCHMARK = {
       "competencia": "parcial",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/HAROLD-BURBANO.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "seg_escolar",
+       "seg_iluminacion"
+      ]
      },
      {
       "texto": "Despliegue de agentes metropolitanos por territorio con formación y protocolos de derechos humanos.",
@@ -571,7 +745,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/HAROLD-BURBANO.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "seg_agentes"
+      ]
      },
      {
       "texto": "'Ciudad preparada': mapas de riesgo, mantenimiento de quebradas, alertas tempranas y simulacros ante incendios, inundaciones y deslizamientos.",
@@ -581,7 +758,11 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/HAROLD-BURBANO.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "seg_riesgos",
+       "amb_quebradas"
+      ]
      },
      {
       "texto": "Evaluación trimestral con indicadores y percepción ciudadana.",
@@ -591,7 +772,10 @@ window.BENCHMARK = {
       "competencia": "parcial",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/HAROLD-BURBANO.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "seg_metas"
+      ]
      }
     ],
     "servicios": [
@@ -603,7 +787,12 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/HAROLD-BURBANO.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "ser_agua",
+       "ser_perdidas",
+       "amb_esponja"
+      ]
      },
      {
       "texto": "Hacer útiles los servicios básicos para la ciudadanía como eje del plan.",
@@ -613,7 +802,8 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.eltelegrafo.com.ec/noticias/nacionales/210/harold-burbano-precandidato-para-la-alcaldia-por-adn-los-quitenos-estamos-cansados-de-que-se-utilice-a-quito-como-una-trinchera-politica",
       "medio": "El Telégrafo",
-      "fecha": "2026-08-11"
+      "fecha": "2026-08-11",
+      "intereses": []
      }
     ],
     "ambiente": [
@@ -625,7 +815,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/HAROLD-BURBANO.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "amb_quebradas"
+      ]
      },
      {
       "texto": "Recuperar parques, plazas, paradas y entornos escolares para uso ciudadano.",
@@ -635,7 +828,11 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/HAROLD-BURBANO.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "amb_parques",
+       "seg_escolar"
+      ]
      }
     ],
     "economia": [
@@ -647,7 +844,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/HAROLD-BURBANO.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "eco_tramites"
+      ]
      },
      {
       "texto": "Ordenar el comercio autónomo con zonificación, permisos transparentes y alternativas de reubicación.",
@@ -657,7 +857,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/HAROLD-BURBANO.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "eco_comercio_autonomo"
+      ]
      },
      {
       "texto": "Modernizar mercados municipales en infraestructura, sanidad, logística y digitalización.",
@@ -667,7 +870,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/HAROLD-BURBANO.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "eco_mercados"
+      ]
      },
      {
       "texto": "Alianzas con empresas, universidades e institutos para certificación, prácticas y formación orientada a vacantes.",
@@ -677,7 +883,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/HAROLD-BURBANO.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "eco_bolsa"
+      ]
      },
      {
       "texto": "Acompañamiento gradual e inspecciones coordinadas para la formalización de informales y pequeños negocios.",
@@ -687,7 +896,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/HAROLD-BURBANO.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "eco_comercio_autonomo"
+      ]
      },
      {
       "texto": "Generar empleo mediante inversión pública y privada.",
@@ -697,7 +909,8 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.elcomercio.com/elecciones/candidatos-alcaldia-quito-seguridad-movilidad-propuestas-2026/",
       "medio": "El Comercio",
-      "fecha": "2026-11-17"
+      "fecha": "2026-11-17",
+      "intereses": []
      }
     ],
     "barrios": [
@@ -709,7 +922,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/HAROLD-BURBANO.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "bar_integral"
+      ]
      },
      {
       "texto": "Cartera Única Metropolitana de Obras con fichas de costo total y fuente de financiamiento, priorizada por brechas y riesgo.",
@@ -719,7 +935,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/HAROLD-BURBANO.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "fin_financiamiento"
+      ]
      },
      {
       "texto": "Comité técnico de interferencias y coordinación obligatoria con redes de agua y telecomunicaciones antes de intervenir una vía.",
@@ -729,7 +948,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/HAROLD-BURBANO.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "bar_mantenimiento"
+      ]
      },
      {
       "texto": "Sistema de conservación preventiva con inventario de activos y presupuestos plurianuales ('Mantenimiento primero').",
@@ -739,7 +961,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/HAROLD-BURBANO.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "bar_mantenimiento"
+      ]
      },
      {
       "texto": "'Quito rural productivo y conectado': vialidad local, agua, conectividad y equipamientos en parroquias rurales.",
@@ -749,7 +974,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/HAROLD-BURBANO.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "bar_rural"
+      ]
      }
     ],
     "finanzas": [
@@ -761,7 +989,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/HAROLD-BURBANO.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "fin_anticorrupcion"
+      ]
      },
      {
       "texto": "Fuentes de financiamiento: ingresos propios, crédito de banca de desarrollo, cooperación, alianzas público-privadas, contribución de mejoras y financiamiento climático.",
@@ -771,7 +1002,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/HAROLD-BURBANO.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "fin_financiamiento"
+      ]
      },
      {
       "texto": "Presupuesto por resultados: la proforma anual mostrará cuánto recibe cada compromiso y su distribución territorial.",
@@ -781,7 +1015,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/HAROLD-BURBANO.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "fin_seguimiento"
+      ]
      },
      {
       "texto": "Tablero 'Quito Cumple' con publicación de metas, presupuesto, contratos y avance de obras.",
@@ -791,7 +1028,11 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/HAROLD-BURBANO.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "fin_seguimiento",
+       "fin_datos"
+      ]
      },
      {
       "texto": "Oficina de Cumplimiento y Entrega Estratégica, sin crear nuevos órganos de control ni aumentar burocracia.",
@@ -801,7 +1042,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/HAROLD-BURBANO.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "fin_reestructura"
+      ]
      },
      {
       "texto": "Expediente ciudadano metropolitano y canal único de atención con número de caso y responsable.",
@@ -811,7 +1055,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/HAROLD-BURBANO.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "fin_digital"
+      ]
      },
      {
       "texto": "Informe público semestral de seguimiento de los cinco compromisos del plan.",
@@ -821,7 +1068,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/HAROLD-BURBANO.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "fin_seguimiento"
+      ]
      }
     ],
     "cultura": [
@@ -833,7 +1083,12 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/HAROLD-BURBANO.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "cul_eventos",
+       "cul_turismo",
+       "cul_industrias"
+      ]
      },
      {
       "texto": "'Patrimonio vivo': conservación del patrimonio combinada con vivienda, actividad económica y gestión del espacio público.",
@@ -843,7 +1098,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/HAROLD-BURBANO.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "cul_centro"
+      ]
      }
     ]
    },
@@ -867,7 +1125,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/JORGE-YUNDA.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "mov_semaforos"
+      ]
      },
      {
       "texto": "Una tarjeta y una tarifa para buses, Trolebús, Ecovía y Metro.",
@@ -877,7 +1138,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.elcomercio.com/elecciones/candidatos-alcaldia-quito-seguridad-movilidad-propuestas-2026/",
       "medio": "El Comercio",
-      "fecha": "2026-11-17"
+      "fecha": "2026-11-17",
+      "intereses": [
+       "mov_integracion"
+      ]
      },
      {
       "texto": "Pagar a los operadores de transporte por kilómetro recorrido y no por pasajero, aplicando la Ordenanza 17-2020.",
@@ -887,7 +1151,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.expreso.ec/quito/jorge-yunda-no-bailarin-tampoco-extremos-ideologicos-289117.html",
       "medio": "Expreso",
-      "fecha": "2026-07-14"
+      "fecha": "2026-07-14",
+      "intereses": [
+       "mov_operadores"
+      ]
      },
      {
       "texto": "Gestionar la extensión del Metro hacia La Ofelia, Carapungo y Calderón.",
@@ -897,7 +1164,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.elcomercio.com/elecciones/candidatos-alcaldia-quito-seguridad-movilidad-propuestas-2026/",
       "medio": "El Comercio",
-      "fecha": "2026-11-17"
+      "fecha": "2026-11-17",
+      "intereses": [
+       "mov_metro"
+      ]
      },
      {
       "texto": "Construir la Troncal Metropolitana, vía paralela a la avenida Simón Bolívar; estima unos 3.000 empleos directos y 8.000 indirectos.",
@@ -907,7 +1177,11 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.expreso.ec/quito/jorge-yunda-no-bailarin-tampoco-extremos-ideologicos-289117.html",
       "medio": "Expreso",
-      "fecha": "2026-07-14"
+      "fecha": "2026-07-14",
+      "intereses": [
+       "mov_obras_viales",
+       "eco_metas_empleo"
+      ]
      },
      {
       "texto": "Estacionamientos disuasivos en las cabeceras del sistema de transporte masivo.",
@@ -917,7 +1191,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/JORGE-YUNDA.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "mov_integracion"
+      ]
      },
      {
       "texto": "Plan permanente de mantenimiento vial en los ejes de mayor siniestralidad e intervención en puntos críticos de tráfico.",
@@ -927,7 +1204,11 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/JORGE-YUNDA.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "mov_vias",
+       "mov_seguridad_vial"
+      ]
      },
      {
       "texto": "Mejorar frecuencias, cobertura y calidad del transporte público, con protocolos frente al acoso sexual.",
@@ -937,7 +1218,11 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/JORGE-YUNDA.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "mov_buses",
+       "seg_mujeres"
+      ]
      },
      {
       "texto": "Ampliar ciclovías en corredores con demanda comprobada y promover la movilidad eléctrica.",
@@ -947,7 +1232,11 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/JORGE-YUNDA.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "mov_activa",
+       "mov_electrica"
+      ]
      }
     ],
     "seguridad": [
@@ -959,7 +1248,10 @@ window.BENCHMARK = {
       "competencia": "parcial",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/JORGE-YUNDA.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "seg_centro"
+      ]
      },
      {
       "texto": "Cámaras con reconocimiento de patrones / inteligencia artificial en los sectores priorizados del diagnóstico.",
@@ -969,7 +1261,10 @@ window.BENCHMARK = {
       "competencia": "parcial",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/JORGE-YUNDA.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "seg_camaras"
+      ]
      },
      {
       "texto": "Lectores de placas en los accesos a Quito.",
@@ -979,7 +1274,10 @@ window.BENCHMARK = {
       "competencia": "parcial",
       "fuente": "https://www.elcomercio.com/elecciones/candidatos-alcaldia-quito-seguridad-movilidad-propuestas-2026/",
       "medio": "El Comercio",
-      "fecha": "2026-11-17"
+      "fecha": "2026-11-17",
+      "intereses": [
+       "seg_camaras"
+      ]
      },
      {
       "texto": "Redes de alarmas comunitarias conectadas al Centro Inteligente de Seguridad en barrios con mayor percepción de inseguridad.",
@@ -989,7 +1287,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/JORGE-YUNDA.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "seg_comunitaria"
+      ]
      },
      {
       "texto": "Aplicación móvil municipal de atención inmediata a emergencias y denuncia.",
@@ -999,7 +1300,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/JORGE-YUNDA.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "seg_centro"
+      ]
      },
      {
       "texto": "Brigadas barriales de prevención en las administraciones zonales de mayor incidencia.",
@@ -1009,7 +1313,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/JORGE-YUNDA.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "seg_comunitaria"
+      ]
      },
      {
       "texto": "Iluminación de parques, barrios y espacios públicos en coordinación con las entidades competentes.",
@@ -1019,7 +1326,10 @@ window.BENCHMARK = {
       "competencia": "parcial",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/JORGE-YUNDA.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "seg_iluminacion"
+      ]
      },
      {
       "texto": "Mecanismos permanentes de coordinación con la Policía Nacional.",
@@ -1029,7 +1339,10 @@ window.BENCHMARK = {
       "competencia": "parcial",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/JORGE-YUNDA.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "seg_centro"
+      ]
      }
     ],
     "servicios": [
@@ -1041,7 +1354,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/JORGE-YUNDA.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "ser_recoleccion"
+      ]
      },
      {
       "texto": "Separación de residuos desde los hogares.",
@@ -1051,7 +1367,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.elcomercio.com/elecciones/candidatos-alcaldia-quito-seguridad-movilidad-propuestas-2026/",
       "medio": "El Comercio",
-      "fecha": "2026-11-17"
+      "fecha": "2026-11-17",
+      "intereses": [
+       "ser_reciclaje"
+      ]
      },
      {
       "texto": "Cadenas de economía circular con recicladores y gestores de residuos.",
@@ -1061,7 +1380,11 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/JORGE-YUNDA.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "ser_recicladores",
+       "ser_reciclaje"
+      ]
      },
      {
       "texto": "Conservación y protección de las cuencas hidrográficas del Distrito.",
@@ -1071,7 +1394,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/JORGE-YUNDA.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "amb_paramos"
+      ]
      }
     ],
     "ambiente": [
@@ -1083,7 +1409,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.elcomercio.com/elecciones/candidatos-alcaldia-quito-seguridad-movilidad-propuestas-2026/",
       "medio": "El Comercio",
-      "fecha": "2026-11-17"
+      "fecha": "2026-11-17",
+      "intereses": [
+       "amb_rios"
+      ]
      },
      {
       "texto": "Plan de reforestación urbana en zonas afectadas por incendios forestales.",
@@ -1093,7 +1422,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/JORGE-YUNDA.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "amb_arboles"
+      ]
      },
      {
       "texto": "Recuperación y conservación de quebradas afectadas por asentamientos irregulares.",
@@ -1103,7 +1435,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/JORGE-YUNDA.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "amb_quebradas"
+      ]
      },
      {
       "texto": "Recuperación de espacios públicos degradados y ampliación y mantenimiento de parques.",
@@ -1113,7 +1448,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/JORGE-YUNDA.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "amb_parques"
+      ]
      },
      {
       "texto": "Medidas de prevención y monitoreo para mejorar la calidad del aire.",
@@ -1123,7 +1461,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/JORGE-YUNDA.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "amb_aire"
+      ]
      }
     ],
     "economia": [
@@ -1135,7 +1476,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/JORGE-YUNDA.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "eco_semilla"
+      ]
      },
      {
       "texto": "Espacios permanentes de comercialización (ferias) para emprendedores en las administraciones zonales.",
@@ -1145,7 +1489,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/JORGE-YUNDA.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "eco_eps"
+      ]
      },
      {
       "texto": "Promover la participación de productores locales en las compras públicas municipales.",
@@ -1155,7 +1502,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/JORGE-YUNDA.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "eco_eps"
+      ]
      },
      {
       "texto": "Modernización y fortalecimiento de los mercados municipales.",
@@ -1165,7 +1515,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/JORGE-YUNDA.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "eco_mercados"
+      ]
      },
      {
       "texto": "Simplificar trámites para apertura y formalización de negocios e incentivos tributarios y administrativos para la inversión privada.",
@@ -1175,7 +1528,11 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/JORGE-YUNDA.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "eco_tramites",
+       "eco_incentivos"
+      ]
      }
     ],
     "barrios": [
@@ -1187,7 +1544,10 @@ window.BENCHMARK = {
       "competencia": "parcial",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/JORGE-YUNDA.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "bar_salud"
+      ]
      },
      {
       "texto": "Fortalecer los presupuestos participativos en las administraciones zonales.",
@@ -1197,7 +1557,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/JORGE-YUNDA.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "bar_participativo"
+      ]
      },
      {
       "texto": "Retomar las obras que quedaron pendientes de su anterior administración.",
@@ -1207,7 +1570,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.expreso.ec/quito/jorge-yunda-no-bailarin-tampoco-extremos-ideologicos-289117.html",
       "medio": "Expreso",
-      "fecha": "2026-07-14"
+      "fecha": "2026-07-14",
+      "intereses": [
+       "bar_mantenimiento"
+      ]
      }
     ],
     "finanzas": [
@@ -1219,7 +1585,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/JORGE-YUNDA.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "fin_digital"
+      ]
      },
      {
       "texto": "Publicar datos abiertos y fortalecer el Gobierno Abierto y el control del gasto.",
@@ -1229,7 +1598,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/JORGE-YUNDA.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "fin_datos"
+      ]
      },
      {
       "texto": "Rendición de cuentas anual con ventanas ciudadanas de información en las administraciones zonales y asambleas con la ciudadanía.",
@@ -1239,7 +1611,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/JORGE-YUNDA.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "fin_participacion"
+      ]
      },
      {
       "texto": "Centro de operaciones de ciudad, plataforma de datos urbanos y sensores para la toma de decisiones.",
@@ -1249,7 +1624,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/JORGE-YUNDA.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "fin_datos"
+      ]
      },
      {
       "texto": "Prescindir de funcionarios que ocupan cargos por favores políticos o militancia con altos salarios.",
@@ -1259,7 +1637,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.expreso.ec/quito/jorge-yunda-no-bailarin-tampoco-extremos-ideologicos-289117.html",
       "medio": "Expreso",
-      "fecha": "2026-07-14"
+      "fecha": "2026-07-14",
+      "intereses": [
+       "fin_reestructura"
+      ]
      }
     ],
     "cultura": [
@@ -1271,7 +1652,11 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/JORGE-YUNDA.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "cul_turismo",
+       "cul_rural"
+      ]
      },
      {
       "texto": "Fortalecer y ampliar la oferta deportiva y cultural barrial.",
@@ -1281,7 +1666,11 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/JORGE-YUNDA.pdf",
       "medio": "Plan de trabajo CNE (vía Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "cul_deporte",
+       "cul_agenda"
+      ]
      }
     ]
    },
@@ -1305,7 +1694,11 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/GALO-ALMEIDA.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "mov_integracion",
+       "mov_activa"
+      ]
      },
      {
       "texto": "Dejar financiada y en ejecución la extensión del Metro hacia el norte hasta 2031, mediante estudios, estructuración financiera y gestión de recursos nacionales e internacionales.",
@@ -1315,7 +1708,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/GALO-ALMEIDA.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "mov_metro"
+      ]
      },
      {
       "texto": "Revisar y ampliar las rutas de transporte público con un nuevo mapa basado en la demanda y crear un Centro Metropolitano de Control de Rutas y Frecuencias.",
@@ -1325,7 +1721,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/GALO-ALMEIDA.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "mov_buses"
+      ]
      }
     ],
     "seguridad": [
@@ -1337,7 +1736,12 @@ window.BENCHMARK = {
       "competencia": "parcial",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/GALO-ALMEIDA.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "seg_centro",
+       "seg_camaras",
+       "seg_comunitaria"
+      ]
      },
      {
       "texto": "Recuperar barrios y espacios públicos con intervenciones de iluminación, mantenimiento y actividad comunitaria, identificando puntos críticos y creando corredores seguros.",
@@ -1347,7 +1751,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/GALO-ALMEIDA.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "seg_iluminacion"
+      ]
      },
      {
       "texto": "Fortalecer rutas de prevención y atención de la violencia intrafamiliar y de género mediante trabajo comunitario y coordinación interinstitucional.",
@@ -1357,7 +1764,10 @@ window.BENCHMARK = {
       "competencia": "parcial",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/GALO-ALMEIDA.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "seg_mujeres"
+      ]
      }
     ],
     "servicios": [
@@ -1369,7 +1779,11 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/GALO-ALMEIDA.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "ser_agua",
+       "ser_ptar"
+      ]
      },
      {
       "texto": "Reformular la tasa de basura para separar recolección y saneamiento, con cobro diferenciado según la cantidad de desechos generados.",
@@ -1379,7 +1793,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/GALO-ALMEIDA.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "ser_tasa"
+      ]
      },
      {
       "texto": "Implementar separación de residuos en la fuente, compostaje de orgánicos de mercados, reciclaje y aprovechamiento energético (modelo 'Quito Circular').",
@@ -1389,7 +1806,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/GALO-ALMEIDA.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "ser_reciclaje"
+      ]
      }
     ],
     "ambiente": [
@@ -1401,7 +1821,12 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/GALO-ALMEIDA.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "seg_riesgos",
+       "amb_quebradas",
+       "amb_esponja"
+      ]
      },
      {
       "texto": "Política de bienestar animal con ampliación de refugios mediante convenios, esterilización, adopción y campañas de tenencia responsable.",
@@ -1411,7 +1836,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/GALO-ALMEIDA.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "amb_animales"
+      ]
      }
     ],
     "economia": [
@@ -1423,7 +1851,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/GALO-ALMEIDA.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "eco_bolsa"
+      ]
      },
      {
       "texto": "Ventanilla empresarial simplificada, incubación, asistencia técnica y espacios ordenados para trabajo autónomo en las administraciones zonales.",
@@ -1433,7 +1864,12 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/GALO-ALMEIDA.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "eco_tramites",
+       "eco_incubadoras",
+       "eco_comercio_autonomo"
+      ]
      },
      {
       "texto": "Ventanilla de inversiones, simplificación regulatoria y distritos de innovación para atraer inversión ('Quito innova').",
@@ -1443,7 +1879,12 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/GALO-ALMEIDA.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "eco_inversion",
+       "eco_tramites",
+       "eco_incubadoras"
+      ]
      },
      {
       "texto": "Política metropolitana de juventudes con prácticas, formación y emprendimiento en todas las administraciones zonales.",
@@ -1453,7 +1894,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/GALO-ALMEIDA.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "eco_empleo_joven"
+      ]
      }
     ],
     "barrios": [
@@ -1465,7 +1909,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/GALO-ALMEIDA.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "bar_regularizacion"
+      ]
      },
      {
       "texto": "Programa 'Volver a habitar UIO' de vivienda de interés social, rehabilitación de inmuebles y repoblamiento de zonas urbanas mediante incentivos y alianzas público-privadas.",
@@ -1475,7 +1922,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/GALO-ALMEIDA.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "bar_vivienda"
+      ]
      },
      {
       "texto": "Desarrollar cadenas productivas, circuitos cortos y comercialización directa en las 33 parroquias rurales, en coordinación con la Prefectura y los GAD parroquiales.",
@@ -1485,7 +1935,11 @@ window.BENCHMARK = {
       "competencia": "parcial",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/GALO-ALMEIDA.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "bar_rural",
+       "eco_eps"
+      ]
      }
     ],
     "finanzas": [
@@ -1497,7 +1951,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/GALO-ALMEIDA.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "fin_reestructura"
+      ]
      },
      {
       "texto": "Digitalizar el 100 % de los trámites que puedan hacerse en línea y evitar pedir documentos que el Municipio ya posee ('No más filas').",
@@ -1507,7 +1964,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/GALO-ALMEIDA.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "fin_digital"
+      ]
      },
      {
       "texto": "Revisión integral del gasto, recuperación de cartera, modernización tributaria y revisión técnica de tasas.",
@@ -1517,7 +1977,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/GALO-ALMEIDA.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "fin_ingresos"
+      ]
      },
      {
       "texto": "Gestionar al menos 20 acuerdos o proyectos de cooperación internacional mediante un Banco Metropolitano de Proyectos y Cooperantes.",
@@ -1527,7 +1990,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/GALO-ALMEIDA.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "fin_financiamiento"
+      ]
      },
      {
       "texto": "Datos abiertos y sistema público de seguimiento de los compromisos del plan de gobierno.",
@@ -1537,7 +2003,11 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/GALO-ALMEIDA.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "fin_datos",
+       "fin_seguimiento"
+      ]
      }
     ],
     "cultura": [
@@ -1549,7 +2019,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/GALO-ALMEIDA.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "cul_turismo"
+      ]
      },
      {
       "texto": "Consolidar un calendario anual de grandes eventos (conciertos, congresos, ferias, competencias) con promotores privados.",
@@ -1559,7 +2032,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/GALO-ALMEIDA.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "cul_eventos"
+      ]
      },
      {
       "texto": "Agenda cultural descentralizada en barrios y parroquias rurales, con dos temporadas: Fiestas de Kitu en junio y Fiestas de Quito en diciembre.",
@@ -1569,7 +2045,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/GALO-ALMEIDA.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "cul_agenda"
+      ]
      },
      {
       "texto": "Escuelas deportivas, recuperación de escenarios y programación deportiva permanente en administraciones zonales y parroquias rurales.",
@@ -1579,7 +2058,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/GALO-ALMEIDA.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "cul_deporte"
+      ]
      }
     ]
    },
@@ -1603,7 +2085,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/BERNARDO-JIJON.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-08-05"
+      "fecha": "2026-08-05",
+      "intereses": [
+       "mov_operadores"
+      ]
      },
      {
       "texto": "Estructurar el financiamiento de la extensión del Metro y crear carriles de alta ocupación en los accesos de mayor congestión, como un carril reversible en la Panamericana Norte (Calderón).",
@@ -1613,7 +2098,11 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/BERNARDO-JIJON.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-08-05"
+      "fecha": "2026-08-05",
+      "intereses": [
+       "mov_metro",
+       "mov_semaforos"
+      ]
      },
      {
       "texto": "Semaforización adaptativa con prioridad al bus en la Av. Simón Bolívar y fiscalización automática del carril exclusivo del Trolebús en la Av. Maldonado.",
@@ -1623,7 +2112,11 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/BERNARDO-JIJON.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-08-05"
+      "fecha": "2026-08-05",
+      "intereses": [
+       "mov_semaforos",
+       "mov_buses"
+      ]
      },
      {
       "texto": "Tarjeta y billetera digital única ('Cuenta Ciudad') para el sistema integrado, con subsidio a la persona y GPS de flota en datos abiertos.",
@@ -1633,7 +2126,11 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/BERNARDO-JIJON.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-08-05"
+      "fecha": "2026-08-05",
+      "intereses": [
+       "mov_integracion",
+       "fin_datos"
+      ]
      }
     ],
     "seguridad": [
@@ -1645,7 +2142,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/BERNARDO-JIJON.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-08-05"
+      "fecha": "2026-08-05",
+      "intereses": [
+       "seg_centro"
+      ]
      },
      {
       "texto": "Integrar cámaras privadas al centro de comando municipal (C5Q) mediante un catastro obligatorio, a cambio de descuento en la Tasa de Seguridad, sin comprar hardware nuevo.",
@@ -1655,7 +2155,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/BERNARDO-JIJON.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-08-05"
+      "fecha": "2026-08-05",
+      "intereses": [
+       "seg_camaras"
+      ]
      },
      {
       "texto": "Plan de carrera, escala salarial, cámaras corporales y armonización con el COESCOP del Cuerpo de Agentes de Control Metropolitano.",
@@ -1665,7 +2168,10 @@ window.BENCHMARK = {
       "competencia": "parcial",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/BERNARDO-JIJON.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-08-05"
+      "fecha": "2026-08-05",
+      "intereses": [
+       "seg_agentes"
+      ]
      },
      {
       "texto": "Reducir en 20 % la violencia intrafamiliar en los núcleos críticos identificados (Plan Suroccidente / La Delicia).",
@@ -1675,7 +2181,11 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/BERNARDO-JIJON.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-08-05"
+      "fecha": "2026-08-05",
+      "intereses": [
+       "seg_mujeres",
+       "seg_metas"
+      ]
      },
      {
       "texto": "Encuesta metropolitana de victimización.",
@@ -1685,7 +2195,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/BERNARDO-JIJON.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-08-05"
+      "fecha": "2026-08-05",
+      "intereses": [
+       "seg_metas"
+      ]
      }
     ],
     "servicios": [
@@ -1697,7 +2210,12 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/BERNARDO-JIJON.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-08-05"
+      "fecha": "2026-08-05",
+      "intereses": [
+       "ser_ptar",
+       "amb_rios",
+       "ser_relleno"
+      ]
      },
      {
       "texto": "Puntos de trámite asistido en parroquias rurales y barrios con baja conectividad, operados por terceros con pago por trámite completado.",
@@ -1707,7 +2225,11 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/BERNARDO-JIJON.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-08-05"
+      "fecha": "2026-08-05",
+      "intereses": [
+       "fin_digital",
+       "bar_rural"
+      ]
      }
     ],
     "ambiente": [
@@ -1719,7 +2241,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/BERNARDO-JIJON.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-08-05"
+      "fecha": "2026-08-05",
+      "intereses": [
+       "seg_riesgos"
+      ]
      },
      {
       "texto": "Cesión de suelo verde o pago compensatorio por edificabilidad con destino a un Fondo de Espacio Público.",
@@ -1729,7 +2254,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/BERNARDO-JIJON.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-08-05"
+      "fecha": "2026-08-05",
+      "intereses": [
+       "amb_parques"
+      ]
      },
      {
       "texto": "Control de polvo en canteras como condición de licencia y brigadas forestales comunitarias en El Panecillo.",
@@ -1739,7 +2267,11 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/BERNARDO-JIJON.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-08-05"
+      "fecha": "2026-08-05",
+      "intereses": [
+       "amb_aire",
+       "seg_riesgos"
+      ]
      }
     ],
     "economia": [
@@ -1751,7 +2283,12 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/BERNARDO-JIJON.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-08-05"
+      "fecha": "2026-08-05",
+      "intereses": [
+       "eco_tramites",
+       "eco_comercio_autonomo",
+       "eco_incentivos"
+      ]
      },
      {
       "texto": "Ordenanza de simplificación de trámites por nivel de riesgo, con declaración jurada, control posterior y certificado automático de silencio administrativo.",
@@ -1761,7 +2298,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/BERNARDO-JIJON.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-08-05"
+      "fecha": "2026-08-05",
+      "intereses": [
+       "eco_tramites"
+      ]
      },
      {
       "texto": "Programa de certificación de competencias, formación dual y primer empleo juvenil con el sector productivo.",
@@ -1771,7 +2311,11 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/BERNARDO-JIJON.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-08-05"
+      "fecha": "2026-08-05",
+      "intereses": [
+       "eco_empleo_joven",
+       "eco_bolsa"
+      ]
      },
      {
       "texto": "Habilitación de suelo productivo por alianza público-privada y distrito financiero-tecnológico con incentivos zonales sobre patente y predial.",
@@ -1781,7 +2325,11 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/BERNARDO-JIJON.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-08-05"
+      "fecha": "2026-08-05",
+      "intereses": [
+       "eco_inversion",
+       "eco_incentivos"
+      ]
      }
     ],
     "barrios": [
@@ -1793,7 +2341,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/BERNARDO-JIJON.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-08-05"
+      "fecha": "2026-08-05",
+      "intereses": [
+       "bar_regularizacion"
+      ]
      },
      {
       "texto": "Consolidar la Administración Zonal Chocó Andino con presupuesto y competencias propias.",
@@ -1803,7 +2354,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/BERNARDO-JIJON.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-08-05"
+      "fecha": "2026-08-05",
+      "intereses": [
+       "bar_centralidades"
+      ]
      },
      {
       "texto": "Expediente Único de Edificación que integre informe de regulación, uso de suelo, licencia y catastro, con módulo patrimonial para el Centro Histórico.",
@@ -1813,7 +2367,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/BERNARDO-JIJON.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-08-05"
+      "fecha": "2026-08-05",
+      "intereses": [
+       "eco_tramites"
+      ]
      },
      {
       "texto": "Ampliar la Red Metropolitana de Protección Social hacia zonas rurales y periféricas.",
@@ -1823,7 +2380,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/BERNARDO-JIJON.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-08-05"
+      "fecha": "2026-08-05",
+      "intereses": [
+       "bar_rural"
+      ]
      }
     ],
     "finanzas": [
@@ -1835,7 +2395,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/BERNARDO-JIJON.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-08-05"
+      "fecha": "2026-08-05",
+      "intereses": [
+       "fin_anticorrupcion"
+      ]
      },
      {
       "texto": "Capa municipal de intercambio de datos en software libre (tipo X-Road) y supresión de requisitos que el Municipio ya posee (principio 'Once-Only').",
@@ -1845,7 +2408,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/BERNARDO-JIJON.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-08-05"
+      "fecha": "2026-08-05",
+      "intereses": [
+       "fin_digital"
+      ]
      },
      {
       "texto": "Catálogo de datos abiertos con calendario obligatorio, tablero público de trámites y de ejecución presupuestaria por eje.",
@@ -1855,7 +2421,11 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/BERNARDO-JIJON.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-08-05"
+      "fecha": "2026-08-05",
+      "intereses": [
+       "fin_datos",
+       "fin_seguimiento"
+      ]
      },
      {
       "texto": "Actualizar el PMDOT con metas de resultado auditables mediante ordenanza.",
@@ -1865,7 +2435,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/BERNARDO-JIJON.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-08-05"
+      "fecha": "2026-08-05",
+      "intereses": [
+       "fin_seguimiento"
+      ]
      },
      {
       "texto": "Observatorio de Gestión Municipal con participación del CPCCS y veedurías en contrataciones relevantes.",
@@ -1875,7 +2448,11 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/BERNARDO-JIJON.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-08-05"
+      "fecha": "2026-08-05",
+      "intereses": [
+       "fin_participacion",
+       "fin_anticorrupcion"
+      ]
      }
     ],
     "cultura": []
@@ -1900,7 +2477,11 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/CESAR-DIAZ.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-08-01"
+      "fecha": "2026-08-01",
+      "intereses": [
+       "mov_metro",
+       "mov_cable"
+      ]
      },
      {
       "texto": "Construcción del segundo túnel Guayasamín y ampliación parcial de la Av. Simón Bolívar.",
@@ -1910,7 +2491,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/CESAR-DIAZ.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-08-01"
+      "fecha": "2026-08-01",
+      "intereses": [
+       "mov_obras_viales"
+      ]
      },
      {
       "texto": "Integración física y tarifaria del transporte público con pago unificado, con meta de tiempo de viaje ruralidad–hipercentro no mayor a 60 minutos.",
@@ -1920,7 +2504,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/CESAR-DIAZ.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-08-01"
+      "fecha": "2026-08-01",
+      "intereses": [
+       "mov_integracion"
+      ]
      },
      {
       "texto": "Programa de aceras seguras, ciclovías, peatonalización y mantenimiento y pavimentación vial barrial y rural.",
@@ -1930,7 +2517,11 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/CESAR-DIAZ.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-08-01"
+      "fecha": "2026-08-01",
+      "intereses": [
+       "mov_activa",
+       "mov_vias"
+      ]
      }
     ],
     "seguridad": [
@@ -1942,7 +2533,12 @@ window.BENCHMARK = {
       "competencia": "parcial",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/CESAR-DIAZ.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-08-01"
+      "fecha": "2026-08-01",
+      "intereses": [
+       "seg_centro",
+       "seg_camaras",
+       "seg_comunitaria"
+      ]
      },
      {
       "texto": "Red de cámaras inteligentes con lectura de placas y fortalecimiento del Cuerpo de Agentes de Control y distritos zonales de seguridad.",
@@ -1952,7 +2548,11 @@ window.BENCHMARK = {
       "competencia": "parcial",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/CESAR-DIAZ.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-08-01"
+      "fecha": "2026-08-01",
+      "intereses": [
+       "seg_camaras",
+       "seg_agentes"
+      ]
      },
      {
       "texto": "Meta de reducir la tasa de homicidios a un dígito por cada 100.000 habitantes.",
@@ -1962,7 +2562,10 @@ window.BENCHMARK = {
       "competencia": "no",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/CESAR-DIAZ.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-08-01"
+      "fecha": "2026-08-01",
+      "intereses": [
+       "seg_metas"
+      ]
      },
      {
       "texto": "Red de Apoyo y Rescate Infantil y Juvenil, Sistema Metropolitano de Prevención de Adicciones y entornos seguros para mujeres.",
@@ -1972,7 +2575,11 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/CESAR-DIAZ.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-08-01"
+      "fecha": "2026-08-01",
+      "intereses": [
+       "seg_prevencion_jovenes",
+       "seg_mujeres"
+      ]
      },
      {
       "texto": "Catastro y línea base del Sistema Metropolitano de Seguridad en los primeros 100 días.",
@@ -1982,7 +2589,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/CESAR-DIAZ.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-08-01"
+      "fecha": "2026-08-01",
+      "intereses": [
+       "seg_metas"
+      ]
      }
     ],
     "servicios": [
@@ -1994,7 +2604,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/CESAR-DIAZ.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-08-01"
+      "fecha": "2026-08-01",
+      "intereses": [
+       "ser_recoleccion"
+      ]
      },
      {
       "texto": "Plantea la recolección automatizada de basura como uno de sus cuatro ejes de campaña.",
@@ -2004,7 +2617,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.elcomercio.com/elecciones/candidatos-alcaldia-quito-seguridad-movilidad-propuestas-2026/",
       "medio": "El Comercio",
-      "fecha": "2026-11-17"
+      "fecha": "2026-11-17",
+      "intereses": [
+       "ser_recoleccion"
+      ]
      }
     ],
     "ambiente": [
@@ -2016,7 +2632,11 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/CESAR-DIAZ.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-08-01"
+      "fecha": "2026-08-01",
+      "intereses": [
+       "amb_rios",
+       "amb_paramos"
+      ]
      },
      {
       "texto": "Incremento de áreas verdes priorizando la periferia, reciclaje con inclusión de recicladores de base y plan de cambio climático con metas verificables.",
@@ -2026,7 +2646,12 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/CESAR-DIAZ.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-08-01"
+      "fecha": "2026-08-01",
+      "intereses": [
+       "amb_parques",
+       "ser_recicladores",
+       "amb_clima"
+      ]
      }
     ],
     "economia": [
@@ -2038,7 +2663,10 @@ window.BENCHMARK = {
       "competencia": "parcial",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/CESAR-DIAZ.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-08-01"
+      "fecha": "2026-08-01",
+      "intereses": [
+       "eco_inversion"
+      ]
      },
      {
       "texto": "Simplificación y digitalización de trámites productivos y de construcción con plazos definidos, y sistema municipal de apoyo al emprendedor.",
@@ -2048,7 +2676,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/CESAR-DIAZ.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-08-01"
+      "fecha": "2026-08-01",
+      "intereses": [
+       "eco_tramites"
+      ]
      },
      {
       "texto": "Plan metropolitano de turismo, modernización de mercados y economía popular y solidaria; becas de primer empleo.",
@@ -2058,7 +2689,13 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/CESAR-DIAZ.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-08-01"
+      "fecha": "2026-08-01",
+      "intereses": [
+       "cul_turismo",
+       "eco_mercados",
+       "eco_eps",
+       "eco_empleo_joven"
+      ]
      },
      {
       "texto": "Propone un sistema de comercialización de Quito como uno de sus cuatro ejes de campaña.",
@@ -2068,7 +2705,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.elcomercio.com/elecciones/candidatos-alcaldia-quito-seguridad-movilidad-propuestas-2026/",
       "medio": "El Comercio",
-      "fecha": "2026-11-17"
+      "fecha": "2026-11-17",
+      "intereses": [
+       "eco_eps"
+      ]
      }
     ],
     "barrios": [
@@ -2080,7 +2720,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/CESAR-DIAZ.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-08-01"
+      "fecha": "2026-08-01",
+      "intereses": [
+       "bar_centralidades"
+      ]
      },
      {
       "texto": "Ruta hacia la cantonización con estudios de viabilidad y consulta popular.",
@@ -2090,7 +2733,10 @@ window.BENCHMARK = {
       "competencia": "parcial",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/CESAR-DIAZ.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-08-01"
+      "fecha": "2026-08-01",
+      "intereses": [
+       "bar_centralidades"
+      ]
      },
      {
       "texto": "Rehabilitación del Centro Histórico, vivienda de interés social y programa 'Regula tu barrio'.",
@@ -2100,7 +2746,12 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/CESAR-DIAZ.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-08-01"
+      "fecha": "2026-08-01",
+      "intereses": [
+       "cul_centro",
+       "bar_vivienda",
+       "bar_regularizacion"
+      ]
      },
      {
       "texto": "Plan emergente de mantenimiento vial, iluminación y limpieza.",
@@ -2110,7 +2761,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/CESAR-DIAZ.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-08-01"
+      "fecha": "2026-08-01",
+      "intereses": [
+       "bar_mantenimiento"
+      ]
      }
     ],
     "finanzas": [
@@ -2122,7 +2776,11 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/CESAR-DIAZ.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-08-01"
+      "fecha": "2026-08-01",
+      "intereses": [
+       "fin_datos",
+       "fin_digital"
+      ]
      },
      {
       "texto": "Presupuestos participativos por megacentralidad, ejecutados al 100 %, con consejos ciudadanos y silla vacía.",
@@ -2132,7 +2790,11 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/CESAR-DIAZ.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-08-01"
+      "fecha": "2026-08-01",
+      "intereses": [
+       "bar_participativo",
+       "fin_participacion"
+      ]
      },
      {
       "texto": "Costo referencial total del plan de USD 510-1.090 millones para 2027-2031, distribuido por fases anuales.",
@@ -2142,7 +2804,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/CESAR-DIAZ.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-08-01"
+      "fecha": "2026-08-01",
+      "intereses": [
+       "fin_financiamiento"
+      ]
      }
     ],
     "cultura": [
@@ -2154,7 +2819,10 @@ window.BENCHMARK = {
       "competencia": "parcial",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/CESAR-DIAZ.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-08-01"
+      "fecha": "2026-08-01",
+      "intereses": [
+       "bar_educacion"
+      ]
      },
      {
       "texto": "Distrito de industrias creativas en el Centro Histórico y programa de patrimonio cultural inmaterial y memoria barrial.",
@@ -2164,7 +2832,11 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/CESAR-DIAZ.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-08-01"
+      "fecha": "2026-08-01",
+      "intereses": [
+       "cul_industrias",
+       "cul_centro"
+      ]
      },
      {
       "texto": "Red de canchas y espacios deportivos de barrio con prioridad en la periferia.",
@@ -2174,7 +2846,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/CESAR-DIAZ.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-08-01"
+      "fecha": "2026-08-01",
+      "intereses": [
+       "cul_deporte"
+      ]
      }
     ]
    },
@@ -2198,7 +2873,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/LINDA-ROMERO.pdf",
       "medio": "Plan de trabajo (copia publicada por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "mov_integracion"
+      ]
      },
      {
       "texto": "Reorganizar el transporte público: rediseño de rutas, optimización de frecuencias, renovación progresiva de flota y sistema integrado de recaudo.",
@@ -2208,7 +2886,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/LINDA-ROMERO.pdf",
       "medio": "Plan de trabajo (copia publicada por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "mov_buses"
+      ]
      },
      {
       "texto": "Rehabilitar 1.000 km de vías y eliminar el 90 % de los baches críticos, con un plan permanente de mantenimiento vial y pasos deprimidos priorizados.",
@@ -2218,7 +2899,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/LINDA-ROMERO.pdf",
       "medio": "Plan de trabajo (copia publicada por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "mov_vias"
+      ]
      },
      {
       "texto": "Reducir en 20 % los tiempos promedio de desplazamiento (meta indicada de 74 a 60 minutos) y ampliar carriles exclusivos de transporte público (de 92 a 150 km).",
@@ -2228,7 +2912,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/LINDA-ROMERO.pdf",
       "medio": "Plan de trabajo (copia publicada por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "mov_buses"
+      ]
      },
      {
       "texto": "Movilidad activa: ampliación de ciclovías, corredores peatonales, recuperación de aceras, cruces seguros y accesibilidad universal.",
@@ -2238,7 +2925,11 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/LINDA-ROMERO.pdf",
       "medio": "Plan de trabajo (copia publicada por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "mov_activa",
+       "mov_seguridad_vial"
+      ]
      },
      {
       "texto": "Destacar propuestas de movilidad en campaña.",
@@ -2248,7 +2939,8 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.elcomercio.com/elecciones/candidatos-alcaldia-quito-seguridad-movilidad-propuestas-2026/",
       "medio": "El Comercio",
-      "fecha": "2026-11-11"
+      "fecha": "2026-11-11",
+      "intereses": []
      }
     ],
     "seguridad": [
@@ -2260,7 +2952,11 @@ window.BENCHMARK = {
       "competencia": "parcial",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/LINDA-ROMERO.pdf",
       "medio": "Plan de trabajo (copia publicada por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "seg_camaras",
+       "seg_centro"
+      ]
      },
      {
       "texto": "Meta de reducir en 40 % los delitos de mayor impacto y la tasa de homicidios de 17 a 10 por cada 100.000 habitantes.",
@@ -2270,7 +2966,10 @@ window.BENCHMARK = {
       "competencia": "no",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/LINDA-ROMERO.pdf",
       "medio": "Plan de trabajo (copia publicada por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "seg_metas"
+      ]
      },
      {
       "texto": "Corredores escolares seguros con iluminación, cámaras, señalización y presencia coordinada de agentes metropolitanos.",
@@ -2280,7 +2979,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/LINDA-ROMERO.pdf",
       "medio": "Plan de trabajo (copia publicada por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "seg_escolar"
+      ]
      },
      {
       "texto": "Prevención social de la violencia: centros juveniles metropolitanos, escuelas deportivas barriales, casas de la mujer y red de atención psicosocial.",
@@ -2290,7 +2992,12 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/LINDA-ROMERO.pdf",
       "medio": "Plan de trabajo (copia publicada por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "seg_prevencion_jovenes",
+       "seg_mujeres",
+       "cul_deporte"
+      ]
      },
      {
       "texto": "Gestión de riesgos: fortalecimiento del Cuerpo de Bomberos, plan de prevención de incendios forestales y mapas de riesgo actualizados.",
@@ -2300,7 +3007,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/LINDA-ROMERO.pdf",
       "medio": "Plan de trabajo (copia publicada por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "seg_riesgos"
+      ]
      }
     ],
     "servicios": [
@@ -2312,7 +3022,12 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/LINDA-ROMERO.pdf",
       "medio": "Plan de trabajo (copia publicada por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "ser_agua",
+       "ser_perdidas",
+       "ser_ptar"
+      ]
      },
      {
       "texto": "Economía circular: separación domiciliaria de residuos, reciclaje inclusivo con recicladores de base, valorización energética y reducción de residuos enviados al relleno sanitario.",
@@ -2322,7 +3037,11 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/LINDA-ROMERO.pdf",
       "medio": "Plan de trabajo (copia publicada por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "ser_reciclaje",
+       "ser_recicladores"
+      ]
      }
     ],
     "ambiente": [
@@ -2334,7 +3053,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/LINDA-ROMERO.pdf",
       "medio": "Plan de trabajo (copia publicada por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "amb_arboles"
+      ]
      },
      {
       "texto": "Recuperar 400 parques y plazas adicionales y alcanzar cobertura total de iluminación LED en los espacios intervenidos.",
@@ -2344,7 +3066,11 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/LINDA-ROMERO.pdf",
       "medio": "Plan de trabajo (copia publicada por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "amb_parques",
+       "seg_iluminacion"
+      ]
      },
      {
       "texto": "Programa 'Quito sin quebradas contaminadas': limpieza, tratamiento de descargas, revegetación y senderos ecológicos.",
@@ -2354,7 +3080,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/LINDA-ROMERO.pdf",
       "medio": "Plan de trabajo (copia publicada por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "amb_quebradas"
+      ]
      },
      {
       "texto": "Protección de fuentes hídricas, microcuencas y zonas de recarga, y ampliación de áreas protegidas metropolitanas.",
@@ -2364,7 +3093,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/LINDA-ROMERO.pdf",
       "medio": "Plan de trabajo (copia publicada por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "amb_paramos"
+      ]
      },
      {
       "texto": "Destacar propuestas sobre espacios públicos en campaña.",
@@ -2374,7 +3106,8 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.elcomercio.com/elecciones/candidatos-alcaldia-quito-seguridad-movilidad-propuestas-2026/",
       "medio": "El Comercio",
-      "fecha": "2026-11-11"
+      "fecha": "2026-11-11",
+      "intereses": []
      }
     ],
     "economia": [
@@ -2386,7 +3119,10 @@ window.BENCHMARK = {
       "competencia": "parcial",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/LINDA-ROMERO.pdf",
       "medio": "Plan de trabajo (copia publicada por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "eco_metas_empleo"
+      ]
      },
      {
       "texto": "Ventanilla única metropolitana para inversiones, licencias digitales y simplificación de trámites.",
@@ -2396,7 +3132,11 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/LINDA-ROMERO.pdf",
       "medio": "Plan de trabajo (copia publicada por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "eco_tramites",
+       "eco_inversion"
+      ]
      },
      {
       "texto": "Fondo metropolitano 'Quito Emprende', incubadoras, centros de innovación y compras públicas para emprendimientos locales.",
@@ -2406,7 +3146,12 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/LINDA-ROMERO.pdf",
       "medio": "Plan de trabajo (copia publicada por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "eco_semilla",
+       "eco_incubadoras",
+       "eco_eps"
+      ]
      },
      {
       "texto": "Modernización integral de mercados con digitalización comercial, centros gastronómicos y mejoramiento sanitario.",
@@ -2416,7 +3161,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/LINDA-ROMERO.pdf",
       "medio": "Plan de trabajo (copia publicada por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "eco_mercados"
+      ]
      }
     ],
     "barrios": [
@@ -2428,7 +3176,11 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/LINDA-ROMERO.pdf",
       "medio": "Plan de trabajo (copia publicada por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "bar_rural",
+       "mov_vias"
+      ]
      },
      {
       "texto": "Mesas permanentes con gobiernos parroquiales para priorizar obras, mantenimiento vial, espacios públicos y desarrollo comunitario.",
@@ -2438,7 +3190,11 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/LINDA-ROMERO.pdf",
       "medio": "Plan de trabajo (copia publicada por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "bar_rural",
+       "bar_participativo"
+      ]
      },
      {
       "texto": "Destacar propuestas sobre vivienda en campaña (el plan solo menciona vivienda como tema de cooperación con el Gobierno Nacional).",
@@ -2448,7 +3204,8 @@ window.BENCHMARK = {
       "competencia": "parcial",
       "fuente": "https://www.elcomercio.com/elecciones/candidatos-alcaldia-quito-seguridad-movilidad-propuestas-2026/",
       "medio": "El Comercio",
-      "fecha": "2026-11-11"
+      "fecha": "2026-11-11",
+      "intereses": []
      }
     ],
     "finanzas": [
@@ -2460,7 +3217,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/LINDA-ROMERO.pdf",
       "medio": "Plan de trabajo (copia publicada por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "fin_digital"
+      ]
      },
      {
       "texto": "Portal de datos abiertos con publicación de presupuesto, contratos, obras y ejecución financiera; meta de 100 % de cumplimiento de transparencia activa.",
@@ -2470,7 +3230,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/LINDA-ROMERO.pdf",
       "medio": "Plan de trabajo (copia publicada por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "fin_datos"
+      ]
      },
      {
       "texto": "Destinar el 15 % de la inversión municipal a decisiones de presupuesto participativo (desde 4 %) y pasar de 70 a 150 asambleas ciudadanas por año.",
@@ -2480,7 +3243,11 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/LINDA-ROMERO.pdf",
       "medio": "Plan de trabajo (copia publicada por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "bar_participativo",
+       "fin_participacion"
+      ]
      },
      {
       "texto": "Observatorio ciudadano con academia, sociedad civil y sector privado, y gobierno corporativo con indicadores de desempeño para las empresas metropolitanas.",
@@ -2490,7 +3257,11 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/LINDA-ROMERO.pdf",
       "medio": "Plan de trabajo (copia publicada por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "fin_participacion",
+       "fin_reestructura"
+      ]
      },
      {
       "texto": "Financiamiento del plan con recursos propios, transferencias, crédito del BDE/CFN, cooperación internacional no reembolsable y alianzas público-privadas.",
@@ -2500,7 +3271,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/LINDA-ROMERO.pdf",
       "medio": "Plan de trabajo (copia publicada por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "fin_financiamiento"
+      ]
      }
     ],
     "cultura": [
@@ -2512,7 +3286,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/LINDA-ROMERO.pdf",
       "medio": "Plan de trabajo (copia publicada por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "cul_turismo"
+      ]
      },
      {
       "texto": "Marca Ciudad Quito, plan internacional de promoción turística, circuitos culturales, turismo gastronómico, rural y de naturaleza y agenda de eventos internacionales.",
@@ -2522,7 +3299,12 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/LINDA-ROMERO.pdf",
       "medio": "Plan de trabajo (copia publicada por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "cul_turismo",
+       "cul_rural",
+       "cul_eventos"
+      ]
      },
      {
       "texto": "Destacar propuestas sobre deporte en campaña; el plan incluye escuelas deportivas barriales y asigna prioridad media a cultura y deporte en su plan de inversión.",
@@ -2532,7 +3314,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.elcomercio.com/elecciones/candidatos-alcaldia-quito-seguridad-movilidad-propuestas-2026/",
       "medio": "El Comercio",
-      "fecha": "2026-11-11"
+      "fecha": "2026-11-11",
+      "intereses": [
+       "cul_deporte"
+      ]
      }
     ]
    },
@@ -2556,7 +3341,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/PAUL-DESAMBLANC.pdf",
       "medio": "Plan de trabajo (copia publicada por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "mov_integracion"
+      ]
      },
      {
       "texto": "Sistema Metropolitano Integrado de Gestión de la Movilidad con semáforos adaptativos, sensores, cámaras y analítica predictiva; pruebas en intersecciones seleccionadas desde el segundo año.",
@@ -2566,7 +3354,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/PAUL-DESAMBLANC.pdf",
       "medio": "Plan de trabajo (copia publicada por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "mov_semaforos"
+      ]
      },
      {
       "texto": "Inventario georreferenciado de la red vial y cartera anual de mantenimiento, rehabilitación y repavimentación priorizada por riesgo y brechas.",
@@ -2576,7 +3367,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/PAUL-DESAMBLANC.pdf",
       "medio": "Plan de trabajo (copia publicada por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "mov_vias"
+      ]
      },
      {
       "texto": "Plan Metropolitano de Resiliencia y Contingencia Vial para Ruta Viva, E35, avenida Oswaldo Guayasamín/Interoceánica y vía Intervalles, con rutas alternas y protocolos de desvío.",
@@ -2586,7 +3380,10 @@ window.BENCHMARK = {
       "competencia": "parcial",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/PAUL-DESAMBLANC.pdf",
       "medio": "Plan de trabajo (copia publicada por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "mov_vias"
+      ]
      },
      {
       "texto": "Renovación progresiva de la flota de transporte público con unidades accesibles y de menores emisiones, y cámaras, geolocalización y botones de auxilio en buses.",
@@ -2596,7 +3393,11 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/PAUL-DESAMBLANC.pdf",
       "medio": "Plan de trabajo (copia publicada por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "mov_buses",
+       "mov_electrica"
+      ]
      },
      {
       "texto": "Evaluar el Metrocable o aerovía solo como solución complementaria en corredores específicos, sujeta a estudios.",
@@ -2606,7 +3407,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/PAUL-DESAMBLANC.pdf",
       "medio": "Plan de trabajo (copia publicada por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "mov_cable"
+      ]
      },
      {
       "texto": "Ampliación del Metro mencionada entre sus planteamientos de campaña.",
@@ -2616,7 +3420,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.elcomercio.com/elecciones/candidatos-alcaldia-quito-seguridad-movilidad-propuestas-2026/",
       "medio": "El Comercio",
-      "fecha": "2026-11-11"
+      "fecha": "2026-11-11",
+      "intereses": [
+       "mov_metro"
+      ]
      }
     ],
     "seguridad": [
@@ -2628,7 +3435,13 @@ window.BENCHMARK = {
       "competencia": "parcial",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/PAUL-DESAMBLANC.pdf",
       "medio": "Plan de trabajo (copia publicada por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "seg_centro",
+       "seg_camaras",
+       "seg_comunitaria",
+       "seg_iluminacion"
+      ]
      },
      {
       "texto": "Reactivar los diez consejos zonales y el Consejo Metropolitano de Seguridad y acordar protocolos con Policía, ECU 911, Fiscalía y Bomberos.",
@@ -2638,7 +3451,11 @@ window.BENCHMARK = {
       "competencia": "parcial",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/PAUL-DESAMBLANC.pdf",
       "medio": "Plan de trabajo (copia publicada por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "seg_centro",
+       "seg_comunitaria"
+      ]
      },
      {
       "texto": "Corredores preventivos y entornos seguros alrededor de centros educativos, mercados, parques y estaciones; integrar sistemas municipales con ECU 911 mediante convenios.",
@@ -2648,7 +3465,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/PAUL-DESAMBLANC.pdf",
       "medio": "Plan de trabajo (copia publicada por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "seg_escolar"
+      ]
      },
      {
       "texto": "Ruta de primera atención, orientación, apoyo psicosocial y derivación para víctimas de violencia.",
@@ -2658,7 +3478,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/PAUL-DESAMBLANC.pdf",
       "medio": "Plan de trabajo (copia publicada por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "seg_mujeres"
+      ]
      }
     ],
     "servicios": [
@@ -2670,7 +3493,12 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/PAUL-DESAMBLANC.pdf",
       "medio": "Plan de trabajo (copia publicada por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "ser_reciclaje",
+       "ser_recicladores",
+       "ser_recoleccion"
+      ]
      },
      {
       "texto": "Solución de largo plazo para tratamiento y disposición final definida tras comparar tecnologías y ubicaciones, manteniendo control de lixiviados y biogás mientras tanto.",
@@ -2680,7 +3508,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/PAUL-DESAMBLANC.pdf",
       "medio": "Plan de trabajo (copia publicada por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "ser_relleno"
+      ]
      },
      {
       "texto": "Coordinar con EPMAPS la ampliación de agua potable, alcantarillado y saneamiento en sectores con déficit y un calendario común con obras viales.",
@@ -2690,7 +3521,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/PAUL-DESAMBLANC.pdf",
       "medio": "Plan de trabajo (copia publicada por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "ser_agua"
+      ]
      },
      {
       "texto": "Fortalecer las plantas de tratamiento de aguas residuales existentes, incluida la PTAR Quitumbe, e impulsar las previstas para Quito, Calderón, Monjas y parroquias rurales.",
@@ -2700,7 +3534,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/PAUL-DESAMBLANC.pdf",
       "medio": "Plan de trabajo (copia publicada por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "ser_ptar"
+      ]
      }
     ],
     "ambiente": [
@@ -2712,7 +3549,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/PAUL-DESAMBLANC.pdf",
       "medio": "Plan de trabajo (copia publicada por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "amb_arboles"
+      ]
      },
      {
       "texto": "Recuperación integral de los ríos Machángara, San Pedro, Monjas, Chiche, Pita, Guayllabamba, Guambi y Cinto y sus quebradas, con intercepción de aguas residuales.",
@@ -2722,7 +3562,11 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/PAUL-DESAMBLANC.pdf",
       "medio": "Plan de trabajo (copia publicada por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "amb_rios",
+       "amb_quebradas"
+      ]
      },
      {
       "texto": "Protección de páramos, bosques, fuentes de agua y corredores ecológicos, incluido el Chocó Andino conforme a la consulta popular.",
@@ -2732,7 +3576,11 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/PAUL-DESAMBLANC.pdf",
       "medio": "Plan de trabajo (copia publicada por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "amb_paramos",
+       "amb_mineria"
+      ]
      },
      {
       "texto": "Registro digital georreferenciado de generadores de descargas y Red Inteligente de Monitoreo de Ríos y Quebradas con sensores y tablero ambiental público.",
@@ -2742,7 +3590,11 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/PAUL-DESAMBLANC.pdf",
       "medio": "Plan de trabajo (copia publicada por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "amb_rios",
+       "amb_aire"
+      ]
      },
      {
       "texto": "Política de bienestar animal con identificación, esterilización, vacunación y adopción, y campañas móviles desde el primer año.",
@@ -2752,7 +3604,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/PAUL-DESAMBLANC.pdf",
       "medio": "Plan de trabajo (copia publicada por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "amb_animales"
+      ]
      }
     ],
     "economia": [
@@ -2764,7 +3619,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/PAUL-DESAMBLANC.pdf",
       "medio": "Plan de trabajo (copia publicada por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "eco_tramites"
+      ]
      },
      {
       "texto": "Estudios de prefactibilidad de un nodo logístico vinculado al aeropuerto, zona franca y puerto seco, en coordinación con el Gobierno Nacional.",
@@ -2774,7 +3632,10 @@ window.BENCHMARK = {
       "competencia": "parcial",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/PAUL-DESAMBLANC.pdf",
       "medio": "Plan de trabajo (copia publicada por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "eco_inversion"
+      ]
      },
      {
       "texto": "Fortalecer redes de economía barrial, mercados, ferias y corredores comerciales con asistencia técnica y vinculación con banca pública, cooperativa y privada.",
@@ -2784,7 +3645,11 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/PAUL-DESAMBLANC.pdf",
       "medio": "Plan de trabajo (copia publicada por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "eco_eps",
+       "eco_mercados"
+      ]
      },
      {
       "texto": "Simplificación de trámites para emprendimientos (planteamiento de campaña).",
@@ -2794,7 +3659,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.elcomercio.com/elecciones/candidatos-alcaldia-quito-seguridad-movilidad-propuestas-2026/",
       "medio": "El Comercio",
-      "fecha": "2026-11-11"
+      "fecha": "2026-11-11",
+      "intereses": [
+       "eco_tramites"
+      ]
      }
     ],
     "barrios": [
@@ -2806,7 +3674,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/PAUL-DESAMBLANC.pdf",
       "medio": "Plan de trabajo (copia publicada por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "bar_rural"
+      ]
      },
      {
       "texto": "Diez administraciones zonales como centros integrales de servicios con ventanillas integrales piloto.",
@@ -2816,7 +3687,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/PAUL-DESAMBLANC.pdf",
       "medio": "Plan de trabajo (copia publicada por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "bar_centralidades"
+      ]
      },
      {
       "texto": "Fortalecer las 20 unidades educativas municipales y 14 CEMEI y ampliar progresivamente sus cupos, con programa financiado de mantenimiento.",
@@ -2826,7 +3700,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/PAUL-DESAMBLANC.pdf",
       "medio": "Plan de trabajo (copia publicada por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "bar_educacion"
+      ]
      }
     ],
     "finanzas": [
@@ -2838,7 +3715,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/PAUL-DESAMBLANC.pdf",
       "medio": "Plan de trabajo (copia publicada por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "fin_digital"
+      ]
      },
      {
       "texto": "Sistema Metropolitano de Datos e Inteligencia Territorial con datos abiertos por defecto y tablero de gobierno abierto presupuestario y contractual.",
@@ -2848,7 +3728,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/PAUL-DESAMBLANC.pdf",
       "medio": "Plan de trabajo (copia publicada por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "fin_datos"
+      ]
      },
      {
       "texto": "Mapa institucional de riesgos de corrupción, gestión de conflictos de interés y canales protegidos de denuncia; evaluación de blockchain para trazabilidad de contratos.",
@@ -2858,7 +3741,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/PAUL-DESAMBLANC.pdf",
       "medio": "Plan de trabajo (copia publicada por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "fin_anticorrupcion"
+      ]
      },
      {
       "texto": "Publicar metas, responsables, contratos y avances físicos y financieros de cada intervención, y un informe de cierre y transición.",
@@ -2868,7 +3754,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/PAUL-DESAMBLANC.pdf",
       "medio": "Plan de trabajo (copia publicada por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "fin_seguimiento"
+      ]
      }
     ],
     "cultura": [
@@ -2880,7 +3769,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/PAUL-DESAMBLANC.pdf",
       "medio": "Plan de trabajo (copia publicada por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "cul_agenda"
+      ]
      },
      {
       "texto": "Promover turismo cultural, natural y de reuniones aprovechando el Centro Histórico, valles y parroquias rurales, con circuitos turísticos.",
@@ -2890,7 +3782,12 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/PAUL-DESAMBLANC.pdf",
       "medio": "Plan de trabajo (copia publicada por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "cul_turismo",
+       "cul_rural",
+       "cul_centro"
+      ]
      },
      {
       "texto": "Rehabilitación progresiva de equipamientos deportivos, culturales y recreativos según diagnóstico.",
@@ -2900,7 +3797,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/PAUL-DESAMBLANC.pdf",
       "medio": "Plan de trabajo (copia publicada por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "cul_deporte"
+      ]
      }
     ]
    },
@@ -2924,7 +3824,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/CARLA-LARREA.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "mov_operadores"
+      ]
      },
      {
       "texto": "Rediseñar rutas e integrar física y tarifariamente el Metro con los buses en una sola red y una sola tarifa.",
@@ -2934,7 +3837,11 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/CARLA-LARREA.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "mov_integracion",
+       "mov_buses"
+      ]
      },
      {
       "texto": "Implementar recaudo centralizado y pagar a los operadores de transporte por kilómetro recorrido y calidad del servicio.",
@@ -2944,7 +3851,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/CARLA-LARREA.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "mov_operadores"
+      ]
      },
      {
       "texto": "Repotenciar el corredor Simón Bolívar y el puente de Guápulo con financiamiento privado.",
@@ -2954,7 +3864,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/CARLA-LARREA.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "mov_obras_viales"
+      ]
      },
      {
       "texto": "Desarrollar una red metropolitana de cables aéreos (teleféricos) para integrar sectores de ladera y valle al transporte masivo.",
@@ -2964,7 +3877,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/CARLA-LARREA.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "mov_cable"
+      ]
      },
      {
       "texto": "Estructurar un tren de cercanías Quitumbe–Machachi, en coordinación con cantones aledaños y la autoridad nacional.",
@@ -2974,7 +3890,10 @@ window.BENCHMARK = {
       "competencia": "parcial",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/CARLA-LARREA.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "mov_cable"
+      ]
      },
      {
       "texto": "Red de corredores exclusivos con prioridad al bus e integración de los valles mediante transporte masivo e intercambiadores.",
@@ -2984,7 +3903,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/CARLA-LARREA.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "mov_buses"
+      ]
      },
      {
       "texto": "Plan de mantenimiento y rehabilitación vial a 48 meses; la meta referencial es intervenir 400 km de vialidad.",
@@ -2994,7 +3916,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/CARLA-LARREA.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "mov_vias"
+      ]
      },
      {
       "texto": "Destrabar y ejecutar obras viales estratégicas como el puente Guayasamín y la Ruta Viva.",
@@ -3004,7 +3929,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/CARLA-LARREA.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "mov_obras_viales"
+      ]
      },
      {
       "texto": "Fiscalización del transporte con monitoreo de la flota en tiempo real y control automatizado.",
@@ -3014,7 +3942,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/CARLA-LARREA.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "mov_buses"
+      ]
      },
      {
       "texto": "Movilidad segura con enfoque de género: paradas y estaciones accesibles con protocolos contra el acoso.",
@@ -3024,7 +3955,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/CARLA-LARREA.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "seg_mujeres"
+      ]
      }
     ],
     "seguridad": [
@@ -3036,7 +3970,11 @@ window.BENCHMARK = {
       "competencia": "parcial",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/CARLA-LARREA.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "seg_camaras",
+       "seg_centro"
+      ]
      },
      {
       "texto": "Recuperar el orden en el espacio público mediante la gestión permanente de puntos críticos.",
@@ -3046,7 +3984,10 @@ window.BENCHMARK = {
       "competencia": "parcial",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/CARLA-LARREA.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "seg_iluminacion"
+      ]
      },
      {
       "texto": "Modernizar la Agencia Metropolitana de Control (AMC) con capacidad técnica y territorial de prevención.",
@@ -3056,7 +3997,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/CARLA-LARREA.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "seg_agentes"
+      ]
      },
      {
       "texto": "Escuelas Seguras y Prevención Temprana: entornos protectores y oferta alternativa para niñez y adolescencia.",
@@ -3066,7 +4010,11 @@ window.BENCHMARK = {
       "competencia": "parcial",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/CARLA-LARREA.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "seg_escolar",
+       "seg_prevencion_jovenes"
+      ]
      },
      {
       "texto": "Comunidades Seguras: comités barriales y proyectos de prevención mediante diseño ambiental (CPTED) cofinanciados con presupuestos participativos.",
@@ -3076,7 +4024,11 @@ window.BENCHMARK = {
       "competencia": "parcial",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/CARLA-LARREA.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "seg_comunitaria",
+       "bar_participativo"
+      ]
      }
     ],
     "servicios": [
@@ -3088,7 +4040,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/CARLA-LARREA.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "ser_perdidas"
+      ]
      },
      {
       "texto": "Modernizar la gestión integral de residuos con un complejo ambiental y aprovechamiento de reciclables mediante una APP con el BID u otras agencias de cooperación.",
@@ -3098,7 +4053,11 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/CARLA-LARREA.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "ser_relleno",
+       "ser_reciclaje"
+      ]
      },
      {
       "texto": "Programa de seguridad hídrica y ampliación del saneamiento.",
@@ -3108,7 +4067,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/CARLA-LARREA.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "ser_agua"
+      ]
      }
     ],
     "ambiente": [
@@ -3120,7 +4082,12 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/CARLA-LARREA.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "amb_quebradas",
+       "amb_rios",
+       "seg_riesgos"
+      ]
      },
      {
       "texto": "Programa Parques Metropolitanos 2030 para renovar y activar la red de parques.",
@@ -3130,7 +4097,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/CARLA-LARREA.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "amb_parques"
+      ]
      },
      {
       "texto": "Caminería productiva: regenerar aceras y entornos de escuelas y hospitales; la meta referencial es 100 km de aceras.",
@@ -3140,7 +4110,11 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/CARLA-LARREA.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "mov_activa",
+       "seg_escolar"
+      ]
      },
      {
       "texto": "Red peatonal accesible y arbolada conectada con el transporte público.",
@@ -3150,7 +4124,11 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/CARLA-LARREA.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "mov_activa",
+       "amb_arboles"
+      ]
      }
     ],
     "economia": [
@@ -3162,7 +4140,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/CARLA-LARREA.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "eco_bolsa"
+      ]
      },
      {
       "texto": "Promover infraestructura logística y la acreditación de Zonas Especiales de Desarrollo Económico (ZEDE).",
@@ -3172,7 +4153,10 @@ window.BENCHMARK = {
       "competencia": "parcial",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/CARLA-LARREA.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "eco_inversion"
+      ]
      },
      {
       "texto": "Convertir predios recuperados en incubadoras, espacios de co-working y una escuela de oficios.",
@@ -3182,7 +4166,11 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/CARLA-LARREA.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "eco_incubadoras",
+       "eco_bolsa"
+      ]
      },
      {
       "texto": "Distritos de innovación y corredor del conocimiento, y fortalecimiento de la economía popular y solidaria.",
@@ -3192,7 +4180,11 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/CARLA-LARREA.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "eco_incubadoras",
+       "eco_eps"
+      ]
      },
      {
       "texto": "Reforma normativa urbanística y licencias digitales para reducir en al menos 50 % los tiempos de emisión de permisos municipales.",
@@ -3202,7 +4194,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/CARLA-LARREA.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "eco_tramites"
+      ]
      }
     ],
     "barrios": [
@@ -3214,7 +4209,10 @@ window.BENCHMARK = {
       "competencia": "parcial",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/CARLA-LARREA.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "bar_salud"
+      ]
      },
      {
       "texto": "Ampliar la oferta de colegios metropolitanos en zonas de crecimiento.",
@@ -3224,7 +4222,10 @@ window.BENCHMARK = {
       "competencia": "parcial",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/CARLA-LARREA.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "bar_educacion"
+      ]
      },
      {
       "texto": "Plan Metropolitano de Envejecimiento Activo y certificación de 'Barrios que Cuidan'; primeras acciones en los primeros 100 días.",
@@ -3234,7 +4235,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/CARLA-LARREA.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "bar_adultos"
+      ]
      },
      {
       "texto": "Modelo 'Ciudad de 60 Minutos' con red policéntrica y desarrollo orientado al transporte alrededor de las estaciones del Metro.",
@@ -3244,7 +4248,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/CARLA-LARREA.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "bar_centralidades"
+      ]
      }
     ],
     "finanzas": [
@@ -3256,7 +4263,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/CARLA-LARREA.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "fin_digital"
+      ]
      },
      {
       "texto": "Presupuesto por resultados y plataforma pública de seguimiento de obras con datos abiertos, más informes semestrales al Concejo.",
@@ -3266,7 +4276,11 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/CARLA-LARREA.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "fin_seguimiento",
+       "fin_datos"
+      ]
      },
      {
       "texto": "Catastro inteligente multifinalitario como base de la gestión territorial y fiscal.",
@@ -3276,7 +4290,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/CARLA-LARREA.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "fin_ingresos"
+      ]
      },
      {
       "texto": "Gestión financiera sostenible con fuentes como contribución especial de mejoras, captura de plusvalías, banca multilateral y APP.",
@@ -3286,7 +4303,11 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/CARLA-LARREA.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "fin_financiamiento",
+       "fin_ingresos"
+      ]
      },
      {
       "texto": "Centro Metropolitano de Inteligencia y Gestión para un gobierno basado en datos.",
@@ -3296,7 +4317,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/CARLA-LARREA.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "fin_datos"
+      ]
      }
     ],
     "cultura": [
@@ -3308,7 +4332,11 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/CARLA-LARREA.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "cul_centro",
+       "bar_vivienda"
+      ]
      }
     ]
    },
@@ -3332,7 +4360,12 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/WILSON-MERINO.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "mov_integracion",
+       "mov_operadores",
+       "eco_empresas_publicas"
+      ]
      },
      {
       "texto": "Reorganizar progresivamente las rutas troncales, alimentadoras y transversales, con servicios nocturnos y modernización de la flota.",
@@ -3342,7 +4375,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/WILSON-MERINO.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "mov_buses"
+      ]
      },
      {
       "texto": "Proyecto Integral de Seguridad Vial y estrategia Visión Cero, con cruces seguros, rutas escolares y zonas de velocidad calmada.",
@@ -3352,7 +4388,11 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/WILSON-MERINO.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "mov_seguridad_vial",
+       "seg_escolar"
+      ]
      },
      {
       "texto": "Plan Metropolitano de Rehabilitación y Mantenimiento Vial, incluido el mejoramiento de vías rurales e interparroquiales.",
@@ -3362,7 +4402,11 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/WILSON-MERINO.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "mov_vias",
+       "bar_rural"
+      ]
      },
      {
       "texto": "Red conectada de ciclovías urbanas y rurales, bicicleta pública y regulación de la micromovilidad.",
@@ -3372,7 +4416,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/WILSON-MERINO.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "mov_activa"
+      ]
      },
      {
       "texto": "Centro Metropolitano de Gestión de la Movilidad con semaforización inteligente y zonas reguladas de estacionamiento.",
@@ -3382,7 +4429,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/WILSON-MERINO.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "mov_semaforos"
+      ]
      }
     ],
     "seguridad": [
@@ -3394,7 +4444,11 @@ window.BENCHMARK = {
       "competencia": "parcial",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/WILSON-MERINO.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "seg_centro",
+       "seg_riesgos"
+      ]
      },
      {
       "texto": "Sistema Integrado de Videovigilancia, programa 'Quito Iluminado y Seguro' y botones comunitarios de alerta.",
@@ -3404,7 +4458,12 @@ window.BENCHMARK = {
       "competencia": "parcial",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/WILSON-MERINO.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "seg_camaras",
+       "seg_iluminacion",
+       "seg_comunitaria"
+      ]
      },
      {
       "texto": "Rutas Seguras para Mujeres, entornos educativos seguros y corredores seguros de transporte público.",
@@ -3414,7 +4473,11 @@ window.BENCHMARK = {
       "competencia": "parcial",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/WILSON-MERINO.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "seg_mujeres",
+       "seg_escolar"
+      ]
      },
      {
       "texto": "Comités barriales de seguridad y gestión de riesgos, y fortalecimiento del Cuerpo de Bomberos.",
@@ -3424,7 +4487,11 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/WILSON-MERINO.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "seg_comunitaria",
+       "seg_riesgos"
+      ]
      }
     ],
     "servicios": [
@@ -3436,7 +4503,12 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/WILSON-MERINO.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "ser_reciclaje",
+       "ser_recicladores",
+       "ser_recoleccion"
+      ]
      },
      {
       "texto": "Plantas de compostaje, centros de aprovechamiento de materiales y control de microbasurales.",
@@ -3446,7 +4518,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/WILSON-MERINO.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "ser_reciclaje"
+      ]
      }
     ],
     "ambiente": [
@@ -3458,7 +4533,11 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/WILSON-MERINO.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "amb_rios",
+       "amb_quebradas"
+      ]
      },
      {
       "texto": "'Quito Ciudad Esponja': drenaje sostenible, jardines de lluvia, pavimentos permeables y parques inundables.",
@@ -3468,7 +4547,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/WILSON-MERINO.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "amb_esponja"
+      ]
      },
      {
       "texto": "Bosques urbanos, corredores ecológicos y protección de páramos y fuentes hídricas.",
@@ -3478,7 +4560,11 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/WILSON-MERINO.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "amb_arboles",
+       "amb_paramos"
+      ]
      },
      {
       "texto": "Sistema Metropolitano de Bienestar Animal con esterilización, vacunación y adopción.",
@@ -3488,7 +4574,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/WILSON-MERINO.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "amb_animales"
+      ]
      },
      {
       "texto": "Programa 'Parques para Todos' y red de pequeñas plazas y parques de bolsillo.",
@@ -3498,7 +4587,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/WILSON-MERINO.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "amb_parques"
+      ]
      }
     ],
     "economia": [
@@ -3510,7 +4602,10 @@ window.BENCHMARK = {
       "competencia": "parcial",
       "fuente": "https://www.expreso.ec/quito/seguridad-empleo-metro-propuestas-wilson-merino-llegar-alcaldia-quito-288131.html",
       "medio": "Expreso",
-      "fecha": "2026-07-05"
+      "fecha": "2026-07-05",
+      "intereses": [
+       "eco_bolsa"
+      ]
      },
      {
       "texto": "Reactivar los espacios comerciales de las estaciones del Metro de Quito para convertirlo en eje de desarrollo económico.",
@@ -3520,7 +4615,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.expreso.ec/quito/seguridad-empleo-metro-propuestas-wilson-merino-llegar-alcaldia-quito-288131.html",
       "medio": "Expreso",
-      "fecha": "2026-07-05"
+      "fecha": "2026-07-05",
+      "intereses": [
+       "eco_eps"
+      ]
      },
      {
       "texto": "Bolsa Metropolitana de Empleo, programa Empleo Joven y Primer Empleo, y centros territoriales de formación.",
@@ -3530,7 +4628,11 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/WILSON-MERINO.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "eco_bolsa",
+       "eco_empleo_joven"
+      ]
      },
      {
       "texto": "Modernizar los mercados municipales mediante un Sistema Metropolitano de Mercados.",
@@ -3540,7 +4642,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/WILSON-MERINO.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "eco_mercados"
+      ]
      },
      {
       "texto": "Ventanilla Única Productiva y simplificación de permisos para negocios.",
@@ -3550,7 +4655,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/WILSON-MERINO.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "eco_tramites"
+      ]
      },
      {
       "texto": "Consolidar la ZEDE Quito y un distrito económico aeroportuario con centro logístico multimodal.",
@@ -3560,7 +4668,10 @@ window.BENCHMARK = {
       "competencia": "parcial",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/WILSON-MERINO.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "eco_inversion"
+      ]
      },
      {
       "texto": "Capital semilla y fondos concursables para emprendimientos.",
@@ -3570,7 +4681,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/WILSON-MERINO.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "eco_semilla"
+      ]
      }
     ],
     "barrios": [
@@ -3582,7 +4696,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/WILSON-MERINO.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "bar_integral"
+      ]
      },
      {
       "texto": "Regularización y mejoramiento integral de barrios conforme al marco jurídico.",
@@ -3592,7 +4709,11 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/WILSON-MERINO.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "bar_regularizacion",
+       "bar_integral"
+      ]
      },
      {
       "texto": "Presupuesto participativo por Administración Zonal y presupuesto participativo rural, con convenios con gobiernos parroquiales.",
@@ -3602,7 +4723,11 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/WILSON-MERINO.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "bar_participativo",
+       "bar_rural"
+      ]
      },
      {
       "texto": "Programa 'Quito Rural Produce' con centros de acopio, asistencia técnica y circuitos cortos de comercialización.",
@@ -3612,7 +4737,11 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/WILSON-MERINO.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "bar_rural",
+       "eco_eps"
+      ]
      },
      {
       "texto": "Vivienda social en áreas servidas y reutilización de edificios vacíos ('De Vuelta a la Ciudad Construida').",
@@ -3622,7 +4751,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/WILSON-MERINO.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "bar_vivienda"
+      ]
      }
     ],
     "finanzas": [
@@ -3634,7 +4766,11 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/WILSON-MERINO.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "fin_datos",
+       "fin_seguimiento"
+      ]
      },
      {
       "texto": "Programa 'Quito Simple': inventario único de trámites, ventanilla única ciudadana y expediente electrónico.",
@@ -3644,7 +4780,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/WILSON-MERINO.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "fin_digital"
+      ]
      },
      {
       "texto": "Reingeniería organizacional del Municipio y Oficina Metropolitana de Gestión de Proyectos (PMO).",
@@ -3654,7 +4793,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/WILSON-MERINO.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "fin_reestructura"
+      ]
      },
      {
       "texto": "Actualizar el catastro e inventario único de bienes municipales y reducir arrendamientos innecesarios.",
@@ -3664,7 +4806,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/WILSON-MERINO.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "fin_ingresos"
+      ]
      },
      {
       "texto": "Veedurías ciudadanas para obras y servicios.",
@@ -3674,7 +4819,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/WILSON-MERINO.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "fin_participacion"
+      ]
      }
     ],
     "cultura": [
@@ -3686,7 +4834,11 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/WILSON-MERINO.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "cul_agenda",
+       "cul_industrias"
+      ]
      },
      {
       "texto": "Juegos Barriales y Parroquiales de Quito y escuelas deportivas barriales.",
@@ -3696,7 +4848,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/WILSON-MERINO.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "cul_deporte"
+      ]
      },
      {
       "texto": "'Quito Destino Imparable': turismo patrimonial, rural, de naturaleza (Chocó Andino) y estrategia de grandes eventos.",
@@ -3706,7 +4861,12 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/WILSON-MERINO.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "cul_turismo",
+       "cul_rural",
+       "cul_eventos"
+      ]
      },
      {
       "texto": "Recuperación integral del Centro Histórico y revitalización de La Mariscal.",
@@ -3716,7 +4876,10 @@ window.BENCHMARK = {
       "competencia": "si",
       "fuente": "https://www.teleamazonas.com/uploads/files/2026/11/12/WILSON-MERINO.pdf",
       "medio": "Plan de trabajo (PDF publicado por Teleamazonas)",
-      "fecha": "2026-11-12"
+      "fecha": "2026-11-12",
+      "intereses": [
+       "cul_centro"
+      ]
      }
     ]
    },
@@ -3763,6 +4926,400 @@ window.BENCHMARK = {
    "key": "cultura",
    "nombre": "Cultura, deporte y turismo",
    "desc": "Centro Histórico, eventos, deporte barrial, turismo."
+  }
+ ],
+ "intereses": [
+  {
+   "id": "mov_metro",
+   "eje": "movilidad",
+   "nombre": "Ampliar el Metro (nuevas extensiones o ramales)"
+  },
+  {
+   "id": "mov_integracion",
+   "eje": "movilidad",
+   "nombre": "Integrar el transporte: una tarjeta y una tarifa"
+  },
+  {
+   "id": "mov_buses",
+   "eje": "movilidad",
+   "nombre": "Mejores buses: rutas, frecuencias, carriles exclusivos, flota"
+  },
+  {
+   "id": "mov_operadores",
+   "eje": "movilidad",
+   "nombre": "Cambiar el modelo de operadores (pago por km, autoridad única)"
+  },
+  {
+   "id": "mov_vias",
+   "eje": "movilidad",
+   "nombre": "Mantenimiento vial y bacheo"
+  },
+  {
+   "id": "mov_obras_viales",
+   "eje": "movilidad",
+   "nombre": "Grandes obras viales (túneles, troncales, puentes)"
+  },
+  {
+   "id": "mov_semaforos",
+   "eje": "movilidad",
+   "nombre": "Semaforización inteligente y gestión del tráfico"
+  },
+  {
+   "id": "mov_activa",
+   "eje": "movilidad",
+   "nombre": "Ciclovías, aceras y movilidad a pie"
+  },
+  {
+   "id": "mov_seguridad_vial",
+   "eje": "movilidad",
+   "nombre": "Seguridad vial: control de velocidad, cruces seguros"
+  },
+  {
+   "id": "mov_cable",
+   "eje": "movilidad",
+   "nombre": "Cables aéreos o trenes (teleférico, tren de cercanías)"
+  },
+  {
+   "id": "mov_electrica",
+   "eje": "movilidad",
+   "nombre": "Movilidad eléctrica y flota de bajas emisiones",
+   "generico": true
+  },
+  {
+   "id": "seg_camaras",
+   "eje": "seguridad",
+   "nombre": "Videovigilancia y cámaras inteligentes"
+  },
+  {
+   "id": "seg_centro",
+   "eje": "seguridad",
+   "nombre": "Centro de mando coordinado con Policía y ECU 911"
+  },
+  {
+   "id": "seg_agentes",
+   "eje": "seguridad",
+   "nombre": "Más agentes metropolitanos o guardia municipal"
+  },
+  {
+   "id": "seg_iluminacion",
+   "eje": "seguridad",
+   "nombre": "Iluminación y recuperación de espacios inseguros"
+  },
+  {
+   "id": "seg_comunitaria",
+   "eje": "seguridad",
+   "nombre": "Alarmas comunitarias y comités barriales"
+  },
+  {
+   "id": "seg_prevencion_jovenes",
+   "eje": "seguridad",
+   "nombre": "Prevención de violencia en niñez y juventud"
+  },
+  {
+   "id": "seg_mujeres",
+   "eje": "seguridad",
+   "nombre": "Violencia de género y acoso en el transporte"
+  },
+  {
+   "id": "seg_escolar",
+   "eje": "seguridad",
+   "nombre": "Entornos escolares seguros"
+  },
+  {
+   "id": "seg_riesgos",
+   "eje": "seguridad",
+   "nombre": "Gestión de riesgos: incendios, deslaves, bomberos"
+  },
+  {
+   "id": "seg_metas",
+   "eje": "seguridad",
+   "nombre": "Metas medibles de reducción de delitos"
+  },
+  {
+   "id": "ser_agua",
+   "eje": "servicios",
+   "nombre": "Ampliar agua potable y alcantarillado"
+  },
+  {
+   "id": "ser_perdidas",
+   "eje": "servicios",
+   "nombre": "Reducir pérdidas de agua"
+  },
+  {
+   "id": "ser_ptar",
+   "eje": "servicios",
+   "nombre": "Tratamiento de aguas residuales"
+  },
+  {
+   "id": "ser_reciclaje",
+   "eje": "servicios",
+   "nombre": "Separación en la fuente y reciclaje"
+  },
+  {
+   "id": "ser_recicladores",
+   "eje": "servicios",
+   "nombre": "Inclusión de recicladores de base"
+  },
+  {
+   "id": "ser_recoleccion",
+   "eje": "servicios",
+   "nombre": "Recolección de basura moderna (contenedores, automatizada)"
+  },
+  {
+   "id": "ser_relleno",
+   "eje": "servicios",
+   "nombre": "Nueva solución para la disposición final de basura"
+  },
+  {
+   "id": "ser_tasa",
+   "eje": "servicios",
+   "nombre": "Revisar la tasa de recolección de basura",
+   "generico": true
+  },
+  {
+   "id": "amb_rios",
+   "eje": "ambiente",
+   "nombre": "Descontaminar ríos (Machángara, Monjas, San Pedro)"
+  },
+  {
+   "id": "amb_quebradas",
+   "eje": "ambiente",
+   "nombre": "Recuperar quebradas"
+  },
+  {
+   "id": "amb_arboles",
+   "eje": "ambiente",
+   "nombre": "Arbolado urbano y reforestación"
+  },
+  {
+   "id": "amb_parques",
+   "eje": "ambiente",
+   "nombre": "Más y mejores parques y plazas"
+  },
+  {
+   "id": "amb_paramos",
+   "eje": "ambiente",
+   "nombre": "Proteger páramos, fuentes de agua y áreas protegidas"
+  },
+  {
+   "id": "amb_aire",
+   "eje": "ambiente",
+   "nombre": "Calidad del aire y monitoreo ambiental"
+  },
+  {
+   "id": "amb_esponja",
+   "eje": "ambiente",
+   "nombre": "Drenaje sostenible y control de inundaciones"
+  },
+  {
+   "id": "amb_animales",
+   "eje": "ambiente",
+   "nombre": "Bienestar animal"
+  },
+  {
+   "id": "amb_mineria",
+   "eje": "ambiente",
+   "nombre": "Quito sin minería / Chocó Andino (consulta popular)"
+  },
+  {
+   "id": "amb_clima",
+   "eje": "ambiente",
+   "nombre": "Plan de cambio climático",
+   "generico": true
+  },
+  {
+   "id": "eco_semilla",
+   "eje": "economia",
+   "nombre": "Capital semilla y fondos para emprendimientos"
+  },
+  {
+   "id": "eco_incubadoras",
+   "eje": "economia",
+   "nombre": "Incubadoras e innovación"
+  },
+  {
+   "id": "eco_tramites",
+   "eje": "economia",
+   "nombre": "Simplificar trámites y permisos para negocios"
+  },
+  {
+   "id": "eco_incentivos",
+   "eje": "economia",
+   "nombre": "Incentivos tributarios para invertir o formalizarse",
+   "generico": true
+  },
+  {
+   "id": "eco_empleo_joven",
+   "eje": "economia",
+   "nombre": "Empleo joven y primer empleo"
+  },
+  {
+   "id": "eco_bolsa",
+   "eje": "economia",
+   "nombre": "Bolsa de empleo y formación técnica"
+  },
+  {
+   "id": "eco_metas_empleo",
+   "eje": "economia",
+   "nombre": "Metas cuantificadas de creación de empleo"
+  },
+  {
+   "id": "eco_mercados",
+   "eje": "economia",
+   "nombre": "Modernizar mercados municipales"
+  },
+  {
+   "id": "eco_comercio_autonomo",
+   "eje": "economia",
+   "nombre": "Ordenar y formalizar el comercio autónomo"
+  },
+  {
+   "id": "eco_inversion",
+   "eje": "economia",
+   "nombre": "Atraer inversión: zonas francas, ZEDE, logística"
+  },
+  {
+   "id": "eco_eps",
+   "eje": "economia",
+   "nombre": "Economía popular y solidaria, ferias y compras locales"
+  },
+  {
+   "id": "eco_empresas_publicas",
+   "eje": "economia",
+   "nombre": "Crear o ampliar empresas públicas municipales",
+   "generico": true
+  },
+  {
+   "id": "bar_regularizacion",
+   "eje": "barrios",
+   "nombre": "Regularizar barrios y entregar escrituras"
+  },
+  {
+   "id": "bar_vivienda",
+   "eje": "barrios",
+   "nombre": "Vivienda de interés social"
+  },
+  {
+   "id": "bar_rural",
+   "eje": "barrios",
+   "nombre": "Obras y servicios en parroquias rurales"
+  },
+  {
+   "id": "bar_integral",
+   "eje": "barrios",
+   "nombre": "Mejoramiento integral de barrios"
+  },
+  {
+   "id": "bar_participativo",
+   "eje": "barrios",
+   "nombre": "Presupuestos participativos"
+  },
+  {
+   "id": "bar_centralidades",
+   "eje": "barrios",
+   "nombre": "Descentralizar: administraciones zonales y centralidades"
+  },
+  {
+   "id": "bar_mantenimiento",
+   "eje": "barrios",
+   "nombre": "Mantener obras existentes y terminar las pendientes"
+  },
+  {
+   "id": "bar_salud",
+   "eje": "barrios",
+   "nombre": "Salud municipal (centros, brigadas)"
+  },
+  {
+   "id": "bar_educacion",
+   "eje": "barrios",
+   "nombre": "Educación municipal (colegios, institutos, universidad)"
+  },
+  {
+   "id": "bar_adultos",
+   "eje": "barrios",
+   "nombre": "Adultos mayores y cuidado",
+   "generico": true
+  },
+  {
+   "id": "fin_digital",
+   "eje": "finanzas",
+   "nombre": "Trámites en línea, sin filas"
+  },
+  {
+   "id": "fin_datos",
+   "eje": "finanzas",
+   "nombre": "Datos abiertos y transparencia del gasto"
+  },
+  {
+   "id": "fin_anticorrupcion",
+   "eje": "finanzas",
+   "nombre": "Anticorrupción y auditoría de contratos"
+  },
+  {
+   "id": "fin_seguimiento",
+   "eje": "finanzas",
+   "nombre": "Tablero público de cumplimiento de metas"
+  },
+  {
+   "id": "fin_participacion",
+   "eje": "finanzas",
+   "nombre": "Veedurías y participación ciudadana"
+  },
+  {
+   "id": "fin_reestructura",
+   "eje": "finanzas",
+   "nombre": "Reducir burocracia y reestructurar el Municipio"
+  },
+  {
+   "id": "fin_financiamiento",
+   "eje": "finanzas",
+   "nombre": "Plan explícito de costos y fuentes de financiamiento"
+  },
+  {
+   "id": "fin_ingresos",
+   "eje": "finanzas",
+   "nombre": "Mejorar ingresos propios: catastro, cartera, tasas"
+  },
+  {
+   "id": "fin_no_impuestos",
+   "eje": "finanzas",
+   "nombre": "No subir impuestos ni tasas municipales",
+   "generico": true
+  },
+  {
+   "id": "cul_agenda",
+   "eje": "cultura",
+   "nombre": "Agenda cultural descentralizada"
+  },
+  {
+   "id": "cul_deporte",
+   "eje": "cultura",
+   "nombre": "Deporte barrial y escuelas deportivas"
+  },
+  {
+   "id": "cul_turismo",
+   "eje": "cultura",
+   "nombre": "Promoción turística de Quito"
+  },
+  {
+   "id": "cul_rural",
+   "eje": "cultura",
+   "nombre": "Turismo rural y de naturaleza"
+  },
+  {
+   "id": "cul_centro",
+   "eje": "cultura",
+   "nombre": "Recuperar el Centro Histórico y el patrimonio"
+  },
+  {
+   "id": "cul_eventos",
+   "eje": "cultura",
+   "nombre": "Grandes eventos, congresos y conciertos"
+  },
+  {
+   "id": "cul_industrias",
+   "eje": "cultura",
+   "nombre": "Industrias creativas y fondos culturales"
   }
  ]
 };

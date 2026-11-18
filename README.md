@@ -2,9 +2,13 @@
 
 Comparación neutral de las propuestas de los 10 candidatos a la Alcaldía del Distrito Metropolitano de Quito (elecciones seccionales del 29 de noviembre de 2026). No hay ranking: cada propuesta lleva su fuente y cuatro indicadores descriptivos (concreta, plazo, costo, competencia municipal).
 
+## Mi afinidad
+Formulario de intereses por eje (`data/intereses.json`) con peso por eje (Nada/Algo/Mucho). Para cada interés se toma la mejor propuesta etiquetada de cada candidato: 50 puntos base, +20 si es concreta, +10 si tiene plazo, +10 si indica costo y +10 si es competencia municipal (+5 si es compartida). La afinidad es el promedio ponderado. Los resultados salen primero en modo ciego, se pueden compartir por enlace y se calculan en el navegador, sin guardar nada.
+
 ## Estructura
 - `index.html`: la página (estática, sin dependencias de build).
 - `data/candidatos.json`: los datos fuente; edítelos aquí.
+- `data/intereses.json`: catálogo de intereses; cada propuesta lleva `intereses` en `candidatos.json`.
 - `data.js`: generado; regenerar con `python3 scripts/build_data.py`.
 
 ## Publicar en GitHub Pages

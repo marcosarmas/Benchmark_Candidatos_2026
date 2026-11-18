@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Benchmark Alcaldía Quito 2026</title>
+<meta name="description" content="Comparación neutral de las propuestas de los candidatos a la Alcaldía de Quito, elecciones seccionales del 29 de noviembre de 2026.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f7f6f3; --surface:#ffffff; --surface-2:#f0eee9; --text:#1d1f23; --muted:#5d6370;
+  --line:#dedad2; --accent:#1f5f8b; --accent-soft:#e3eef6;
+  --yes:#2f7a4f; --yes-soft:#e2f1e7; --no:#9a5b13; --no-soft:#f7ecdc; --off:#8a8f98; --off-soft:#eceef0;
+  --shadow:0 1px 2px rgba(0,0,0,.05),0 4px 14px rgba(0,0,0,.04);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#14161a; --surface:#1c1f24; --surface-2:#24282e; --text:#e8e9ec; --muted:#a0a6b0;
+    --line:#33383f; --accent:#7db7e0; --accent-soft:#1e3242;
+    --yes:#7ccf9c; --yes-soft:#1d3327; --no:#e6b066; --no-soft:#3a2c17; --off:#8d939c; --off-soft:#2a2e34;
+    --shadow:none;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#14161a; --surface:#1c1f24; --surface-2:#24282e; --text:#e8e9ec; --muted:#a0a6b0;
+  --line:#33383f; --accent:#7db7e0; --accent-soft:#1e3242;
+  --yes:#7ccf9c; --yes-soft:#1d3327; --no:#e6b066; --no-soft:#3a2c17; --off:#8d939c; --off-soft:#2a2e34;
+  --shadow:none;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--text);font:15px/1.55 Inter,system-ui,-apple-system,"Segoe UI",sans-serif}
+a{color:var(--accent)}
+.wrap{max-width:1180px;margin:0 auto;padding:0 16px}
+header.top{border-bottom:1px solid var(--line);background:var(--surface)}
+header.top .wrap{padding-top:28px;padding-bottom:22px}
+.kicker{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:600}
+h1{font-family:"Source Serif 4",Georgia,serif;font-size:clamp(26px,4.4vw,40px);line-height:1.15;margin:6px 0 10px}
+h2{font-family:"Source Serif 4",Georgia,serif;font-size:24px;margin:0 0 6px}
+.lede{color:var(--muted);max-width:760px;margin:0}
+.facts{display:flex;flex-wrap:wrap;gap:8px 18px;margin-top:16px;font-size:14px}
+.facts b{font-weight:600}
+nav.tabs{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(6px);border-bottom:1px solid var(--line)}
+nav.tabs .wrap{display:flex;gap:4px;overflow-x:auto;scrollbar-width:none}
+nav.tabs button{flex:none;border:0;background:none;color:var(--muted);font:inherit;font-weight:600;padding:13px 12px;border-bottom:2px solid transparent;cursor:pointer}
+nav.tabs button[aria-selected="true"]{color:var(--text);border-color:var(--accent)}
+main{padding:26px 0 60px}
+section[hidden]{display:none}
+.sub{color:var(--muted);margin:0 0 18px;max-width:780px}
+.controls{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:18px}
+select,input[type=search]{font:inherit;color:var(--text);background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:8px 10px;min-width:0}
+input[type=search]{flex:1 1 240px}
+.chip-row{display:flex;flex-wrap:wrap;gap:6px}
+.chip{border:1px solid var(--line);background:var(--surface);color:var(--text);border-radius:999px;padding:5px 11px;font:inherit;font-size:13px;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--accent-soft);border-color:var(--accent);color:var(--text)}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;box-shadow:var(--shadow)}
+/* matriz */
+.matrix-wrap{overflow-x:auto;border-radius:12px;border:1px solid var(--line);background:var(--surface)}
+table.matrix{border-collapse:separate;border-spacing:0;width:100%;min-width:860px;font-size:13px}
+.matrix th,.matrix td{border-bottom:1px solid var(--line);padding:10px 8px;text-align:center;vertical-align:middle}
+.matrix thead th{font-weight:600;background:var(--surface-2);position:sticky;top:0}
+.matrix th.rowh{text-align:left;position:sticky;left:0;background:var(--surface);min-width:150px;z-index:1}
+.matrix thead th.rowh{background:var(--surface-2);z-index:2}
+.matrix tr:last-child td,.matrix tr:last-child th{border-bottom:0}
+.cell{display:inline-flex;flex-direction:column;align-items:center;gap:3px;cursor:pointer;border:0;background:none;color:inherit;font:inherit;padding:4px 6px;border-radius:8px}
+.cell:hover{background:var(--surface-2)}
+.cell .n{font-size:17px;font-weight:700;font-variant-numeric:tabular-nums}
+.cell.empty .n{color:var(--off)}
+.dots{display:flex;gap:3px}
+.dot{width:7px;height:7px;border-radius:50%;background:var(--off-soft);border:1px solid var(--line)}
+.dot.on{background:var(--yes);border-color:var(--yes)}
+.legend{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:13px;color:var(--muted);margin:12px 2px 0}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+/* propuestas */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px}
+.cand-head{display:flex;gap:12px;align-items:center;padding:14px 16px;border-bottom:1px solid var(--line)}
+.avatar{flex:none;width:40px;height:40px;border-radius:50%;background:var(--surface-2);border:1px solid var(--line);display:grid;place-items:center;font-weight:700;font-size:14px;color:var(--muted)}
+.cand-head .name{font-weight:600;line-height:1.25}
+.cand-head .org{font-size:13px;color:var(--muted)}
+.plist{list-style:none;margin:0;padding:6px 16px 14px}
+.plist li{padding:10px 0;border-bottom:1px dashed var(--line)}
+.plist li:last-child{border-bottom:0}
+.plist .t{margin:0 0 6px}
+.badges{display:flex;flex-wrap:wrap;gap:5px;align-items:center}
+.b{font-size:11.5px;font-weight:600;border-radius:5px;padding:2px 7px;white-space:nowrap}
+.b.yes{background:var(--yes-soft);color:var(--yes)}
+.b.no{background:var(--no-soft);color:var(--no)}
+.b.off{background:var(--off-soft);color:var(--off)}
+.src{font-size:12px;color:var(--muted);margin-left:auto}
+.src a{color:var(--muted)}
+.none{color:var(--off);font-style:italic;padding:14px 16px;margin:0}
+.eje-tag{font-size:11.5px;font-weight:600;color:var(--accent);text-transform:uppercase;letter-spacing:.04em;margin-bottom:3px}
+/* comparar */
+.compare{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.cmp-row{display:contents}
+.cmp-eje{grid-column:1/-1;font-family:"Source Serif 4",Georgia,serif;font-weight:700;font-size:18px;margin:14px 0 -4px;padding-top:10px;border-top:1px solid var(--line)}
+@media (max-width:720px){.compare{grid-template-columns:1fr}}
+/* perfiles */
+.profiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px}
+.profile{padding:16px}
+.profile .cand-head{padding:0 0 12px;margin-bottom:12px}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:12px}
+.stat{background:var(--surface-2);border-radius:8px;padding:8px;text-align:center}
+.stat b{display:block;font-size:18px;font-variant-numeric:tabular-nums}
+.stat span{font-size:11.5px;color:var(--muted)}
+.note{font-size:13px;color:var(--muted);margin-top:10px}
+/* metodologia */
+.prose{max-width:780px}
+.prose h3{font-size:16px;margin:22px 0 6px}
+.prose li{margin:4px 0}
+.warn{background:var(--no-soft);border:1px solid color-mix(in srgb,var(--no) 35%,transparent);border-radius:10px;padding:12px 14px;margin:18px 0;font-size:14px}
+footer{border-top:1px solid var(--line);padding:22px 0;color:var(--muted);font-size:13px}
+.theme-toggle{float:right;border:1px solid var(--line);background:var(--surface);color:var(--text);border-radius:8px;padding:6px 10px;font:inherit;font-size:13px;cursor:pointer}
+.empty-state{padding:30px;text-align:center;color:var(--muted)}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <button class="theme-toggle" id="themeBtn" type="button" aria-label="Cambiar tema">Tema</button>
+    <div class="kicker">Elecciones seccionales · Distrito Metropolitano de Quito</div>
+    <h1>¿Qué proponen los candidatos a la Alcaldía de Quito?</h1>
+    <p class="lede">Una comparación neutral de las propuestas públicas de los candidatos, organizada por eje temático. No hay ranking ni ganador. Solo se indica si cada propuesta es concreta, si tiene plazo, si dice cuánto cuesta y si le toca al Municipio.</p>
+    <div class="facts">
+      <span>Votación: <b>domingo 29 de noviembre de 2026</b></span>
+      <span>Candidatos: <b id="nCand">–</b></span>
+      <span>Periodo: <b>2027–2031</b></span>
+      <span>Datos al: <b id="corte">–</b></span>
+    </div>
+  </div>
+</header>
+
+<nav class="tabs" aria-label="Secciones">
+  <div class="wrap" role="tablist">
+    <button role="tab" data-tab="matriz" aria-selected="true">Matriz</button>
+    <button role="tab" data-tab="ejes" aria-selected="false">Por eje</button>
+    <button role="tab" data-tab="comparar" aria-selected="false">Comparar</button>
+    <button role="tab" data-tab="candidatos" aria-selected="false">Candidatos</button>
+    <button role="tab" data-tab="metodo" aria-selected="false">Metodología</button>
+  </div>
+</nav>
+
+<main class="wrap">
+  <section id="tab-matriz">
+    <h2>Matriz de cobertura</h2>
+    <p class="sub">Cuántas propuestas encontramos de cada candidato en cada eje. Los cuatro puntos muestran qué parte de esas propuestas es concreta, tiene plazo, dice su costo o financiamiento y es competencia municipal. Toque una celda para ver el detalle.</p>
+    <div class="matrix-wrap"><table class="matrix" id="matrix"></table></div>
+    <div class="legend">
+      <span><span class="dots"><i class="dot on"></i><i class="dot"></i><i class="dot"></i><i class="dot"></i></span> Concreta · Plazo · Costo · Competencia (relleno = la mitad o más de sus propuestas en ese eje)</span>
+    </div>
+  </section>
+
+  <section id="tab-ejes" hidden>
+    <h2>Propuestas por eje</h2>
+    <p class="sub">Elija un eje para ver lado a lado lo que dice cada candidato. Puede buscar por palabra, como "metro", "agua" o "seguridad".</p>
+    <div class="controls">
+      <select id="ejeSel" aria-label="Eje temático"></select>
+      <input type="search" id="q" placeholder="Buscar en todas las propuestas…" aria-label="Buscar">
+    </div>
+    <div class="controls"><div class="chip-row" id="candChips" aria-label="Filtrar candidatos"></div></div>
+    <div class="grid" id="ejeGrid"></div>
+  </section>
+
+  <section id="tab-comparar" hidden>
+    <h2>Comparar dos candidatos</h2>
+    <p class="sub">Escoja dos candidatos y revise sus propuestas eje por eje.</p>
+    <div class="controls">
+      <select id="cmpA" aria-label="Candidato A"></select>
+      <span style="color:var(--muted)">vs.</span>
+      <select id="cmpB" aria-label="Candidato B"></select>
+    </div>
+    <div class="compare" id="cmpGrid"></div>
+  </section>
+
+  <section id="tab-candidatos" hidden>
+    <h2>Candidatos</h2>
+    <p class="sub">Ordenados por número de lista. Los perfiles salen de la prensa citada.</p>
+    <div class="profiles" id="profiles"></div>
+  </section>
+
+  <section id="tab-metodo" hidden>
+    <div class="prose">
+      <h2>Metodología</h2>
+      <p>Este benchmark recopila las propuestas que los candidatos han hecho públicas: planes de trabajo inscritos en el CNE, entrevistas y cobertura de prensa. Cada propuesta lleva el enlace a su fuente.</p>
+      <h3>Ejes</h3>
+      <ul id="ejesList"></ul>
+      <h3>Indicadores (descriptivos, no son puntaje)</h3>
+      <ul>
+        <li><b>Concreta:</b> nombra una acción, obra o meta específica, y no solo una intención general.</li>
+        <li><b>Plazo:</b> la fuente menciona cuándo se ejecutaría.</li>
+        <li><b>Costo:</b> la fuente menciona cuánto costaría o de dónde saldría la plata.</li>
+        <li><b>Competencia:</b> si la acción le corresponde al Municipio del DMQ según el COOTAD (<i>sí</i>), si la comparte con otros niveles de gobierno (<i>parcial</i>) o si le toca a otra institución, como la Policía Nacional o la justicia (<i>no</i>).</li>
+      </ul>
+      <h3>Limitaciones</h3>
+      <ul>
+        <li>Que un eje salga vacío no significa que el candidato no tenga propuesta. Solo quiere decir que no la encontramos en las fuentes revisadas.</li>
+        <li>Las propuestas están resumidas. Para el texto completo, revise la fuente original y el plan de trabajo en el CNE.</li>
+        <li>La cantidad de propuestas depende de cuánta cobertura de prensa tuvo cada candidato, no de la calidad de su plan.</li>
+        <li>Los candidatos aparecen por número de lista, para no favorecer a ninguno.</li>
+      </ul>
+      <div class="warn">Si encuentra un error o una propuesta que falta, abra un <i>issue</i> en el repositorio con el enlace a la fuente.</div>
+      <h3>Fuentes consultadas</h3>
+      <ul id="fuentes"></ul>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">Proyecto ciudadano independiente, sin afiliación política. No representa a ningún candidato, partido ni al CNE. Información oficial: <a href="https://www.cne.gob.ec/" rel="noopener">cne.gob.ec</a>.</div>
+</footer>
+
+<script src="data.js"></script>
+<script>
+(function(){
+  const D = window.BENCHMARK || {candidatos:[],ejes:[]};
+  const EJES = D.ejes;
+  const C = D.candidatos.slice().sort((a,b)=>listNum(a.lista)-listNum(b.lista));
+  const $ = s=>document.querySelector(s);
+  const esc = s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  function listNum(l){const n=parseInt(String(l||'').split(/[^0-9]/)[0],10);return isNaN(n)?999:n}
+  function initials(n){return n.split(/\s+/).filter(Boolean).slice(0,2).map(w=>w[0]).join('').toUpperCase()}
+  function props(c,eje){return (c.propuestas&&c.propuestas[eje])||[]}
+  function allProps(c){return EJES.flatMap(e=>props(c,e.key).map(p=>({...p,eje:e.key})))}
+  function ejeName(k){return (EJES.find(e=>e.key===k)||{}).nombre||k}
+
+  $('#nCand').textContent = C.length;
+  $('#corte').textContent = D.corte || '–';
+
+  // tabs
+  const tabs=[...document.querySelectorAll('nav.tabs button')];
+  function show(name){
+    tabs.forEach(b=>b.setAttribute('aria-selected',b.dataset.tab===name));
+    document.querySelectorAll('main>section').forEach(s=>s.hidden = s.id!=='tab-'+name);
+    try{history.replaceState(null,'','#'+name)}catch(e){}
+  }
+  tabs.forEach(b=>b.addEventListener('click',()=>show(b.dataset.tab)));
+
+  // theme
+  const root=document.documentElement;
+  try{const t=localStorage.getItem('theme');if(t)root.dataset.theme=t}catch(e){}
+  $('#themeBtn').addEventListener('click',()=>{
+    const dark = root.dataset.theme ? root.dataset.theme==='dark' : matchMedia('(prefers-color-scheme: dark)').matches;
+    root.dataset.theme = dark?'light':'dark';
+    try{localStorage.setItem('theme',root.dataset.theme)}catch(e){}
+  });
+
+  function badges(p){
+    const comp={si:['yes','Competencia municipal'],parcial:['no','Competencia compartida'],no:['off','No es competencia municipal']}[p.competencia]||['off','Competencia: s/d'];
+    return `<div class="badges">
+      <span class="b ${p.concreta?'yes':'off'}">${p.concreta?'Concreta':'General'}</span>
+      <span class="b ${p.plazo?'yes':'off'}" title="${esc(p.plazo||'')}">${p.plazo?'Plazo: '+esc(p.plazo):'Sin plazo'}</span>
+      <span class="b ${p.costo?'yes':'off'}" title="${esc(p.costo||'')}">${p.costo?'Costo indicado':'Sin costo'}</span>
+      <span class="b ${comp[0]}">${comp[1]}</span>
+      ${p.fuente?`<span class="src"><a href="${esc(p.fuente)}" target="_blank" rel="noopener">${esc(p.medio||'Fuente')}${p.fecha?' · '+esc(p.fecha):''}</a></span>`:''}
+    </div>`;
+  }
+  function headHTML(c){
+    return `<div class="cand-head"><div class="avatar" aria-hidden="true">${esc(initials(c.nombre))}</div>
+      <div><div class="name">${esc(c.nombre)}</div><div class="org">${esc(c.organizacion)}${c.lista?' · Lista '+esc(c.lista):''}</div></div></div>`;
+  }
+  function listHTML(ps,showEje){
+    if(!ps.length) return `<p class="none">No encontramos propuestas en las fuentes revisadas.</p>`;
+    return `<ul class="plist">${ps.map(p=>`<li>${showEje?`<div class="eje-tag">${esc(ejeName(p.eje))}</div>`:''}<p class="t">${esc(p.texto)}</p>${badges(p)}</li>`).join('')}</ul>`;
+  }
+
+  // matriz
+  function share(ps,f){return ps.length? ps.filter(f).length/ps.length : 0}
+  function renderMatrix(){
+    let h='<thead><tr><th class="rowh" scope="col">Eje</th>'+C.map(c=>`<th scope="col">${esc(c.nombre.split(' ').slice(0,1).join(' '))}<br><span style="font-weight:400;color:var(--muted)">${esc(c.nombre.split(' ').slice(-1)[0])}</span></th>`).join('')+'</tr></thead><tbody>';
+    EJES.forEach(e=>{
+      h+=`<tr><th class="rowh" scope="row">${esc(e.nombre)}</th>`;
+      C.forEach(c=>{
+        const ps=props(c,e.key);
+        const d=[share(ps,p=>p.concreta),share(ps,p=>p.plazo),share(ps,p=>p.costo),share(ps,p=>p.competencia==='si')];
+        const lab=`${c.nombre}, ${e.nombre}: ${ps.length} propuestas`;
+        h+=`<td><button class="cell ${ps.length?'':'empty'}" data-eje="${e.key}" aria-label="${esc(lab)}"><span class="n">${ps.length}</span>${ps.length?`<span class="dots">${d.map(v=>`<i class="dot ${v>=.5?'on':''}"></i>`).join('')}</span>`:''}</button></td>`;
+      });
+      h+='</tr>';
+    });
+    h+='<tr><th class="rowh" scope="row"><b>Total</b></th>'+C.map(c=>`<td><b>${allProps(c).length}</b></td>`).join('')+'</tr></tbody>';
+    $('#matrix').innerHTML=h;
+    $('#matrix').addEventListener('click',ev=>{const b=ev.target.closest('.cell');if(!b)return;$('#ejeSel').value=b.dataset.eje;$('#q').value='';renderEje();show('ejes');window.scrollTo({top:0})});
+  }
+
+  // por eje
+  const selected=new Set(C.map(c=>c.id));
+  function renderChips(){
+    $('#candChips').innerHTML=C.map(c=>`<button class="chip" data-id="${c.id}" aria-pressed="${selected.has(c.id)}">${esc(c.nombre)}</button>`).join('');
+  }
+  $('#candChips').addEventListener('click',ev=>{const b=ev.target.closest('.chip');if(!b)return;const id=b.dataset.id;selected.has(id)?selected.delete(id):selected.add(id);b.setAttribute('aria-pressed',selected.has(id));renderEje()});
+  $('#ejeSel').innerHTML=EJES.map(e=>`<option value="${e.key}">${esc(e.nombre)}</option>`).join('');
+  function renderEje(){
+    const q=$('#q').value.trim().toLowerCase();
+    const eje=$('#ejeSel').value;
+    const cards=C.filter(c=>selected.has(c.id)).map(c=>{
+      let ps = q ? allProps(c).filter(p=>p.texto.toLowerCase().includes(q)) : props(c,eje).map(p=>({...p,eje}));
+      if(q && !ps.length) return '';
+      return `<article class="card">${headHTML(c)}${listHTML(ps,!!q)}</article>`;
+    }).join('');
+    $('#ejeGrid').innerHTML = cards || `<div class="empty-state">No hay resultados.</div>`;
+    $('#ejeSel').disabled=!!q;
+  }
+  $('#ejeSel').addEventListener('change',renderEje);
+  $('#q').addEventListener('input',renderEje);
+
+  // comparar
+  const opts=C.map(c=>`<option value="${c.id}">${esc(c.nombre)}</option>`).join('');
+  $('#cmpA').innerHTML=opts;$('#cmpB').innerHTML=opts;
+  if(C[1]) $('#cmpB').value=C[1].id;
+  function renderCmp(){
+    const a=C.find(c=>c.id===$('#cmpA').value), b=C.find(c=>c.id===$('#cmpB').value);
+    if(!a||!b){$('#cmpGrid').innerHTML='';return}
+    let h=`<article class="card">${headHTML(a)}</article><article class="card">${headHTML(b)}</article>`;
+    EJES.forEach(e=>{
+      h+=`<div class="cmp-eje">${esc(e.nombre)}</div>`;
+      [a,b].forEach(c=>{h+=`<article class="card">${listHTML(props(c,e.key).map(p=>({...p,eje:e.key})),false)}</article>`});
+    });
+    $('#cmpGrid').innerHTML=h;
+  }
+  $('#cmpA').addEventListener('change',renderCmp);$('#cmpB').addEventListener('change',renderCmp);
+
+  // perfiles
+  function renderProfiles(){
+    $('#profiles').innerHTML=C.map(c=>{
+      const ps=allProps(c), n=ps.length, pct=f=>n?Math.round(100*ps.filter(f).length/n)+'%':'–';
+      return `<article class="card profile">${headHTML(c)}
+        <div>${esc(c.perfil||'')} ${c.perfil_fuente?`<a href="${esc(c.perfil_fuente)}" target="_blank" rel="noopener" style="font-size:12px">fuente</a>`:''}</div>
+        <div class="stats"><div class="stat"><b>${n}</b><span>propuestas</span></div><div class="stat"><b>${pct(p=>p.concreta)}</b><span>concretas</span></div><div class="stat"><b>${pct(p=>p.costo)}</b><span>con costo</span></div></div>
+        ${c.plan_cne_url?`<div class="note"><a href="${esc(c.plan_cne_url)}" target="_blank" rel="noopener">Plan de trabajo (CNE)</a></div>`:''}
+        ${c.notas?`<div class="note">Nota: ${esc(c.notas)}</div>`:''}
+      </article>`;
+    }).join('');
+  }
+
+  // metodología
+  $('#ejesList').innerHTML=EJES.map(e=>`<li><b>${esc(e.nombre)}</b>${e.desc?': '+esc(e.desc):''}</li>`).join('');
+  const src=new Map();
+  C.forEach(c=>{allProps(c).forEach(p=>{if(p.fuente&&!src.has(p.fuente))src.set(p.fuente,p.medio||p.fuente)});if(c.perfil_fuente&&!src.has(c.perfil_fuente))src.set(c.perfil_fuente,'Perfil');});
+  $('#fuentes').innerHTML=[...src].map(([u,m])=>`<li><a href="${esc(u)}" target="_blank" rel="noopener">${esc(m)}</a> <span style="color:var(--muted);font-size:12px;word-break:break-all">${esc(u)}</span></li>`).join('');
+
+  renderMatrix();renderChips();renderEje();renderCmp();renderProfiles();
+  const h=location.hash.slice(1); if(tabs.some(b=>b.dataset.tab===h)) show(h);
+})();
+</script>
+</body>
+</html>

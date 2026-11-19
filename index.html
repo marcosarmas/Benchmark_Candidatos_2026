@@ -178,6 +178,35 @@ footer{border-top:1px solid var(--line);padding:22px 0;color:var(--muted);font-s
 #results{scroll-margin-top:64px}
 .toast{position:fixed;left:50%;bottom:22px;transform:translateX(-50%);background:var(--text);color:var(--bg);padding:9px 16px;border-radius:8px;font-size:14px;opacity:0;transition:opacity .2s;pointer-events:none}
 .toast.show{opacity:1}
+/* contrapesos (MaxDiff) */
+.md{padding:18px 18px 16px;margin:6px 0 26px}
+.md-top{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;font-size:13px;color:var(--muted);margin-bottom:8px}
+.md-prog{height:6px;background:var(--surface-2);border-radius:99px;overflow:hidden;margin-bottom:16px}
+.md-prog i{display:block;height:100%;background:var(--accent)}
+.md-q{font-weight:600;margin:0 0 12px}
+.md-head{display:grid;grid-template-columns:1fr 64px 64px;gap:8px;font-size:12px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.04em;padding:0 2px 6px}
+.md-head span{text-align:center}
+.md-row{display:grid;grid-template-columns:1fr 64px 64px;gap:8px;align-items:center;padding:10px 2px;border-top:1px solid var(--line)}
+.md-row .it{font-size:15px;line-height:1.35}
+.md-row .ej{display:block;font-size:11.5px;color:var(--accent);font-weight:600;text-transform:uppercase;letter-spacing:.03em;margin-top:2px}
+.pick{height:40px;border-radius:8px;border:1px solid var(--line);background:var(--surface);color:var(--muted);font:inherit;font-size:13px;font-weight:700;cursor:pointer}
+.pick.best[aria-pressed="true"]{background:var(--yes-soft);border-color:var(--yes);color:var(--yes)}
+.pick.worst[aria-pressed="true"]{background:var(--no-soft);border-color:var(--no);color:var(--no)}
+.md-row.is-best{background:color-mix(in srgb,var(--yes-soft) 55%,transparent)}
+.md-row.is-worst{background:color-mix(in srgb,var(--no-soft) 55%,transparent)}
+.md-nav{display:flex;flex-wrap:wrap;gap:8px;justify-content:space-between;align-items:center;margin-top:14px}
+.md-nav .grp{display:flex;gap:8px;flex-wrap:wrap}
+.btn:disabled{opacity:.45;cursor:not-allowed}
+.md-done h3{margin:0 0 6px;font-family:"Source Serif 4",Georgia,serif;font-size:20px}
+.md-done p{margin:0 0 14px;color:var(--muted)}
+.prio{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:4px 0 18px}
+@media (max-width:640px){.prio{grid-template-columns:1fr}}
+.prio .card{padding:12px 16px}
+.prio h3{font-size:13px;text-transform:uppercase;letter-spacing:.04em;margin:0 0 6px;color:var(--muted)}
+.prio ol{margin:0;padding-left:20px;font-size:14px}
+.prio li{margin:3px 0}
+.prio .w{color:var(--muted);font-size:12px;font-variant-numeric:tabular-nums}
+
 </style>
 </head>
 <body>
@@ -211,14 +240,9 @@ footer{border-top:1px solid var(--line);padding:22px 0;color:var(--muted);font-s
 <main class="wrap">
   <section id="tab-afinidad" hidden>
     <h2>¿Qué tanto coinciden los candidatos con lo que a usted le importa?</h2>
-    <p class="sub">Califique del 1 al 5 qué tan importante es para usted cada ítem (1 = poco, 5 = mucho). Los ítems que deje sin calificar no cuentan, y si pulsa otra vez la misma calificación, se borra. Calculamos qué tanto cubre cada candidato esos intereses, según sus propuestas públicas. Todo se calcula en su navegador y no se guarda ni se envía a ningún lado.</p>
-    <div class="warn"><b>Esto no es una recomendación de voto ni una encuesta.</b> La afinidad solo mide cuánto coinciden las propuestas publicadas con los temas que usted calificó. No evalúa trayectoria, viabilidad ni honestidad, y no dice quién sería mejor alcalde. Esa decisión es suya.</div>
-    <form id="prefForm" class="pref-grid" onsubmit="return false"></form>
-    <div class="actions">
-      <button type="button" class="btn primary" id="calcBtn">Calcular afinidad</button>
-      <button type="button" class="btn" id="resetBtn">Limpiar</button>
-      <span class="sel-count" id="selCount"></span>
-    </div>
+    <p class="sub">En cada pantalla verá 4 temas de la ciudad. Marque cuál le importa <b>más</b> y cuál le importa <b>menos</b>. No hay respuestas correctas: se trata de elegir, porque no todo puede ser prioridad. Con sus elecciones calculamos qué tanto cubre cada candidato lo que usted prioriza, según sus propuestas públicas. Todo se calcula en su navegador y no se envía a ningún lado.</p>
+    <div class="warn"><b>Esto no es una recomendación de voto ni una encuesta.</b> La afinidad solo mide cuánto coinciden las propuestas publicadas con las prioridades que usted eligió. No evalúa trayectoria, viabilidad ni honestidad, y no dice quién sería mejor alcalde. Esa decisión es suya.</div>
+    <div id="mdBox" class="card md"></div>
     <div id="results" hidden>
       <div class="res-head">
         <h2>Resultado</h2>
@@ -227,18 +251,20 @@ footer{border-top:1px solid var(--line);padding:22px 0;color:var(--muted);font-s
           <button type="button" class="btn" id="shareBtn">Copiar enlace</button>
         </div>
       </div>
+      <p class="sub" id="sharedNote" hidden>Este es un resultado compartido por otra persona. Para ver el suyo, pulse "Empezar de nuevo" arriba.</p>
+      <div id="prioBox" class="prio"></div>
       <p class="sub" id="blindNote">Modo ciego: los candidatos aparecen como letras al azar, para que lea las propuestas sin el peso del nombre ni del partido. Ojo, algunas propuestas mencionan el nombre de su programa y pueden dar una pista. Cuando quiera, pulse "Mostrar nombres".</p>
       <div id="resList"></div>
       <details class="how">
         <summary>¿Cómo se calcula?</summary>
         <ol>
-          <li>Cada ítem que usted califica se compara con las propuestas de cada candidato que tratan ese tema. Cada propuesta está etiquetada a mano con los intereses que toca.</li>
-          <li>Cada propuesta que coincide vale <b>50 puntos base</b>, y suma <b>+20</b> si es concreta, <b>+10</b> si tiene plazo, <b>+10</b> si indica costo o financiamiento y <b>+10</b> si es competencia municipal (+5 si es compartida). Se toma la mejor propuesta del candidato para ese interés, así que el máximo es 100.</li>
-          <li>Si el candidato no tiene propuesta sobre ese interés, vale 0.</li>
-          <li>Los puntos de cada ítem se multiplican por la importancia que usted le dio, del 1 al 5. Los ítems sin calificar no cuentan.</li>
-          <li>La afinidad es el promedio ponderado: suma de (importancia × puntos) dividida para la suma de (importancia × 100).</li>
+          <li><b>Sus prioridades:</b> cada tema recibe un peso según cuántas veces lo eligió como "más" o "menos" importante frente a otros. Peso = 3 + 2 × (veces "más" − veces "menos") ÷ veces mostrado. Un tema siempre elegido como "más" pesa 5, uno siempre "menos" pesa 1, y uno que nunca marcó pesa 3. Los temas que no se mostraron, o que saltó con "Me da igual", no cuentan.</li>
+          <li>Cada tema se compara con las propuestas de cada candidato que tratan ese tema. Cada propuesta está etiquetada a mano con los temas que toca.</li>
+          <li>Cada propuesta que coincide vale <b>50 puntos base</b>, y suma <b>+20</b> si es concreta, <b>+10</b> si tiene plazo, <b>+10</b> si indica costo o financiamiento y <b>+10</b> si es competencia municipal (+5 si es compartida). Se toma la mejor propuesta del candidato para ese tema, así que el máximo es 100. Si no tiene propuesta, vale 0.</li>
+          <li>La afinidad es el promedio ponderado: suma de (peso × puntos) dividida para la suma de (peso × 100).</li>
+          <li>Con "Seguir afinando" cada tema aparece otra vez en grupos distintos, y los pesos se vuelven más precisos.</li>
         </ol>
-        <p>Como en la matriz, que un interés salga en 0 solo quiere decir que no encontramos esa propuesta en las fuentes revisadas, no que el candidato esté en contra.</p>
+        <p>Como en la matriz, que un tema salga en 0 solo quiere decir que no encontramos esa propuesta en las fuentes revisadas, no que el candidato esté en contra.</p>
       </details>
     </div>
   </section>
@@ -294,7 +320,7 @@ footer{border-top:1px solid var(--line);padding:22px 0;color:var(--muted);font-s
         <li><b>Competencia:</b> si la acción le corresponde al <span class="municipio">Municipio</span> según el COOTAD (<i>sí</i>), si la comparte con otros niveles de gobierno (<i>parcial</i>) o si le toca a otra institución, como la Policía Nacional o la justicia (<i>no</i>).</li>
       </ul>
       <h3>Afinidad</h3>
-      <p>La herramienta "Mi afinidad" usa un catálogo de intereses por eje. Ese catálogo mezcla temas sacados de las propuestas con algunos temas genéricos de política municipal, marcados como "genérico". Cada propuesta se etiquetó a mano con los intereses que toca. El cálculo está explicado en esa misma sección. La afinidad depende solo de lo que marca el usuario: la página no propone ningún orden ni hace recomendaciones.</p>
+      <p>La herramienta "Mi afinidad" usa un cuestionario de contrapesos (método <i>MaxDiff</i>): en cada pantalla, el usuario elige el tema que más y el que menos le importa entre cuatro. Los temas salen de un catálogo de intereses por eje. Ese catálogo mezcla temas sacados de las propuestas con algunos temas genéricos de política municipal, marcados como "genérico". Cada propuesta se etiquetó a mano con los intereses que toca. El cálculo está explicado en esa misma sección. La afinidad depende solo de lo que marca el usuario: la página no propone ningún orden ni hace recomendaciones.</p>
       <h3>Limitaciones</h3>
       <ul>
         <li>Que un eje salga vacío no significa que el candidato no tenga propuesta. Solo quiere decir que no la encontramos en las fuentes revisadas.</li>
@@ -459,10 +485,11 @@ footer{border-top:1px solid var(--line);padding:22px 0;color:var(--muted);font-s
   C.forEach(c=>{allProps(c).forEach(p=>{if(p.fuente&&!src.has(p.fuente))src.set(p.fuente,p.medio||p.fuente)});if(c.perfil_fuente&&!src.has(c.perfil_fuente))src.set(c.perfil_fuente,'Perfil');});
   $('#fuentes').innerHTML=[...src].map(([u,m])=>`<li><a href="${esc(u)}" target="_blank" rel="noopener">${esc(m)}</a> <span style="color:var(--muted);font-size:12px;word-break:break-all">${esc(u)}</span></li>`).join('');
 
-  // ---------- afinidad ----------
+  // ---------- afinidad por contrapesos (MaxDiff) ----------
   const INT = D.intereses || [];
   const intById = Object.fromEntries(INT.map(i=>[i.id,i]));
-  const ratings = {}; // id -> 1..5 ; sin calificar = no cuenta
+  const ejeNombre = Object.fromEntries(EJES.map(e=>[e.key,e.nombre]));
+  const LSKEY = 'maxdiff:' + (window.CIUDAD||'quito');
   // etiquetas ciegas: permutación aleatoria por visita, independiente del número de lista
   const letters = C.map((_,i)=>String.fromCharCode(65+i));
   for(let i=letters.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[letters[i],letters[j]]=[letters[j],letters[i]]}
@@ -477,65 +504,130 @@ footer{border-top:1px solid var(--line);padding:22px 0;color:var(--muted);font-s
     allProps(c).forEach(p=>{ if((p.intereses||[]).includes(intId)){ const q=quality(p); if(!best||q>best.q) best={q,p}; } });
     return best;
   }
-  const STARS=[1,2,3,4,5];
-  function rateRow(i){
-    const r=ratings[i.id]||0;
-    return `<div class="opt" data-id="${i.id}">
-      <span class="opt-l">${esc(i.nombre)}${i.generico?'<span class="gen" title="Tema genérico de política municipal, no tomado de las propuestas">genérico</span>':''}</span>
-      <span class="rate" role="radiogroup" aria-label="Importancia: ${esc(i.nombre)}">
-        ${STARS.map(n=>`<button type="button" role="radio" data-r="${n}" aria-checked="${r===n}" class="${n<=r?'on':''}" title="${n} de 5">${n}</button>`).join('')}
-      </span></div>`;
+  function shuffle(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
+  // Arma grupos de 4 cubriendo todos los temas una vez, evitando repetir eje dentro del grupo
+  function makeRound(){
+    const pool=shuffle(INT.map(i=>i.id)), sets=[];
+    while(pool.length){
+      const set=[];
+      for(let k=0;k<pool.length && set.length<4;){
+        const id=pool[k];
+        if(!set.some(x=>intById[x].eje===intById[id].eje)){ set.push(id); pool.splice(k,1); } else k++;
+      }
+      while(set.length<4 && pool.length) set.push(pool.shift());
+      sets.push(set);
+    }
+    // el último grupo se completa con temas ya vistos en esta ronda
+    const last=sets[sets.length-1];
+    if(last.length<4){ const extra=shuffle(INT.map(i=>i.id).filter(id=>!last.includes(id))); while(last.length<4) last.push(extra.shift()); }
+    return sets;
   }
-  function renderForm(){
-    $('#prefForm').innerHTML = EJES.map(e=>{
-      const its=INT.filter(i=>i.eje===e.key);
-      return `<fieldset class="card pref" style="border:1px solid var(--line);margin:0" data-eje="${e.key}">
-        <div class="pref-top"><h3>${esc(e.nombre)}</h3>
-          <label class="bulk">Calificar todo:
-            <select data-bulk="${e.key}" aria-label="Calificar todos los ítems de ${esc(e.nombre)}">
-              <option value="">–</option>${STARS.map(n=>`<option value="${n}">${n}</option>`).join('')}<option value="0">Borrar</option>
-            </select></label></div>
-        ${its.map(rateRow).join('')}
-      </fieldset>`;
-    }).join('');
-    updateCount();
+
+  // estado: rounds = [[set,...],...]; ans = {"r:q": {best,worst} | {skip:true}}; pos = {r,q}
+  let st = {rounds:[], ans:{}, pos:{r:0,q:0}, done:false};
+  let shared = null; // pesos de un enlace compartido
+  function save(){ try{localStorage.setItem(LSKEY,JSON.stringify(st))}catch(e){} }
+  function load(){ try{const x=JSON.parse(localStorage.getItem(LSKEY)||'null'); if(x&&x.rounds&&x.rounds.length&&x.rounds.flat(2).every(id=>intById[id])) st=x;}catch(e){} }
+  function newGame(){ st={rounds:[makeRound()],ans:{},pos:{r:0,q:0},done:false}; shared=null; save(); }
+
+  function weights(){
+    if(shared) return shared;
+    const best={},worst={},shown={};
+    st.rounds.forEach((sets,r)=>sets.forEach((set,q)=>{
+      const a=st.ans[r+':'+q]; if(!a||a.skip) return;
+      new Set(set).forEach(id=>shown[id]=(shown[id]||0)+1);
+      best[a.best]=(best[a.best]||0)+1; worst[a.worst]=(worst[a.worst]||0)+1;
+    }));
+    const w={};
+    Object.keys(shown).forEach(id=>{ w[id]=Math.round((3+2*((best[id]||0)-(worst[id]||0))/shown[id])*10)/10; });
+    return w;
   }
-  function activeSel(){return Object.keys(ratings).filter(id=>intById[id] && ratings[id]>0)}
-  function updateCount(){const n=activeSel().length;$('#selCount').textContent = n? `${n} ${n>1?'ítems calificados':'ítem calificado'} de ${INT.length}` : 'Califique al menos un ítem';$('#calcBtn').disabled=!n}
-  function setRating(id,n){ if(n>0) ratings[id]=n; else delete ratings[id]; }
-  $('#prefForm').addEventListener('click',ev=>{
-    const b=ev.target.closest('.rate button'); if(!b) return;
-    const row=b.closest('.opt'), id=row.dataset.id, n=+b.dataset.r;
-    setRating(id, ratings[id]===n?0:n); // pulsar la misma calificación la borra
-    row.outerHTML=rateRow(intById[id]); updateCount();
+  function answeredCount(){return Object.values(st.ans).filter(a=>!a.skip).length}
+
+  function renderMD(){
+    const box=$('#mdBox');
+    const {r,q}=st.pos, sets=st.rounds[r];
+    if(shared){
+      box.innerHTML=`<div class="md-done"><h3>Resultado compartido</h3><p>Está viendo las prioridades de otra persona.</p><div class="grp"><button type="button" class="btn primary" data-act="restart">Empezar mi cuestionario</button></div></div>`;
+      return;
+    }
+    if(st.done){
+      const n=st.rounds.length;
+      box.innerHTML=`<div class="md-done"><h3>${n===1?'¡Listo!':'Ronda '+n+' completa'}</h3>
+        <p>Respondió ${answeredCount()} pantallas. Abajo están su resultado y las prioridades que salen de sus elecciones. Si quiere más precisión, haga otra ronda: cada tema vuelve a aparecer en grupos distintos.</p>
+        <div class="md-nav"><div class="grp"><button type="button" class="btn primary" data-act="more">Seguir afinando (${st.rounds[0].length} pantallas más)</button><button type="button" class="btn" data-act="review">Revisar mis respuestas</button></div><button type="button" class="btn" data-act="restart">Empezar de nuevo</button></div></div>`;
+      return;
+    }
+    const set=sets[q], a=st.ans[r+':'+q]||{};
+    const total=sets.length, pct=Math.round(100*q/total);
+    box.innerHTML=`<div class="md-top"><span>${st.rounds.length>1?'Ronda '+(r+1)+' · ':''}Pantalla ${q+1} de ${total}</span><span>${pct}%</span></div>
+      <div class="md-prog" aria-hidden="true"><i style="width:${pct}%"></i></div>
+      <p class="md-q">De estos cuatro temas, ¿cuál le importa más y cuál menos?</p>
+      <div class="md-head"><span></span><span>Más</span><span>Menos</span></div>
+      ${set.map(id=>{const it=intById[id];const b=a.best===id,w=a.worst===id;return `<div class="md-row ${b?'is-best':''} ${w?'is-worst':''}">
+        <div class="it">${esc(it.nombre)}<span class="ej">${esc(ejeNombre[it.eje]||'')}</span></div>
+        <button type="button" class="pick best" data-pick="best" data-id="${id}" aria-pressed="${b}" aria-label="Más importante: ${esc(it.nombre)}">Más</button>
+        <button type="button" class="pick worst" data-pick="worst" data-id="${id}" aria-pressed="${w}" aria-label="Menos importante: ${esc(it.nombre)}">Menos</button>
+      </div>`}).join('')}
+      <div class="md-nav"><div class="grp"><button type="button" class="btn" data-act="prev" ${r===0&&q===0?'disabled':''}>Anterior</button><button type="button" class="btn" data-act="skip">Me da igual</button></div>
+        <button type="button" class="btn primary" data-act="next" ${a.best&&a.worst?'':'disabled'}>${q+1===total?'Ver resultado':'Siguiente'}</button></div>`;
+  }
+  $('#mdBox').addEventListener('click',ev=>{
+    const pk=ev.target.closest('[data-pick]');
+    if(pk){
+      const key=st.pos.r+':'+st.pos.q, a=Object.assign({},st.ans[key]&&!st.ans[key].skip?st.ans[key]:{}), id=pk.dataset.id, kind=pk.dataset.pick, other=kind==='best'?'worst':'best';
+      a[kind]= a[kind]===id? undefined : id;
+      if(a[other]===id) a[other]=undefined;
+      st.ans[key]=a; save(); renderMD(); return;
+    }
+    const b=ev.target.closest('[data-act]'); if(!b) return;
+    const act=b.dataset.act, sets=st.rounds[st.pos.r];
+    if(act==='next'||act==='skip'){
+      if(act==='skip') st.ans[st.pos.r+':'+st.pos.q]={skip:true};
+      if(st.pos.q+1<sets.length){ st.pos.q++; }
+      else { st.done=true; showResults(); }
+    } else if(act==='prev'){
+      if(st.pos.q>0) st.pos.q--; else if(st.pos.r>0){ st.pos.r--; st.pos.q=st.rounds[st.pos.r].length-1; }
+    } else if(act==='review'){
+      st.done=false; st.pos={r:st.rounds.length-1,q:st.rounds[st.rounds.length-1].length-1};
+    } else if(act==='more'){
+      st.rounds.push(makeRound()); st.pos={r:st.rounds.length-1,q:0}; st.done=false;
+    } else if(act==='restart'){
+      newGame(); $('#results').hidden=true; try{history.replaceState(null,'',location.pathname+location.search+'#afinidad')}catch(e){}
+    }
+    save(); renderMD();
+    if(act!=='next'||!st.done) $('#mdBox').scrollIntoView({block:'nearest'});
   });
-  $('#prefForm').addEventListener('change',ev=>{
-    const s=ev.target.closest('select[data-bulk]'); if(!s||s.value==='') return;
-    INT.filter(i=>i.eje===s.dataset.bulk).forEach(i=>setRating(i.id,+s.value));
-    renderForm();
-  });
-  $('#resetBtn').addEventListener('click',()=>{Object.keys(ratings).forEach(k=>delete ratings[k]);renderForm();$('#results').hidden=true;try{history.replaceState(null,'','#afinidad')}catch(e){}});
 
   function compute(){
-    const ids=activeSel();
-    const denom = ids.reduce((s,id)=>s+ratings[id]*100,0);
+    const W=weights(), ids=Object.keys(W).filter(id=>intById[id]);
+    const denom = ids.reduce((s,id)=>s+W[id]*100,0);
     return C.map(c=>{
-      const rows=ids.map(id=>{const cov=coverage(c,id);return {id,w:ratings[id],pts:cov?cov.q:0,p:cov&&cov.p}});
+      const rows=ids.map(id=>{const cov=coverage(c,id);return {id,w:W[id],pts:cov?cov.q:0,p:cov&&cov.p}});
       const num=rows.reduce((s,r)=>s+r.w*r.pts,0);
       return {c,rows,score: denom? Math.round(100*num/denom):0};
     }).sort((a,b)=>b.score-a.score || (blindName[a.c.id]<blindName[b.c.id]?-1:1));
   }
+  function renderPrio(){
+    const W=weights(), list=Object.entries(W).sort((a,b)=>b[1]-a[1]);
+    const top=list.filter(x=>x[1]>3).slice(0,8), low=list.filter(x=>x[1]<3).slice(-6).reverse();
+    const li=x=>`<li>${esc(intById[x[0]].nombre)} <span class="w">· peso ${x[1].toFixed(1)}</span></li>`;
+    $('#prioBox').innerHTML=`<div class="card"><h3>Lo que más le importa</h3>${top.length?`<ol>${top.map(li).join('')}</ol>`:'<p class="brk-none">Aún no hay suficientes respuestas.</p>'}</div>
+      <div class="card"><h3>Lo que menos le importa</h3>${low.length?`<ol>${low.map(li).join('')}</ol>`:'<p class="brk-none">Aún no hay suficientes respuestas.</p>'}</div>`;
+  }
   function renderResults(){
     const res=compute();
+    renderPrio();
+    $('#sharedNote').hidden=!shared;
     $('#resList').innerHTML = res.map(r=>{
       const name = revealed? esc(r.c.nombre) : esc(blindName[r.c.id]);
-      const sub = revealed? `<small>${esc(r.c.organizacion)} · Lista ${esc(r.c.lista)}</small>` : `<small>${r.rows.filter(x=>x.pts>0).length} de ${r.rows.length} ítems cubiertos</small>`;
+      const sub = revealed? `<small>${esc(r.c.organizacion)} · Lista ${esc(r.c.lista)}</small>` : `<small>${r.rows.filter(x=>x.pts>0).length} de ${r.rows.length} temas cubiertos</small>`;
       const byEje = EJES.map(e=>{
         const rs=r.rows.filter(x=>intById[x.id].eje===e.key).sort((a,b)=>b.w-a.w);
         if(!rs.length) return '';
         return `<div class="brk-eje">${esc(e.nombre)}</div>` + rs.map(x=>`<div class="brk-row">
           <div class="brk-pts ${x.pts?'':'zero'}">${x.pts}</div>
-          <div><div class="brk-int">${esc(intById[x.id].nombre)} <span class="brk-w">importancia ${x.w}/5</span></div>
+          <div><div class="brk-int">${esc(intById[x.id].nombre)} <span class="brk-w">peso ${x.w.toFixed(1)}</span></div>
           ${x.p? `<p class="brk-txt">${esc(x.p.texto)}</p>${badges(x.p)}` : `<div class="brk-none">No encontramos una propuesta sobre este tema en las fuentes revisadas.</div>`}</div>
         </div>`).join('');
       }).join('');
@@ -545,39 +637,42 @@ footer{border-top:1px solid var(--line);padding:22px 0;color:var(--muted);font-s
     $('#revealBtn').setAttribute('aria-pressed',revealed);
     $('#blindNote').hidden = revealed;
   }
-  function stateHash(){
-    return '#afinidad?r='+encodeURIComponent(activeSel().map(id=>id+':'+ratings[id]).join(','));
-  }
-  $('#calcBtn').addEventListener('click',()=>{
-    if(!activeSel().length) return;
+  function showResults(){
+    if(!Object.keys(weights()).length){ $('#results').hidden=true; return; }
     $('#results').hidden=false; renderResults();
     try{history.replaceState(null,'',stateHash())}catch(e){}
     $('#results').scrollIntoView({behavior:'smooth',block:'start'});
-  });
+  }
+  function stateHash(){
+    const W=weights();
+    return '#afinidad?r='+encodeURIComponent(Object.keys(W).map(id=>id+':'+W[id]).join(','));
+  }
   $('#revealBtn').addEventListener('click',()=>{revealed=!revealed;renderResults()});
   function toast(msg){let t=$('.toast');if(!t){t=document.createElement('div');t.className='toast';document.body.appendChild(t)}t.textContent=msg;t.classList.add('show');setTimeout(()=>t.classList.remove('show'),1800)}
   $('#shareBtn').addEventListener('click',async()=>{
     const url=location.href.split('#')[0]+stateHash();
     try{await navigator.clipboard.writeText(url);toast('Enlace copiado')}catch(e){prompt('Copie este enlace:',url)}
   });
+  // Enlaces compartidos: r=id:peso (también los antiguos con calificaciones 1–5) y el formato inicial s=ids&w=pesos por eje
   function loadFromHash(){
     const m=location.hash.match(/^#afinidad\?(.*)$/); if(!m) return false;
-    const q=new URLSearchParams(m[1]);
-    (q.get('r')||'').split(',').forEach(t=>{const [id,n]=t.split(':');const v=parseInt(n,10);if(intById[id]&&v>=1&&v<=5)ratings[id]=v});
-    // formato anterior: s=ids & w=pesos por eje (0 nada, 1 algo, 2 mucho) -> 3 o 5
+    const q=new URLSearchParams(m[1]), w={};
+    (q.get('r')||'').split(',').forEach(t=>{const [id,n]=t.split(':');const v=parseFloat(n);if(intById[id]&&v>=1&&v<=5)w[id]=v});
     if(q.get('s')){
-      const w=q.get('w')||''; const ew=Object.fromEntries(EJES.map((e,i)=>[e.key,w[i]||'1']));
-      q.get('s').split(',').forEach(id=>{const i=intById[id];if(!i)return;const x=ew[i.eje];if(x!=='0')ratings[id]= x==='2'?5:3});
+      const ws=q.get('w')||''; const ew=Object.fromEntries(EJES.map((e,i)=>[e.key,ws[i]||'1']));
+      q.get('s').split(',').forEach(id=>{const i=intById[id];if(!i)return;const x=ew[i.eje];if(x!=='0')w[id]= x==='2'?5:3});
     }
-    return true;
+    if(!Object.keys(w).length) return false;
+    shared=w; return true;
   }
 
+  load(); if(!st.rounds.length) newGame();
   const fromShare = loadFromHash();
-  renderForm();
+  renderMD();
   renderMatrix();renderChips();renderEje();renderCmp();renderProfiles();
   const h=location.hash.slice(1).split('?')[0];
   if(tabs.some(b=>b.dataset.tab===h)) show(h); else show('afinidad');
-  if(fromShare && activeSel().length){ $('#results').hidden=false; renderResults(); }
+  if(fromShare || st.done){ $('#results').hidden=false; renderResults(); }
 })();
 </script>
 </body>

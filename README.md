@@ -7,7 +7,13 @@ Comparación neutral de las propuestas de los candidatos a alcalde en las elecci
  No hay ranking: cada propuesta lleva su fuente y cuatro indicadores descriptivos (concreta, plazo, costo, competencia municipal).
 
 ## Mi afinidad
-Cada ítem del catálogo (`data/intereses.json`) se califica del 1 al 5 según su importancia; los ítems sin calificar no cuentan. Para cada interés se toma la mejor propuesta etiquetada de cada candidato: 50 puntos base, +20 si es concreta, +10 si tiene plazo, +10 si indica costo y +10 si es competencia municipal (+5 si es compartida). La afinidad es el promedio ponderado por la calificación de cada ítem. Los resultados salen primero en modo ciego, se pueden compartir por enlace y se calculan en el navegador, sin guardar nada.
+El usuario responde un cuestionario de contrapesos (método *MaxDiff*): en cada pantalla ve 4 temas de distintos ejes y marca el que **más** y el que **menos** le importa. Una ronda muestra cada tema del catálogo de la ciudad (`data/<ciudad>/intereses.json`) una vez, en unas 20 pantallas. Con "Seguir afinando" se hace otra ronda con grupos distintos.
+
+- **Peso de cada tema:** 3 + 2 × (veces "más" − veces "menos") ÷ veces mostrado, en un rango de 1 a 5.
+- **Puntos por candidato:** para cada tema se toma su mejor propuesta etiquetada. Vale 50 puntos base, +20 si es concreta, +10 si tiene plazo, +10 si indica costo y +10 si es competencia municipal (+5 si es compartida).
+- **Afinidad:** el promedio ponderado por peso.
+
+Los resultados salen primero en modo ciego, y se pueden compartir por enlace con los pesos en el hash. El avance se guarda solo en el navegador del usuario, en `localStorage`.
 
 ## Estructura
 - `index.html`: la página (estática, sin dependencias de build).

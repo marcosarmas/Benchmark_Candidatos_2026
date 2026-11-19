@@ -127,7 +127,19 @@ footer{border-top:1px solid var(--line);padding:22px 0;color:var(--muted);font-s
 .seg button[aria-pressed="true"]{background:var(--accent);color:#fff}
 :root[data-theme="dark"] .seg button[aria-pressed="true"]{color:#0d1a24}
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .seg button[aria-pressed="true"]{color:#0d1a24}}
-.opt{display:flex;gap:9px;align-items:flex-start;padding:5px 0;font-size:14px;cursor:pointer}
+.opt{display:flex;gap:10px;align-items:center;justify-content:space-between;padding:6px 0;font-size:14px;border-bottom:1px dashed var(--line)}
+.opt:last-child{border-bottom:0}
+.opt-l{flex:1 1 auto;min-width:0}
+.rate{display:inline-flex;gap:3px;flex:none}
+.rate button{width:28px;height:28px;border-radius:6px;border:1px solid var(--line);background:var(--surface);color:var(--muted);font:inherit;font-size:12.5px;font-weight:700;cursor:pointer;padding:0}
+.rate button.on{background:var(--accent-soft);border-color:var(--accent);color:var(--text)}
+.rate button[aria-checked="true"]{background:var(--accent);color:#fff}
+:root[data-theme="dark"] .rate button[aria-checked="true"]{color:#0d1a24}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .rate button[aria-checked="true"]{color:#0d1a24}}
+.bulk{font-size:12.5px;color:var(--muted);display:inline-flex;gap:6px;align-items:center}
+.bulk select{padding:3px 6px;font-size:13px}
+.brk-w{font-weight:500;font-size:12px;color:var(--muted);margin-left:4px}
+@media (max-width:420px){.opt{flex-wrap:wrap}.rate{margin-left:auto}}
 .opt input{margin-top:3px;accent-color:var(--accent);flex:none}
 .opt .gen{font-size:11px;color:var(--muted);border:1px solid var(--line);border-radius:4px;padding:0 5px;margin-left:4px;white-space:nowrap}
 .actions{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:18px 0 28px}
@@ -195,8 +207,8 @@ footer{border-top:1px solid var(--line);padding:22px 0;color:var(--muted);font-s
 <main class="wrap">
   <section id="tab-afinidad" hidden>
     <h2>¿Qué tanto coinciden los candidatos con lo que a usted le importa?</h2>
-    <p class="sub">Marque los temas que le interesan y diga cuánto pesa cada eje. Calculamos qué tanto cubre cada candidato esos intereses, según sus propuestas públicas. Todo se calcula en su navegador y no se guarda ni se envía a ningún lado.</p>
-    <div class="warn"><b>Esto no es una recomendación de voto ni una encuesta.</b> La afinidad solo mide cuánto coinciden las propuestas publicadas con los temas que usted marcó. No evalúa trayectoria, viabilidad ni honestidad, y no dice quién sería mejor alcalde. Esa decisión es suya.</div>
+    <p class="sub">Califique del 1 al 5 qué tan importante es para usted cada ítem (1 = poco, 5 = mucho). Los ítems que deje sin calificar no cuentan, y si pulsa otra vez la misma calificación, se borra. Calculamos qué tanto cubre cada candidato esos intereses, según sus propuestas públicas. Todo se calcula en su navegador y no se guarda ni se envía a ningún lado.</p>
+    <div class="warn"><b>Esto no es una recomendación de voto ni una encuesta.</b> La afinidad solo mide cuánto coinciden las propuestas publicadas con los temas que usted calificó. No evalúa trayectoria, viabilidad ni honestidad, y no dice quién sería mejor alcalde. Esa decisión es suya.</div>
     <form id="prefForm" class="pref-grid" onsubmit="return false"></form>
     <div class="actions">
       <button type="button" class="btn primary" id="calcBtn">Calcular afinidad</button>
@@ -216,11 +228,11 @@ footer{border-top:1px solid var(--line);padding:22px 0;color:var(--muted);font-s
       <details class="how">
         <summary>¿Cómo se calcula?</summary>
         <ol>
-          <li>Cada interés que usted marca se compara con las propuestas de cada candidato que tratan ese tema. Cada propuesta está etiquetada a mano con los intereses que toca.</li>
+          <li>Cada ítem que usted califica se compara con las propuestas de cada candidato que tratan ese tema. Cada propuesta está etiquetada a mano con los intereses que toca.</li>
           <li>Cada propuesta que coincide vale <b>50 puntos base</b>, y suma <b>+20</b> si es concreta, <b>+10</b> si tiene plazo, <b>+10</b> si indica costo o financiamiento y <b>+10</b> si es competencia municipal (+5 si es compartida). Se toma la mejor propuesta del candidato para ese interés, así que el máximo es 100.</li>
           <li>Si el candidato no tiene propuesta sobre ese interés, vale 0.</li>
-          <li>Cada interés se multiplica por el peso de su eje: Algo = 1 y Mucho = 2. Los ejes marcados como "Nada" no cuentan.</li>
-          <li>La afinidad es el promedio ponderado: suma de (peso × puntos) dividida para la suma de (peso × 100).</li>
+          <li>Los puntos de cada ítem se multiplican por la importancia que usted le dio, del 1 al 5. Los ítems sin calificar no cuentan.</li>
+          <li>La afinidad es el promedio ponderado: suma de (importancia × puntos) dividida para la suma de (importancia × 100).</li>
         </ol>
         <p>Como en la matriz, que un interés salga en 0 solo quiere decir que no encontramos esa propuesta en las fuentes revisadas, no que el candidato esté en contra.</p>
       </details>
@@ -429,9 +441,7 @@ footer{border-top:1px solid var(--line);padding:22px 0;color:var(--muted);font-s
   // ---------- afinidad ----------
   const INT = D.intereses || [];
   const intById = Object.fromEntries(INT.map(i=>[i.id,i]));
-  const W = {nada:0, algo:1, mucho:2};
-  const weights = Object.fromEntries(EJES.map(e=>[e.key,'algo']));
-  const sel = new Set();
+  const ratings = {}; // id -> 1..5 ; sin calificar = no cuenta
   // etiquetas ciegas: permutación aleatoria por visita, independiente del número de lista
   const letters = C.map((_,i)=>String.fromCharCode(65+i));
   for(let i=letters.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[letters[i],letters[j]]=[letters[j],letters[i]]}
@@ -446,31 +456,50 @@ footer{border-top:1px solid var(--line);padding:22px 0;color:var(--muted);font-s
     allProps(c).forEach(p=>{ if((p.intereses||[]).includes(intId)){ const q=quality(p); if(!best||q>best.q) best={q,p}; } });
     return best;
   }
+  const STARS=[1,2,3,4,5];
+  function rateRow(i){
+    const r=ratings[i.id]||0;
+    return `<div class="opt" data-id="${i.id}">
+      <span class="opt-l">${esc(i.nombre)}${i.generico?'<span class="gen" title="Tema genérico de política municipal, no tomado de las propuestas">genérico</span>':''}</span>
+      <span class="rate" role="radiogroup" aria-label="Importancia: ${esc(i.nombre)}">
+        ${STARS.map(n=>`<button type="button" role="radio" data-r="${n}" aria-checked="${r===n}" class="${n<=r?'on':''}" title="${n} de 5">${n}</button>`).join('')}
+      </span></div>`;
+  }
   function renderForm(){
     $('#prefForm').innerHTML = EJES.map(e=>{
       const its=INT.filter(i=>i.eje===e.key);
-      const off=weights[e.key]==='nada';
-      return `<fieldset class="card pref ${off?'off':''}" style="border:1px solid var(--line);margin:0" data-eje="${e.key}">
+      return `<fieldset class="card pref" style="border:1px solid var(--line);margin:0" data-eje="${e.key}">
         <div class="pref-top"><h3>${esc(e.nombre)}</h3>
-          <div class="seg" role="group" aria-label="Importancia de ${esc(e.nombre)}">
-            ${['nada','algo','mucho'].map(w=>`<button type="button" data-w="${w}" aria-pressed="${weights[e.key]===w}">${w[0].toUpperCase()+w.slice(1)}</button>`).join('')}
-          </div></div>
-        ${its.map(i=>`<label class="opt"><input type="checkbox" value="${i.id}" ${sel.has(i.id)?'checked':''} ${off?'disabled':''}><span>${esc(i.nombre)}${i.generico?'<span class="gen" title="Tema genérico de política municipal, no tomado de las propuestas">genérico</span>':''}</span></label>`).join('')}
+          <label class="bulk">Calificar todo:
+            <select data-bulk="${e.key}" aria-label="Calificar todos los ítems de ${esc(e.nombre)}">
+              <option value="">–</option>${STARS.map(n=>`<option value="${n}">${n}</option>`).join('')}<option value="0">Borrar</option>
+            </select></label></div>
+        ${its.map(rateRow).join('')}
       </fieldset>`;
     }).join('');
     updateCount();
   }
-  function activeSel(){return [...sel].filter(id=>intById[id] && W[weights[intById[id].eje]]>0)}
-  function updateCount(){const n=activeSel().length;$('#selCount').textContent = n? `${n} ${n>1?'intereses seleccionados':'interés seleccionado'}` : 'Marque al menos un interés';$('#calcBtn').disabled=!n}
-  $('#prefForm').addEventListener('change',ev=>{const t=ev.target;if(t.type!=='checkbox')return;t.checked?sel.add(t.value):sel.delete(t.value);updateCount()});
-  $('#prefForm').addEventListener('click',ev=>{const b=ev.target.closest('.seg button');if(!b)return;const eje=b.closest('fieldset').dataset.eje;weights[eje]=b.dataset.w;renderForm()});
-  $('#resetBtn').addEventListener('click',()=>{sel.clear();EJES.forEach(e=>weights[e.key]='algo');renderForm();$('#results').hidden=true;try{history.replaceState(null,'','#afinidad')}catch(e){}});
+  function activeSel(){return Object.keys(ratings).filter(id=>intById[id] && ratings[id]>0)}
+  function updateCount(){const n=activeSel().length;$('#selCount').textContent = n? `${n} ${n>1?'ítems calificados':'ítem calificado'} de ${INT.length}` : 'Califique al menos un ítem';$('#calcBtn').disabled=!n}
+  function setRating(id,n){ if(n>0) ratings[id]=n; else delete ratings[id]; }
+  $('#prefForm').addEventListener('click',ev=>{
+    const b=ev.target.closest('.rate button'); if(!b) return;
+    const row=b.closest('.opt'), id=row.dataset.id, n=+b.dataset.r;
+    setRating(id, ratings[id]===n?0:n); // pulsar la misma calificación la borra
+    row.outerHTML=rateRow(intById[id]); updateCount();
+  });
+  $('#prefForm').addEventListener('change',ev=>{
+    const s=ev.target.closest('select[data-bulk]'); if(!s||s.value==='') return;
+    INT.filter(i=>i.eje===s.dataset.bulk).forEach(i=>setRating(i.id,+s.value));
+    renderForm();
+  });
+  $('#resetBtn').addEventListener('click',()=>{Object.keys(ratings).forEach(k=>delete ratings[k]);renderForm();$('#results').hidden=true;try{history.replaceState(null,'','#afinidad')}catch(e){}});
 
   function compute(){
     const ids=activeSel();
-    const denom = ids.reduce((s,id)=>s+W[weights[intById[id].eje]]*100,0);
+    const denom = ids.reduce((s,id)=>s+ratings[id]*100,0);
     return C.map(c=>{
-      const rows=ids.map(id=>{const cov=coverage(c,id);return {id,w:W[weights[intById[id].eje]],pts:cov?cov.q:0,p:cov&&cov.p}});
+      const rows=ids.map(id=>{const cov=coverage(c,id);return {id,w:ratings[id],pts:cov?cov.q:0,p:cov&&cov.p}});
       const num=rows.reduce((s,r)=>s+r.w*r.pts,0);
       return {c,rows,score: denom? Math.round(100*num/denom):0};
     }).sort((a,b)=>b.score-a.score || (blindName[a.c.id]<blindName[b.c.id]?-1:1));
@@ -479,13 +508,13 @@ footer{border-top:1px solid var(--line);padding:22px 0;color:var(--muted);font-s
     const res=compute();
     $('#resList').innerHTML = res.map(r=>{
       const name = revealed? esc(r.c.nombre) : esc(blindName[r.c.id]);
-      const sub = revealed? `<small>${esc(r.c.organizacion)} · Lista ${esc(r.c.lista)}</small>` : `<small>${r.rows.filter(x=>x.pts>0).length} de ${r.rows.length} intereses cubiertos</small>`;
+      const sub = revealed? `<small>${esc(r.c.organizacion)} · Lista ${esc(r.c.lista)}</small>` : `<small>${r.rows.filter(x=>x.pts>0).length} de ${r.rows.length} ítems cubiertos</small>`;
       const byEje = EJES.map(e=>{
-        const rs=r.rows.filter(x=>intById[x.id].eje===e.key);
+        const rs=r.rows.filter(x=>intById[x.id].eje===e.key).sort((a,b)=>b.w-a.w);
         if(!rs.length) return '';
-        return `<div class="brk-eje">${esc(e.nombre)} · peso ${weights[e.key]}</div>` + rs.map(x=>`<div class="brk-row">
+        return `<div class="brk-eje">${esc(e.nombre)}</div>` + rs.map(x=>`<div class="brk-row">
           <div class="brk-pts ${x.pts?'':'zero'}">${x.pts}</div>
-          <div><div class="brk-int">${esc(intById[x.id].nombre)}</div>
+          <div><div class="brk-int">${esc(intById[x.id].nombre)} <span class="brk-w">importancia ${x.w}/5</span></div>
           ${x.p? `<p class="brk-txt">${esc(x.p.texto)}</p>${badges(x.p)}` : `<div class="brk-none">No encontramos una propuesta sobre este tema en las fuentes revisadas.</div>`}</div>
         </div>`).join('');
       }).join('');
@@ -496,8 +525,7 @@ footer{border-top:1px solid var(--line);padding:22px 0;color:var(--muted);font-s
     $('#blindNote').hidden = revealed;
   }
   function stateHash(){
-    const w=EJES.map(e=>({nada:0,algo:1,mucho:2})[weights[e.key]]).join('');
-    return '#afinidad?s='+encodeURIComponent(activeSel().join(','))+'&w='+w;
+    return '#afinidad?r='+encodeURIComponent(activeSel().map(id=>id+':'+ratings[id]).join(','));
   }
   $('#calcBtn').addEventListener('click',()=>{
     if(!activeSel().length) return;
@@ -514,8 +542,12 @@ footer{border-top:1px solid var(--line);padding:22px 0;color:var(--muted);font-s
   function loadFromHash(){
     const m=location.hash.match(/^#afinidad\?(.*)$/); if(!m) return false;
     const q=new URLSearchParams(m[1]);
-    (q.get('s')||'').split(',').filter(id=>intById[id]).forEach(id=>sel.add(id));
-    const w=q.get('w')||''; EJES.forEach((e,i)=>{const v=w[i];if(v==='0')weights[e.key]='nada';else if(v==='2')weights[e.key]='mucho'});
+    (q.get('r')||'').split(',').forEach(t=>{const [id,n]=t.split(':');const v=parseInt(n,10);if(intById[id]&&v>=1&&v<=5)ratings[id]=v});
+    // formato anterior: s=ids & w=pesos por eje (0 nada, 1 algo, 2 mucho) -> 3 o 5
+    if(q.get('s')){
+      const w=q.get('w')||''; const ew=Object.fromEntries(EJES.map((e,i)=>[e.key,w[i]||'1']));
+      q.get('s').split(',').forEach(id=>{const i=intById[id];if(!i)return;const x=ew[i.eje];if(x!=='0')ratings[id]= x==='2'?5:3});
+    }
     return true;
   }
 

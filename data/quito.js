@@ -1,7 +1,12 @@
-// Generado por scripts/build_data.py — editar data/candidatos.json
+// Generado por scripts/build_data.py — editar data/quito/*.json
 window.BENCHMARK = {
+ "ciudad": "quito",
+ "nombre": "Quito",
+ "territorio": "Distrito Metropolitano de Quito",
+ "municipio": "Municipio del DMQ",
+ "periodo": "2027–2031",
+ "eleccion": "domingo 29 de noviembre de 2026",
  "corte": "18 de noviembre de 2026",
- "eleccion": "2026-11-29",
  "candidatos": [
   {
    "id": "pabel-munoz",
@@ -4890,12 +4895,12 @@ window.BENCHMARK = {
   {
    "key": "movilidad",
    "nombre": "Movilidad y transporte",
-   "desc": "Metro, buses, trolebús, tráfico, vías."
+   "desc": "Transporte público, tráfico, vías."
   },
   {
    "key": "seguridad",
    "nombre": "Seguridad ciudadana",
-   "desc": "Prevención, vigilancia, coordinación con la Policía."
+   "desc": "Prevención, vigilancia, coordinación con la Policía, gestión de riesgos."
   },
   {
    "key": "servicios",
@@ -4905,7 +4910,7 @@ window.BENCHMARK = {
   {
    "key": "ambiente",
    "nombre": "Ambiente y espacio público",
-   "desc": "Áreas verdes, quebradas, calidad del aire, parques."
+   "desc": "Áreas verdes, ríos, quebradas, calidad del aire, parques."
   },
   {
    "key": "economia",
@@ -4925,7 +4930,7 @@ window.BENCHMARK = {
   {
    "key": "cultura",
    "nombre": "Cultura, deporte y turismo",
-   "desc": "Centro Histórico, eventos, deporte barrial, turismo."
+   "desc": "Patrimonio, fiestas, deporte barrial, turismo."
   }
  ],
  "intereses": [

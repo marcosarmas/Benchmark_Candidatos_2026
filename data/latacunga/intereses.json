@@ -1,0 +1,491 @@
+{
+ "nota": "Catálogo mixto de Latacunga: temas de las propuestas más algunos genéricos (generico=true).",
+ "intereses": [
+  {
+   "eje": "movilidad",
+   "id": "mov_vias",
+   "nombre": "Construir y mantener vías urbanas (bacheo, asfalto, adoquinado)",
+   "generico": true
+  },
+  {
+   "eje": "movilidad",
+   "id": "mov_rural",
+   "nombre": "Vías rurales y conexión entre parroquias",
+   "generico": true
+  },
+  {
+   "eje": "movilidad",
+   "id": "mov_terminal",
+   "nombre": "Terminal Terrestre (nuevo o reestructurado)",
+   "generico": true
+  },
+  {
+   "eje": "movilidad",
+   "id": "mov_transporte",
+   "nombre": "Reordenar el transporte público: rutas y frecuencias",
+   "generico": true
+  },
+  {
+   "eje": "movilidad",
+   "id": "mov_planes",
+   "nombre": "Plan maestro de movilidad",
+   "generico": true
+  },
+  {
+   "eje": "movilidad",
+   "id": "mov_semaforos",
+   "nombre": "Semaforización inteligente y gestión del tránsito",
+   "generico": true
+  },
+  {
+   "eje": "movilidad",
+   "id": "mov_activa",
+   "nombre": "Ciclovías, aceras y peatonalización",
+   "generico": true
+  },
+  {
+   "eje": "movilidad",
+   "id": "mov_accesible",
+   "nombre": "Accesibilidad universal y seguridad vial escolar",
+   "generico": true
+  },
+  {
+   "eje": "movilidad",
+   "id": "mov_estacionamiento",
+   "nombre": "Estacionamiento rotativo y parqueaderos",
+   "generico": true
+  },
+  {
+   "eje": "movilidad",
+   "id": "mov_descentralizar",
+   "nombre": "Descongestionar el Centro con nuevos polos de servicios",
+   "generico": true
+  },
+  {
+   "eje": "movilidad",
+   "id": "mov_electrica",
+   "nombre": "Transporte eléctrico o de bajas emisiones",
+   "generico": true
+  },
+  {
+   "eje": "seguridad",
+   "id": "seg_camaras",
+   "nombre": "Videovigilancia y centro de monitoreo",
+   "generico": true
+  },
+  {
+   "eje": "seguridad",
+   "id": "seg_centro",
+   "nombre": "Coordinación con Policía, ECU 911 y Bomberos",
+   "generico": true
+  },
+  {
+   "eje": "seguridad",
+   "id": "seg_comunitaria",
+   "nombre": "Alarmas comunitarias y comités barriales",
+   "generico": true
+  },
+  {
+   "eje": "seguridad",
+   "id": "seg_iluminacion",
+   "nombre": "Iluminación y recuperación de espacios inseguros",
+   "generico": true
+  },
+  {
+   "eje": "seguridad",
+   "id": "seg_prevencion",
+   "nombre": "Prevención de violencia y drogas en niñez y juventud",
+   "generico": true
+  },
+  {
+   "eje": "seguridad",
+   "id": "seg_mujeres",
+   "nombre": "Violencia de género y acoso",
+   "generico": true
+  },
+  {
+   "eje": "seguridad",
+   "id": "seg_escolar",
+   "nombre": "Entornos escolares seguros",
+   "generico": true
+  },
+  {
+   "eje": "seguridad",
+   "id": "seg_volcan",
+   "nombre": "Preparación ante el volcán Cotopaxi y otros riesgos",
+   "generico": true
+  },
+  {
+   "eje": "seguridad",
+   "id": "seg_observatorio",
+   "nombre": "Observatorio y datos del delito",
+   "generico": true
+  },
+  {
+   "eje": "seguridad",
+   "id": "seg_policia",
+   "nombre": "Gestionar más presencia policial",
+   "generico": true
+  },
+  {
+   "eje": "seguridad",
+   "id": "seg_agentes",
+   "nombre": "Agentes municipales de control en espacios públicos",
+   "generico": true
+  },
+  {
+   "eje": "servicios",
+   "id": "ser_agua_plan",
+   "nombre": "Plan maestro e infraestructura de agua potable",
+   "generico": true
+  },
+  {
+   "eje": "servicios",
+   "id": "ser_agua_altos",
+   "nombre": "Agua continua en zonas altas y sectores con déficit",
+   "generico": true
+  },
+  {
+   "eje": "servicios",
+   "id": "ser_fugas",
+   "nombre": "Reducir fugas y pérdidas de agua",
+   "generico": true
+  },
+  {
+   "eje": "servicios",
+   "id": "ser_juntas",
+   "nombre": "Fortalecer las juntas de agua rurales",
+   "generico": true
+  },
+  {
+   "eje": "servicios",
+   "id": "ser_alcantarillado",
+   "nombre": "Ampliar alcantarillado sanitario y pluvial",
+   "generico": true
+  },
+  {
+   "eje": "servicios",
+   "id": "ser_ptar",
+   "nombre": "Tratamiento de aguas residuales",
+   "generico": true
+  },
+  {
+   "eje": "servicios",
+   "id": "ser_reciclaje",
+   "nombre": "Separación en la fuente y reciclaje",
+   "generico": true
+  },
+  {
+   "eje": "servicios",
+   "id": "ser_relleno",
+   "nombre": "Relleno sanitario y disposición final de basura",
+   "generico": true
+  },
+  {
+   "eje": "servicios",
+   "id": "ser_tasa",
+   "nombre": "Revisar tasas de servicios (basura, agua)",
+   "generico": true
+  },
+  {
+   "eje": "ambiente",
+   "id": "amb_cutuchi",
+   "nombre": "Recuperar el río Cutuchi y otros ríos",
+   "generico": true
+  },
+  {
+   "eje": "ambiente",
+   "id": "amb_paramos",
+   "nombre": "Proteger páramos y fuentes de agua",
+   "generico": true
+  },
+  {
+   "eje": "ambiente",
+   "id": "amb_reforestacion",
+   "nombre": "Reforestación y arbolado",
+   "generico": true
+  },
+  {
+   "eje": "ambiente",
+   "id": "amb_parques",
+   "nombre": "Parques, plazas y áreas verdes",
+   "generico": true
+  },
+  {
+   "eje": "ambiente",
+   "id": "amb_animales",
+   "nombre": "Bienestar animal",
+   "generico": true
+  },
+  {
+   "eje": "ambiente",
+   "id": "amb_mineria",
+   "nombre": "Control de la minería de áridos y pétreos",
+   "generico": true
+  },
+  {
+   "eje": "ambiente",
+   "id": "amb_cables",
+   "nombre": "Soterrar cables y mejorar la imagen urbana",
+   "generico": true
+  },
+  {
+   "eje": "ambiente",
+   "id": "amb_eficiencia",
+   "nombre": "Eficiencia energética y reúso de agua",
+   "generico": true
+  },
+  {
+   "eje": "ambiente",
+   "id": "amb_clima",
+   "nombre": "Plan de cambio climático",
+   "generico": true
+  },
+  {
+   "eje": "economia",
+   "id": "eco_mercados",
+   "nombre": "Construir y modernizar mercados",
+   "generico": true
+  },
+  {
+   "eje": "economia",
+   "id": "eco_emprende",
+   "nombre": "Apoyo a emprendimientos (capacitación, mentoría)",
+   "generico": true
+  },
+  {
+   "eje": "economia",
+   "id": "eco_semilla",
+   "nombre": "Capital semilla para emprendimientos",
+   "generico": true
+  },
+  {
+   "eje": "economia",
+   "id": "eco_empleo",
+   "nombre": "Empleo, primer empleo y bolsa de trabajo",
+   "generico": true
+  },
+  {
+   "eje": "economia",
+   "id": "eco_local",
+   "nombre": "Consumo local: marca cantonal, ferias, compras públicas",
+   "generico": true
+  },
+  {
+   "eje": "economia",
+   "id": "eco_rural",
+   "nombre": "Apoyo a productores rurales y centros de acopio",
+   "generico": true
+  },
+  {
+   "eje": "economia",
+   "id": "eco_tramites",
+   "nombre": "Simplificar licencias y trámites para negocios",
+   "generico": true
+  },
+  {
+   "eje": "economia",
+   "id": "eco_artesanos",
+   "nombre": "Centros y apoyo a artesanos",
+   "generico": true
+  },
+  {
+   "eje": "economia",
+   "id": "eco_aeropuerto",
+   "nombre": "Reactivar el Aeropuerto Internacional Cotopaxi",
+   "generico": true
+  },
+  {
+   "eje": "economia",
+   "id": "eco_polos",
+   "nombre": "Nuevos polos comerciales en el norte o el sur",
+   "generico": true
+  },
+  {
+   "eje": "economia",
+   "id": "eco_comercio_autonomo",
+   "nombre": "Ordenar el comercio autónomo",
+   "generico": true
+  },
+  {
+   "eje": "economia",
+   "id": "eco_incentivos",
+   "nombre": "Incentivos tributarios para empresas que generen empleo",
+   "generico": true
+  },
+  {
+   "eje": "barrios",
+   "id": "bar_regeneracion",
+   "nombre": "Regeneración y mejoramiento integral de barrios",
+   "generico": true
+  },
+  {
+   "eje": "barrios",
+   "id": "bar_parroquias",
+   "nombre": "Obras y servicios en parroquias rurales",
+   "generico": true
+  },
+  {
+   "eje": "barrios",
+   "id": "bar_pendientes",
+   "nombre": "Terminar obras paralizadas o heredadas",
+   "generico": true
+  },
+  {
+   "eje": "barrios",
+   "id": "bar_salud",
+   "nombre": "Salud municipal (patronato, hospital del día, clínicas móviles)",
+   "generico": true
+  },
+  {
+   "eje": "barrios",
+   "id": "bar_prioritarios",
+   "nombre": "Adultos mayores, discapacidad y grupos prioritarios",
+   "generico": true
+  },
+  {
+   "eje": "barrios",
+   "id": "bar_vivienda",
+   "nombre": "Vivienda de interés social y suelo seguro",
+   "generico": true
+  },
+  {
+   "eje": "barrios",
+   "id": "bar_planificacion",
+   "nombre": "Ordenamiento territorial (PDOT, PUGS, control urbano)",
+   "generico": true
+  },
+  {
+   "eje": "barrios",
+   "id": "bar_centralidades",
+   "nombre": "Nuevas centralidades / ciudad de 15 minutos",
+   "generico": true
+  },
+  {
+   "eje": "barrios",
+   "id": "bar_educacion",
+   "nombre": "Educación, becas y formación",
+   "generico": true
+  },
+  {
+   "eje": "finanzas",
+   "id": "fin_digital",
+   "nombre": "Trámites en línea, sin filas",
+   "generico": true
+  },
+  {
+   "eje": "finanzas",
+   "id": "fin_transparencia",
+   "nombre": "Portal de transparencia y datos abiertos",
+   "generico": true
+  },
+  {
+   "eje": "finanzas",
+   "id": "fin_seguimiento",
+   "nombre": "Seguimiento público de metas y obras",
+   "generico": true
+  },
+  {
+   "eje": "finanzas",
+   "id": "fin_participativo",
+   "nombre": "Presupuesto participativo y asambleas",
+   "generico": true
+  },
+  {
+   "eje": "finanzas",
+   "id": "fin_veedurias",
+   "nombre": "Veedurías y observatorio de contratación",
+   "generico": true
+  },
+  {
+   "eje": "finanzas",
+   "id": "fin_concejo",
+   "nombre": "Concejo abierto: sesiones itinerantes o transmitidas",
+   "generico": true
+  },
+  {
+   "eje": "finanzas",
+   "id": "fin_catastro",
+   "nombre": "Catastro actualizado y mejor recaudación",
+   "generico": true
+  },
+  {
+   "eje": "finanzas",
+   "id": "fin_tributos",
+   "nombre": "Revisar o reducir impuestos y tasas municipales",
+   "generico": true
+  },
+  {
+   "eje": "finanzas",
+   "id": "fin_reestructura",
+   "nombre": "Reestructurar el Municipio y capacitar servidores",
+   "generico": true
+  },
+  {
+   "eje": "finanzas",
+   "id": "fin_presupuesto",
+   "nombre": "Compromisos explícitos de porcentaje del presupuesto",
+   "generico": true
+  },
+  {
+   "eje": "finanzas",
+   "id": "fin_no_impuestos",
+   "nombre": "No subir impuestos ni tasas municipales",
+   "generico": true
+  },
+  {
+   "eje": "cultura",
+   "id": "cul_mama_negra",
+   "nombre": "Mama Negra y fiestas tradicionales",
+   "generico": true
+  },
+  {
+   "eje": "cultura",
+   "id": "cul_patrimonio",
+   "nombre": "Patrimonio y Centro Histórico",
+   "generico": true
+  },
+  {
+   "eje": "cultura",
+   "id": "cul_turismo",
+   "nombre": "Promoción turística y marca destino",
+   "generico": true
+  },
+  {
+   "eje": "cultura",
+   "id": "cul_turismo_rural",
+   "nombre": "Turismo comunitario, rural y de naturaleza",
+   "generico": true
+  },
+  {
+   "eje": "cultura",
+   "id": "cul_agenda",
+   "nombre": "Agenda cultural y de eventos",
+   "generico": true
+  },
+  {
+   "eje": "cultura",
+   "id": "cul_gastronomia",
+   "nombre": "Rutas gastronómicas (chugchucara, allullas)",
+   "generico": true
+  },
+  {
+   "eje": "cultura",
+   "id": "cul_infra",
+   "nombre": "Infraestructura cultural (museos, centros culturales)",
+   "generico": true
+  },
+  {
+   "eje": "cultura",
+   "id": "cul_deporte",
+   "nombre": "Deporte comunitario y escuelas deportivas",
+   "generico": true
+  },
+  {
+   "eje": "cultura",
+   "id": "cul_escenarios",
+   "nombre": "Escenarios deportivos (estadios, coliseos, canchas)",
+   "generico": true
+  }
+ ]
+}

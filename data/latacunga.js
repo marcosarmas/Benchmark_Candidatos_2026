@@ -1,0 +1,4973 @@
+// Generado por scripts/build_data.py — editar data/latacunga/*.json
+window.BENCHMARK = {
+ "ciudad": "latacunga",
+ "nombre": "Latacunga",
+ "territorio": "Cantón Latacunga, Cotopaxi",
+ "municipio": "GAD Municipal de Latacunga",
+ "periodo": "2027–2031",
+ "eleccion": "domingo 29 de noviembre de 2026",
+ "corte": "19 de noviembre de 2026",
+ "candidatos": [
+  {
+   "id": "fabricio-tinajero",
+   "nombre": "Fabricio Tinajero",
+   "organizacion": "Partido Socialista Ecuatoriano",
+   "lista": "17",
+   "perfil": "Cristian Fabricio Tinajero Jiménez es el alcalde de Latacunga desde mayo de 2023 y busca un segundo período. Su plan se presenta como continuidad de su gestión y se basa en el PDOT cantonal 2024-2040.",
+   "perfil_fuente": "fuentes/latacunga/58_5_17_9978e.pdf",
+   "plan_cne_url": "fuentes/latacunga/58_5_17_9978e.pdf",
+   "propuestas": {
+    "movilidad": [
+     {
+      "texto": "Construir y ampliar 40 km de vías urbanas y rurales, a razón de 10 km por año.",
+      "concreta": true,
+      "plazo": "2027-2031 (10 km/año)",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/58_5_17_9978e.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "mov_vias",
+       "mov_rural"
+      ]
+     },
+     {
+      "texto": "Rehabilitar y recapear 20 km de vías de la red urbana, 5 km por año.",
+      "concreta": true,
+      "plazo": "2027-2031 (5 km/año)",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/58_5_17_9978e.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "mov_vias"
+      ]
+     },
+     {
+      "texto": "Adoquinar 20 km de vías, 5 km por año, en coordinación con los GAD parroquiales.",
+      "concreta": true,
+      "plazo": "2027-2031 (5 km/año)",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/58_5_17_9978e.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "mov_vias",
+       "mov_rural"
+      ]
+     },
+     {
+      "texto": "Implementar el Plan de Movilidad Sostenible: carriles exclusivos para transporte público, parqueo inteligente, peatonización de espacios estratégicos, aceras accesibles y red de ciclorrutas urbanas.",
+      "concreta": true,
+      "plazo": "100% al cuarto año",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/58_5_17_9978e.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "mov_planes",
+       "mov_transporte",
+       "mov_activa",
+       "mov_estacionamiento",
+       "mov_accesible"
+      ]
+     },
+     {
+      "texto": "Construir el nuevo Terminal Terrestre de Latacunga.",
+      "concreta": true,
+      "plazo": "100% al cuarto año",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/58_5_17_9978e.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "mov_terminal"
+      ]
+     }
+    ],
+    "seguridad": [
+     {
+      "texto": "Implementar un Plan de Seguridad Ciudadana municipal de prevención y respuesta ante emergencias, articulado con Policía Nacional, ECU 911, GAD parroquiales y organizaciones barriales.",
+      "concreta": true,
+      "plazo": "100% al tercer año",
+      "costo": null,
+      "competencia": "parcial",
+      "fuente": "fuentes/latacunga/58_5_17_9978e.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "seg_centro",
+       "seg_comunitaria"
+      ]
+     },
+     {
+      "texto": "Implementar un Plan Cantonal de Respuesta ante Emergencias y Desastres para fortalecer la prevención ante riesgos naturales y antrópicos, con la Secretaría de Gestión de Riesgos y el Cuerpo de Bomberos.",
+      "concreta": true,
+      "plazo": "100% al tercer año",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/58_5_17_9978e.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "seg_volcan"
+      ]
+     }
+    ],
+    "servicios": [
+     {
+      "texto": "Avanzar en el Plan Maestro de Agua Potable hasta un 40% de ejecución física en el período.",
+      "concreta": true,
+      "plazo": "40% al cuarto año",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/58_5_17_9978e.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "ser_agua_plan"
+      ]
+     },
+     {
+      "texto": "Ampliar y mejorar 24 km de red de alcantarillado, 6 km por año.",
+      "concreta": true,
+      "plazo": "2027-2031 (6 km/año)",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/58_5_17_9978e.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "ser_alcantarillado"
+      ]
+     },
+     {
+      "texto": "Ejecutar la segunda etapa del relleno sanitario, con EPAGAL.",
+      "concreta": true,
+      "plazo": "100% al cuarto año",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/58_5_17_9978e.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "ser_relleno"
+      ]
+     }
+    ],
+    "ambiente": [
+     {
+      "texto": "Ejecutar un Plan de Construcción y Repotenciación de Espacios Públicos, Parques y Jardines.",
+      "concreta": true,
+      "plazo": "100% al cuarto año",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/58_5_17_9978e.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "amb_parques"
+      ]
+     },
+     {
+      "texto": "Implementar una clínica móvil para fauna urbana.",
+      "concreta": true,
+      "plazo": "100% al segundo año",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/58_5_17_9978e.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "amb_animales"
+      ]
+     },
+     {
+      "texto": "Fortalecer los procesos regulatorios de las actividades mineras de áridos y pétreos, con meta de regularizar el 70% de las áreas mineras.",
+      "concreta": true,
+      "plazo": "70% al cuarto año",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/58_5_17_9978e.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "amb_mineria"
+      ]
+     }
+    ],
+    "economia": [
+     {
+      "texto": "Mantener y repotenciar la infraestructura de comercialización (mercados) del cantón.",
+      "concreta": true,
+      "plazo": "100% al cuarto año",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/58_5_17_9978e.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "eco_mercados"
+      ]
+     },
+     {
+      "texto": "Construir el mercado Pichincha, el Mercado de Productores y el Mercado del Sur.",
+      "concreta": true,
+      "plazo": "2027-2031",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/58_5_17_9978e.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "eco_mercados"
+      ]
+     },
+     {
+      "texto": "Convertir las instalaciones del antiguo Terminal Terrestre en un Centro Comercial Artesanal para exhibición y venta de artesanías y emprendimientos locales.",
+      "concreta": true,
+      "plazo": "100% al cuarto año",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/58_5_17_9978e.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "eco_artesanos"
+      ]
+     },
+     {
+      "texto": "Semiautomatizar y automatizar la obtención y renovación de licencias de funcionamiento para actividades económicas, con la Cámara de Comercio de Latacunga.",
+      "concreta": true,
+      "plazo": "100% al segundo año",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/58_5_17_9978e.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "eco_tramites"
+      ]
+     },
+     {
+      "texto": "Ampliar la oferta del CIEDES con cursos, capacitaciones y eventos de emprendimiento en las parroquias rurales.",
+      "concreta": true,
+      "plazo": "100% al cuarto año",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/58_5_17_9978e.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "eco_emprende",
+       "eco_rural"
+      ]
+     }
+    ],
+    "barrios": [
+     {
+      "texto": "Construir y mejorar infraestructura deportiva, polideportivos y estadios comunales en barrios y parroquias.",
+      "concreta": true,
+      "plazo": "100% al cuarto año",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/58_5_17_9978e.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "cul_escenarios"
+      ]
+     },
+     {
+      "texto": "Construir un Hospital Municipal del Día con apoyo del BDE y el Ministerio de Salud.",
+      "concreta": true,
+      "plazo": "100% al cuarto año",
+      "costo": null,
+      "competencia": "parcial",
+      "fuente": "fuentes/latacunga/58_5_17_9978e.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "bar_salud"
+      ]
+     },
+     {
+      "texto": "Repotenciar y ampliar los servicios del Centro Gerontológico del Patronato Municipal.",
+      "concreta": true,
+      "plazo": "100% al cuarto año",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/58_5_17_9978e.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "bar_prioritarios"
+      ]
+     },
+     {
+      "texto": "Actualizar el PDOT y el Plan Estratégico Institucional.",
+      "concreta": true,
+      "plazo": "100% al segundo año",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/58_5_17_9978e.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "bar_planificacion"
+      ]
+     },
+     {
+      "texto": "Actualizar y valorar el catastro urbano y rural, llevando el indicador del 41% al 50%.",
+      "concreta": true,
+      "plazo": "2027-2031",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/58_5_17_9978e.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "fin_catastro"
+      ]
+     }
+    ],
+    "finanzas": [
+     {
+      "texto": "Desarrollar el segundo Plan de Acción de Gobierno Abierto del cantón.",
+      "concreta": true,
+      "plazo": "100% al tercer año",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/58_5_17_9978e.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "fin_transparencia"
+      ]
+     },
+     {
+      "texto": "Ejecutar la segunda etapa de semiautomatización y automatización de procesos y servicios municipales.",
+      "concreta": true,
+      "plazo": "100% al segundo año",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/58_5_17_9978e.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "fin_digital"
+      ]
+     },
+     {
+      "texto": "Difundir periódicamente el avance del Plan de Trabajo e implementar mecanismos de seguimiento de sus metas e indicadores.",
+      "concreta": false,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/58_5_17_9978e.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "fin_seguimiento"
+      ]
+     }
+    ],
+    "cultura": [
+     {
+      "texto": "Implementar un Plan de desarrollo cultural y patrimonial para proteger y difundir el patrimonio arquitectónico y cultural del cantón.",
+      "concreta": true,
+      "plazo": "100% al cuarto año",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/58_5_17_9978e.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "cul_patrimonio"
+      ]
+     },
+     {
+      "texto": "Ejecutar un Plan de promoción de destino turístico, un Plan de encadenamiento de gestión turística con actores nacionales e internacionales y un plan de fortalecimiento de competencias de operadores turísticos.",
+      "concreta": true,
+      "plazo": "100% al cuarto año",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/58_5_17_9978e.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "cul_turismo"
+      ]
+     }
+    ]
+   },
+   "notas": "Plan de 52 págs. con capa de texto; págs. 1-43 son presentación, marco legal y diagnóstico; propuestas en matriz plurianual (págs. 45-51), leída desde imágenes renderizadas. La matriz da metas porcentuales anuales, no montos; solo nombra al BDE como aliado (no como financiamiento comprometido). No hay fecha de presentación en el documento (certificación sin fecha; dice 'Elecciones Seccionales 2027'). El plan no menciona la Mama Negra en sus propuestas. Sin propuestas específicas de cultura viva/deporte aparte de infraestructura deportiva. Prensa no consultada: fetch bloqueado (lagaceta, eluniverso, kchcomunicacion no resuelven); snippets de búsqueda indican que fue rector de la UTC y que llegó con Unidad Popular, que lo separó (sin verificar)."
+  },
+  {
+   "id": "vicente-guaman",
+   "nombre": "Vicente Guamán",
+   "organizacion": "Movimiento Acción Democrática Nacional (ADN)",
+   "lista": "7",
+   "perfil": "Manuel Vicente Guamán Aguilar es el candidato de ADN a la Alcaldía de Latacunga, según la certificación de la Secretaría Nacional del movimiento en el plan de trabajo.",
+   "perfil_fuente": "fuentes/latacunga/8179_5_7_7b46c.pdf",
+   "plan_cne_url": "fuentes/latacunga/8179_5_7_7b46c.pdf",
+   "propuestas": {
+    "movilidad": [
+     {
+      "texto": "Programa Integral de Movilidad Urbana Sostenible: ordenamiento del tránsito, seguridad vial, transporte público, infraestructura peatonal y conectividad urbana con criterios de accesibilidad.",
+      "concreta": false,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/8179_5_7_7b46c.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "mov_planes",
+       "mov_transporte",
+       "mov_activa",
+       "mov_accesible"
+      ]
+     }
+    ],
+    "seguridad": [
+     {
+      "texto": "Crear un Sistema Cantonal Integral de Gestión de Riesgos y Alerta Temprana con monitoreo, preparación comunitaria y respuesta ante amenazas volcánicas, inundaciones e incendios.",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/8179_5_7_7b46c.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "seg_volcan"
+      ]
+     }
+    ],
+    "servicios": [
+     {
+      "texto": "Continuar la ejecución del Plan Maestro de Agua y Alcantarillado Urbano, priorizando sectores con déficit.",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/8179_5_7_7b46c.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "ser_agua_plan",
+       "ser_alcantarillado",
+       "ser_agua_altos"
+      ]
+     },
+     {
+      "texto": "Plan de Reducción de Brechas de Agua Potable y Saneamiento Rural: ampliar sistemas en parroquias y comunidades con menor cobertura y fortalecer los sistemas comunitarios.",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/8179_5_7_7b46c.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "ser_juntas",
+       "bar_parroquias"
+      ]
+     },
+     {
+      "texto": "Programa de Gestión Integral de Residuos y Complejo Ambiental: infraestructura para aprovechamiento y tratamiento de residuos sólidos, reciclaje y educación ambiental.",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/8179_5_7_7b46c.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "ser_reciclaje",
+       "ser_relleno"
+      ]
+     }
+    ],
+    "ambiente": [
+     {
+      "texto": "Programa de conservación y recuperación de páramos, humedales, quebradas y ecosistemas frágiles, priorizando áreas de importancia hídrica.",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/8179_5_7_7b46c.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "amb_paramos"
+      ]
+     },
+     {
+      "texto": "Programa Integral de Recuperación del río Cutuchi y sus riberas, con intervenciones para reducir la contaminación y monitoreo de calidad ambiental.",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "parcial",
+      "fuente": "fuentes/latacunga/8179_5_7_7b46c.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "amb_cutuchi"
+      ]
+     },
+     {
+      "texto": "Programa de Regeneración Urbana de parques, plazas, áreas verdes y espacios públicos, con accesibilidad, iluminación y arborización.",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/8179_5_7_7b46c.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "amb_parques",
+       "amb_reforestacion"
+      ]
+     },
+     {
+      "texto": "Adecuar parques, plazas y escenarios bajo criterios de accesibilidad universal e inclusión, incluyendo bienestar animal.",
+      "concreta": false,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/8179_5_7_7b46c.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "amb_parques",
+       "amb_animales",
+       "mov_accesible"
+      ]
+     }
+    ],
+    "economia": [
+     {
+      "texto": "Programa 'Latacunga Emprende': sistema municipal de apoyo al emprendimiento con capacitación, asistencia técnica y espacios de comercialización.",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/8179_5_7_7b46c.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "eco_emprende"
+      ]
+     },
+     {
+      "texto": "Programa de Fortalecimiento de Mercados, Ferias y Comercio Local con intervenciones de infraestructura, organización y salubridad.",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/8179_5_7_7b46c.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "eco_mercados",
+       "eco_local"
+      ]
+     },
+     {
+      "texto": "Programa de Innovación y Articulación Productiva entre el Municipio, universidades, empresas y la economía popular y solidaria.",
+      "concreta": false,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/8179_5_7_7b46c.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "eco_emprende",
+       "eco_local"
+      ]
+     }
+    ],
+    "barrios": [
+     {
+      "texto": "Red Cantonal de Infraestructura Deportiva y Recreativa: construir y rehabilitar espacios deportivos priorizando barrios y parroquias con déficit.",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/8179_5_7_7b46c.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "cul_escenarios"
+      ]
+     }
+    ],
+    "finanzas": [
+     {
+      "texto": "Municipio Digital: digitalización, interoperabilidad, simplificación de trámites y servicios en línea.",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/8179_5_7_7b46c.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "fin_digital"
+      ]
+     },
+     {
+      "texto": "Gobierno Abierto: publicación de información sobre proyectos, presupuesto, contratación y obras mediante herramientas digitales y portal de transparencia.",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/8179_5_7_7b46c.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "fin_transparencia"
+      ]
+     },
+     {
+      "texto": "Sistema permanente de participación ciudadana y presupuesto participativo anual con asambleas y mesas territoriales.",
+      "concreta": true,
+      "plazo": "Anual",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/8179_5_7_7b46c.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "fin_participativo"
+      ]
+     },
+     {
+      "texto": "Sistema público de seguimiento de metas e indicadores e informe de ejecución presupuestaria y avance de obras, con publicación trimestral.",
+      "concreta": true,
+      "plazo": "Trimestral",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/8179_5_7_7b46c.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "fin_seguimiento"
+      ]
+     }
+    ],
+    "cultura": [
+     {
+      "texto": "Red de Infraestructura Cultural y Patrimonial: recuperar y habilitar equipamientos culturales y patrimoniales.",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/8179_5_7_7b46c.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "cul_infra",
+       "cul_patrimonio"
+      ]
+     },
+     {
+      "texto": "Programa de protección y salvaguardia del patrimonio cultural frente a riesgos volcánicos y lahares.",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/8179_5_7_7b46c.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "cul_patrimonio",
+       "seg_volcan"
+      ]
+     },
+     {
+      "texto": "Programa de Turismo Sostenible, Cultural, Rural y Comunitario con rutas y productos turísticos.",
+      "concreta": false,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/8179_5_7_7b46c.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "cul_turismo_rural",
+       "cul_turismo"
+      ]
+     }
+    ]
+   },
+   "notas": "PDF escaneado de 12 págs., todas legibles. Las 20 propuestas son programas con descripción breve; sin montos, metas cuantitativas ni lugares salvo río Cutuchi. La matriz plurianual (págs. 5-6) da cronograma genérico 2027-2031 para todo. Sin fecha de presentación. El documento lo firma como 'precandidato'. Plan no menciona Mama Negra ni seguridad ciudadana (solo riesgos). Sin prensa verificada: búsquedas no hallaron cobertura de esta candidatura (hay un Jorge Guamán, ex prefecto, distinto)."
+  },
+  {
+   "id": "jose-iturralde",
+   "nombre": "José Iturralde",
+   "organizacion": "Partido Social Cristiano",
+   "lista": "6",
+   "perfil": "José Iturralde Maya es el candidato del Partido Social Cristiano a la Alcaldía de Latacunga con el plan 'En tus manos, tu ciudad... Latacunga'.",
+   "perfil_fuente": "fuentes/latacunga/12187_9bf7ed98.pdf",
+   "plan_cne_url": "fuentes/latacunga/12187_9bf7ed98.pdf",
+   "propuestas": {
+    "movilidad": [
+     {
+      "texto": "Plan 'Cero baches' e implementación de un programa cantonal permanente de mantenimiento vial con bacheo, pavimentación y adoquinado.",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/12187_9bf7ed98.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-30",
+      "intereses": [
+       "mov_vias"
+      ]
+     },
+     {
+      "texto": "Evaluar la viabilidad de una planta municipal de producción de asfalto.",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/12187_9bf7ed98.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-30",
+      "intereses": [
+       "mov_vias"
+      ]
+     },
+     {
+      "texto": "Revisar la ubicación de semáforos e implementar sincronización semafórica en corredores estratégicos, además de mejorar la señalización.",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/12187_9bf7ed98.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-30",
+      "intereses": [
+       "mov_semaforos"
+      ]
+     },
+     {
+      "texto": "Diseñar ciclovías e implementar ciclo-parqueaderos seguros.",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/12187_9bf7ed98.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-30",
+      "intereses": [
+       "mov_activa"
+      ]
+     },
+     {
+      "texto": "Realizar estudios técnicos para la modernización y eventual reestructuración del Terminal Terrestre.",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/12187_9bf7ed98.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-30",
+      "intereses": [
+       "mov_terminal"
+      ]
+     },
+     {
+      "texto": "Promover polos comerciales y de servicios en el norte y sur del cantón para reducir la presión vehicular sobre el Centro Histórico.",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/12187_9bf7ed98.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-30",
+      "intereses": [
+       "mov_descentralizar",
+       "eco_polos"
+      ]
+     },
+     {
+      "texto": "Plan 'Aceras para la vida'.",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/12187_9bf7ed98.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-30",
+      "intereses": [
+       "mov_activa"
+      ]
+     }
+    ],
+    "seguridad": [
+     {
+      "texto": "Gestionar la implementación de un Centro de Monitoreo y Coordinación de Emergencias local, articulado con ECU 911.",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "parcial",
+      "fuente": "fuentes/latacunga/12187_9bf7ed98.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-30",
+      "intereses": [
+       "seg_centro"
+      ]
+     },
+     {
+      "texto": "Gestionar ante el Gobierno Nacional más presencia policial y unidades especializadas en el cantón.",
+      "concreta": false,
+      "plazo": null,
+      "costo": null,
+      "competencia": "no",
+      "fuente": "fuentes/latacunga/12187_9bf7ed98.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-30",
+      "intereses": [
+       "seg_policia"
+      ]
+     },
+     {
+      "texto": "Programa de convivencia 'Conociendo a mi vecino' y mapas de riesgo actualizados para videovigilancia.",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "parcial",
+      "fuente": "fuentes/latacunga/12187_9bf7ed98.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-30",
+      "intereses": [
+       "seg_comunitaria",
+       "seg_camaras"
+      ]
+     },
+     {
+      "texto": "Gestionar mecanismos de compensación y mitigación para las comunidades afectadas por el Centro de Privación de Libertad.",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "no",
+      "fuente": "fuentes/latacunga/12187_9bf7ed98.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-30",
+      "intereses": []
+     },
+     {
+      "texto": "Diseñar un plan para proteger las fuentes de agua ante el riesgo de una erupción volcánica.",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/12187_9bf7ed98.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-30",
+      "intereses": [
+       "seg_volcan"
+      ]
+     },
+     {
+      "texto": "Coordinar horarios y presencia de agentes municipales para el orden y la seguridad en las plazas del Centro Histórico.",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/12187_9bf7ed98.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-30",
+      "intereses": [
+       "seg_agentes"
+      ]
+     }
+    ],
+    "servicios": [
+     {
+      "texto": "Evaluar técnicamente los sistemas de captación, conducción, tratamiento y distribución de agua, e identificar nuevas captaciones.",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/12187_9bf7ed98.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-30",
+      "intereses": [
+       "ser_agua_plan"
+      ]
+     },
+     {
+      "texto": "Modernizar y mantener la infraestructura de tratamiento de agua, incluidas las plantas de Alcoceres, El Calzado y el sistema de Ishigua.",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/12187_9bf7ed98.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-30",
+      "intereses": [
+       "ser_agua_plan"
+      ]
+     },
+     {
+      "texto": "Mejorar presión y continuidad en sectores altos, ampliar redes en parroquias rurales y reducir pérdidas con modernización de redes y medición.",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/12187_9bf7ed98.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-30",
+      "intereses": [
+       "ser_agua_altos",
+       "ser_fugas",
+       "bar_parroquias"
+      ]
+     },
+     {
+      "texto": "Ampliar alcantarillado sanitario y construir alcantarillado pluvial en sectores críticos con riesgo de inundación; optimizar las plantas de tratamiento de aguas residuales.",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/12187_9bf7ed98.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-30",
+      "intereses": [
+       "ser_alcantarillado",
+       "ser_ptar"
+      ]
+     },
+     {
+      "texto": "Implementar recolección diferenciada de residuos y evaluar una planta municipal o intermunicipal de reciclaje y valorización.",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/12187_9bf7ed98.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-30",
+      "intereses": [
+       "ser_reciclaje"
+      ]
+     },
+     {
+      "texto": "Plan 'Asistencia a su hogar' y revisión de la tasa de recolección de basura para eventos y festividades.",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/12187_9bf7ed98.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-30",
+      "intereses": [
+       "ser_tasa"
+      ]
+     }
+    ],
+    "ambiente": [
+     {
+      "texto": "Fortalecer el vivero municipal, el plan 'No hay mejor sombra que la de un árbol' y programas de reforestación urbana y rural.",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/12187_9bf7ed98.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-30",
+      "intereses": [
+       "amb_reforestacion"
+      ]
+     },
+     {
+      "texto": "Desarrollar el proyecto de Jardín Botánico en Belisario Quevedo, sujeto a estudios de factibilidad.",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/12187_9bf7ed98.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-30",
+      "intereses": [
+       "amb_parques"
+      ]
+     },
+     {
+      "texto": "Fortalecer infraestructura de atención a fauna urbana, programas de esterilización, adopción y campañas contra el maltrato animal.",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/12187_9bf7ed98.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-30",
+      "intereses": [
+       "amb_animales"
+      ]
+     },
+     {
+      "texto": "Coordinar con empresas la ejecución progresiva del soterramiento de cables y recuperar la calidad visual del Centro Histórico.",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/12187_9bf7ed98.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-30",
+      "intereses": [
+       "amb_cables",
+       "cul_patrimonio"
+      ]
+     },
+     {
+      "texto": "Recuperar progresivamente plazas y espacios públicos del Centro Histórico con programación cultural y nocturna.",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/12187_9bf7ed98.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-30",
+      "intereses": [
+       "amb_parques",
+       "cul_patrimonio"
+      ]
+     }
+    ],
+    "economia": [
+     {
+      "texto": "Transformar los centros municipales artesanales en espacios productivos y fortalecer capacitación y asociatividad de artesanos.",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/12187_9bf7ed98.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-30",
+      "intereses": [
+       "eco_artesanos"
+      ]
+     },
+     {
+      "texto": "Espacios públicos para el comercio de ferias y eventos conforme al calendario festivo.",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/12187_9bf7ed98.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-30",
+      "intereses": [
+       "eco_local"
+      ]
+     },
+     {
+      "texto": "Gestionar programas de primer empleo y prácticas laborales para jóvenes y evaluar incentivos tributarios para empresas que generen empleo.",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "parcial",
+      "fuente": "fuentes/latacunga/12187_9bf7ed98.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-30",
+      "intereses": [
+       "eco_empleo",
+       "eco_incentivos"
+      ]
+     },
+     {
+      "texto": "Gestionar ante el Gobierno central la operatividad del Aeropuerto Internacional Cotopaxi y el proyecto 'Arquitectura del paisaje del aeropuerto de Latacunga'.",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "no",
+      "fuente": "fuentes/latacunga/12187_9bf7ed98.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-30",
+      "intereses": [
+       "eco_aeropuerto"
+      ]
+     }
+    ],
+    "barrios": [
+     {
+      "texto": "Nueva Casa Municipal.",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/12187_9bf7ed98.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-30",
+      "intereses": []
+     },
+     {
+      "texto": "Proyecto 'Casas de asistencia y acogida para personas vulnerables' en coordinación con el Gobierno central y otras instituciones.",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "parcial",
+      "fuente": "fuentes/latacunga/12187_9bf7ed98.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-30",
+      "intereses": [
+       "bar_prioritarios"
+      ]
+     },
+     {
+      "texto": "Fortalecer la atención y la accesibilidad de los servicios municipales para adultos mayores, personas con discapacidad y otros grupos prioritarios.",
+      "concreta": false,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/12187_9bf7ed98.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-30",
+      "intereses": [
+       "bar_prioritarios"
+      ]
+     }
+    ],
+    "finanzas": [
+     {
+      "texto": "Crear un sistema municipal de priorización, seguimiento y evaluación de la inversión pública.",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/12187_9bf7ed98.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-30",
+      "intereses": [
+       "fin_seguimiento"
+      ]
+     },
+     {
+      "texto": "Revisar la normativa de impuestos por permisos de construcción y el cálculo de contribuciones especiales de mejoras.",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/12187_9bf7ed98.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-30",
+      "intereses": [
+       "fin_tributos"
+      ]
+     },
+     {
+      "texto": "Ordenanza de exoneración de tributos para fiestas y eventos de la ciudad y el cantón.",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/12187_9bf7ed98.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-30",
+      "intereses": [
+       "fin_tributos"
+      ]
+     },
+     {
+      "texto": "Ejecutar presupuestos participativos, seguimiento ciudadano de obras y publicación de información sobre presupuesto y contratación.",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/12187_9bf7ed98.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-30",
+      "intereses": [
+       "fin_participativo",
+       "fin_transparencia",
+       "fin_seguimiento"
+      ]
+     }
+    ],
+    "cultura": [
+     {
+      "texto": "Crear el Museo de la Mama Negra y postular la fiesta de la Mama Negra a Patrimonio de la Humanidad (UNESCO).",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/12187_9bf7ed98.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-30",
+      "intereses": [
+       "cul_mama_negra",
+       "cul_infra"
+      ]
+     },
+     {
+      "texto": "Centro Cultural 'CreArte' en el predio de la ex cárcel de la ciudad.",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/12187_9bf7ed98.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-30",
+      "intereses": [
+       "cul_infra"
+      ]
+     },
+     {
+      "texto": "Plan de recuperación y habilitación de bienes patrimoniales con giros de negocio en el Centro Histórico.",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/12187_9bf7ed98.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-30",
+      "intereses": [
+       "cul_patrimonio"
+      ]
+     },
+     {
+      "texto": "Consolidar la ruta turística 'Cara Sur Cotopaxi' y el destino 'Cerro de Agua' (Putzalahua).",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/12187_9bf7ed98.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-30",
+      "intereses": [
+       "cul_turismo_rural"
+      ]
+     },
+     {
+      "texto": "Agenda anual de eventos culturales, deportivos, gastronómicos y turísticos, y apoyo a eventos deportivos.",
+      "concreta": true,
+      "plazo": "Anual",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/12187_9bf7ed98.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-30",
+      "intereses": [
+       "cul_agenda"
+      ]
+     }
+    ]
+   },
+   "notas": "PDF escaneado de 19 págs. Se leyeron todas (re-renderizadas a 140 dpi por el tamaño de la letra). Fecha de presentación en la ficha: 30-ago-2026; certificación firmada en Latacunga el 31-ago-2026. Cronograma igual para los 20 programas (2027 diagnóstico ... 2031 evaluación) y sin montos ('No se fija un monto global'). Tres actividades de Bienestar Animal (planes 'Sin animales en la calle', 'Mi mejor amigo', esterilización) aparecen en gris tenue, posiblemente tachadas. Sin prensa verificada sobre esta candidatura."
+  },
+  {
+   "id": "raul-teran",
+   "nombre": "Raúl Terán",
+   "organizacion": "Alianza Futuro – Suma",
+   "lista": "20-23",
+   "perfil": "Raúl Alejandro Terán Guerrero, ingeniero con maestría según la firma del plan de trabajo; candidato a la Alcaldía de Latacunga por la alianza de las listas 20-23.",
+   "perfil_fuente": "fuentes/latacunga/7905_5_20-23_387b3.pdf",
+   "plan_cne_url": "fuentes/latacunga/7905_5_20-23_387b3.pdf",
+   "propuestas": {
+    "movilidad": [
+     {
+      "texto": "Estudio actualizado de rutas y frecuencias del transporte público, con señalización y semaforización básica en zonas escolares.",
+      "concreta": true,
+      "plazo": "Año 1",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/7905_5_20-23_387b3.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "mov_transporte",
+       "mov_accesible"
+      ]
+     },
+     {
+      "texto": "Elaborar el Plan Maestro de Reordenamiento del Transporte Terrestre (SIT-Latacunga) y reordenar el transporte público.",
+      "concreta": true,
+      "plazo": "Años 2–4",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/7905_5_20-23_387b3.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "mov_planes",
+       "mov_transporte"
+      ]
+     },
+     {
+      "texto": "Crear una red de micromovilidad segura, peatonalización inclusiva y red de ciclovías.",
+      "concreta": true,
+      "plazo": "Años 3–4",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/7905_5_20-23_387b3.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "mov_activa"
+      ]
+     },
+     {
+      "texto": "Red de semaforización inteligente y adaptativa con piloto de semaforización con IA en 4 intersecciones críticas, con meta de reducir 15 % las colas vehiculares.",
+      "concreta": true,
+      "plazo": "Años 1–4",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/7905_5_20-23_387b3.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "mov_semaforos"
+      ]
+     },
+     {
+      "texto": "Plan Vial Integral 'Latacunga Conectada': auditoría y desbloqueo de obras paralizadas y pavimentación urbano-rural.",
+      "concreta": true,
+      "plazo": "Año 1",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/7905_5_20-23_387b3.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "mov_vias",
+       "mov_rural",
+       "bar_pendientes"
+      ]
+     },
+     {
+      "texto": "Bot de reportes geolocalizados por WhatsApp ('Latacunga Alerta AI') y asignación automatizada de cuadrillas viales para baches y fallas urbanas.",
+      "concreta": true,
+      "plazo": "Años 2–3",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/7905_5_20-23_387b3.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "mov_vias",
+       "fin_digital"
+      ]
+     }
+    ],
+    "seguridad": [
+     {
+      "texto": "Diseñar e implementar un Sistema Municipal de Seguridad Inteligente con cámaras en accesos, mercados, parques, terminales y zonas educativas, integradas al ECU 911.",
+      "concreta": true,
+      "plazo": "Años 1–2",
+      "costo": null,
+      "competencia": "parcial",
+      "fuente": "fuentes/latacunga/7905_5_20-23_387b3.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "seg_camaras",
+       "seg_centro",
+       "seg_escolar"
+      ]
+     },
+     {
+      "texto": "Lectura automática de placas en entradas y salidas del cantón y analítica de video con IA para detectar aglomeraciones y eventos de riesgo.",
+      "concreta": true,
+      "plazo": "Año 3",
+      "costo": null,
+      "competencia": "parcial",
+      "fuente": "fuentes/latacunga/7905_5_20-23_387b3.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "seg_camaras"
+      ]
+     },
+     {
+      "texto": "Modernizar el Centro Municipal de Monitoreo, crear el Observatorio Cantonal de Seguridad, Convivencia y Riesgos Urbanos y un mapa georreferenciado del delito.",
+      "concreta": true,
+      "plazo": "Años 1–3",
+      "costo": null,
+      "competencia": "parcial",
+      "fuente": "fuentes/latacunga/7905_5_20-23_387b3.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "seg_camaras",
+       "seg_observatorio"
+      ]
+     },
+     {
+      "texto": "Crear la Red Latacunga Segura con comités barriales, alarmas barriales con geolocalización y botones de pánico en mercados, parques, paradas e instituciones educativas.",
+      "concreta": true,
+      "plazo": "Años 1–3",
+      "costo": null,
+      "competencia": "parcial",
+      "fuente": "fuentes/latacunga/7905_5_20-23_387b3.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "seg_comunitaria"
+      ]
+     },
+     {
+      "texto": "Programa 'Latacunga Iluminada y Vigilada' en corredores inseguros y recuperación de parques, plazas, pasos deprimidos, paradas y rutas escolares con criterios CPTED.",
+      "concreta": true,
+      "plazo": "Años 1–3",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/7905_5_20-23_387b3.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "seg_iluminacion",
+       "seg_escolar"
+      ]
+     },
+     {
+      "texto": "Escuelas deportivas y de arte, laboratorios comunitarios de tecnología y programas de prevención del consumo de drogas para niños y jóvenes.",
+      "concreta": true,
+      "plazo": "Años 1–4",
+      "costo": null,
+      "competencia": "parcial",
+      "fuente": "fuentes/latacunga/7905_5_20-23_387b3.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "seg_prevencion",
+       "cul_deporte"
+      ]
+     },
+     {
+      "texto": "Programa 'Latacunga Resiliente': actualizar mapas de riesgo y planes de contingencia, simulacros en parroquias y plataforma de monitoreo y alertas tempranas.",
+      "concreta": true,
+      "plazo": "Años 1–4",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/7905_5_20-23_387b3.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "seg_volcan"
+      ]
+     }
+    ],
+    "servicios": [
+     {
+      "texto": "Catastro actualizado de redes y construcción de nuevos tanques reservorios en sectores críticos, con mapa cantonal de criticidad de abastecimiento.",
+      "concreta": true,
+      "plazo": "Años 1–4",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/7905_5_20-23_387b3.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "ser_agua_altos"
+      ]
+     },
+     {
+      "texto": "Programa 'Latacunga cero fugas': sectorización hidráulica, macro y micromedición, sensores IoT y reparación de fugas en menos de 24 horas.",
+      "concreta": true,
+      "plazo": "Años 1–4",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/7905_5_20-23_387b3.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "ser_fugas"
+      ]
+     },
+     {
+      "texto": "Asistencia técnica y fortalecimiento de juntas administradoras de agua rurales, con programa de cloración segura.",
+      "concreta": true,
+      "plazo": "Años 1–4",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/7905_5_20-23_387b3.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "ser_juntas"
+      ]
+     },
+     {
+      "texto": "Expansión del alcantarillado con Plan Maestro, colectores prioritarios, sistema piloto y tratamiento progresivo de aguas residuales.",
+      "concreta": true,
+      "plazo": "Años 1–4",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/7905_5_20-23_387b3.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "ser_alcantarillado",
+       "ser_ptar"
+      ]
+     },
+     {
+      "texto": "Centro Inteligente de Gestión del Agua con monitoreo en tiempo real y app móvil para reportar fugas y estado del servicio.",
+      "concreta": true,
+      "plazo": "Años 1–2",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/7905_5_20-23_387b3.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "ser_fugas",
+       "fin_digital"
+      ]
+     },
+     {
+      "texto": "Estrategia Municipal de Economía Circular y Reciclaje.",
+      "concreta": false,
+      "plazo": "Años 3–4",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/7905_5_20-23_387b3.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "ser_reciclaje"
+      ]
+     }
+    ],
+    "ambiente": [
+     {
+      "texto": "Plan Cantonal 'Latacunga Verde' con inventario ambiental, programa de reforestación y recuperación de microcuencas.",
+      "concreta": true,
+      "plazo": "Años 1–2",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/7905_5_20-23_387b3.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "amb_reforestacion",
+       "amb_paramos"
+      ]
+     },
+     {
+      "texto": "Reutilizar agua tratada para riego de parques y áreas verdes cuando sea técnica y sanitariamente viable.",
+      "concreta": true,
+      "plazo": "Año 4",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/7905_5_20-23_387b3.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "amb_eficiencia"
+      ]
+     },
+     {
+      "texto": "Programa 'Latacunga Amiga de los Animales', Centro Integral Municipal de Bienestar Animal, esterilizaciones masivas y un parque para mascotas.",
+      "concreta": true,
+      "plazo": "Años 1–4",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/7905_5_20-23_387b3.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "amb_animales"
+      ]
+     }
+    ],
+    "economia": [
+     {
+      "texto": "Plataforma Municipal de Empleo y Capacitación, convenios de inserción laboral con empresas y Observatorio Cantonal de Empleo.",
+      "concreta": true,
+      "plazo": "Años 1–4",
+      "costo": null,
+      "competencia": "parcial",
+      "fuente": "fuentes/latacunga/7905_5_20-23_387b3.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "eco_empleo"
+      ]
+     },
+     {
+      "texto": "Crear un Fondo de Capital Semilla mediante alianzas, una Ventanilla Única Empresarial y programas de mentoría.",
+      "concreta": true,
+      "plazo": "Años 1–3",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/7905_5_20-23_387b3.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "eco_semilla",
+       "eco_tramites",
+       "eco_emprende"
+      ]
+     },
+     {
+      "texto": "Red Cantonal de Centros de Acopio y marca territorial 'Hecho en Latacunga' para productores rurales.",
+      "concreta": true,
+      "plazo": "Años 1–2",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/7905_5_20-23_387b3.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "eco_local",
+       "eco_rural"
+      ]
+     },
+     {
+      "texto": "Mercados inteligentes con sistemas digitales de información de productos y precios.",
+      "concreta": true,
+      "plazo": "Año 3",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/7905_5_20-23_387b3.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "eco_mercados"
+      ]
+     },
+     {
+      "texto": "Simplificación de trámites municipales y red de emprendimientos juveniles y femeninos.",
+      "concreta": true,
+      "plazo": "Años 1–4",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/7905_5_20-23_387b3.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "eco_tramites",
+       "eco_emprende"
+      ]
+     }
+    ],
+    "barrios": [
+     {
+      "texto": "Programa de Recuperación Integral 'Barrio Activo', entrega de obras heredadas e intervención vial en barrios urbanos y rurales.",
+      "concreta": true,
+      "plazo": "Años 2–4",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/7905_5_20-23_387b3.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "bar_regeneracion",
+       "bar_pendientes"
+      ]
+     },
+     {
+      "texto": "Programa 'Municipio Inclusivo' y Red Cantonal de Protección de Derechos con cobertura parroquial y servicios itinerantes.",
+      "concreta": true,
+      "plazo": "Años 1–3",
+      "costo": null,
+      "competencia": "parcial",
+      "fuente": "fuentes/latacunga/7905_5_20-23_387b3.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "bar_prioritarios"
+      ]
+     },
+     {
+      "texto": "Red de Puntos Municipales de Apoyo Digital (Ventanilla Rural) en parroquias rurales.",
+      "concreta": true,
+      "plazo": "Año 1",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/7905_5_20-23_387b3.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "fin_digital",
+       "bar_parroquias"
+      ]
+     }
+    ],
+    "finanzas": [
+     {
+      "texto": "'Municipio Cero Filas': digitalización de trámites, app ciudadana 'Latacunga a un clic' y trámites cero papel con pasarela de pago.",
+      "concreta": true,
+      "plazo": "Años 1–4",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/7905_5_20-23_387b3.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "fin_digital"
+      ]
+     },
+     {
+      "texto": "Portal 'Municipio Abierto', presupuesto ciudadano abierto y sistema de seguimiento ciudadano de obras nuevas.",
+      "concreta": true,
+      "plazo": "Años 1–2",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/7905_5_20-23_387b3.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "fin_transparencia",
+       "fin_seguimiento",
+       "fin_participativo"
+      ]
+     },
+     {
+      "texto": "Observatorio Ciudadano de Obras y Contratación Pública y sistema 'Cronograma Abierto' de obras.",
+      "concreta": true,
+      "plazo": "Años 3–4",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/7905_5_20-23_387b3.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "fin_veedurias"
+      ]
+     },
+     {
+      "texto": "Sistema Municipal de Seguimiento y Evaluación con informes trimestrales y evaluación anual del plan.",
+      "concreta": false,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/7905_5_20-23_387b3.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "fin_seguimiento"
+      ]
+     }
+    ],
+    "cultura": [
+     {
+      "texto": "Agenda anual permanente de eventos y rutas gastronómicas y patrimoniales.",
+      "concreta": true,
+      "plazo": "Años 1–2",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/7905_5_20-23_387b3.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "cul_agenda",
+       "cul_gastronomia",
+       "cul_patrimonio"
+      ]
+     },
+     {
+      "texto": "Impulsar el turismo local comunitario y capacitar a prestadores de servicios turísticos.",
+      "concreta": false,
+      "plazo": "Años 1–4",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/7905_5_20-23_387b3.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "cul_turismo_rural"
+      ]
+     }
+    ]
+   },
+   "notas": "PDF escaneado de 48 páginas leído en su totalidad; las páginas están desordenadas (primero las caras pares/impares de cada sección y luego las otras), pero el contenido está completo. No figura fecha de presentación (fecha=null; metadatos del PDF: 2026-08-13). Sin costos en las matrices. No menciona Mama Negra ni deporte de forma específica fuera de prevención. Una búsqueda en La Gaceta muestra 'Paúl Terán' en un resumen; el plan dice Raúl Alejandro Terán Guerrero. La certificación nombra la alianza 'FUTURO – SUMA'. Las páginas de prensa (lagaceta.com.ec, aldiaonline.net) no se pudieron abrir desde la red de esta sesión. Nombre completo de la organización en el plan: Alianza Futuro Sí, Pasado No (Futuro – Suma)."
+  },
+  {
+   "id": "geovanny-condor",
+   "nombre": "Geovanny Cóndor",
+   "organizacion": "Partido Sociedad Patriótica",
+   "lista": "3",
+   "perfil": "Leonel Geovanny Cóndor Mallitasig, candidato a la Alcaldía de Latacunga por el Partido Sociedad Patriótica (lista 3). El plan de trabajo no incluye datos biográficos.",
+   "perfil_fuente": "fuentes/latacunga/4591_5_3_fef8a.pdf",
+   "plan_cne_url": "fuentes/latacunga/4591_5_3_fef8a.pdf",
+   "propuestas": {
+    "movilidad": [
+     {
+      "texto": "Plan Integral de Conectividad Rural para mejorar vías y movilidad entre parroquias y comunidades y la comercialización agrícola.",
+      "concreta": true,
+      "plazo": "1–3 años",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/4591_5_3_fef8a.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "mov_rural",
+       "eco_rural"
+      ]
+     },
+     {
+      "texto": "Gestionar con la Prefectura de Cotopaxi la coordinación o delegación de competencias para el mantenimiento de la vialidad rural.",
+      "concreta": true,
+      "plazo": "1–2 años",
+      "costo": null,
+      "competencia": "parcial",
+      "fuente": "fuentes/latacunga/4591_5_3_fef8a.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "mov_rural"
+      ]
+     },
+     {
+      "texto": "Actualizar y articular los instrumentos de movilidad, tránsito, transporte y uso del suelo con el PDOT y PUGS.",
+      "concreta": false,
+      "plazo": "1–2 años",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/4591_5_3_fef8a.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "mov_planes",
+       "bar_planificacion"
+      ]
+     },
+     {
+      "texto": "Modelo de crecimiento urbano que desconcentre servicios y equipamientos hacia nuevos polos de desarrollo.",
+      "concreta": false,
+      "plazo": "2–4 años",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/4591_5_3_fef8a.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "mov_descentralizar",
+       "bar_centralidades"
+      ]
+     },
+     {
+      "texto": "Evaluar técnicamente el soterramiento de redes donde sea viable.",
+      "concreta": true,
+      "plazo": "1–4 años",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/4591_5_3_fef8a.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "amb_cables"
+      ]
+     }
+    ],
+    "seguridad": [
+     {
+      "texto": "Sistema Integral de Coordinación para la Seguridad con Policía, Fuerzas Armadas, Bomberos y otras instituciones.",
+      "concreta": false,
+      "plazo": "1–4 años",
+      "costo": null,
+      "competencia": "parcial",
+      "fuente": "fuentes/latacunga/4591_5_3_fef8a.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "seg_centro"
+      ]
+     },
+     {
+      "texto": "Programa de recuperación e iluminación de parques, plazas, canchas y espacios comunitarios con criterios de prevención situacional.",
+      "concreta": true,
+      "plazo": "1–3 años",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/4591_5_3_fef8a.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "seg_iluminacion"
+      ]
+     },
+     {
+      "texto": "Red Cantonal de Prevención y Alarmas Comunitarias con redes barriales.",
+      "concreta": true,
+      "plazo": "1–3 años",
+      "costo": null,
+      "competencia": "parcial",
+      "fuente": "fuentes/latacunga/4591_5_3_fef8a.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "seg_comunitaria"
+      ]
+     },
+     {
+      "texto": "Entornos escolares seguros en coordinación con Policía y autoridades educativas.",
+      "concreta": true,
+      "plazo": "1–4 años",
+      "costo": null,
+      "competencia": "parcial",
+      "fuente": "fuentes/latacunga/4591_5_3_fef8a.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "seg_escolar"
+      ]
+     },
+     {
+      "texto": "Modernizar la sala de monitoreo municipal y el uso de cámaras para prevención y emergencias.",
+      "concreta": true,
+      "plazo": "1–3 años",
+      "costo": null,
+      "competencia": "parcial",
+      "fuente": "fuentes/latacunga/4591_5_3_fef8a.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "seg_camaras"
+      ]
+     },
+     {
+      "texto": "Crear un Observatorio Cantonal de Seguridad con estadísticas y factores de riesgo.",
+      "concreta": true,
+      "plazo": "2–3 años",
+      "costo": null,
+      "competencia": "parcial",
+      "fuente": "fuentes/latacunga/4591_5_3_fef8a.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "seg_observatorio"
+      ]
+     },
+     {
+      "texto": "Sistema de prevención y preparación ante riesgos con planes, rutas, señalización y simulacros, con prioridad en la amenaza volcánica.",
+      "concreta": true,
+      "plazo": "2027–2031",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/4591_5_3_fef8a.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "seg_volcan"
+      ]
+     }
+    ],
+    "servicios": [
+     {
+      "texto": "Formular y gestionar un Plan Maestro de Agua Potable con estudios, fases y estrategia de financiamiento.",
+      "concreta": true,
+      "plazo": "1–3 años",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/4591_5_3_fef8a.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "ser_agua_plan"
+      ]
+     },
+     {
+      "texto": "Proyecto Integral de Agua para Zonas Altas, especialmente Eloy Alfaro y comunidades rurales, con nuevas fuentes, almacenamiento y distribución.",
+      "concreta": true,
+      "plazo": "2–4 años",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/4591_5_3_fef8a.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "ser_agua_altos"
+      ]
+     },
+     {
+      "texto": "Rehabilitar, ampliar y optimizar redes y sistemas de captación, conducción y distribución de agua potable.",
+      "concreta": true,
+      "plazo": "1–4 años",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/4591_5_3_fef8a.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "ser_agua_plan"
+      ]
+     },
+     {
+      "texto": "Rehabilitación, ampliación y construcción de alcantarillado sanitario y pluvial en sectores prioritarios.",
+      "concreta": true,
+      "plazo": "1–4 años",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/4591_5_3_fef8a.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "ser_alcantarillado"
+      ]
+     },
+     {
+      "texto": "Fortalecer la gestión de residuos sólidos con reciclaje, separación en la fuente y economía circular.",
+      "concreta": false,
+      "plazo": "1–4 años",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/4591_5_3_fef8a.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "ser_reciclaje"
+      ]
+     }
+    ],
+    "ambiente": [
+     {
+      "texto": "Protección de fuentes hídricas, páramos y zonas de recarga.",
+      "concreta": false,
+      "plazo": "1–4 años",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/4591_5_3_fef8a.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "amb_paramos"
+      ]
+     },
+     {
+      "texto": "Programas permanentes de reforestación con especies nativas y educación ambiental comunitaria.",
+      "concreta": true,
+      "plazo": "1–4 años",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/4591_5_3_fef8a.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "amb_reforestacion"
+      ]
+     },
+     {
+      "texto": "Programa integral de recuperación de la cuenca y riberas del río Cutuchi en coordinación interinstitucional.",
+      "concreta": true,
+      "plazo": "2–4 años",
+      "costo": null,
+      "competencia": "parcial",
+      "fuente": "fuentes/latacunga/4591_5_3_fef8a.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "amb_cutuchi"
+      ]
+     },
+     {
+      "texto": "Mantenimiento y recuperación de espacios públicos y escenarios deportivos mediante convenios con ligas y organizaciones territoriales.",
+      "concreta": true,
+      "plazo": "1–4 años",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/4591_5_3_fef8a.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "amb_parques",
+       "cul_escenarios"
+      ]
+     }
+    ],
+    "economia": [
+     {
+      "texto": "Modernizar y adecuar mercados y espacios de comercialización.",
+      "concreta": false,
+      "plazo": "2027–2031",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/4591_5_3_fef8a.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "eco_mercados"
+      ]
+     },
+     {
+      "texto": "Brigadas y asistencia técnica para la conectividad productiva de las parroquias rurales.",
+      "concreta": false,
+      "plazo": "2027–2031",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/4591_5_3_fef8a.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "eco_rural"
+      ]
+     }
+    ],
+    "barrios": [
+     {
+      "texto": "Gestionar, a través del Patronato, un Centro Municipal de Diagnóstico Especializado con tomografía, resonancia magnética y laboratorio.",
+      "concreta": true,
+      "plazo": "2–4 años",
+      "costo": null,
+      "competencia": "parcial",
+      "fuente": "fuentes/latacunga/4591_5_3_fef8a.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "bar_salud"
+      ]
+     },
+     {
+      "texto": "Fortalecer y ampliar el laboratorio clínico municipal para reducir costos a la población.",
+      "concreta": true,
+      "plazo": "1–3 años",
+      "costo": null,
+      "competencia": "parcial",
+      "fuente": "fuentes/latacunga/4591_5_3_fef8a.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "bar_salud"
+      ]
+     },
+     {
+      "texto": "Gestionar un Centro Municipal de Estimulación Temprana y Rehabilitación para niños con condiciones del neurodesarrollo.",
+      "concreta": true,
+      "plazo": "2–4 años",
+      "costo": null,
+      "competencia": "parcial",
+      "fuente": "fuentes/latacunga/4591_5_3_fef8a.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "bar_salud",
+       "bar_prioritarios"
+      ]
+     },
+     {
+      "texto": "Fortalecer programas para personas con discapacidad, adultos mayores y grupos prioritarios, y articular programas de nutrición y prevención.",
+      "concreta": false,
+      "plazo": "1–4 años",
+      "costo": null,
+      "competencia": "parcial",
+      "fuente": "fuentes/latacunga/4591_5_3_fef8a.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "bar_prioritarios"
+      ]
+     },
+     {
+      "texto": "Red Municipal de Gestión Territorial con brigadas permanentes de servicios en parroquias urbanas y rurales.",
+      "concreta": true,
+      "plazo": "1–4 años",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/4591_5_3_fef8a.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "bar_parroquias"
+      ]
+     },
+     {
+      "texto": "Asistencia técnica a los GAD parroquiales en planificación y gestión de proyectos.",
+      "concreta": false,
+      "plazo": "1–4 años",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/4591_5_3_fef8a.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "bar_parroquias"
+      ]
+     }
+    ],
+    "finanzas": [
+     {
+      "texto": "Ventanilla Única Digital para trámites y servicios municipales en línea.",
+      "concreta": true,
+      "plazo": "1–3 años",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/4591_5_3_fef8a.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "fin_digital"
+      ]
+     },
+     {
+      "texto": "Revisar y simplificar procesos y ordenanzas de construcción, urbanizaciones, fraccionamientos y uso del suelo.",
+      "concreta": true,
+      "plazo": "1–2 años",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/4591_5_3_fef8a.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "eco_tramites",
+       "bar_planificacion"
+      ]
+     },
+     {
+      "texto": "Gobierno abierto con publicación de datos, transparencia presupuestaria y seguimiento ciudadano de proyectos.",
+      "concreta": false,
+      "plazo": "1–4 años",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/4591_5_3_fef8a.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "fin_transparencia"
+      ]
+     },
+     {
+      "texto": "Sesiones del Concejo Municipal en los territorios cuando sea legal y operativamente procedente.",
+      "concreta": true,
+      "plazo": "1–4 años",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/4591_5_3_fef8a.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "fin_concejo"
+      ]
+     },
+     {
+      "texto": "Tablero de seguimiento de metas, asambleas anuales de rendición de cuentas y publicación de ejecución presupuestaria y contratos en el portal web.",
+      "concreta": true,
+      "plazo": "Anual",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/4591_5_3_fef8a.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "fin_seguimiento",
+       "fin_transparencia"
+      ]
+     }
+    ],
+    "cultura": [
+     {
+      "texto": "Programas permanentes de deporte, cultura, formación y recreación para niños, adolescentes y jóvenes como prevención de violencia.",
+      "concreta": false,
+      "plazo": "1–4 años",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/4591_5_3_fef8a.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "cul_deporte",
+       "seg_prevencion"
+      ]
+     },
+     {
+      "texto": "Turismo sostenible y comunitario con rutas y proyectos turísticos priorizados.",
+      "concreta": false,
+      "plazo": "2028–2031",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/4591_5_3_fef8a.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": null,
+      "intereses": [
+       "cul_turismo_rural"
+      ]
+     }
+    ]
+   },
+   "notas": "PDF de texto de 28 páginas; las págs. 26–28 (rendición de cuentas, viabilidad, firma) son imágenes y se leyeron renderizadas. Todas las acciones indican 'Monto estimado: Por determinar' (costo=null). No figura fecha de presentación (fecha=null; metadatos del PDF: 2026-08-14). Firma el secretario del PSP; una nota de prensa (aldiaonline.net, no se pudo abrir) lo menciona como precandidato de una alianza PSP(3)-PID(4), pero el plan muestra solo la lista 3. Sin propuestas sobre Mama Negra ni patrimonio. Nombre completo de la organización en el plan: Partido Sociedad Patriótica \"21 de Enero\"."
+  },
+  {
+   "id": "sherlin-pacheco",
+   "nombre": "Sherlin Pacheco",
+   "organizacion": "Alianza Mashkas Primero (UP – ID – Opción)",
+   "lista": "2-12-61",
+   "perfil": "Sherlin Coralia Pacheco Viteri, abogada y mediadora con maestría, directora de la Fundación Lideresas en América según su presentación en el plan; menciona experiencia en el sector público, el ámbito legislativo y la asesoría jurídica.",
+   "perfil_fuente": "fuentes/latacunga/8466_0_2-12-61_2458f.pdf",
+   "plan_cne_url": "fuentes/latacunga/8466_0_2-12-61_2458f.pdf",
+   "propuestas": {
+    "movilidad": [
+     {
+      "texto": "Actualizar, aprobar e implementar el Plan Maestro de Movilidad de Latacunga con transporte público, peatones, ciclismo, estacionamientos, carga y conectividad urbano-rural.",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/8466_0_2-12-61_2458f.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-06-06",
+      "intereses": [
+       "mov_planes",
+       "mov_transporte",
+       "mov_estacionamiento",
+       "mov_rural"
+      ]
+     },
+     {
+      "texto": "Programa 'Sectores Unidos' / 'Muévete Latacunga': accesibilidad universal con rampas, pisos podotáctiles, semáforos sonoros, paradas adaptadas y gestión inteligente del tránsito.",
+      "concreta": true,
+      "plazo": "Años 1–4",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/8466_0_2-12-61_2458f.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-06-06",
+      "intereses": [
+       "mov_accesible",
+       "mov_semaforos"
+      ]
+     },
+     {
+      "texto": "Plan Cantonal de Movilidad Activa con ciclovías, estacionamientos para bicicletas y educación vial.",
+      "concreta": true,
+      "plazo": "Años 1–4",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/8466_0_2-12-61_2458f.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-06-06",
+      "intereses": [
+       "mov_activa"
+      ]
+     },
+     {
+      "texto": "Pasos peatonales elevados, señalización y agentes de tránsito en horarios de entrada y salida de instituciones educativas en vías de alto tráfico.",
+      "concreta": true,
+      "plazo": "Años 1–4",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/8466_0_2-12-61_2458f.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-06-06",
+      "intereses": [
+       "mov_accesible"
+      ]
+     },
+     {
+      "texto": "Evaluar buses eléctricos, transporte de bajas emisiones e infraestructura de carga mediante estudios de factibilidad y proyectos piloto.",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/8466_0_2-12-61_2458f.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-06-06",
+      "intereses": [
+       "mov_electrica"
+      ]
+     },
+     {
+      "texto": "Rehabilitar vías de acceso a atractivos turísticos con señalización, miradores y áreas de descanso.",
+      "concreta": true,
+      "plazo": "Años 1–4",
+      "costo": null,
+      "competencia": "parcial",
+      "fuente": "fuentes/latacunga/8466_0_2-12-61_2458f.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-06-06",
+      "intereses": [
+       "mov_rural",
+       "cul_turismo_rural"
+      ]
+     }
+    ],
+    "seguridad": [
+     {
+      "texto": "Programa 'Latacunga Segura': videovigilancia con analítica, iluminación estratégica, alarmas comunitarias y articulación con Policía y ECU 911.",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "parcial",
+      "fuente": "fuentes/latacunga/8466_0_2-12-61_2458f.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-06-06",
+      "intereses": [
+       "seg_camaras",
+       "seg_iluminacion",
+       "seg_comunitaria",
+       "seg_centro"
+      ]
+     },
+     {
+      "texto": "Ampliar la cobertura de cámaras priorizando parques, mercados, instituciones educativas y sectores estratégicos.",
+      "concreta": true,
+      "plazo": "Años 1–4",
+      "costo": null,
+      "competencia": "parcial",
+      "fuente": "fuentes/latacunga/8466_0_2-12-61_2458f.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-06-06",
+      "intereses": [
+       "seg_camaras",
+       "seg_escolar"
+      ]
+     },
+     {
+      "texto": "Botones de pánico y alertas en unidades de transporte público para reportar acoso o violencia, junto con lactarios en paradas e instalaciones municipales.",
+      "concreta": true,
+      "plazo": "Años 1–4",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/8466_0_2-12-61_2458f.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-06-06",
+      "intereses": [
+       "seg_mujeres"
+      ]
+     },
+     {
+      "texto": "Programa 'Latacunga Protege' de prevención de la violencia y del suicidio, y Programa Cantonal de Salud Mental Comunitaria.",
+      "concreta": true,
+      "plazo": "Años 1–4",
+      "costo": null,
+      "competencia": "parcial",
+      "fuente": "fuentes/latacunga/8466_0_2-12-61_2458f.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-06-06",
+      "intereses": [
+       "seg_prevencion",
+       "bar_salud"
+      ]
+     },
+     {
+      "texto": "Planes comunitarios de prevención, simulacros y capacitación para la gestión integral del riesgo.",
+      "concreta": true,
+      "plazo": "Años 1–4",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/8466_0_2-12-61_2458f.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-06-06",
+      "intereses": [
+       "seg_volcan"
+      ]
+     }
+    ],
+    "servicios": [
+     {
+      "texto": "Ampliar la separación en la fuente, el reciclaje y la economía circular e implementar un sistema adecuado de recolección de residuos.",
+      "concreta": true,
+      "plazo": "Años 1–4",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/8466_0_2-12-61_2458f.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-06-06",
+      "intereses": [
+       "ser_reciclaje"
+      ]
+     },
+     {
+      "texto": "Programa 'Mercados Verdes': reducir fundas plásticas y fortalecer la gestión de residuos en mercados municipales.",
+      "concreta": true,
+      "plazo": "Años 1–4",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/8466_0_2-12-61_2458f.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-06-06",
+      "intereses": [
+       "ser_reciclaje",
+       "eco_mercados"
+      ]
+     }
+    ],
+    "ambiente": [
+     {
+      "texto": "Programa 'Latacunga Renace con sus Ríos': limpieza, recuperación de riberas y monitoreo de puntos críticos de contaminación.",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "parcial",
+      "fuente": "fuentes/latacunga/8466_0_2-12-61_2458f.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-06-06",
+      "intereses": [
+       "amb_cutuchi"
+      ]
+     },
+     {
+      "texto": "Campañas de reforestación urbana con especies nativas en parques, avenidas y espacios públicos.",
+      "concreta": true,
+      "plazo": "Años 1–4",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/8466_0_2-12-61_2458f.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-06-06",
+      "intereses": [
+       "amb_reforestacion"
+      ]
+     },
+     {
+      "texto": "Consultoría para la modernización sostenible de edificios municipales: eficiencia energética, agua lluvia y cubiertas verdes.",
+      "concreta": true,
+      "plazo": "Años 2–4",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/8466_0_2-12-61_2458f.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-06-06",
+      "intereses": [
+       "amb_eficiencia"
+      ]
+     },
+     {
+      "texto": "Programa 'Puentes para la Vida': recuperar puentes urbanos con iluminación, paisajismo y arte, más iluminación arquitectónica en espacios emblemáticos.",
+      "concreta": true,
+      "plazo": "Años 1–4",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/8466_0_2-12-61_2458f.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-06-06",
+      "intereses": [
+       "amb_parques"
+      ]
+     },
+     {
+      "texto": "Programa 'Latacunga Amiga de los Animales' (esterilización, vacunación, adopción) y estudios para el Jardín del Recuerdo Animal.",
+      "concreta": true,
+      "plazo": "Años 1–4",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/8466_0_2-12-61_2458f.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-06-06",
+      "intereses": [
+       "amb_animales"
+      ]
+     },
+     {
+      "texto": "Programas 'Barrios con Identidad' y 'Mi Barrio Florece' de ornato, jardinería y recuperación de espacios verdes.",
+      "concreta": true,
+      "plazo": "Años 1–4",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/8466_0_2-12-61_2458f.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-06-06",
+      "intereses": [
+       "amb_parques"
+      ]
+     }
+    ],
+    "economia": [
+     {
+      "texto": "Modernizar los mercados municipales con administración técnica por mercado, mantenimiento preventivo y normas de funcionamiento.",
+      "concreta": true,
+      "plazo": "Años 1–4",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/8466_0_2-12-61_2458f.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-06-06",
+      "intereses": [
+       "eco_mercados"
+      ]
+     },
+     {
+      "texto": "Estrategia 'Hecho en Latacunga: Consume Local, Produce Local' con marca cantonal y compras públicas locales.",
+      "concreta": true,
+      "plazo": "Años 1–4",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/8466_0_2-12-61_2458f.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-06-06",
+      "intereses": [
+       "eco_local"
+      ]
+     },
+     {
+      "texto": "Red Cantonal de Ferias Productivas y ferias itinerantes de emprendimiento y gastronomía en parroquias rurales.",
+      "concreta": true,
+      "plazo": "Años 1–4",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/8466_0_2-12-61_2458f.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-06-06",
+      "intereses": [
+       "eco_local",
+       "eco_rural"
+      ]
+     },
+     {
+      "texto": "Programa Municipal de Emprendimiento e Innovación con mentoría y ruedas de negocio, y Observatorio Económico Cantonal.",
+      "concreta": true,
+      "plazo": "Años 1–4",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/8466_0_2-12-61_2458f.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-06-06",
+      "intereses": [
+       "eco_emprende"
+      ]
+     },
+     {
+      "texto": "Gestionar alianzas para un nuevo polo comercial en el sur del cantón.",
+      "concreta": true,
+      "plazo": "Años 2–4",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/8466_0_2-12-61_2458f.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-06-06",
+      "intereses": [
+       "eco_polos"
+      ]
+     }
+    ],
+    "barrios": [
+     {
+      "texto": "'Patronato sin Fronteras' / 'Patronato 360': ampliar atención médica, odontológica y psicológica con brigadas y atención domiciliaria.",
+      "concreta": true,
+      "plazo": "Años 1–4",
+      "costo": null,
+      "competencia": "parcial",
+      "fuente": "fuentes/latacunga/8466_0_2-12-61_2458f.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-06-06",
+      "intereses": [
+       "bar_salud"
+      ]
+     },
+     {
+      "texto": "Clínicas móviles que recorran semanalmente las parroquias rurales y creación progresiva de Patronatos Parroquiales.",
+      "concreta": true,
+      "plazo": "Años 1–4",
+      "costo": null,
+      "competencia": "parcial",
+      "fuente": "fuentes/latacunga/8466_0_2-12-61_2458f.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-06-06",
+      "intereses": [
+       "bar_salud",
+       "bar_parroquias"
+      ]
+     },
+     {
+      "texto": "Programa 'Parroquias con Identidad' para repotenciar parques, plazas, iglesias y canchas en todas las parroquias rurales.",
+      "concreta": true,
+      "plazo": "Años 1–4",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/8466_0_2-12-61_2458f.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-06-06",
+      "intereses": [
+       "bar_parroquias"
+      ]
+     },
+     {
+      "texto": "Asambleas ciudadanas periódicas en parroquias para priorizar obras e inversión municipal.",
+      "concreta": false,
+      "plazo": "Años 1–4",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/8466_0_2-12-61_2458f.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-06-06",
+      "intereses": [
+       "fin_participativo"
+      ]
+     },
+     {
+      "texto": "Becas al mérito académico, donación de útiles escolares y programas de alfabetización.",
+      "concreta": true,
+      "plazo": "Años 1–4",
+      "costo": null,
+      "competencia": "parcial",
+      "fuente": "fuentes/latacunga/8466_0_2-12-61_2458f.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-06-06",
+      "intereses": [
+       "bar_educacion"
+      ]
+     },
+     {
+      "texto": "Programas para adultos mayores y personas con discapacidad con rehabilitación comunitaria y apoyo a cuidadores.",
+      "concreta": false,
+      "plazo": "Años 1–4",
+      "costo": null,
+      "competencia": "parcial",
+      "fuente": "fuentes/latacunga/8466_0_2-12-61_2458f.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-06-06",
+      "intereses": [
+       "bar_prioritarios"
+      ]
+     }
+    ],
+    "finanzas": [
+     {
+      "texto": "Plataforma digital pública para consultar en tiempo real el avance físico y financiero de obras, contratación y presupuesto hasta 2031.",
+      "concreta": true,
+      "plazo": "Años 1–4",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/8466_0_2-12-61_2458f.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-06-06",
+      "intereses": [
+       "fin_seguimiento",
+       "fin_transparencia"
+      ]
+     },
+     {
+      "texto": "Digitalizar trámites con firma electrónica y seguimiento en línea.",
+      "concreta": true,
+      "plazo": "Años 1–4",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/8466_0_2-12-61_2458f.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-06-06",
+      "intereses": [
+       "fin_digital"
+      ]
+     },
+     {
+      "texto": "Sesiones itinerantes del Concejo, cabildos abiertos, presupuesto participativo y audiencias públicas en parroquias urbanas y rurales.",
+      "concreta": true,
+      "plazo": "Años 1–4",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/8466_0_2-12-61_2458f.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-06-06",
+      "intereses": [
+       "fin_concejo",
+       "fin_participativo"
+      ]
+     },
+     {
+      "texto": "Capacitación permanente y Programa de Bienestar Laboral para servidores municipales, y Escuela Municipal de Liderazgo y Ciudadanía.",
+      "concreta": true,
+      "plazo": "Años 1–4",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/8466_0_2-12-61_2458f.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-06-06",
+      "intereses": [
+       "fin_reestructura"
+      ]
+     },
+     {
+      "texto": "Banco Municipal de Proyectos Ciudadanos con convocatorias anuales.",
+      "concreta": true,
+      "plazo": "Años 2–4",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/8466_0_2-12-61_2458f.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-06-06",
+      "intereses": [
+       "fin_participativo"
+      ]
+     }
+    ],
+    "cultura": [
+     {
+      "texto": "Estrategia 'Latacunga 365' con un calendario anual de actividades culturales, turísticas y deportivas.",
+      "concreta": true,
+      "plazo": "Años 1–4",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/8466_0_2-12-61_2458f.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-06-06",
+      "intereses": [
+       "cul_agenda"
+      ]
+     },
+     {
+      "texto": "Construir la Concha Acústica Metropolitana de La Laguna.",
+      "concreta": true,
+      "plazo": "Años 2–4",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/8466_0_2-12-61_2458f.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-06-06",
+      "intereses": [
+       "cul_infra"
+      ]
+     },
+     {
+      "texto": "Ruta Gastronómica de Latacunga y concursos nacionales de chugchucara, allulla y queso de hoja.",
+      "concreta": true,
+      "plazo": "Años 1–4",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/8466_0_2-12-61_2458f.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-06-06",
+      "intereses": [
+       "cul_gastronomia"
+      ]
+     },
+     {
+      "texto": "Festival Nacional de Arte, Cultura y Patrimonio Vivo, Corredor Artístico de La Cocha y programa 'Iglesias que cuentan su historia' con videomapping.",
+      "concreta": true,
+      "plazo": "Años 1–4",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/8466_0_2-12-61_2458f.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-06-06",
+      "intereses": [
+       "cul_agenda",
+       "cul_patrimonio"
+      ]
+     },
+     {
+      "texto": "Promocionar la Carrera de las Iglesias, las Fiestas de Independencia, el Carnaval y el 2 de Mayo como eventos turísticos.",
+      "concreta": true,
+      "plazo": "Años 1–4",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/8466_0_2-12-61_2458f.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-06-06",
+      "intereses": [
+       "cul_mama_negra",
+       "cul_turismo"
+      ]
+     },
+     {
+      "texto": "Gestionar el retorno de partidos oficiales de fútbol al Estadio La Cocha y torneos nacionales en el Coliseo Mayor.",
+      "concreta": true,
+      "plazo": "Años 1–4",
+      "costo": null,
+      "competencia": "parcial",
+      "fuente": "fuentes/latacunga/8466_0_2-12-61_2458f.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-06-06",
+      "intereses": [
+       "cul_escenarios"
+      ]
+     },
+     {
+      "texto": "Rehabilitar coliseos, canchas y escenarios deportivos; programas 'Un Coliseo, Un Club', Olimpiadas Cantonales y 'Domingos Activos'.",
+      "concreta": true,
+      "plazo": "Años 1–4",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/8466_0_2-12-61_2458f.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-06-06",
+      "intereses": [
+       "cul_escenarios",
+       "cul_deporte"
+      ]
+     },
+     {
+      "texto": "Programa 'Latacunga Investiga' para financiar investigaciones de historia, patrimonio y arqueología.",
+      "concreta": true,
+      "plazo": "Años 2–4",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/8466_0_2-12-61_2458f.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-06-06",
+      "intereses": [
+       "cul_patrimonio"
+      ]
+     }
+    ]
+   },
+   "notas": "PDF de texto de 38 páginas leído completo. Fecha de firma en el plan: 'Jueves, 6 de junio de 2026' (el 6 de junio de 2026 cae en sábado; metadatos del PDF: 2026-08-11). Sin costos. El nombre de la alianza aparece como 'Mashkas Primero'. En la sección 1.7 el tercer partido figura como 'Opción Ciudadana Lista 61'; en otras partes como 'Movimiento Político Organización Progresista Ciudadana, Opción'. No menciona agua potable ni alcantarillado, ni la Mama Negra por su nombre. No hay propuestas sobre el riesgo volcánico más allá de planes comunitarios de prevención. Las páginas de prensa no se pudieron abrir desde la red de esta sesión. Nombre completo de la organización en el plan: Alianza \"Mashkas Primero\" (Unidad Popular – Izquierda Democrática – Movimiento Organización Progresista Ciudadana, Opción)."
+  },
+  {
+   "id": "patricio-sanchez",
+   "nombre": "Patricio Sánchez",
+   "organizacion": "Movimiento de Unidad Avanza",
+   "lista": "8",
+   "perfil": "Dr. Bolívar Patricio Sánchez Yánez, exalcalde de Latacunga; la prensa local lo ubicó entre las figuras con experiencia previa en la Alcaldía de cara a 2026.",
+   "perfil_fuente": "https://lagaceta.com.ec/el-tablero-electoral-en-latacunga-empieza-a-moverse/",
+   "plan_cne_url": "fuentes/latacunga/746_5_8_87bcb.pdf",
+   "propuestas": {
+    "movilidad": [
+     {
+      "texto": "Ejecutar el proyecto del Terminal Terrestre de Latacunga.",
+      "concreta": true,
+      "plazo": "Años 2 y 3 de gestión (50% de avance cada año)",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/746_5_8_87bcb.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-02",
+      "intereses": [
+       "mov_terminal"
+      ]
+     },
+     {
+      "texto": "Regenerar integralmente el Acceso Sur de la ciudad.",
+      "concreta": true,
+      "plazo": "Años 1 a 4 (avance de 5%, 20%, 40% y 35%)",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/746_5_8_87bcb.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-02",
+      "intereses": [
+       "mov_vias"
+      ]
+     },
+     {
+      "texto": "Crear un Sistema Integral de Movilidad, Seguridad Vial y Transporte que dote a la red vial urbana de infraestructura de seguridad vial y gestión de tránsito modernizada.",
+      "concreta": false,
+      "plazo": "Metas acumuladas de 10%, 30%, 30% y 30% en los años 1 a 4",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/746_5_8_87bcb.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-02",
+      "intereses": [
+       "mov_semaforos",
+       "mov_accesible"
+      ]
+     },
+     {
+      "texto": "Construir, rehabilitar o mejorar vías urbanas dentro de un programa de desarrollo de infraestructura vial urbana.",
+      "concreta": false,
+      "plazo": "Avance de 25% por año en los 4 años de gestión",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/746_5_8_87bcb.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-02",
+      "intereses": [
+       "mov_vias"
+      ]
+     },
+     {
+      "texto": "Intervenir vías rurales para mejorar la conectividad territorial.",
+      "concreta": false,
+      "plazo": "Avance de 25% por año en los 4 años de gestión",
+      "costo": null,
+      "competencia": "parcial",
+      "fuente": "fuentes/latacunga/746_5_8_87bcb.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-02",
+      "intereses": [
+       "mov_rural"
+      ]
+     },
+     {
+      "texto": "Modernizar los servicios municipales de movilidad.",
+      "concreta": false,
+      "plazo": "Años 3 y 4 de gestión",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/746_5_8_87bcb.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-02",
+      "intereses": []
+     },
+     {
+      "texto": "Renovar o repotenciar el parque de maquinaria y equipo caminero municipal.",
+      "concreta": false,
+      "plazo": "Avance de 25% por año en los 4 años de gestión",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/746_5_8_87bcb.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-02",
+      "intereses": [
+       "mov_vias"
+      ]
+     }
+    ],
+    "seguridad": [
+     {
+      "texto": "Implementar el proyecto 'Latacunga Segura e Inteligente', un sistema municipal inteligente de seguridad ciudadana con cobertura creciente.",
+      "concreta": true,
+      "plazo": "Metas acumuladas de 10%, 30%, 30% y 30% en los años 1 a 4",
+      "costo": null,
+      "competencia": "parcial",
+      "fuente": "fuentes/latacunga/746_5_8_87bcb.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-02",
+      "intereses": [
+       "seg_camaras"
+      ]
+     },
+     {
+      "texto": "Ejecutar programas de prevención integral y convivencia ciudadana en barrios y comunidades.",
+      "concreta": false,
+      "plazo": "Metas acumuladas de 10%, 30%, 30% y 30% en los años 1 a 4",
+      "costo": null,
+      "competencia": "parcial",
+      "fuente": "fuentes/latacunga/746_5_8_87bcb.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-02",
+      "intereses": [
+       "seg_prevencion",
+       "seg_comunitaria"
+      ]
+     },
+     {
+      "texto": "Ejecutar obras de mitigación estructural y no estructural ante una posible erupción del volcán Cotopaxi.",
+      "concreta": true,
+      "plazo": "Avance de 25% por año en los 4 años de gestión",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/746_5_8_87bcb.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-02",
+      "intereses": [
+       "seg_volcan"
+      ]
+     },
+     {
+      "texto": "Actualizar los planes de gestión de riesgos y las rutas de evacuación.",
+      "concreta": true,
+      "plazo": "Avance de 25% por año en los 4 años de gestión",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/746_5_8_87bcb.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-02",
+      "intereses": [
+       "seg_volcan"
+      ]
+     },
+     {
+      "texto": "Fortalecer el sistema de alerta temprana del cantón y la capacidad de respuesta ante desastres.",
+      "concreta": false,
+      "plazo": "Avance de 25% por año en los 4 años de gestión",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/746_5_8_87bcb.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-02",
+      "intereses": [
+       "seg_volcan"
+      ]
+     }
+    ],
+    "servicios": [
+     {
+      "texto": "Elaborar e implementar el Plan Maestro de Agua Potable del cantón.",
+      "concreta": true,
+      "plazo": "Años 1 a 4 (avance de 5%, 10%, 30% y 55%)",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/746_5_8_87bcb.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-02",
+      "intereses": [
+       "ser_agua_plan"
+      ]
+     },
+     {
+      "texto": "Mejorar el sistema urbano de agua potable mediante el proyecto 'Agua Potable Segura y Continua para Latacunga'.",
+      "concreta": false,
+      "plazo": "Avance de 25% por año en los 4 años de gestión",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/746_5_8_87bcb.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-02",
+      "intereses": [
+       "ser_agua_altos"
+      ]
+     },
+     {
+      "texto": "Fortalecer técnica y operativamente los sistemas de agua potable rurales y comunitarios (juntas de agua).",
+      "concreta": false,
+      "plazo": "Metas acumuladas de 10%, 30%, 30% y 30% en los años 1 a 4",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/746_5_8_87bcb.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-02",
+      "intereses": [
+       "ser_juntas"
+      ]
+     },
+     {
+      "texto": "Elaborar e implementar el Plan Maestro de Alcantarillado y Saneamiento y ampliar la cobertura de alcantarillado sanitario y pluvial en el área urbana.",
+      "concreta": true,
+      "plazo": "Años 1 a 4 (avance de 5%, 25%, 35% y 35%)",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/746_5_8_87bcb.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-02",
+      "intereses": [
+       "ser_alcantarillado"
+      ]
+     },
+     {
+      "texto": "Ampliar la cobertura de saneamiento en el área rural.",
+      "concreta": false,
+      "plazo": "Metas acumuladas de 10%, 30%, 30% y 30% en los años 1 a 4",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/746_5_8_87bcb.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-02",
+      "intereses": [
+       "ser_alcantarillado",
+       "bar_parroquias"
+      ]
+     },
+     {
+      "texto": "Implementar un sistema integral de tratamiento para que las aguas residuales recolectadas se traten antes de su descarga.",
+      "concreta": false,
+      "plazo": "Metas acumuladas de 10%, 30%, 30% y 30% en los años 1 a 4",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/746_5_8_87bcb.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-02",
+      "intereses": [
+       "ser_ptar"
+      ]
+     },
+     {
+      "texto": "Ejecutar un proyecto de relleno sanitario y de gestión de residuos sólidos y sanitarios.",
+      "concreta": true,
+      "plazo": "Avance de 25% por año en los 4 años de gestión",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/746_5_8_87bcb.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-02",
+      "intereses": [
+       "ser_relleno"
+      ]
+     }
+    ],
+    "ambiente": [
+     {
+      "texto": "Ejecutar proyectos de gestión y recuperación del patrimonio natural para proteger ecosistemas y cuencas del cantón.",
+      "concreta": false,
+      "plazo": "Avance de 25% por año en los 4 años de gestión",
+      "costo": null,
+      "competencia": "parcial",
+      "fuente": "fuentes/latacunga/746_5_8_87bcb.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-02",
+      "intereses": [
+       "amb_paramos"
+      ]
+     },
+     {
+      "texto": "Recuperar áreas verdes del cantón.",
+      "concreta": false,
+      "plazo": "Avance de 25% por año en los 4 años de gestión",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/746_5_8_87bcb.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-02",
+      "intereses": [
+       "amb_parques"
+      ]
+     },
+     {
+      "texto": "Recuperar el Centro Histórico y rehabilitar espacios públicos estratégicos.",
+      "concreta": true,
+      "plazo": "Años 2 y 3 de gestión (50% de avance cada año)",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/746_5_8_87bcb.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-02",
+      "intereses": [
+       "cul_patrimonio",
+       "amb_parques"
+      ]
+     }
+    ],
+    "economia": [
+     {
+      "texto": "Fortalecer emprendimientos y organizaciones de la economía popular y solidaria.",
+      "concreta": false,
+      "plazo": "Metas acumuladas de 10%, 30%, 30% y 30% en los años 1 a 4",
+      "costo": null,
+      "competencia": "parcial",
+      "fuente": "fuentes/latacunga/746_5_8_87bcb.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-02",
+      "intereses": [
+       "eco_emprende"
+      ]
+     },
+     {
+      "texto": "Construir, rehabilitar o modernizar infraestructura para la comercialización.",
+      "concreta": false,
+      "plazo": "Metas acumuladas de 10%, 30%, 30% y 30% en los años 1 a 4",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/746_5_8_87bcb.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-02",
+      "intereses": [
+       "eco_mercados"
+      ]
+     },
+     {
+      "texto": "Ejecutar intervenciones para fortalecer el Centro de Faenamiento Municipal.",
+      "concreta": true,
+      "plazo": "Avance de 25% por año en los 4 años de gestión",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/746_5_8_87bcb.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-02",
+      "intereses": [
+       "eco_rural"
+      ]
+     }
+    ],
+    "barrios": [
+     {
+      "texto": "Intervenir barrios mediante proyectos de regeneración urbana y mejoramiento integral.",
+      "concreta": false,
+      "plazo": "Años 2 y 3 de gestión (50% de avance cada año)",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/746_5_8_87bcb.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-02",
+      "intereses": [
+       "bar_regeneracion"
+      ]
+     },
+     {
+      "texto": "Beneficiar a familias con programas de vivienda de interés social y mejoramiento del hábitat.",
+      "concreta": false,
+      "plazo": "Años 2 y 3 de gestión (50% de avance cada año)",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/746_5_8_87bcb.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-02",
+      "intereses": [
+       "bar_vivienda"
+      ]
+     },
+     {
+      "texto": "Planificar, construir, repotenciar y mantener infraestructura comunitaria.",
+      "concreta": false,
+      "plazo": "Metas acumuladas de 10%, 30%, 30% y 30% en los años 1 a 4",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/746_5_8_87bcb.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-02",
+      "intereses": [
+       "bar_regeneracion"
+      ]
+     },
+     {
+      "texto": "Crear un Sistema Integral de Protección Social y Atención Prioritaria para grupos de atención prioritaria.",
+      "concreta": false,
+      "plazo": "Metas acumuladas de 10%, 30%, 30% y 30% en los años 1 a 4",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/746_5_8_87bcb.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-02",
+      "intereses": [
+       "bar_prioritarios"
+      ]
+     },
+     {
+      "texto": "Ejecutar programas municipales de promoción de la salud y bienestar comunitario ('Bienestar Comunitario y Vida Saludable').",
+      "concreta": false,
+      "plazo": "Metas acumuladas de 10%, 30%, 30% y 30% en los años 1 a 4",
+      "costo": null,
+      "competencia": "parcial",
+      "fuente": "fuentes/latacunga/746_5_8_87bcb.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-02",
+      "intereses": [
+       "bar_salud"
+      ]
+     },
+     {
+      "texto": "Ejecutar programas municipales de educación, formación e innovación ('Educación, Innovación y Formación para el Futuro').",
+      "concreta": false,
+      "plazo": "Metas acumuladas de 10%, 30%, 30% y 30% en los años 1 a 4",
+      "costo": null,
+      "competencia": "parcial",
+      "fuente": "fuentes/latacunga/746_5_8_87bcb.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-02",
+      "intereses": [
+       "bar_educacion"
+      ]
+     },
+     {
+      "texto": "Fortalecer el control urbano, la gestión del suelo y el ordenamiento territorial.",
+      "concreta": false,
+      "plazo": "Avance de 25% por año en los 4 años de gestión",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/746_5_8_87bcb.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-02",
+      "intereses": [
+       "bar_planificacion"
+      ]
+     }
+    ],
+    "finanzas": [
+     {
+      "texto": "Actualizar el catastro cantonal valorado en todo el territorio.",
+      "concreta": true,
+      "plazo": "Avance de 25% por año en los 4 años de gestión",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/746_5_8_87bcb.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-02",
+      "intereses": [
+       "fin_catastro"
+      ]
+     },
+     {
+      "texto": "Implementar una plataforma de gestión municipal, procesos y atención ciudadana por canales presenciales y digitales.",
+      "concreta": false,
+      "plazo": "Avance de 25% por año en los 4 años de gestión",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/746_5_8_87bcb.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-02",
+      "intereses": [
+       "fin_digital"
+      ]
+     },
+     {
+      "texto": "Fortalecer el Sistema Cantonal de Participación Ciudadana y Control Social, con asambleas, cabildos abiertos y presupuestos participativos.",
+      "concreta": false,
+      "plazo": "Avance de 25% por año en los 4 años de gestión",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/746_5_8_87bcb.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-02",
+      "intereses": [
+       "fin_participativo"
+      ]
+     },
+     {
+      "texto": "Crear un portal de transparencia y gobierno abierto con información de contratación pública, ejecución presupuestaria, obras e indicadores.",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/746_5_8_87bcb.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-02",
+      "intereses": [
+       "fin_transparencia"
+      ]
+     },
+     {
+      "texto": "Realizar rendición de cuentas anual y publicar periódicamente indicadores de cumplimiento del Plan de Trabajo.",
+      "concreta": false,
+      "plazo": "Anual",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/746_5_8_87bcb.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-02",
+      "intereses": [
+       "fin_seguimiento"
+      ]
+     },
+     {
+      "texto": "Fortalecer y modernizar la infraestructura institucional municipal.",
+      "concreta": false,
+      "plazo": "Avance de 25% por año en los 4 años de gestión",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/746_5_8_87bcb.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-02",
+      "intereses": [
+       "fin_reestructura"
+      ]
+     }
+    ],
+    "cultura": [
+     {
+      "texto": "Implementar estrategias de promoción y posicionamiento del destino Latacunga.",
+      "concreta": false,
+      "plazo": "Metas acumuladas de 10%, 30%, 30% y 30% en los años 1 a 4",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/746_5_8_87bcb.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-02",
+      "intereses": [
+       "cul_turismo"
+      ]
+     },
+     {
+      "texto": "Desarrollar o fortalecer destinos y productos turísticos en el cantón.",
+      "concreta": false,
+      "plazo": "Metas acumuladas de 10%, 30%, 30% y 30% en los años 1 a 4",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/746_5_8_87bcb.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-02",
+      "intereses": [
+       "cul_turismo"
+      ]
+     },
+     {
+      "texto": "Fortalecer a los prestadores de servicios turísticos para mejorar su competitividad.",
+      "concreta": false,
+      "plazo": "Metas acumuladas de 10%, 30%, 30% y 30% en los años 1 a 4",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/746_5_8_87bcb.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-02",
+      "intereses": [
+       "cul_turismo"
+      ]
+     },
+     {
+      "texto": "Intervenir bienes patrimoniales y fortalecer manifestaciones culturales y artísticas ('Patrimonio, Cultura e Identidad Latacungueña').",
+      "concreta": false,
+      "plazo": "Metas acumuladas de 10%, 30%, 30% y 30% en los años 1 a 4",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/746_5_8_87bcb.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-02",
+      "intereses": [
+       "cul_patrimonio"
+      ]
+     },
+     {
+      "texto": "Construir, rehabilitar o mejorar escenarios deportivos y recreativos.",
+      "concreta": false,
+      "plazo": "Años 2 y 3 de gestión (50% de avance cada año)",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/746_5_8_87bcb.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-02",
+      "intereses": [
+       "cul_escenarios"
+      ]
+     },
+     {
+      "texto": "Ejecutar programas municipales de deporte y recreación ('Latacunga Activa').",
+      "concreta": false,
+      "plazo": "Metas acumuladas de 10%, 30%, 30% y 30% en los años 1 a 4",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/746_5_8_87bcb.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-02",
+      "intereses": [
+       "cul_deporte"
+      ]
+     }
+    ]
+   },
+   "notas": "Identificación tomada de la portada (página 1, imagen): 'Dr. Patricio Sánchez', 'Movimiento de Unidad Avanza – 8'; firma: Dr. Bolívar Patricio Sánchez Yánez. Unas 30 de las 52 páginas de texto son marco legal y diagnóstico; las propuestas salen de la matriz plurianual (págs. 32–48), que da solo el nombre del macroproyecto, un indicador y el % de meta por año, sin descripción, montos ni ubicaciones. Los plazos son esas metas anuales. El financiamiento solo nombra fuentes genéricas (PGE, ingresos propios, BDE, CFN, cooperación), por eso costo = null. El plan no tiene fecha; 'fecha' es la de creación del PDF en sus metadatos (2026-08-02)."
+  },
+  {
+   "id": "cesar-umajinga",
+   "nombre": "César Umajinga",
+   "organizacion": "Alianza Unión Fuerza y Poder por la Gente",
+   "lista": "1-21",
+   "perfil": "Dirigente indígena de Cotopaxi, vinculado desde 1990 al Movimiento Indígena y Campesino de Cotopaxi (MICC); fue el primer indígena en ocupar la Prefectura de Cotopaxi y tiene trayectoria legislativa.",
+   "perfil_fuente": "https://aldiaonline.net/?p=220692",
+   "plan_cne_url": "fuentes/latacunga/11659_5_1-21_b7174.pdf",
+   "propuestas": {
+    "movilidad": [
+     {
+      "texto": "Realizar estudios técnicos de movilidad y coordinar con instituciones educativas y entidades competentes para reducir puntos de saturación del tránsito.",
+      "concreta": false,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/11659_5_1-21_b7174.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-10",
+      "intereses": [
+       "mov_planes",
+       "mov_accesible"
+      ]
+     },
+     {
+      "texto": "Reducir la presión sobre el casco central mediante distribución territorial de servicios, organización de actividades económicas y mejor planificación de movilidad.",
+      "concreta": false,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/11659_5_1-21_b7174.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-10",
+      "intereses": [
+       "mov_descentralizar"
+      ]
+     }
+    ],
+    "seguridad": [
+     {
+      "texto": "Crear un sistema municipal de prevención y convivencia ciudadana con coordinación interinstitucional, organización comunitaria e identificación de zonas prioritarias.",
+      "concreta": false,
+      "plazo": "Fortalecimiento previsto en 2027",
+      "costo": null,
+      "competencia": "parcial",
+      "fuente": "fuentes/latacunga/11659_5_1-21_b7174.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-10",
+      "intereses": [
+       "seg_comunitaria",
+       "seg_centro"
+      ]
+     },
+     {
+      "texto": "Orientar las decisiones de seguridad con diagnósticos territoriales y evaluación de resultados de las acciones.",
+      "concreta": false,
+      "plazo": null,
+      "costo": null,
+      "competencia": "parcial",
+      "fuente": "fuentes/latacunga/11659_5_1-21_b7174.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-10",
+      "intereses": [
+       "seg_observatorio"
+      ]
+     }
+    ],
+    "servicios": [
+     {
+      "texto": "Fortalecer los procesos de separación y reciclaje de residuos, con educación ambiental y participación ciudadana.",
+      "concreta": false,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/11659_5_1-21_b7174.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-10",
+      "intereses": [
+       "ser_reciclaje"
+      ]
+     }
+    ],
+    "ambiente": [
+     {
+      "texto": "Recuperar parques, plazas y áreas comunitarias como espacios públicos seguros de encuentro, vinculados a actividades culturales y deportivas.",
+      "concreta": false,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/11659_5_1-21_b7174.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-10",
+      "intereses": [
+       "amb_parques"
+      ]
+     },
+     {
+      "texto": "Promover el cuidado de fuentes hídricas y acciones de conservación territorial.",
+      "concreta": false,
+      "plazo": null,
+      "costo": null,
+      "competencia": "parcial",
+      "fuente": "fuentes/latacunga/11659_5_1-21_b7174.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-10",
+      "intereses": [
+       "amb_paramos"
+      ]
+     },
+     {
+      "texto": "Incorporar criterios ambientales en la planificación urbana, los espacios públicos y los proyectos municipales.",
+      "concreta": false,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/11659_5_1-21_b7174.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-10",
+      "intereses": []
+     }
+    ],
+    "economia": [
+     {
+      "texto": "Crear el programa 'Latacunga Emprende' con capacitación empresarial, asistencia técnica, promoción de emprendimientos y vinculación con espacios de comercialización.",
+      "concreta": true,
+      "plazo": "Estrategia de desarrollo económico en 2027; fortalecimiento de emprendimientos en 2028",
+      "costo": null,
+      "competencia": "parcial",
+      "fuente": "fuentes/latacunga/11659_5_1-21_b7174.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-10",
+      "intereses": [
+       "eco_emprende"
+      ]
+     },
+     {
+      "texto": "Promover espacios de comercialización de productos locales para pequeños comerciantes, productores agrícolas, artesanos y organizaciones comunitarias.",
+      "concreta": false,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/11659_5_1-21_b7174.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-10",
+      "intereses": [
+       "eco_local"
+      ]
+     },
+     {
+      "texto": "Promover alianzas con universidades y sector privado para capacitación tecnológica, herramientas digitales e innovación productiva.",
+      "concreta": false,
+      "plazo": null,
+      "costo": null,
+      "competencia": "parcial",
+      "fuente": "fuentes/latacunga/11659_5_1-21_b7174.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-10",
+      "intereses": [
+       "eco_emprende"
+      ]
+     },
+     {
+      "texto": "Fortalecer a productores rurales con capacitación productiva, acompañamiento técnico y vinculación con mercados.",
+      "concreta": false,
+      "plazo": null,
+      "costo": null,
+      "competencia": "parcial",
+      "fuente": "fuentes/latacunga/11659_5_1-21_b7174.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-10",
+      "intereses": [
+       "eco_rural"
+      ]
+     }
+    ],
+    "barrios": [
+     {
+      "texto": "Diseñar e implementar progresivamente la estrategia 'Ciudad de los 15 minutos' para acercar servicios, comercio y espacios públicos a los distintos sectores.",
+      "concreta": true,
+      "plazo": "Diseño en 2027",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/11659_5_1-21_b7174.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-10",
+      "intereses": [
+       "bar_centralidades"
+      ]
+     },
+     {
+      "texto": "Crear nuevas centralidades urbanas que integren servicios, comercio, espacios públicos y equipamientos comunitarios.",
+      "concreta": false,
+      "plazo": "Identificación en 2027; fortalecimiento en 2029",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/11659_5_1-21_b7174.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-10",
+      "intereses": [
+       "bar_centralidades"
+      ]
+     },
+     {
+      "texto": "Ejecutar procesos de regeneración urbana 'satélite' fuera del centro tradicional.",
+      "concreta": false,
+      "plazo": "Ejecución desde 2028",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/11659_5_1-21_b7174.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-10",
+      "intereses": [
+       "bar_regeneracion",
+       "bar_centralidades"
+      ]
+     },
+     {
+      "texto": "Aplicar un modelo de urbanismo social con recuperación de espacios comunitarios, equipamientos sociales y espacios para cultura, educación y emprendimiento.",
+      "concreta": false,
+      "plazo": "Desarrollo de espacios comunitarios en 2028",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/11659_5_1-21_b7174.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-10",
+      "intereses": [
+       "bar_regeneracion"
+      ]
+     },
+     {
+      "texto": "Impulsar comedores comunitarios o programas solidarios de alimentación para personas en situación de calle y familias con inseguridad alimentaria, articulados con organizaciones sociales y productores.",
+      "concreta": true,
+      "plazo": "Inicio de programas sociales en 2027",
+      "costo": null,
+      "competencia": "parcial",
+      "fuente": "fuentes/latacunga/11659_5_1-21_b7174.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-10",
+      "intereses": [
+       "bar_prioritarios"
+      ]
+     },
+     {
+      "texto": "Fortalecer la atención a adultos mayores, personas con discapacidad, familias vulnerables y niños, niñas y adolescentes en riesgo.",
+      "concreta": false,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/11659_5_1-21_b7174.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-10",
+      "intereses": [
+       "bar_prioritarios"
+      ]
+     },
+     {
+      "texto": "Crear espacios de participación juvenil y alianzas con universidades e institutos para capacitación tecnológica y emprendimiento juvenil.",
+      "concreta": false,
+      "plazo": null,
+      "costo": null,
+      "competencia": "parcial",
+      "fuente": "fuentes/latacunga/11659_5_1-21_b7174.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-10",
+      "intereses": [
+       "eco_empleo",
+       "bar_educacion"
+      ]
+     }
+    ],
+    "finanzas": [
+     {
+      "texto": "Implementar seguimiento de proyectos con evaluación de avances e indicadores de cumplimiento por eje.",
+      "concreta": false,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/11659_5_1-21_b7174.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-10",
+      "intereses": [
+       "fin_seguimiento"
+      ]
+     },
+     {
+      "texto": "Publicar informes periódicos de gestión sobre cumplimiento de proyectos, uso de recursos y resultados.",
+      "concreta": false,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/11659_5_1-21_b7174.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-10",
+      "intereses": [
+       "fin_transparencia"
+      ]
+     },
+     {
+      "texto": "Realizar asambleas ciudadanas territoriales periódicas con barrios, comunidades y parroquias.",
+      "concreta": false,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/11659_5_1-21_b7174.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-10",
+      "intereses": [
+       "fin_participativo"
+      ]
+     },
+     {
+      "texto": "Crear progresivamente una plataforma de seguimiento ciudadano con el estado de obras, programas y compromisos.",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/11659_5_1-21_b7174.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-10",
+      "intereses": [
+       "fin_seguimiento"
+      ]
+     },
+     {
+      "texto": "Impulsar la transformación digital municipal para facilitar trámites.",
+      "concreta": false,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/11659_5_1-21_b7174.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-10",
+      "intereses": [
+       "fin_digital"
+      ]
+     }
+    ],
+    "cultura": [
+     {
+      "texto": "Fortalecer rutas turísticas que integren patrimonio histórico, cultura, gastronomía, naturaleza y turismo comunitario.",
+      "concreta": false,
+      "plazo": "Implementación de programas turísticos en 2028",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/11659_5_1-21_b7174.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-10",
+      "intereses": [
+       "cul_turismo",
+       "cul_gastronomia",
+       "cul_patrimonio"
+      ]
+     },
+     {
+      "texto": "Promover tradiciones culturales y manifestaciones ancestrales como espacios de desarrollo económico.",
+      "concreta": false,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/11659_5_1-21_b7174.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-10",
+      "intereses": [
+       "cul_mama_negra"
+      ]
+     },
+     {
+      "texto": "Promover el turismo comunitario y rural con participación de comunidades y productores.",
+      "concreta": false,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/11659_5_1-21_b7174.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-10",
+      "intereses": [
+       "cul_turismo_rural"
+      ]
+     },
+     {
+      "texto": "Fortalecer el deporte como herramienta de salud, prevención de riesgos sociales y convivencia comunitaria.",
+      "concreta": false,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/11659_5_1-21_b7174.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-10",
+      "intereses": [
+       "cul_deporte"
+      ]
+     }
+    ]
+   },
+   "notas": "Identificación (pág. 2): Dr. César Umajinga Guamán, Alianza Unión Fuerza y Poder por la Gente (1–21). El plan es casi todo enfoques y líneas generales ('Ciudad de los 15 minutos', urbanismo social tipo Medellín), sin obras, lugares, metas cuantificadas ni costos; solo la matriz anual 2027–2030/31 da plazos. No trae propuestas sobre agua potable, alcantarillado, mercados, vivienda, Mama Negra, volcán Cotopaxi ni finanzas o recaudación. Al Día (6-jun-2026) informó su precandidatura por Centro Democrático (lista 1) con alianza con SUMA (23); el plan inscrito lista la alianza 1-21. La pág. 39 es una contraportada sin texto. El plan no tiene fecha; 'fecha' es la de creación del PDF (2026-08-10). La trayectoria legislativa proviene de La Gaceta (23-mar-2026)."
+  },
+  {
+   "id": "rodrigo-espin",
+   "nombre": "Rodrigo Espín",
+   "organizacion": "Alianza Pachakutik – Incluyente",
+   "lista": "18-62",
+   "perfil": "Arquitecto (Arq. Rodrigo Cristóbal Espín Villamarín), candidato de la alianza Pachakutik–Incluyente; su candidatura a la Alcaldía de Latacunga consta entre las inscritas ante el CNE Cotopaxi en agosto de 2026.",
+   "perfil_fuente": "https://lagaceta.com.ec/cne-cotopaxi-registra-83-candidaturas-a-tres-dias-del-cierre-de-inscripciones/",
+   "plan_cne_url": "fuentes/latacunga/9170_5_18-62_ca15e.pdf",
+   "propuestas": {
+    "movilidad": [
+     {
+      "texto": "Rediseñar la operación del Terminal Terrestre de Latacunga con base en estudios técnicos e implementar mini terminales en las parroquias rurales.",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/9170_5_18-62_ca15e.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-01",
+      "intereses": [
+       "mov_terminal",
+       "mov_rural"
+      ]
+     },
+     {
+      "texto": "Construir y mantener la red vial rural y urbana, priorizando anillos viales que unan las cabeceras parroquiales, mediante gestión concurrente y delegación.",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "parcial",
+      "fuente": "fuentes/latacunga/9170_5_18-62_ca15e.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-01",
+      "intereses": [
+       "mov_rural",
+       "mov_vias"
+      ]
+     },
+     {
+      "texto": "Auditar y reestructurar la Empresa Pública de Movilidad para los servicios de matriculación, control y ordenamiento vial.",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/9170_5_18-62_ca15e.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-01",
+      "intereses": [
+       "fin_reestructura"
+      ]
+     },
+     {
+      "texto": "Auditar frecuencias y rutas del transporte público para garantizar cobertura en zonas rurales y periféricas.",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/9170_5_18-62_ca15e.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-01",
+      "intereses": [
+       "mov_transporte",
+       "mov_rural"
+      ]
+     },
+     {
+      "texto": "Ejecutar un plan de peatonalización y movilidad no motorizada en el Centro Histórico de Latacunga y los cascos urbanos parroquiales.",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/9170_5_18-62_ca15e.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-01",
+      "intereses": [
+       "mov_activa"
+      ]
+     },
+     {
+      "texto": "Modernizar tecnológicamente el Sistema de Estacionamiento Rotativo Tarifado (SIMTEL) y regularizar parqueaderos públicos y privados.",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/9170_5_18-62_ca15e.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-01",
+      "intereses": [
+       "mov_estacionamiento"
+      ]
+     }
+    ],
+    "seguridad": [
+     {
+      "texto": "Ampliar el sistema de videovigilancia y alarmas comunitarias en una red cantonal con GAD parroquiales, comités barriales, Policía Nacional y justicia.",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "parcial",
+      "fuente": "fuentes/latacunga/9170_5_18-62_ca15e.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-01",
+      "intereses": [
+       "seg_camaras",
+       "seg_comunitaria",
+       "seg_centro"
+      ]
+     },
+     {
+      "texto": "Diseñar y financiar un Plan de Seguridad Integral Municipal, actualizar la ordenanza del Consejo Cantonal de Seguridad e incorporar al 30% de la población a comités de seguridad.",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "parcial",
+      "fuente": "fuentes/latacunga/9170_5_18-62_ca15e.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-01",
+      "intereses": [
+       "seg_comunitaria"
+      ]
+     },
+     {
+      "texto": "Reformar la Ordenanza de Gestión de Riesgos e institucionalizar protocolos de primera respuesta campo-ciudad, vinculando obras de prevención y mitigación.",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/9170_5_18-62_ca15e.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-01",
+      "intereses": [
+       "seg_volcan"
+      ]
+     }
+    ],
+    "servicios": [
+     {
+      "texto": "Construir un Sistema de Almacenamiento Multipropósito y elevar en 15% la cobertura de agua segura y alcantarillado en zonas rurales periféricas.",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/9170_5_18-62_ca15e.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-01",
+      "intereses": [
+       "ser_agua_altos",
+       "bar_parroquias",
+       "ser_alcantarillado"
+      ]
+     },
+     {
+      "texto": "Optimizar, mantener y reactivar las plantas de tratamiento de aguas residuales y de agua potable, y asegurar la transición de agua entubada a agua segura.",
+      "concreta": true,
+      "plazo": null,
+      "costo": "Créditos del Banco de Desarrollo del Ecuador (BDE) previstos para infraestructura hidrosanitaria",
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/9170_5_18-62_ca15e.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-01",
+      "intereses": [
+       "ser_ptar",
+       "ser_agua_plan"
+      ]
+     },
+     {
+      "texto": "Reestructurar la recolección, transporte y disposición final de residuos con una alianza público-comunitaria rural para aprovechar residuos orgánicos y ampliar rutas periféricas.",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/9170_5_18-62_ca15e.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-01",
+      "intereses": [
+       "ser_reciclaje",
+       "ser_relleno"
+      ]
+     },
+     {
+      "texto": "Brindar asistencia técnica y fortalecer a las Juntas Administradoras de Agua Potable (JAAP).",
+      "concreta": false,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/9170_5_18-62_ca15e.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-01",
+      "intereses": [
+       "ser_juntas"
+      ]
+     }
+    ],
+    "ambiente": [
+     {
+      "texto": "Ejecutar el 'Plan Pulmones de Latacunga' de siembra y cosecha de agua para proteger páramos, ecosistemas frágiles y zonas de recarga hídrica, con barrios, comunidades y JAAP.",
+      "concreta": true,
+      "plazo": null,
+      "costo": "Financiamiento corresponsable; Fondo del Agua y cooperación internacional",
+      "competencia": "parcial",
+      "fuente": "fuentes/latacunga/9170_5_18-62_ca15e.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-01",
+      "intereses": [
+       "amb_paramos",
+       "amb_reforestacion"
+      ]
+     },
+     {
+      "texto": "Diseñar y aplicar un Plan Integral de Convivencia Armónica y Gestión de la Fauna Urbana.",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/9170_5_18-62_ca15e.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-01",
+      "intereses": [
+       "amb_animales"
+      ]
+     }
+    ],
+    "economia": [
+     {
+      "texto": "Construir una red de espacios de comercialización parroquiales, urbanos y rurales, para descongestionar el casco urbano y ordenar el comercio autónomo.",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/9170_5_18-62_ca15e.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-01",
+      "intereses": [
+       "eco_local",
+       "eco_comercio_autonomo"
+      ]
+     },
+     {
+      "texto": "Intervenir física y tecnológicamente los mercados existentes y revisar sus tasas para incentivar a comerciantes.",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/9170_5_18-62_ca15e.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-01",
+      "intereses": [
+       "eco_mercados",
+       "fin_tributos"
+      ]
+     },
+     {
+      "texto": "Crear un fondo municipal de apoyo técnico y capital semilla para emprendimientos familiares, comunitarios y asociativos de la economía popular y solidaria.",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "parcial",
+      "fuente": "fuentes/latacunga/9170_5_18-62_ca15e.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-01",
+      "intereses": [
+       "eco_semilla",
+       "eco_emprende"
+      ]
+     },
+     {
+      "texto": "Asignar al menos el 15% del presupuesto anual de inversión a reactivación productiva, fomento del empleo y conectividad vial.",
+      "concreta": true,
+      "plazo": null,
+      "costo": "Mínimo 15% del presupuesto anual de inversión del GAD",
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/9170_5_18-62_ca15e.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-01",
+      "intereses": [
+       "fin_presupuesto",
+       "eco_empleo"
+      ]
+     }
+    ],
+    "barrios": [
+     {
+      "texto": "Actualizar el 100% de los instrumentos de planificación cantonal (PDYOT y PUGS) según la vocación real del suelo.",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/9170_5_18-62_ca15e.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-01",
+      "intereses": [
+       "bar_planificacion"
+      ]
+     },
+     {
+      "texto": "Ejecutar el plan 'Hábitat para Vivir Mejor', que prohíba asentamientos informales en zonas de amenaza alta por lahares, deslizamientos o inundaciones y facilite suelo urbanizado seguro.",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/9170_5_18-62_ca15e.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-01",
+      "intereses": [
+       "bar_vivienda",
+       "seg_volcan"
+      ]
+     },
+     {
+      "texto": "Estructurar proyectos de vivienda de interés social para familias en extrema vulnerabilidad, en articulación con el MIDUVI.",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "parcial",
+      "fuente": "fuentes/latacunga/9170_5_18-62_ca15e.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-01",
+      "intereses": [
+       "bar_vivienda"
+      ]
+     },
+     {
+      "texto": "Destinar anualmente al menos el 10% del presupuesto institucional a inclusión social y desarrollo humano, con cobertura en las 10 parroquias rurales.",
+      "concreta": true,
+      "plazo": null,
+      "costo": "Mínimo 10% del presupuesto institucional anual",
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/9170_5_18-62_ca15e.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-01",
+      "intereses": [
+       "bar_prioritarios",
+       "fin_presupuesto",
+       "bar_parroquias"
+      ]
+     },
+     {
+      "texto": "Fortalecer casas de acogida y abrir centros de atención psicolegal para mujeres y menores víctimas de violencia, con el Patronato Municipal.",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "parcial",
+      "fuente": "fuentes/latacunga/9170_5_18-62_ca15e.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-01",
+      "intereses": [
+       "seg_mujeres"
+      ]
+     },
+     {
+      "texto": "Fortalecer el Consejo y las Juntas Cantonales de Protección de Derechos y formular una Agenda Cantonal para la Igualdad.",
+      "concreta": false,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/9170_5_18-62_ca15e.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-01",
+      "intereses": [
+       "bar_prioritarios"
+      ]
+     },
+     {
+      "texto": "Suscribir convenios con ministerios para intervenir infraestructura y equipamiento deportivo, educativo y de salud comunitaria.",
+      "concreta": false,
+      "plazo": null,
+      "costo": null,
+      "competencia": "parcial",
+      "fuente": "fuentes/latacunga/9170_5_18-62_ca15e.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-01",
+      "intereses": [
+       "bar_salud",
+       "bar_educacion",
+       "cul_escenarios"
+      ]
+     }
+    ],
+    "finanzas": [
+     {
+      "texto": "Digitalizar el 100% de los trámites ciudadanos con un gobierno digital municipal ('Cero Papeles').",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/9170_5_18-62_ca15e.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-01",
+      "intereses": [
+       "fin_digital"
+      ]
+     },
+     {
+      "texto": "Modernizar la recaudación de tasas, impuestos y contribuciones especiales de mejoras con pasarelas de pago virtuales interoperables.",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/9170_5_18-62_ca15e.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-01",
+      "intereses": [
+       "fin_catastro",
+       "fin_digital"
+      ]
+     },
+     {
+      "texto": "Depurar y actualizar las ordenanzas vigentes, garantizando mecanismos de participación y silla vacía.",
+      "concreta": false,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/9170_5_18-62_ca15e.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-01",
+      "intereses": [
+       "fin_participativo"
+      ]
+     },
+     {
+      "texto": "Presentar informes semestrales de ejecución presupuestaria y avance de obras ante el Concejo Municipal.",
+      "concreta": true,
+      "plazo": "Semestral",
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/9170_5_18-62_ca15e.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-01",
+      "intereses": [
+       "fin_seguimiento"
+      ]
+     },
+     {
+      "texto": "Abrir veedurías ciudadanas acreditadas por el CPCCS sobre contratación pública y obras, y modernizar los presupuestos participativos.",
+      "concreta": false,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/9170_5_18-62_ca15e.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-01",
+      "intereses": [
+       "fin_veedurias",
+       "fin_participativo"
+      ]
+     },
+     {
+      "texto": "Transmitir en vivo las sesiones del Concejo Municipal y publicar gacetas informativas periódicas.",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/9170_5_18-62_ca15e.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-01",
+      "intereses": [
+       "fin_concejo"
+      ]
+     },
+     {
+      "texto": "Reformar el Estatuto Orgánico de Gestión Organizacional por Procesos del GAD y capacitar al personal municipal.",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/9170_5_18-62_ca15e.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-01",
+      "intereses": [
+       "fin_reestructura"
+      ]
+     }
+    ],
+    "cultura": [
+     {
+      "texto": "Implementar un Plan Integral de Turismo Cantonal Sostenible con GAD parroquiales y operadores privados y comunitarios, y posicionar una marca territorio.",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/9170_5_18-62_ca15e.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-01",
+      "intereses": [
+       "cul_turismo"
+      ]
+     },
+     {
+      "texto": "Restaurar hitos arquitectónicos patrimoniales y salvaguardar tradiciones inmateriales y conocimientos ancestrales.",
+      "concreta": false,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/9170_5_18-62_ca15e.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-01",
+      "intereses": [
+       "cul_patrimonio",
+       "cul_mama_negra"
+      ]
+     },
+     {
+      "texto": "Crear escuelas comunitarias permanentes de arte, cultura y deporte en parroquias urbanas y rurales.",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/9170_5_18-62_ca15e.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-01",
+      "intereses": [
+       "cul_deporte",
+       "cul_agenda"
+      ]
+     },
+     {
+      "texto": "Formular e implementar tres políticas públicas cantonales de fomento de las artes, el deporte comunitario y la preservación patrimonial.",
+      "concreta": true,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/9170_5_18-62_ca15e.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-01",
+      "intereses": [
+       "cul_agenda",
+       "cul_deporte",
+       "cul_patrimonio"
+      ]
+     },
+     {
+      "texto": "Implementar programas de masificación deportiva comunitaria con enfoque de género e inclusión.",
+      "concreta": false,
+      "plazo": null,
+      "costo": null,
+      "competencia": "si",
+      "fuente": "fuentes/latacunga/9170_5_18-62_ca15e.pdf",
+      "medio": "Plan de trabajo (CNE)",
+      "fecha": "2026-08-01",
+      "intereses": [
+       "cul_deporte"
+      ]
+     }
+    ]
+   },
+   "notas": "Identificación (pág. 1). Las págs. 23–24 son escaneos sin texto; se leyeron como imagen: mecanismos de rendición de cuentas, declaración y certificación del procurador común con fecha 'Latacunga, 1 de agosto del 2026' (la declaración del candidato dejó la fecha en blanco). La matriz plurianual marca los 4 años para todos los objetivos, sin cronograma por proyecto (plazo = null). Montos: solo porcentajes del presupuesto (10% inclusión, 15% reactivación y vialidad) y fuentes (BDE, Fondo del Agua). Resultados de búsqueda no verificados (El Telégrafo, no accesible) lo señalan como exalcalde de Latacunga, y otro resultado lo menciona como candidato de una alianza 3-23 tras primarias; ninguno se pudo confirmar y el perfil no lo incluye. El plan (18-62) es la fuente de referencia. Nombre completo de la organización en el plan: Alianza 'Unidos Campo y Ciudad, una sola fuerza' (Movimiento de Unidad Plurinacional Pachakutik y Movimiento Incluyente)."
+  }
+ ],
+ "ejes": [
+  {
+   "key": "movilidad",
+   "nombre": "Movilidad y transporte",
+   "desc": "Transporte público, tráfico, vías."
+  },
+  {
+   "key": "seguridad",
+   "nombre": "Seguridad ciudadana",
+   "desc": "Prevención, vigilancia, coordinación con la Policía, gestión de riesgos."
+  },
+  {
+   "key": "servicios",
+   "nombre": "Agua, basura y servicios",
+   "desc": "Agua potable, alcantarillado, recolección de residuos."
+  },
+  {
+   "key": "ambiente",
+   "nombre": "Ambiente y espacio público",
+   "desc": "Áreas verdes, ríos, quebradas, calidad del aire, parques."
+  },
+  {
+   "key": "economia",
+   "nombre": "Empleo y economía",
+   "desc": "Emprendimiento, comercio, empleo, informalidad."
+  },
+  {
+   "key": "barrios",
+   "nombre": "Barrios, parroquias y obras",
+   "desc": "Obra pública barrial, parroquias rurales, vivienda."
+  },
+  {
+   "key": "finanzas",
+   "nombre": "Finanzas y transparencia",
+   "desc": "Presupuesto, deuda, impuestos, anticorrupción, gestión."
+  },
+  {
+   "key": "cultura",
+   "nombre": "Cultura, deporte y turismo",
+   "desc": "Patrimonio, fiestas, deporte barrial, turismo."
+  }
+ ],
+ "intereses": [
+  {
+   "eje": "movilidad",
+   "id": "mov_vias",
+   "nombre": "Construir y mantener vías urbanas (bacheo, asfalto, adoquinado)",
+   "generico": true
+  },
+  {
+   "eje": "movilidad",
+   "id": "mov_rural",
+   "nombre": "Vías rurales y conexión entre parroquias",
+   "generico": true
+  },
+  {
+   "eje": "movilidad",
+   "id": "mov_terminal",
+   "nombre": "Terminal Terrestre (nuevo o reestructurado)",
+   "generico": true
+  },
+  {
+   "eje": "movilidad",
+   "id": "mov_transporte",
+   "nombre": "Reordenar el transporte público: rutas y frecuencias",
+   "generico": true
+  },
+  {
+   "eje": "movilidad",
+   "id": "mov_planes",
+   "nombre": "Plan maestro de movilidad",
+   "generico": true
+  },
+  {
+   "eje": "movilidad",
+   "id": "mov_semaforos",
+   "nombre": "Semaforización inteligente y gestión del tránsito",
+   "generico": true
+  },
+  {
+   "eje": "movilidad",
+   "id": "mov_activa",
+   "nombre": "Ciclovías, aceras y peatonalización",
+   "generico": true
+  },
+  {
+   "eje": "movilidad",
+   "id": "mov_accesible",
+   "nombre": "Accesibilidad universal y seguridad vial escolar",
+   "generico": true
+  },
+  {
+   "eje": "movilidad",
+   "id": "mov_estacionamiento",
+   "nombre": "Estacionamiento rotativo y parqueaderos",
+   "generico": true
+  },
+  {
+   "eje": "movilidad",
+   "id": "mov_descentralizar",
+   "nombre": "Descongestionar el Centro con nuevos polos de servicios",
+   "generico": true
+  },
+  {
+   "eje": "movilidad",
+   "id": "mov_electrica",
+   "nombre": "Transporte eléctrico o de bajas emisiones",
+   "generico": true
+  },
+  {
+   "eje": "seguridad",
+   "id": "seg_camaras",
+   "nombre": "Videovigilancia y centro de monitoreo",
+   "generico": true
+  },
+  {
+   "eje": "seguridad",
+   "id": "seg_centro",
+   "nombre": "Coordinación con Policía, ECU 911 y Bomberos",
+   "generico": true
+  },
+  {
+   "eje": "seguridad",
+   "id": "seg_comunitaria",
+   "nombre": "Alarmas comunitarias y comités barriales",
+   "generico": true
+  },
+  {
+   "eje": "seguridad",
+   "id": "seg_iluminacion",
+   "nombre": "Iluminación y recuperación de espacios inseguros",
+   "generico": true
+  },
+  {
+   "eje": "seguridad",
+   "id": "seg_prevencion",
+   "nombre": "Prevención de violencia y drogas en niñez y juventud",
+   "generico": true
+  },
+  {
+   "eje": "seguridad",
+   "id": "seg_mujeres",
+   "nombre": "Violencia de género y acoso",
+   "generico": true
+  },
+  {
+   "eje": "seguridad",
+   "id": "seg_escolar",
+   "nombre": "Entornos escolares seguros",
+   "generico": true
+  },
+  {
+   "eje": "seguridad",
+   "id": "seg_volcan",
+   "nombre": "Preparación ante el volcán Cotopaxi y otros riesgos",
+   "generico": true
+  },
+  {
+   "eje": "seguridad",
+   "id": "seg_observatorio",
+   "nombre": "Observatorio y datos del delito",
+   "generico": true
+  },
+  {
+   "eje": "seguridad",
+   "id": "seg_policia",
+   "nombre": "Gestionar más presencia policial",
+   "generico": true
+  },
+  {
+   "eje": "seguridad",
+   "id": "seg_agentes",
+   "nombre": "Agentes municipales de control en espacios públicos",
+   "generico": true
+  },
+  {
+   "eje": "servicios",
+   "id": "ser_agua_plan",
+   "nombre": "Plan maestro e infraestructura de agua potable",
+   "generico": true
+  },
+  {
+   "eje": "servicios",
+   "id": "ser_agua_altos",
+   "nombre": "Agua continua en zonas altas y sectores con déficit",
+   "generico": true
+  },
+  {
+   "eje": "servicios",
+   "id": "ser_fugas",
+   "nombre": "Reducir fugas y pérdidas de agua",
+   "generico": true
+  },
+  {
+   "eje": "servicios",
+   "id": "ser_juntas",
+   "nombre": "Fortalecer las juntas de agua rurales",
+   "generico": true
+  },
+  {
+   "eje": "servicios",
+   "id": "ser_alcantarillado",
+   "nombre": "Ampliar alcantarillado sanitario y pluvial",
+   "generico": true
+  },
+  {
+   "eje": "servicios",
+   "id": "ser_ptar",
+   "nombre": "Tratamiento de aguas residuales",
+   "generico": true
+  },
+  {
+   "eje": "servicios",
+   "id": "ser_reciclaje",
+   "nombre": "Separación en la fuente y reciclaje",
+   "generico": true
+  },
+  {
+   "eje": "servicios",
+   "id": "ser_relleno",
+   "nombre": "Relleno sanitario y disposición final de basura",
+   "generico": true
+  },
+  {
+   "eje": "servicios",
+   "id": "ser_tasa",
+   "nombre": "Revisar tasas de servicios (basura, agua)",
+   "generico": true
+  },
+  {
+   "eje": "ambiente",
+   "id": "amb_cutuchi",
+   "nombre": "Recuperar el río Cutuchi y otros ríos",
+   "generico": true
+  },
+  {
+   "eje": "ambiente",
+   "id": "amb_paramos",
+   "nombre": "Proteger páramos y fuentes de agua",
+   "generico": true
+  },
+  {
+   "eje": "ambiente",
+   "id": "amb_reforestacion",
+   "nombre": "Reforestación y arbolado",
+   "generico": true
+  },
+  {
+   "eje": "ambiente",
+   "id": "amb_parques",
+   "nombre": "Parques, plazas y áreas verdes",
+   "generico": true
+  },
+  {
+   "eje": "ambiente",
+   "id": "amb_animales",
+   "nombre": "Bienestar animal",
+   "generico": true
+  },
+  {
+   "eje": "ambiente",
+   "id": "amb_mineria",
+   "nombre": "Control de la minería de áridos y pétreos",
+   "generico": true
+  },
+  {
+   "eje": "ambiente",
+   "id": "amb_cables",
+   "nombre": "Soterrar cables y mejorar la imagen urbana",
+   "generico": true
+  },
+  {
+   "eje": "ambiente",
+   "id": "amb_eficiencia",
+   "nombre": "Eficiencia energética y reúso de agua",
+   "generico": true
+  },
+  {
+   "eje": "ambiente",
+   "id": "amb_clima",
+   "nombre": "Plan de cambio climático",
+   "generico": true
+  },
+  {
+   "eje": "economia",
+   "id": "eco_mercados",
+   "nombre": "Construir y modernizar mercados",
+   "generico": true
+  },
+  {
+   "eje": "economia",
+   "id": "eco_emprende",
+   "nombre": "Apoyo a emprendimientos (capacitación, mentoría)",
+   "generico": true
+  },
+  {
+   "eje": "economia",
+   "id": "eco_semilla",
+   "nombre": "Capital semilla para emprendimientos",
+   "generico": true
+  },
+  {
+   "eje": "economia",
+   "id": "eco_empleo",
+   "nombre": "Empleo, primer empleo y bolsa de trabajo",
+   "generico": true
+  },
+  {
+   "eje": "economia",
+   "id": "eco_local",
+   "nombre": "Consumo local: marca cantonal, ferias, compras públicas",
+   "generico": true
+  },
+  {
+   "eje": "economia",
+   "id": "eco_rural",
+   "nombre": "Apoyo a productores rurales y centros de acopio",
+   "generico": true
+  },
+  {
+   "eje": "economia",
+   "id": "eco_tramites",
+   "nombre": "Simplificar licencias y trámites para negocios",
+   "generico": true
+  },
+  {
+   "eje": "economia",
+   "id": "eco_artesanos",
+   "nombre": "Centros y apoyo a artesanos",
+   "generico": true
+  },
+  {
+   "eje": "economia",
+   "id": "eco_aeropuerto",
+   "nombre": "Reactivar el Aeropuerto Internacional Cotopaxi",
+   "generico": true
+  },
+  {
+   "eje": "economia",
+   "id": "eco_polos",
+   "nombre": "Nuevos polos comerciales en el norte o el sur",
+   "generico": true
+  },
+  {
+   "eje": "economia",
+   "id": "eco_comercio_autonomo",
+   "nombre": "Ordenar el comercio autónomo",
+   "generico": true
+  },
+  {
+   "eje": "economia",
+   "id": "eco_incentivos",
+   "nombre": "Incentivos tributarios para empresas que generen empleo",
+   "generico": true
+  },
+  {
+   "eje": "barrios",
+   "id": "bar_regeneracion",
+   "nombre": "Regeneración y mejoramiento integral de barrios",
+   "generico": true
+  },
+  {
+   "eje": "barrios",
+   "id": "bar_parroquias",
+   "nombre": "Obras y servicios en parroquias rurales",
+   "generico": true
+  },
+  {
+   "eje": "barrios",
+   "id": "bar_pendientes",
+   "nombre": "Terminar obras paralizadas o heredadas",
+   "generico": true
+  },
+  {
+   "eje": "barrios",
+   "id": "bar_salud",
+   "nombre": "Salud municipal (patronato, hospital del día, clínicas móviles)",
+   "generico": true
+  },
+  {
+   "eje": "barrios",
+   "id": "bar_prioritarios",
+   "nombre": "Adultos mayores, discapacidad y grupos prioritarios",
+   "generico": true
+  },
+  {
+   "eje": "barrios",
+   "id": "bar_vivienda",
+   "nombre": "Vivienda de interés social y suelo seguro",
+   "generico": true
+  },
+  {
+   "eje": "barrios",
+   "id": "bar_planificacion",
+   "nombre": "Ordenamiento territorial (PDOT, PUGS, control urbano)",
+   "generico": true
+  },
+  {
+   "eje": "barrios",
+   "id": "bar_centralidades",
+   "nombre": "Nuevas centralidades / ciudad de 15 minutos",
+   "generico": true
+  },
+  {
+   "eje": "barrios",
+   "id": "bar_educacion",
+   "nombre": "Educación, becas y formación",
+   "generico": true
+  },
+  {
+   "eje": "finanzas",
+   "id": "fin_digital",
+   "nombre": "Trámites en línea, sin filas",
+   "generico": true
+  },
+  {
+   "eje": "finanzas",
+   "id": "fin_transparencia",
+   "nombre": "Portal de transparencia y datos abiertos",
+   "generico": true
+  },
+  {
+   "eje": "finanzas",
+   "id": "fin_seguimiento",
+   "nombre": "Seguimiento público de metas y obras",
+   "generico": true
+  },
+  {
+   "eje": "finanzas",
+   "id": "fin_participativo",
+   "nombre": "Presupuesto participativo y asambleas",
+   "generico": true
+  },
+  {
+   "eje": "finanzas",
+   "id": "fin_veedurias",
+   "nombre": "Veedurías y observatorio de contratación",
+   "generico": true
+  },
+  {
+   "eje": "finanzas",
+   "id": "fin_concejo",
+   "nombre": "Concejo abierto: sesiones itinerantes o transmitidas",
+   "generico": true
+  },
+  {
+   "eje": "finanzas",
+   "id": "fin_catastro",
+   "nombre": "Catastro actualizado y mejor recaudación",
+   "generico": true
+  },
+  {
+   "eje": "finanzas",
+   "id": "fin_tributos",
+   "nombre": "Revisar o reducir impuestos y tasas municipales",
+   "generico": true
+  },
+  {
+   "eje": "finanzas",
+   "id": "fin_reestructura",
+   "nombre": "Reestructurar el Municipio y capacitar servidores",
+   "generico": true
+  },
+  {
+   "eje": "finanzas",
+   "id": "fin_presupuesto",
+   "nombre": "Compromisos explícitos de porcentaje del presupuesto",
+   "generico": true
+  },
+  {
+   "eje": "finanzas",
+   "id": "fin_no_impuestos",
+   "nombre": "No subir impuestos ni tasas municipales",
+   "generico": true
+  },
+  {
+   "eje": "cultura",
+   "id": "cul_mama_negra",
+   "nombre": "Mama Negra y fiestas tradicionales",
+   "generico": true
+  },
+  {
+   "eje": "cultura",
+   "id": "cul_patrimonio",
+   "nombre": "Patrimonio y Centro Histórico",
+   "generico": true
+  },
+  {
+   "eje": "cultura",
+   "id": "cul_turismo",
+   "nombre": "Promoción turística y marca destino",
+   "generico": true
+  },
+  {
+   "eje": "cultura",
+   "id": "cul_turismo_rural",
+   "nombre": "Turismo comunitario, rural y de naturaleza",
+   "generico": true
+  },
+  {
+   "eje": "cultura",
+   "id": "cul_agenda",
+   "nombre": "Agenda cultural y de eventos",
+   "generico": true
+  },
+  {
+   "eje": "cultura",
+   "id": "cul_gastronomia",
+   "nombre": "Rutas gastronómicas (chugchucara, allullas)",
+   "generico": true
+  },
+  {
+   "eje": "cultura",
+   "id": "cul_infra",
+   "nombre": "Infraestructura cultural (museos, centros culturales)",
+   "generico": true
+  },
+  {
+   "eje": "cultura",
+   "id": "cul_deporte",
+   "nombre": "Deporte comunitario y escuelas deportivas",
+   "generico": true
+  },
+  {
+   "eje": "cultura",
+   "id": "cul_escenarios",
+   "nombre": "Escenarios deportivos (estadios, coliseos, canchas)",
+   "generico": true
+  }
+ ]
+};

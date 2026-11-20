@@ -24,9 +24,9 @@ EJES = [
 KEYS = [e["key"] for e in EJES]
 
 
-def normalize(c):
+def normalize(c, keys=KEYS):
     c.setdefault("propuestas", {})
-    for k in KEYS:
+    for k in keys:
         c["propuestas"].setdefault(k, [])
         for p in c["propuestas"][k]:
             p["concreta"] = bool(p.get("concreta"))
@@ -42,8 +42,10 @@ def build(city):
     d = DATA / city
     src = d / "candidatos.json"
     data = json.loads(src.read_text(encoding="utf-8"))
-    data["ejes"] = EJES
-    data["candidatos"] = [normalize(c) for c in data["candidatos"]]
+    # Un conjunto de datos puede definir sus propios ejes (p. ej. el CPCCS) en "ejes_custom"
+    data["ejes"] = data.get("ejes_custom") or EJES
+    keys = [e["key"] for e in data["ejes"]]
+    data["candidatos"] = [normalize(c, keys) for c in data["candidatos"]]
     src.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
     cat_file = d / "intereses.json"
     cat = json.loads(cat_file.read_text(encoding="utf-8"))["intereses"] if cat_file.exists() else []

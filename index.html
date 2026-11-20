@@ -117,6 +117,11 @@ footer{border-top:1px solid var(--line);padding:22px 0;color:var(--muted);font-s
 .cities a[aria-current="page"]{background:var(--accent);border-color:var(--accent);color:#fff}
 .theme-toggle{float:right;border:1px solid var(--line);background:var(--surface);color:var(--text);border-radius:8px;padding:6px 10px;font:inherit;font-size:13px;cursor:pointer}
 .empty-state{padding:30px;text-align:center;color:var(--muted)}
+.opt-inline{display:inline-flex;gap:6px;align-items:center;font-size:14px;cursor:pointer}
+.pmeta{font-size:13px;color:var(--muted);margin:-4px 0 8px}
+.pdetail summary{cursor:pointer;font-size:13.5px;font-weight:600;color:var(--accent);margin-top:10px}
+.pdetail .plist{padding:4px 0 0}
+.lista-h{grid-column:1/-1;font-family:"Source Serif 4",Georgia,serif;font-size:20px;font-weight:700;margin:14px 0 0}
 /* afinidad */
 .pref-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:14px;margin-top:6px}
 @media (max-width:420px){.pref-grid{grid-template-columns:1fr}}
@@ -215,8 +220,8 @@ footer{border-top:1px solid var(--line);padding:22px 0;color:var(--muted);font-s
     <button class="theme-toggle" id="themeBtn" type="button" aria-label="Cambiar tema">Tema</button>
     <nav class="cities" id="cities" aria-label="Ciudad"></nav>
     <div class="kicker">Elecciones seccionales · <span id="territorio"></span></div>
-    <h1>¿Qué proponen los candidatos a la Alcaldía de <span id="ciudadNombre"></span>?</h1>
-    <p class="lede">Una comparación neutral de las propuestas públicas de los candidatos, organizada por eje temático. No damos ranking ni ganador: indicamos si cada propuesta es concreta, si tiene plazo, si dice cuánto cuesta y si le toca al Municipio. En "Mi afinidad" usted mide cuáles se acercan a sus propias prioridades.</p>
+    <h1 id="titulo">¿Qué proponen los candidatos a la Alcaldía de <span id="ciudadNombre"></span>?</h1>
+    <p class="lede" id="lede">Una comparación neutral de las propuestas públicas de los candidatos, organizada por eje temático. No damos ranking ni ganador: indicamos si cada propuesta es concreta, si tiene plazo, si dice cuánto cuesta y si le toca al Municipio. En "Mi afinidad" usted mide cuáles se acercan a sus propias prioridades.</p>
     <div class="facts">
       <span>Votación: <b id="eleccion">–</b></span>
       <span>Candidatos: <b id="nCand">–</b></span>
@@ -302,7 +307,13 @@ footer{border-top:1px solid var(--line);padding:22px 0;color:var(--muted);font-s
 
   <section id="tab-candidatos" hidden>
     <h2>Candidatos</h2>
-    <p class="sub">Ordenados por número de lista. Los perfiles salen de la prensa citada.</p>
+    <p class="sub" id="candSub">Ordenados por número de lista. Los perfiles salen de la prensa citada.</p>
+    <div class="controls" id="candFilters" hidden>
+      <div class="chip-row" id="listaChips" aria-label="Filtrar por lista"></div>
+      <input type="search" id="qc" placeholder="Buscar por nombre, provincia o profesión…" aria-label="Buscar candidato">
+      <label class="opt-inline"><input type="checkbox" id="soloProp"> Solo con propuestas publicadas</label>
+      <span class="sel-count" id="candCount"></span>
+    </div>
     <div class="profiles" id="profiles"></div>
   </section>
 
@@ -317,10 +328,10 @@ footer{border-top:1px solid var(--line);padding:22px 0;color:var(--muted);font-s
         <li><b>Concreta:</b> nombra una acción, obra o meta específica, y no solo una intención general.</li>
         <li><b>Plazo:</b> la fuente menciona cuándo se ejecutaría.</li>
         <li><b>Costo:</b> la fuente menciona cuánto costaría o de dónde saldría la plata.</li>
-        <li><b>Competencia:</b> si la acción le corresponde al <span class="municipio">Municipio</span> según el COOTAD (<i>sí</i>), si la comparte con otros niveles de gobierno (<i>parcial</i>) o si le toca a otra institución, como la Policía Nacional o la justicia (<i>no</i>).</li>
+        <li id="compDesc"><b>Competencia:</b> si la acción le corresponde al <span class="municipio">Municipio</span> según el COOTAD (<i>sí</i>), si la comparte con otros niveles de gobierno (<i>parcial</i>) o si le toca a otra institución, como la Policía Nacional o la justicia (<i>no</i>).</li>
       </ul>
-      <h3>Afinidad</h3>
-      <p>La herramienta "Mi afinidad" usa un cuestionario de contrapesos (método <i>MaxDiff</i>): en cada pantalla, el usuario elige el tema que más y el que menos le importa entre cuatro. Los temas salen de un catálogo de intereses por eje. Ese catálogo mezcla temas sacados de las propuestas con algunos temas genéricos de política municipal, marcados como "genérico". Cada propuesta se etiquetó a mano con los intereses que toca. El cálculo está explicado en esa misma sección. La afinidad depende solo de lo que marca el usuario: la página no propone ningún orden ni hace recomendaciones.</p>
+      <h3 class="only-alc">Afinidad</h3>
+      <p class="only-alc">La herramienta "Mi afinidad" usa un cuestionario de contrapesos (método <i>MaxDiff</i>): en cada pantalla, el usuario elige el tema que más y el que menos le importa entre cuatro. Los temas salen de un catálogo de intereses por eje. Ese catálogo mezcla temas sacados de las propuestas con algunos temas genéricos de política municipal, marcados como "genérico". Cada propuesta se etiquetó a mano con los intereses que toca. El cálculo está explicado en esa misma sección. La afinidad depende solo de lo que marca el usuario: la página no propone ningún orden ni hace recomendaciones.</p>
       <h3>Limitaciones</h3>
       <ul>
         <li>Que un eje salga vacío no significa que el candidato no tenga propuesta. Solo quiere decir que no la encontramos en las fuentes revisadas.</li>
@@ -353,7 +364,11 @@ footer{border-top:1px solid var(--line);padding:22px 0;color:var(--muted);font-s
 (function(){
   const D = window.BENCHMARK || {candidatos:[],ejes:[]};
   const EJES = D.ejes;
-  const C = D.candidatos.slice().sort((a,b)=>listNum(a.lista)-listNum(b.lista));
+  const CPCCS = D.tipo==='cpccs';
+  const LISTAS = D.listas || [];
+  const C = D.candidatos.slice().sort(CPCCS
+    ? (a,b)=>(LISTAS.indexOf(a.lista)-LISTAS.indexOf(b.lista)) || ((a.orden||999)-(b.orden||999)) || a.nombre.localeCompare(b.nombre)
+    : (a,b)=>listNum(a.lista)-listNum(b.lista));
   const $ = s=>document.querySelector(s);
   const esc = s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   function listNum(l){const n=parseInt(String(l||'').split(/[^0-9]/)[0],10);return isNaN(n)?999:n}
@@ -361,11 +376,20 @@ footer{border-top:1px solid var(--line);padding:22px 0;color:var(--muted);font-s
   function props(c,eje){return (c.propuestas&&c.propuestas[eje])||[]}
   function allProps(c){return EJES.flatMap(e=>props(c,e.key).map(p=>({...p,eje:e.key})))}
   function ejeName(k){return (EJES.find(e=>e.key===k)||{}).nombre||k}
+  // En CPCCS, 'Por eje' y 'Comparar' solo listan a quienes tienen propuestas publicadas
+  const CP = CPCCS ? C.filter(c=>allProps(c).length) : C;
 
   $('#nCand').textContent = C.length;
   const CITY = D.nombre || 'Quito';
-  document.title = 'Benchmark Alcaldía ' + CITY + ' 2026';
-  $('#ciudadNombre').textContent = CITY;
+  document.title = (D.titulo_corto || ('Benchmark Alcaldía ' + CITY)) + ' 2026';
+  if(D.titulo) $('#titulo').textContent = D.titulo; else $('#ciudadNombre').textContent = CITY;
+  if(D.lede) $('#lede').textContent = D.lede;
+  if(D.n_texto) $('#nCand').textContent = D.n_texto;
+  if(D.competencia_desc) $('#compDesc').innerHTML = D.competencia_desc;
+  if(CPCCS){
+    ['afinidad','matriz'].forEach(t=>{const b=document.querySelector(`nav.tabs [data-tab=${t}]`); if(b) b.remove();});
+    document.querySelectorAll('.only-alc').forEach(el=>el.hidden=true);
+  }
   $('#territorio').textContent = D.territorio || CITY;
   $('#eleccion').textContent = D.eleccion || '–';
   $('#periodo').textContent = D.periodo || '–';
@@ -392,7 +416,8 @@ footer{border-top:1px solid var(--line);padding:22px 0;color:var(--muted);font-s
   });
 
   function badges(p){
-    const comp={si:['yes','Competencia municipal'],parcial:['no','Competencia compartida'],no:['off','No es competencia municipal']}[p.competencia]||['off','Competencia: s/d'];
+    const L=D.comp_labels||{si:'Competencia municipal',parcial:'Competencia compartida',no:'No es competencia municipal'};
+    const comp={si:['yes',L.si],parcial:['no',L.parcial],no:['off',L.no]}[p.competencia]||['off','Competencia: s/d'];
     return `<div class="badges">
       <span class="b ${p.concreta?'yes':'off'}">${p.concreta?'Concreta':'General'}</span>
       <span class="b ${p.plazo?'yes':'off'}" title="${esc(p.plazo||'')}">${p.plazo?'Plazo: '+esc(p.plazo):'Sin plazo'}</span>
@@ -403,7 +428,7 @@ footer{border-top:1px solid var(--line);padding:22px 0;color:var(--muted);font-s
   }
   function headHTML(c){
     return `<div class="cand-head"><div class="avatar" aria-hidden="true">${esc(initials(c.nombre))}</div>
-      <div><div class="name">${esc(c.nombre)}</div><div class="org">${esc(c.organizacion)}${c.lista?' · Lista '+esc(c.lista):''}</div></div></div>`;
+      <div><div class="name">${esc(c.nombre)}</div><div class="org">${CPCCS? 'Lista '+esc(c.lista)+(c.orden?' · casillero '+esc(c.orden):'') : esc(c.organizacion)+(c.lista?' · Lista '+esc(c.lista):'')}</div></div></div>`;
   }
   function listHTML(ps,showEje){
     if(!ps.length) return `<p class="none">No encontramos propuestas en las fuentes revisadas.</p>`;
@@ -430,16 +455,16 @@ footer{border-top:1px solid var(--line);padding:22px 0;color:var(--muted);font-s
   }
 
   // por eje
-  const selected=new Set(C.map(c=>c.id));
+  const selected=new Set(CP.map(c=>c.id));
   function renderChips(){
-    $('#candChips').innerHTML=C.map(c=>`<button class="chip" data-id="${c.id}" aria-pressed="${selected.has(c.id)}">${esc(c.nombre)}</button>`).join('');
+    $('#candChips').innerHTML=CP.map(c=>`<button class="chip" data-id="${c.id}" aria-pressed="${selected.has(c.id)}">${esc(c.nombre)}</button>`).join('');
   }
   $('#candChips').addEventListener('click',ev=>{const b=ev.target.closest('.chip');if(!b)return;const id=b.dataset.id;selected.has(id)?selected.delete(id):selected.add(id);b.setAttribute('aria-pressed',selected.has(id));renderEje()});
   $('#ejeSel').innerHTML=EJES.map(e=>`<option value="${e.key}">${esc(e.nombre)}</option>`).join('');
   function renderEje(){
     const q=$('#q').value.trim().toLowerCase();
     const eje=$('#ejeSel').value;
-    const cards=C.filter(c=>selected.has(c.id)).map(c=>{
+    const cards=CP.filter(c=>selected.has(c.id)).map(c=>{
       let ps = q ? allProps(c).filter(p=>p.texto.toLowerCase().includes(q)) : props(c,eje).map(p=>({...p,eje}));
       if(q && !ps.length) return '';
       return `<article class="card">${headHTML(c)}${listHTML(ps,!!q)}</article>`;
@@ -451,11 +476,11 @@ footer{border-top:1px solid var(--line);padding:22px 0;color:var(--muted);font-s
   $('#q').addEventListener('input',renderEje);
 
   // comparar
-  const opts=C.map(c=>`<option value="${c.id}">${esc(c.nombre)}</option>`).join('');
+  const opts=CP.map(c=>`<option value="${c.id}">${esc(c.nombre)}</option>`).join('');
   $('#cmpA').innerHTML=opts;$('#cmpB').innerHTML=opts;
-  if(C[1]) $('#cmpB').value=C[1].id;
+  if(CP[1]) $('#cmpB').value=CP[1].id;
   function renderCmp(){
-    const a=C.find(c=>c.id===$('#cmpA').value), b=C.find(c=>c.id===$('#cmpB').value);
+    const a=CP.find(c=>c.id===$('#cmpA').value), b=CP.find(c=>c.id===$('#cmpB').value);
     if(!a||!b){$('#cmpGrid').innerHTML='';return}
     let h=`<article class="card">${headHTML(a)}</article><article class="card">${headHTML(b)}</article>`;
     EJES.forEach(e=>{
@@ -467,7 +492,36 @@ footer{border-top:1px solid var(--line);padding:22px 0;color:var(--muted);font-s
   $('#cmpA').addEventListener('change',renderCmp);$('#cmpB').addEventListener('change',renderCmp);
 
   // perfiles
+  let listaSel='';
+  if(CPCCS){
+    $('#candFilters').hidden=false;
+    if(D.cand_sub) $('#candSub').textContent=D.cand_sub;
+    const cnt=l=>C.filter(c=>c.lista===l).length;
+    $('#listaChips').innerHTML=[['','Todas ('+C.length+')'],...LISTAS.map(l=>[l,l+' ('+cnt(l)+')'])].map(([v,t])=>`<button class="chip" data-l="${esc(v)}" aria-pressed="${v===listaSel}">${esc(t)}</button>`).join('');
+    $('#listaChips').addEventListener('click',ev=>{const b=ev.target.closest('.chip');if(!b)return;listaSel=b.dataset.l;document.querySelectorAll('#listaChips .chip').forEach(x=>x.setAttribute('aria-pressed',x.dataset.l===listaSel));renderProfiles()});
+    $('#qc').addEventListener('input',renderProfiles);$('#soloProp').addEventListener('change',renderProfiles);
+  }
+  function profileCPCCS(c){
+    const ps=allProps(c);
+    const meta=[c.provincia,c.edad?c.edad+' años':null,c.profesion].filter(Boolean).join(' · ');
+    return `<article class="card profile">${headHTML(c)}
+      ${meta?`<div class="pmeta">${esc(meta)}</div>`:''}
+      ${c.situacion?`<div class="pmeta"><b>${esc(c.situacion)}</b></div>`:''}
+      <div>${esc(c.perfil||'Sin información de perfil en las fuentes revisadas.')} ${c.perfil_fuente?`<a href="${esc(c.perfil_fuente)}" target="_blank" rel="noopener" style="font-size:12px">fuente</a>`:''}</div>
+      ${ps.length?`<details class="pdetail"><summary>${ps.length} propuesta${ps.length>1?'s':''} publicada${ps.length>1?'s':''} en prensa</summary>${listHTML(ps,true)}</details>`:`<div class="note">Plan de trabajo aún no revisado: no encontramos propuestas en la prensa.</div>`}
+      ${c.notas?`<div class="note">Nota: ${esc(c.notas)}</div>`:''}
+    </article>`;
+  }
   function renderProfiles(){
+    if(CPCCS){
+      const q=$('#qc').value.trim().toLowerCase(), solo=$('#soloProp').checked;
+      const list=C.filter(c=>(!listaSel||c.lista===listaSel)&&(!solo||allProps(c).length)&&(!q||[c.nombre,c.provincia,c.profesion,c.perfil].join(' ').toLowerCase().includes(q)));
+      $('#candCount').textContent=`${list.length} de ${C.length}`;
+      let h='',cur=null;
+      list.forEach(c=>{ if(!listaSel && c.lista!==cur){cur=c.lista;h+=`<div class="lista-h">Lista ${esc(cur)}</div>`;} h+=profileCPCCS(c); });
+      $('#profiles').innerHTML=h||'<div class="empty-state">No hay resultados.</div>';
+      return;
+    }
     $('#profiles').innerHTML=C.map(c=>{
       const ps=allProps(c), n=ps.length, pct=f=>n?Math.round(100*ps.filter(f).length/n)+'%':'–';
       return `<article class="card profile">${headHTML(c)}
@@ -517,6 +571,7 @@ footer{border-top:1px solid var(--line);padding:22px 0;color:var(--muted);font-s
       while(set.length<4 && pool.length) set.push(pool.shift());
       sets.push(set);
     }
+    if(!sets.length) return sets;
     // el último grupo se completa con temas ya vistos en esta ronda
     const last=sets[sets.length-1];
     if(last.length<4){ const extra=shuffle(INT.map(i=>i.id).filter(id=>!last.includes(id))); while(last.length<4) last.push(extra.shift()); }
@@ -545,6 +600,7 @@ footer{border-top:1px solid var(--line);padding:22px 0;color:var(--muted);font-s
   function answeredCount(){return Object.values(st.ans).filter(a=>!a.skip).length}
 
   function renderMD(){
+    if(!INT.length) return;
     const box=$('#mdBox');
     const {r,q}=st.pos, sets=st.rounds[r];
     if(shared){
@@ -669,9 +725,11 @@ footer{border-top:1px solid var(--line);padding:22px 0;color:var(--muted);font-s
   load(); if(!st.rounds.length) newGame();
   const fromShare = loadFromHash();
   renderMD();
-  renderMatrix();renderChips();renderEje();renderCmp();renderProfiles();
+  if(!CPCCS) renderMatrix();
+  renderChips();renderEje();renderCmp();renderProfiles();
   const h=location.hash.slice(1).split('?')[0];
-  if(tabs.some(b=>b.dataset.tab===h)) show(h); else show('afinidad');
+  const tabsNow=[...document.querySelectorAll('nav.tabs button')].map(b=>b.dataset.tab);
+  if(tabsNow.includes(h)) show(h); else show(CPCCS?'candidatos':'afinidad');
   if(fromShare || st.done){ $('#results').hidden=false; renderResults(); }
 })();
 </script>

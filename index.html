@@ -352,7 +352,7 @@ footer{border-top:1px solid var(--line);padding:22px 0;color:var(--muted);font-s
 
 <script>
   // Ciudades disponibles. Quito es la ciudad por defecto (enlaces antiguos sin ?ciudad= siguen funcionando).
-  window.CIUDADES = {quito:'Quito', latacunga:'Latacunga'};
+  window.CIUDADES = {quito:'Quito', latacunga:'Latacunga', cpccs:'CPCCS'};
   (function(){
     var c=(new URLSearchParams(location.search).get('ciudad')||'quito').toLowerCase();
     if(!window.CIUDADES[c]) c='quito';

@@ -1,0 +1,2469 @@
+{
+  "ciudad": "cpccs",
+  "tipo": "cpccs",
+  "nombre": "CPCCS",
+  "titulo": "¿Quiénes son los candidatos al Consejo de Participación Ciudadana?",
+  "titulo_corto": "Benchmark candidatos CPCCS",
+  "territorio": "Consejo de Participación Ciudadana y Control Social",
+  "lede": "Los 65 candidatos a consejeros del CPCCS, con su perfil y las propuestas que publicó la prensa. Se eligen 7: tres de la lista de mujeres, tres de la de hombres y uno de pueblos y nacionalidades, afroecuatorianos, montubios y ecuatorianos en el exterior. No damos ranking ni recomendación. Los planes de trabajo oficiales están en el portal Voto Informado del CNE y aún no los revisamos.",
+  "n_texto": "65 (se eligen 7)",
+  "periodo": "2027–2031",
+  "eleccion": "domingo 29 de noviembre de 2026",
+  "corte": "20 de noviembre de 2026",
+  "municipio": "CPCCS",
+  "listas": [
+    "Mujeres",
+    "Hombres",
+    "Pueblos y nacionalidades"
+  ],
+  "cand_sub": "Ordenados por lista y casillero en la papeleta. El orden viene del artículo de El Universo replicado por KCH Comunicación. Los perfiles salen de Primicias, que indica que sus resúmenes de trayectoria fueron redactados con IA y revisados por su equipo, a partir de lo que cada candidato declaró al CNE. Las propuestas son solo las publicadas en la prensa.",
+  "comp_labels": {
+    "si": "Atribución del CPCCS",
+    "parcial": "Requiere otras instituciones",
+    "no": "Fuera de sus atribuciones"
+  },
+  "competencia_desc": "<b>Competencia:</b> si la acción está dentro de las atribuciones del CPCCS según la Constitución y su ley orgánica (<i>sí</i>), si necesita de otras instituciones (<i>parcial</i>), o si está fuera de sus atribuciones, por ejemplo una reforma constitucional para eliminar el organismo (<i>no</i>).",
+  "ejes_custom": [
+    {
+      "key": "designacion",
+      "nombre": "Designación de autoridades",
+      "desc": "Concursos y comisiones ciudadanas para elegir autoridades de control."
+    },
+    {
+      "key": "anticorrupcion",
+      "nombre": "Lucha contra la corrupción",
+      "desc": "Investigación de denuncias y control social."
+    },
+    {
+      "key": "participacion",
+      "nombre": "Participación ciudadana",
+      "desc": "Veedurías, asambleas, silla vacía, presupuestos participativos."
+    },
+    {
+      "key": "transparencia",
+      "nombre": "Transparencia y rendición de cuentas",
+      "desc": "Información pública y rendición de cuentas de las autoridades."
+    },
+    {
+      "key": "grupos",
+      "nombre": "Mujeres, jóvenes y grupos prioritarios",
+      "desc": "Inclusión y participación de grupos históricamente excluidos."
+    },
+    {
+      "key": "institucion",
+      "nombre": "Reforma y gestión del CPCCS",
+      "desc": "Cambios al organismo, su gestión interna o su eliminación."
+    }
+  ],
+  "candidatos": [
+    {
+      "id": "cristian-leon",
+      "nombre": "Cristian León",
+      "nombre_corto": "Cristian León",
+      "lista": "Hombres",
+      "orden": 1,
+      "provincia": "Pichincha",
+      "edad": 32,
+      "profesion": "Abogado",
+      "perfil": "No registra iniciativas de participación ciudadana. En lucha contra la corrupción menciona una veeduría ciudadana del CPCCS, sin más detalle en el formulario. Presenta tres certificados de referencia de profesionales que dicen conocerlo.",
+      "situacion": null,
+      "perfil_fuente": "https://www.primicias.ec/politica/elecciones/seccionales-adelantadas-2027/cpccs/candidatos-cpccs-elecciones-consejo-cne-trayectoria-136118/",
+      "notas": "Casillero 1 de hombres; fue postulante a contralor en 2023. Una nota de Diario Correo no fue accesible.",
+      "propuestas": {
+        "designacion": [
+          {
+            "texto": "Blindar los concursos con máxima publicidad: publicar requisitos, baremos, rúbricas de evaluación y cronogramas, y transmitir en vivo las sesiones de las comisiones ciudadanas de selección.",
+            "concreta": true,
+            "plazo": null,
+            "costo": null,
+            "competencia": "si",
+            "fuente": "https://www.extra.ec/noticia/politica/cristian-leon-candidato-cpccs-consejo-fracaso-permitir-intereses-partidistas-166213.html",
+            "medio": "Extra",
+            "fecha": "2026-10-27",
+            "intereses": []
+          },
+          {
+            "texto": "Vigilar la idoneidad y la trayectoria académica de los comisionados de selección.",
+            "concreta": false,
+            "plazo": null,
+            "costo": null,
+            "competencia": "si",
+            "fuente": "https://www.extra.ec/noticia/politica/cristian-leon-candidato-cpccs-consejo-fracaso-permitir-intereses-partidistas-166213.html",
+            "medio": "Extra",
+            "fecha": "2026-10-27",
+            "intereses": []
+          }
+        ],
+        "anticorrupcion": [],
+        "participacion": [
+          {
+            "texto": "Que las delegaciones provinciales asuman su rol desconcentrado y promuevan ordenanzas locales, presupuestos participativos y control de la política pública con los gobiernos locales.",
+            "concreta": false,
+            "plazo": null,
+            "costo": null,
+            "competencia": "si",
+            "fuente": "https://www.extra.ec/noticia/politica/cristian-leon-candidato-cpccs-consejo-fracaso-permitir-intereses-partidistas-166213.html",
+            "medio": "Extra",
+            "fecha": "2026-10-27",
+            "intereses": []
+          }
+        ],
+        "transparencia": [],
+        "grupos": [],
+        "institucion": []
+      },
+      "nombre_completo": "Cristian Humberto León Ortiz",
+      "organizacion": "Sin afiliación (candidatura ciudadana)"
+    },
+    {
+      "id": "fredy-sosa",
+      "nombre": "Fredy Sosa",
+      "nombre_corto": "Fredy Sosa",
+      "lista": "Hombres",
+      "orden": 2,
+      "provincia": "Pichincha",
+      "edad": 43,
+      "profesion": "Abogado",
+      "perfil": "No registra iniciativas de participación ciudadana ni de lucha contra la corrupción. Presenta cuatro certificados de reconocido prestigio, sin descripción, de personas que dicen conocerlo.",
+      "situacion": null,
+      "perfil_fuente": "https://www.primicias.ec/politica/elecciones/seccionales-adelantadas-2027/cpccs/candidatos-cpccs-elecciones-consejo-cne-trayectoria-136118/",
+      "notas": null,
+      "nombre_completo": "Fredy Patricio Sosa Malla",
+      "organizacion": "Sin afiliación (candidatura ciudadana)",
+      "propuestas": {
+        "designacion": [],
+        "anticorrupcion": [],
+        "participacion": [],
+        "transparencia": [],
+        "grupos": [],
+        "institucion": []
+      }
+    },
+    {
+      "id": "andres-pico",
+      "nombre": "Andrés Pico",
+      "nombre_corto": "Andrés Pico",
+      "lista": "Hombres",
+      "orden": 3,
+      "provincia": "Pastaza",
+      "edad": 32,
+      "profesion": "Magíster en Derecho Mención en Argumentación Jurídica y Litigación Oral",
+      "perfil": "Declara iniciativas de derechos humanos y liderazgo juvenil en comunidades amazónicas, el impulso de propuestas legislativas sobre la Amazonía, salud mental, educación superior y juventudes, y haber fundado el proyecto de voluntariado Yanapana para la educación de niños indígenas amazónicos. Dice haber sido director provincial de Pastaza y coordinador nacional de la Red Mundial de Jóvenes Políticos, e integrante del Consejo de Defensores de Derechos Humanos de Pastaza. En lucha contra la corrupción menciona cursos del CPCCS sobre transparencia.",
+      "situacion": null,
+      "perfil_fuente": "https://www.primicias.ec/politica/elecciones/seccionales-adelantadas-2027/cpccs/candidatos-cpccs-elecciones-consejo-cne-trayectoria-136118/",
+      "notas": "Nombre corto \"Andrés Pico\" según PRIMICIAS y KCH.",
+      "nombre_completo": "Maico Andrés Pico Rivera",
+      "organizacion": "Sin afiliación (candidatura ciudadana)",
+      "propuestas": {
+        "designacion": [],
+        "anticorrupcion": [],
+        "participacion": [],
+        "transparencia": [],
+        "grupos": [],
+        "institucion": []
+      }
+    },
+    {
+      "id": "gabriel-pereira",
+      "nombre": "Gabriel Pereira",
+      "nombre_corto": "Gabriel Pereira",
+      "lista": "Hombres",
+      "orden": 4,
+      "provincia": "El Oro",
+      "edad": 41,
+      "profesion": "Abogado",
+      "perfil": "Declara haber sido promotor del proyecto Jurisconsultos Latam para el ejercicio de derechos y ponente en formación ciudadana con ese grupo y con las asambleas ciudadanas local de Machala y provincial de El Oro. Menciona voluntariado en el grupo católico Misioneros de la Misericordia, en Machala. En lucha contra la corrupción presenta un certificado del Consejo Barrial de la ciudadela Abdón Calderón Muñoz, sin detallar la iniciativa.",
+      "situacion": null,
+      "perfil_fuente": "https://www.primicias.ec/politica/elecciones/seccionales-adelantadas-2027/cpccs/candidatos-cpccs-elecciones-consejo-cne-trayectoria-136118/",
+      "notas": null,
+      "nombre_completo": "Gabriel Santiago Pereira Gómez",
+      "organizacion": "Sin afiliación (candidatura ciudadana)",
+      "propuestas": {
+        "designacion": [],
+        "anticorrupcion": [],
+        "participacion": [],
+        "transparencia": [],
+        "grupos": [],
+        "institucion": []
+      }
+    },
+    {
+      "id": "luis-santana",
+      "nombre": "Luis Santana",
+      "nombre_corto": "Luis Santana",
+      "lista": "Hombres",
+      "orden": 5,
+      "provincia": "Guayas",
+      "edad": 38,
+      "profesion": "Magíster en Contabilidad y Auditoría Mención en Gestión Tributaria",
+      "perfil": "No registra iniciativas de participación ciudadana ni de lucha contra la corrupción. Presenta tres certificaciones de profesionales que destacan su liderazgo estudiantil, su ética y su desempeño en el servicio público.",
+      "situacion": null,
+      "perfil_fuente": "https://www.primicias.ec/politica/elecciones/seccionales-adelantadas-2027/cpccs/candidatos-cpccs-elecciones-consejo-cne-trayectoria-136118/",
+      "notas": null,
+      "nombre_completo": "Luis Alberto Santana Gutiérrez",
+      "organizacion": "Sin afiliación (candidatura ciudadana)",
+      "propuestas": {
+        "designacion": [],
+        "anticorrupcion": [],
+        "participacion": [],
+        "transparencia": [],
+        "grupos": [],
+        "institucion": []
+      }
+    },
+    {
+      "id": "marlon-pasquel",
+      "nombre": "Marlon Pasquel",
+      "nombre_corto": "Marlon Pasquel",
+      "lista": "Hombres",
+      "orden": 6,
+      "provincia": "Pichincha",
+      "edad": 35,
+      "profesion": "Tecnólogo Superior en Contabilidad y Asesoría Tributaria",
+      "perfil": "Según PRIMICIAS, en 2023 fue candidato a la Alcaldía de Quito por el Partido Avanza. Declara el proyecto 'Comercio 3.0' de la Cámara de Comercio de Pedro Moncayo, una iniciativa normativa sobre incentivos tributarios al patrocinio deportivo y el voluntariado 'Galería de Talentos' de la Fundación Deportiva Élite, y un programa de formación ciudadana. No registra iniciativas de lucha contra la corrupción.",
+      "situacion": null,
+      "perfil_fuente": "https://www.primicias.ec/politica/elecciones/seccionales-adelantadas-2027/cpccs/candidatos-cpccs-elecciones-consejo-cne-trayectoria-136118/",
+      "notas": null,
+      "nombre_completo": "Marlon Andrés Pasquel Espín",
+      "organizacion": "Sin afiliación (candidatura ciudadana)",
+      "propuestas": {
+        "designacion": [],
+        "anticorrupcion": [],
+        "participacion": [],
+        "transparencia": [],
+        "grupos": [],
+        "institucion": []
+      }
+    },
+    {
+      "id": "darko-espin",
+      "nombre": "Darko Espín",
+      "nombre_corto": "Darko Espín",
+      "lista": "Hombres",
+      "orden": 7,
+      "provincia": "Pichincha",
+      "edad": 24,
+      "profesion": "Abogado",
+      "perfil": "Declara haber sido promotor social en la 'Escuela de Derechos Humanos e Identidad' (Fundación Maki Solidaria), voluntario en el programa 'Manos Solidarias' (Fundación Al Jawhara) y promotor comunitario en la 'Red Juvenil de Derechos Humanos' (Fundación Randi Randi). En lucha contra la corrupción dice haber sido veedor del CPCCS en la designación de vocales del Consejo de la Judicatura. Presenta tres avales, entre ellos del Ministerio de Desarrollo Humano, que lo describen como activista social y asistente legal.",
+      "situacion": null,
+      "perfil_fuente": "https://www.primicias.ec/politica/elecciones/seccionales-adelantadas-2027/cpccs/candidatos-cpccs-elecciones-consejo-cne-trayectoria-136118/",
+      "notas": "KCH lo nombra \"Gustavo Espín\".",
+      "nombre_completo": "Darko Gustavo Espín Suárez",
+      "organizacion": "Sin afiliación (candidatura ciudadana)",
+      "propuestas": {
+        "designacion": [],
+        "anticorrupcion": [],
+        "participacion": [],
+        "transparencia": [],
+        "grupos": [],
+        "institucion": []
+      }
+    },
+    {
+      "id": "david-simba",
+      "nombre": "David Simba",
+      "nombre_corto": "David Simba",
+      "lista": "Hombres",
+      "orden": 8,
+      "provincia": "Pichincha",
+      "edad": 46,
+      "profesion": "Comunicador Social con Énfasis en Comunicación Organizacional",
+      "perfil": "Declara voluntariado en acción social y liderazgo comunitario y la escuela de formación ciudadana 'Linaje 360', ambos con la Misión Carismática Internacional. Dice haber coordinado el Observatorio Ciudadano del Código de la Democracia, registrado ante el CPCCS. No registra iniciativas de lucha contra la corrupción.",
+      "situacion": null,
+      "perfil_fuente": "https://www.primicias.ec/politica/elecciones/seccionales-adelantadas-2027/cpccs/candidatos-cpccs-elecciones-consejo-cne-trayectoria-136118/",
+      "notas": null,
+      "nombre_completo": "David Alejandro Simba Cevallos",
+      "organizacion": "Sin afiliación (candidatura ciudadana)",
+      "propuestas": {
+        "designacion": [],
+        "anticorrupcion": [],
+        "participacion": [],
+        "transparencia": [],
+        "grupos": [],
+        "institucion": []
+      }
+    },
+    {
+      "id": "erick-cruz",
+      "nombre": "Erick Cruz",
+      "nombre_corto": "Erick Cruz",
+      "lista": "Hombres",
+      "orden": 9,
+      "provincia": "Pichincha",
+      "edad": 25,
+      "profesion": "Abogado",
+      "perfil": "Declara haber impulsado un proyecto de defensoría estudiantil en la PUCE con la federación de estudiantes y labores sociales en Otavalo. Con la Fundación Orquídea Lila, a la que pertenece, menciona una campaña navideña en Piñas y talleres de educación cívica y prevención de la violencia doméstica. Fue capacitador en mediación y cultura de paz para colegiales de Quito con la Fundación Fabián Ponce.",
+      "situacion": null,
+      "perfil_fuente": "https://www.primicias.ec/politica/elecciones/seccionales-adelantadas-2027/cpccs/candidatos-cpccs-elecciones-consejo-cne-trayectoria-136118/",
+      "notas": null,
+      "nombre_completo": "Erick Joel Cruz Quilumba",
+      "organizacion": "Sin afiliación (candidatura ciudadana)",
+      "propuestas": {
+        "designacion": [],
+        "anticorrupcion": [],
+        "participacion": [],
+        "transparencia": [],
+        "grupos": [],
+        "institucion": []
+      }
+    },
+    {
+      "id": "santiago-porras",
+      "nombre": "Santiago Porras",
+      "nombre_corto": "Santiago Porras",
+      "lista": "Hombres",
+      "orden": 10,
+      "provincia": "Pichincha",
+      "edad": 43,
+      "profesion": "Tecnólogo/a Superior en Administración",
+      "perfil": "Declara haber sido delegado del proyecto EDUCPCCS intercultural con pueblos y nacionalidades, voluntario en jornadas de asesoría en Salitre, Daule y Samborondón, y gestor de promoción en el proyecto 'Quien Sabe Participa' del CPCCS. En lucha contra la corrupción menciona su participación en el programa Spartakus de la Fundación Lucha Anticorrupción. Presenta tres avales de conducta intachable.",
+      "situacion": null,
+      "perfil_fuente": "https://www.primicias.ec/politica/elecciones/seccionales-adelantadas-2027/cpccs/candidatos-cpccs-elecciones-consejo-cne-trayectoria-136118/",
+      "notas": "KCH/El Universo lo identifican como asesor de Andrés Fantoni.",
+      "nombre_completo": "Santiago Andrés Porras Guadalupe",
+      "organizacion": "Sin afiliación (candidatura ciudadana)",
+      "propuestas": {
+        "designacion": [],
+        "anticorrupcion": [],
+        "participacion": [],
+        "transparencia": [],
+        "grupos": [],
+        "institucion": []
+      }
+    },
+    {
+      "id": "luis-rivera",
+      "nombre": "Luis Rivera",
+      "nombre_corto": "Luis Rivera",
+      "lista": "Hombres",
+      "orden": 11,
+      "provincia": "Pichincha",
+      "edad": 73,
+      "profesion": "Licenciado en Ciencias Públicas y Sociales",
+      "perfil": "Según PRIMICIAS, es exdiputado y fue vicepresidente del entonces Congreso Nacional. Declara haber participado en la Escuela de Presidentes y en 'Las Constituyentes del Ecuador' de la Fundación Konrad Adenauer, en la promoción de iniciativas populares normativas con el Centro de Estudios Democráticos y en un voluntariado para mujeres líderes. En lucha contra la corrupción cita jornadas sobre políticas públicas y transparencia.",
+      "situacion": null,
+      "perfil_fuente": "https://www.primicias.ec/politica/elecciones/seccionales-adelantadas-2027/cpccs/candidatos-cpccs-elecciones-consejo-cne-trayectoria-136118/",
+      "notas": "PRIMICIAS (perfil) usa \"Luis Rivera\"; otras notas y KCH lo nombran \"Ramiro Rivera\". Exdiputado y exvicepresidente del Congreso. La nota de Expreso es previa a la calificación (junio de 2026).",
+      "propuestas": {
+        "designacion": [
+          {
+            "texto": "Invitar a personas capaces y probas a postularse a los concursos y promover procedimientos de escrutinio con mayor control público.",
+            "concreta": false,
+            "plazo": null,
+            "costo": null,
+            "competencia": "si",
+            "fuente": "https://www.expreso.ec/politica/ramiro-rivera-candidato-cpccs-propone-escrutinios-transparentes-consejo-286804.html",
+            "medio": "Expreso",
+            "fecha": "2026-06-23",
+            "intereses": []
+          }
+        ],
+        "anticorrupcion": [],
+        "participacion": [],
+        "transparencia": [],
+        "grupos": [],
+        "institucion": [
+          {
+            "texto": "Ha señalado en más de una ocasión que el CPCCS debe desaparecer, según Primicias.",
+            "concreta": true,
+            "plazo": null,
+            "costo": null,
+            "competencia": "no",
+            "fuente": "https://www.primicias.ec/politica/elecciones/seccionales-adelantadas-2027/cpccs/candidatos-consejo-participacion-reeleccion-tce-listado-plazo-cne-papeleta-132930/",
+            "medio": "Primicias",
+            "fecha": "2026-09-20",
+            "intereses": []
+          }
+        ]
+      },
+      "nombre_completo": "Luis Ramiro Rivera Molina",
+      "organizacion": "Sin afiliación (candidatura ciudadana)"
+    },
+    {
+      "id": "patricio-ramirez",
+      "nombre": "Patricio Ramírez",
+      "nombre_corto": "Patricio Ramírez",
+      "lista": "Hombres",
+      "orden": 12,
+      "provincia": "Guayas",
+      "edad": 47,
+      "profesion": "Magíster en Derecho Constitucional",
+      "perfil": "Declara haber impulsado en la Fundación Friva, a la que pertenece, un proyecto de atención integral a grupos de atención prioritaria (terapia ocupacional y psicológica), y haber coordinado la brigada médica 'Abriendo Corazones' y ollas comunitarias con la Fundación Cuarta Generación (4G), donde también capacitó en formación ciudadana. No registra iniciativas de lucha contra la corrupción. Presenta tres avales de profesionales con el mismo texto.",
+      "situacion": null,
+      "perfil_fuente": "https://www.primicias.ec/politica/elecciones/seccionales-adelantadas-2027/cpccs/candidatos-cpccs-elecciones-consejo-cne-trayectoria-136118/",
+      "notas": null,
+      "nombre_completo": "Patricio José Ramírez Solórzano",
+      "organizacion": "Sin afiliación (candidatura ciudadana)",
+      "propuestas": {
+        "designacion": [],
+        "anticorrupcion": [],
+        "participacion": [],
+        "transparencia": [],
+        "grupos": [],
+        "institucion": []
+      }
+    },
+    {
+      "id": "michael-calderon",
+      "nombre": "Michael Calderón",
+      "nombre_corto": "Michael Calderón",
+      "lista": "Hombres",
+      "orden": 13,
+      "provincia": "Pichincha",
+      "edad": 35,
+      "profesion": "Abogado",
+      "perfil": "No registra iniciativas de participación ciudadana. En lucha contra la corrupción enumera su carrera pública: cargos jurídicos en las empresas metropolitanas de Quito EPMMOP, EPMHV y EMSEGURIDAD, director jurídico de acuacultura y pesca del Ministerio de Producción, normativa en el Sercop, la Procuraduría Metropolitana, el Ministerio de Turismo y oficial de cumplimiento delegado en el Hospital Carlos Andrade Marín. En reconocido prestigio presenta cinco cartas, certificados de no tener responsabilidades en la Contraloría ni antecedentes penales o disciplinarios, y unos 17 cursos sobre cumplimiento, antisoborno y contratación pública.",
+      "situacion": null,
+      "perfil_fuente": "https://www.primicias.ec/politica/elecciones/seccionales-adelantadas-2027/cpccs/candidatos-cpccs-elecciones-consejo-cne-trayectoria-136118/",
+      "notas": null,
+      "nombre_completo": "Michael Alexander Calderón Silva",
+      "organizacion": "Sin afiliación (candidatura ciudadana)",
+      "propuestas": {
+        "designacion": [],
+        "anticorrupcion": [],
+        "participacion": [],
+        "transparencia": [],
+        "grupos": [],
+        "institucion": []
+      }
+    },
+    {
+      "id": "juan-izurieta",
+      "nombre": "Juan Izurieta",
+      "nombre_corto": "Juan Izurieta",
+      "lista": "Hombres",
+      "orden": 14,
+      "provincia": "Manabí",
+      "edad": 45,
+      "profesion": "Licenciado en Ciencias Políticas y Sociales",
+      "perfil": "Declara haber elaborado una guía de atención a grupos vulnerables, un protocolo de seguridad ciudadana y un manual parlamentario para la asociación de productores de maracuyá Asopromar, y haber asesorado a la comuna San Silvestre en reglamentos sociales y de brigadas de seguridad. En lucha contra la corrupción cita su participación, como subdirector del SNAI, en el examen del Ecuador ante el Comité contra la Tortura de la ONU (Ginebra). Dice haber ejercido como abogado y haber trabajado en entidades de transparencia y anticorrupción.",
+      "situacion": null,
+      "perfil_fuente": "https://www.primicias.ec/politica/elecciones/seccionales-adelantadas-2027/cpccs/candidatos-cpccs-elecciones-consejo-cne-trayectoria-136118/",
+      "notas": "Abogado manabita (casillero 14, papeleta amarilla). Dos notas adicionales de El Diario (26/10 y 13/10) estaban tras muro de pago.",
+      "propuestas": {
+        "designacion": [
+          {
+            "texto": "Proponer reformas a los procesos de selección, que deben tramitarse en la Asamblea Nacional.",
+            "concreta": false,
+            "plazo": null,
+            "costo": null,
+            "competencia": "parcial",
+            "fuente": "https://www.eldiario.ec/ecuador/juan-carlos-izurieta-candidato-al-cpccs-propone-crear-un-codigo-de-etica-para-consejeros-y-financiar-las-veedurias-ciudadanas-17112026/",
+            "medio": "El Diario",
+            "fecha": "2026-11-17",
+            "intereses": []
+          },
+          {
+            "texto": "Publicar cada fase de los concursos con intervención directa de los observatorios ciudadanos.",
+            "concreta": false,
+            "plazo": null,
+            "costo": null,
+            "competencia": "si",
+            "fuente": "https://www.eldiario.ec/manabi/juan-carlos-izurieta-el-problema-del-cpccs-no-es-su-diseno-sino-quienes-lo-han-dirigido-26082026/",
+            "medio": "El Diario",
+            "fecha": "2026-08-26",
+            "intereses": []
+          }
+        ],
+        "anticorrupcion": [
+          {
+            "texto": "Crear un tablero público que muestre el recorrido de las denuncias desde su ingreso hasta su resolución.",
+            "concreta": true,
+            "plazo": null,
+            "costo": null,
+            "competencia": "si",
+            "fuente": "https://www.eldiario.ec/ecuador/juan-carlos-izurieta-candidato-al-cpccs-propone-crear-un-codigo-de-etica-para-consejeros-y-financiar-las-veedurias-ciudadanas-17112026/",
+            "medio": "El Diario",
+            "fecha": "2026-11-17",
+            "intereses": []
+          }
+        ],
+        "participacion": [
+          {
+            "texto": "Incluir en el presupuesto del CPCCS recursos para financiar la conformación y el funcionamiento de veedurías, observatorios y otros mecanismos.",
+            "concreta": true,
+            "plazo": null,
+            "costo": null,
+            "competencia": "si",
+            "fuente": "https://www.eldiario.ec/ecuador/juan-carlos-izurieta-candidato-al-cpccs-propone-crear-un-codigo-de-etica-para-consejeros-y-financiar-las-veedurias-ciudadanas-17112026/",
+            "medio": "El Diario",
+            "fecha": "2026-11-17",
+            "intereses": []
+          },
+          {
+            "texto": "Establecer alianzas con universidades y gremios profesionales, como el Colegio de Ingenieros Civiles, para dar respaldo técnico a las veedurías de obras.",
+            "concreta": true,
+            "plazo": null,
+            "costo": null,
+            "competencia": "si",
+            "fuente": "https://www.eldiario.ec/ecuador/juan-carlos-izurieta-candidato-al-cpccs-propone-crear-un-codigo-de-etica-para-consejeros-y-financiar-las-veedurias-ciudadanas-17112026/",
+            "medio": "El Diario",
+            "fecha": "2026-11-17",
+            "intereses": []
+          },
+          {
+            "texto": "Simplificar los trámites para conformar veedurías y observatorios.",
+            "concreta": false,
+            "plazo": null,
+            "costo": null,
+            "competencia": "si",
+            "fuente": "https://www.eldiario.ec/manabi/juan-carlos-izurieta-el-problema-del-cpccs-no-es-su-diseno-sino-quienes-lo-han-dirigido-26082026/",
+            "medio": "El Diario",
+            "fecha": "2026-08-26",
+            "intereses": []
+          }
+        ],
+        "transparencia": [
+          {
+            "texto": "Convertir al CPCCS en una institución con gobierno de datos abiertos.",
+            "concreta": false,
+            "plazo": null,
+            "costo": null,
+            "competencia": "si",
+            "fuente": "https://www.eldiario.ec/ecuador/juan-carlos-izurieta-candidato-al-cpccs-propone-crear-un-codigo-de-etica-para-consejeros-y-financiar-las-veedurias-ciudadanas-17112026/",
+            "medio": "El Diario",
+            "fecha": "2026-11-17",
+            "intereses": []
+          }
+        ],
+        "grupos": [],
+        "institucion": [
+          {
+            "texto": "Implementar un código de ética para los consejeros y aplicar excusa y recusación en los procesos de selección.",
+            "concreta": true,
+            "plazo": null,
+            "costo": null,
+            "competencia": "si",
+            "fuente": "https://www.eldiario.ec/ecuador/juan-carlos-izurieta-candidato-al-cpccs-propone-crear-un-codigo-de-etica-para-consejeros-y-financiar-las-veedurias-ciudadanas-17112026/",
+            "medio": "El Diario",
+            "fecha": "2026-11-17",
+            "intereses": []
+          },
+          {
+            "texto": "Desconcentrar la institución para que tenga mayor presencia territorial.",
+            "concreta": false,
+            "plazo": null,
+            "costo": null,
+            "competencia": "si",
+            "fuente": "https://www.eldiario.ec/ecuador/juan-carlos-izurieta-candidato-al-cpccs-propone-crear-un-codigo-de-etica-para-consejeros-y-financiar-las-veedurias-ciudadanas-17112026/",
+            "medio": "El Diario",
+            "fecha": "2026-11-17",
+            "intereses": []
+          }
+        ]
+      },
+      "nombre_completo": "Juan Carlos Izurieta Gaviria",
+      "organizacion": "Sin afiliación (candidatura ciudadana)"
+    },
+    {
+      "id": "neiser-ninabanda",
+      "nombre": "Neiser Ninabanda",
+      "nombre_corto": "Neiser Ninabanda",
+      "lista": "Hombres",
+      "orden": 15,
+      "provincia": "Pichincha",
+      "edad": 43,
+      "profesion": "Magíster en Administración Pública Mención en Gestión por Resultados",
+      "perfil": "Declara haber sido técnico del proyecto Renovación Ambiental Reciclaje de la Asociación de Recicladores Punto Verde y haber participado en acción social con la Fundación Orionis Forions (donaciones, capacitación, brigadas comunitarias). Dice haber integrado veedurías del CPCCS sobre la elección de rector de la Universidad Nacional de Chimborazo, la designación de vocales del Consejo de la Judicatura y una compra de materiales de agua potable del GAD de Colta. Afirma haber participado en la elaboración del Reglamento de Rendición de Cuentas del CPCCS y en reformas a un reglamento de la Universidad Amawtay Wasi.",
+      "situacion": null,
+      "perfil_fuente": "https://www.primicias.ec/politica/elecciones/seccionales-adelantadas-2027/cpccs/candidatos-cpccs-elecciones-consejo-cne-trayectoria-136118/",
+      "notas": "La nota de El Diario está tras muro de pago; solo se leyó el titular y la descripción.",
+      "propuestas": {
+        "designacion": [
+          {
+            "texto": "Transparentar los procesos de designación de autoridades.",
+            "concreta": false,
+            "plazo": null,
+            "costo": null,
+            "competencia": "si",
+            "fuente": "https://www.eldiario.ec/ecuador/neiser-ninabanda-plantea-acercar-el-cpccs-a-la-ciudadania-y-transparentar-la-designacion-de-autoridades-19112026/",
+            "medio": "El Diario",
+            "fecha": "2026-11-19",
+            "intereses": []
+          }
+        ],
+        "anticorrupcion": [],
+        "participacion": [
+          {
+            "texto": "Fortalecer las veedurías y acercar la institución a la ciudadanía y al territorio.",
+            "concreta": false,
+            "plazo": null,
+            "costo": null,
+            "competencia": "si",
+            "fuente": "https://www.eldiario.ec/ecuador/neiser-ninabanda-plantea-acercar-el-cpccs-a-la-ciudadania-y-transparentar-la-designacion-de-autoridades-19112026/",
+            "medio": "El Diario",
+            "fecha": "2026-11-19",
+            "intereses": []
+          }
+        ],
+        "transparencia": [],
+        "grupos": [],
+        "institucion": []
+      },
+      "nombre_completo": "Neiser Rodrigo Ninabanda Ninabanda",
+      "organizacion": "Sin afiliación (candidatura ciudadana)"
+    },
+    {
+      "id": "santiago-cabrera",
+      "nombre": "Santiago Cabrera",
+      "nombre_corto": "Santiago Cabrera",
+      "lista": "Hombres",
+      "orden": 16,
+      "provincia": "Pichincha",
+      "edad": 39,
+      "profesion": "Ingeniería Comercial con Mención en Marketing",
+      "perfil": "Declara iniciativas de fortalecimiento de capacidades comunitarias, voluntariado y una escuela de formación ciudadana con la Fundación Hakhu Amazonía, y trabajo con exbecarios de KOICA y la comunidad andina de Calpi. En lucha contra la corrupción cita una propuesta de iniciativa normativa para la transparencia y el seguimiento de obras públicas ante la Administración Zonal de Tumbaco. No presenta certificados de reconocido prestigio.",
+      "situacion": null,
+      "perfil_fuente": "https://www.primicias.ec/politica/elecciones/seccionales-adelantadas-2027/cpccs/candidatos-cpccs-elecciones-consejo-cne-trayectoria-136118/",
+      "notas": null,
+      "nombre_completo": "Santiago Alberto Cabrera Báez",
+      "organizacion": "Sin afiliación (candidatura ciudadana)",
+      "propuestas": {
+        "designacion": [],
+        "anticorrupcion": [],
+        "participacion": [],
+        "transparencia": [],
+        "grupos": [],
+        "institucion": []
+      }
+    },
+    {
+      "id": "julio-neira",
+      "nombre": "Julio Neira",
+      "nombre_corto": "Julio Neira",
+      "lista": "Hombres",
+      "orden": 17,
+      "provincia": "Pichincha",
+      "edad": 43,
+      "profesion": "Comunicador Digital con Nivel Equivalente a Tecnólogo Superior",
+      "perfil": "Declara haber participado en talleres sobre masculinidades no violentas y violencia de género con la Administración Zonal Eugenio Espejo y el Patronato San José de Quito. Menciona voluntariados en los proyectos de acción social 'Tejiendo Comunidad' y 'Red Solidaria en Acción', y en la organización de la Marcha del Orgullo. Cursó un programa de formación en participación y control ciudadano con la Fundación Mundo Sostenible.",
+      "situacion": null,
+      "perfil_fuente": "https://www.primicias.ec/politica/elecciones/seccionales-adelantadas-2027/cpccs/candidatos-cpccs-elecciones-consejo-cne-trayectoria-136118/",
+      "notas": null,
+      "nombre_completo": "Julio Enrique Neira García",
+      "organizacion": "Sin afiliación (candidatura ciudadana)",
+      "propuestas": {
+        "designacion": [],
+        "anticorrupcion": [],
+        "participacion": [],
+        "transparencia": [],
+        "grupos": [],
+        "institucion": []
+      }
+    },
+    {
+      "id": "daniel-ramirez",
+      "nombre": "Daniel Ramírez",
+      "nombre_corto": "Daniel Ramírez",
+      "lista": "Hombres",
+      "orden": 18,
+      "provincia": "Guayas",
+      "edad": 44,
+      "profesion": "Ingeniero Industrial",
+      "perfil": "Declara haber impulsado en la Fundación Friva, a la que pertenece, un proyecto de atención integral a grupos de atención prioritaria (terapia ocupacional, psicológica y trabajo social), y haber liderado brigadas comunitarias y procesos con la Fundación Cuarta Generación (4G). No registra iniciativas de lucha contra la corrupción. Presenta tres avales con el mismo texto.",
+      "situacion": null,
+      "perfil_fuente": "https://www.primicias.ec/politica/elecciones/seccionales-adelantadas-2027/cpccs/candidatos-cpccs-elecciones-consejo-cne-trayectoria-136118/",
+      "notas": null,
+      "nombre_completo": "Daniel Fausto Ramírez Solórzano",
+      "organizacion": "Sin afiliación (candidatura ciudadana)",
+      "propuestas": {
+        "designacion": [],
+        "anticorrupcion": [],
+        "participacion": [],
+        "transparencia": [],
+        "grupos": [],
+        "institucion": []
+      }
+    },
+    {
+      "id": "jimmy-avila",
+      "nombre": "Jimmy Ávila",
+      "nombre_corto": "Jimmy Ávila",
+      "lista": "Hombres",
+      "orden": 19,
+      "provincia": "Pichincha",
+      "edad": 35,
+      "profesion": "Magíster en Administración de Empresas",
+      "perfil": "Su expediente no incluye la hoja de vida: el índice la ubica en la foja 64 como documento electrónico, pero esa foja no está en los escaneos. Por eso no hay datos declarados de participación ciudadana, lucha contra la corrupción ni reconocido prestigio. El expediente sí trae certificaciones de terceros (observatorios ciudadanos, ISSUP, Fundación Regala Educación, GAD de San Antonio de Ibarra, Asamblea Nacional).",
+      "situacion": null,
+      "perfil_fuente": "https://www.primicias.ec/politica/elecciones/seccionales-adelantadas-2027/cpccs/candidatos-cpccs-elecciones-consejo-cne-trayectoria-136118/",
+      "notas": "PRIMICIAS: Su expediente en el CNE no incluye la hoja de vida; los datos salen de otros documentos del expediente.",
+      "nombre_completo": "Jimmy Andrés Ávila Jaramillo",
+      "organizacion": "Sin afiliación (candidatura ciudadana)",
+      "propuestas": {
+        "designacion": [],
+        "anticorrupcion": [],
+        "participacion": [],
+        "transparencia": [],
+        "grupos": [],
+        "institucion": []
+      }
+    },
+    {
+      "id": "roberto-bhrunis",
+      "nombre": "Roberto Bhrunis",
+      "nombre_corto": "Roberto Bhrunis",
+      "lista": "Hombres",
+      "orden": 20,
+      "provincia": "Los Ríos",
+      "edad": 72,
+      "profesion": "Magíster en Ciencias Penales y Criminológicas",
+      "perfil": "Declara haber dictado conferencias sobre la Constitución, la Ley de Tránsito y los derechos humanos para la cooperativa Flota Babahoyo Interprovincial. No registra iniciativas de lucha contra la corrupción. Presenta tres certificados de probidad notoria: uno del Colegio de Abogados de Los Ríos y dos de abogados que dicen conocerlo.",
+      "situacion": null,
+      "perfil_fuente": "https://www.primicias.ec/politica/elecciones/seccionales-adelantadas-2027/cpccs/candidatos-cpccs-elecciones-consejo-cne-trayectoria-136118/",
+      "notas": "PRIMICIAS usa nombre corto \"Roberto Bhrunis\"; KCH \"Pedro Bhrunis\".",
+      "nombre_completo": "Pedro Roberto Bhrunis Lemarie",
+      "organizacion": "Sin afiliación (candidatura ciudadana)",
+      "propuestas": {
+        "designacion": [],
+        "anticorrupcion": [],
+        "participacion": [],
+        "transparencia": [],
+        "grupos": [],
+        "institucion": []
+      }
+    },
+    {
+      "id": "edwin-zurita",
+      "nombre": "Edwin Zurita",
+      "nombre_corto": "Edwin Zurita",
+      "lista": "Hombres",
+      "orden": 21,
+      "provincia": "Pichincha",
+      "edad": 37,
+      "profesion": "Ingeniero en Administración Pública",
+      "perfil": "Declara proyectos por los derechos laborales con el comité de empresa de Emelnorte y la central de trabajadores de CELEC, y un programa de acción social con el Patronato Municipal de Santo Domingo. Menciona programas de formación ciudadana con la FEUE, una organización sindical de salud y Fuerzas Sociales del Ecuador, y una certificación sobre veedurías de la CEDOC-CLAT. No registra iniciativas de lucha contra la corrupción.",
+      "situacion": null,
+      "perfil_fuente": "https://www.primicias.ec/politica/elecciones/seccionales-adelantadas-2027/cpccs/candidatos-cpccs-elecciones-consejo-cne-trayectoria-136118/",
+      "notas": null,
+      "nombre_completo": "Edwin Adrián Zurita Bustamante",
+      "organizacion": "Sin afiliación (candidatura ciudadana)",
+      "propuestas": {
+        "designacion": [],
+        "anticorrupcion": [],
+        "participacion": [],
+        "transparencia": [],
+        "grupos": [],
+        "institucion": []
+      }
+    },
+    {
+      "id": "jorge-vallejo",
+      "nombre": "Jorge Vallejo",
+      "nombre_corto": "Jorge Vallejo",
+      "lista": "Hombres",
+      "orden": 22,
+      "provincia": "Pichincha",
+      "edad": 36,
+      "profesion": "Licenciado en Psicología",
+      "perfil": "Dejó en blanco todas las secciones de participación ciudadana, lucha contra la corrupción y reconocido prestigio de su hoja de vida.",
+      "situacion": null,
+      "perfil_fuente": "https://www.primicias.ec/politica/elecciones/seccionales-adelantadas-2027/cpccs/candidatos-cpccs-elecciones-consejo-cne-trayectoria-136118/",
+      "notas": null,
+      "nombre_completo": "Jorge David Vallejo Pérez",
+      "organizacion": "Sin afiliación (candidatura ciudadana)",
+      "propuestas": {
+        "designacion": [],
+        "anticorrupcion": [],
+        "participacion": [],
+        "transparencia": [],
+        "grupos": [],
+        "institucion": []
+      }
+    },
+    {
+      "id": "martin-barragan",
+      "nombre": "Martín Barragán",
+      "nombre_corto": "Martín Barragán",
+      "lista": "Hombres",
+      "orden": 23,
+      "provincia": "Pichincha",
+      "edad": 27,
+      "profesion": "Magíster en Administración Pública con Mención en Gestión",
+      "perfil": "Declara los proyectos de participación política juvenil 'Match Político' y 'Plan Match', con las fundaciones Justicia en Libertad y Alpha Z (esta última, una de sus organizaciones sociales), voluntariado con la Fundación Runakay y el medio digital de voto informado 'Observatorio Desacato'. En lucha contra la corrupción menciona una veeduría en una unidad educativa particular, un observatorio de transparencia en Cumbayá y un proyecto de código de ética para el GAD de Guayllabamba. Presenta cuatro avales personales.",
+      "situacion": null,
+      "perfil_fuente": "https://www.primicias.ec/politica/elecciones/seccionales-adelantadas-2027/cpccs/candidatos-cpccs-elecciones-consejo-cne-trayectoria-136118/",
+      "notas": "Expreso escribe \"Martin\" sin tilde; PRIMICIAS usa nombre corto \"Martín Barragán\" y El Universo/KCH \"Estefano Barragán\".",
+      "nombre_completo": "Estefano Martín Barragán Álvarez",
+      "organizacion": "Sin afiliación (candidatura ciudadana)",
+      "propuestas": {
+        "designacion": [],
+        "anticorrupcion": [],
+        "participacion": [],
+        "transparencia": [],
+        "grupos": [],
+        "institucion": []
+      }
+    },
+    {
+      "id": "wilson-rodriguez",
+      "nombre": "Wilson Rodríguez",
+      "nombre_corto": "Wilson Rodríguez",
+      "lista": "Hombres",
+      "orden": 24,
+      "provincia": "Azuay",
+      "edad": 56,
+      "profesion": "Magíster en Derechos Constitucionales",
+      "perfil": "Declara haber elaborado los estatutos del barrio 3 de Mayo, participado en el proyecto Comunidades Seguras del Consejo de Seguridad Ciudadana de Cuenca y en la silla vacía del Municipio de Cuenca. En lucha contra la corrupción dice haber sido veedor, con un certificado de la Dirección General de Participación y Gobernabilidad. Presenta tres avales de profesores de la Universidad Católica de Cuenca.",
+      "situacion": null,
+      "perfil_fuente": "https://www.primicias.ec/politica/elecciones/seccionales-adelantadas-2027/cpccs/candidatos-cpccs-elecciones-consejo-cne-trayectoria-136118/",
+      "notas": "Abogado (casillero 24). Se identifica como el único candidato de la zona austral.",
+      "propuestas": {
+        "designacion": [],
+        "anticorrupcion": [],
+        "participacion": [
+          {
+            "texto": "Presentar un reglamento para veedores ciudadanos (estatutos de 88 artículos) y recorrer las capitales de provincia para explicarlo.",
+            "concreta": true,
+            "plazo": "desde el primer día; recorrido en los tres primeros meses",
+            "costo": null,
+            "competencia": "si",
+            "fuente": "https://www.eldiario.ec/ecuador/wilson-rodriguez-propone-fortalecer-las-veedurias-ciudadanas-para-fiscalizar-las-obras-y-los-recursos-publicos-en-los-221-cantones-del-ecuador-16112026/",
+            "medio": "El Diario",
+            "fecha": "2026-11-16",
+            "intereses": []
+          },
+          {
+            "texto": "Elaborar estatutos para que juntas parroquiales y municipios faciliten la participación de barrios, directivas y comités promejoras.",
+            "concreta": true,
+            "plazo": null,
+            "costo": null,
+            "competencia": "si",
+            "fuente": "https://www.eldiario.ec/ecuador/wilson-rodriguez-propone-fortalecer-las-veedurias-ciudadanas-para-fiscalizar-las-obras-y-los-recursos-publicos-en-los-221-cantones-del-ecuador-16112026/",
+            "medio": "El Diario",
+            "fecha": "2026-11-16",
+            "intereses": []
+          },
+          {
+            "texto": "Si el reglamento para autoridades no se concreta, presentar la propuesta como iniciativa legislativa ante la Asamblea Nacional.",
+            "concreta": true,
+            "plazo": "tres meses",
+            "costo": null,
+            "competencia": "parcial",
+            "fuente": "https://www.eldiario.ec/ecuador/wilson-rodriguez-propone-fortalecer-las-veedurias-ciudadanas-para-fiscalizar-las-obras-y-los-recursos-publicos-en-los-221-cantones-del-ecuador-16112026/",
+            "medio": "El Diario",
+            "fecha": "2026-11-16",
+            "intereses": []
+          }
+        ],
+        "transparencia": [
+          {
+            "texto": "Habilitar en la web del CPCCS un enlace con información sobre la fiscalización en cada provincia y la descarga gratuita de los estatutos propuestos.",
+            "concreta": true,
+            "plazo": null,
+            "costo": null,
+            "competencia": "si",
+            "fuente": "https://www.eldiario.ec/ecuador/wilson-rodriguez-propone-fortalecer-las-veedurias-ciudadanas-para-fiscalizar-las-obras-y-los-recursos-publicos-en-los-221-cantones-del-ecuador-16112026/",
+            "medio": "El Diario",
+            "fecha": "2026-11-16",
+            "intereses": []
+          }
+        ],
+        "grupos": [],
+        "institucion": []
+      },
+      "nombre_completo": "Wilson Marcelo Rodríguez Oyos",
+      "organizacion": "Sin afiliación (candidatura ciudadana)"
+    },
+    {
+      "id": "guillermo-arroba",
+      "nombre": "Guillermo Arroba",
+      "nombre_corto": "Guillermo Arroba",
+      "lista": "Hombres",
+      "orden": 25,
+      "provincia": "Pichincha",
+      "edad": 44,
+      "profesion": "Sociólogo",
+      "perfil": "Declara proyectos de liderazgo barrial y economía popular en zonas rurales de Guayaquil y de capacitación en derechos laborales y sindicalismo, además de brigadas de asesoría jurídica para personas con discapacidad y trabajadores, todo con la Fundación Nueve de Octubre. Dictó talleres sobre mecanismos de participación ciudadana. No registra iniciativas de lucha contra la corrupción.",
+      "situacion": null,
+      "perfil_fuente": "https://www.primicias.ec/politica/elecciones/seccionales-adelantadas-2027/cpccs/candidatos-cpccs-elecciones-consejo-cne-trayectoria-136118/",
+      "notas": null,
+      "nombre_completo": "Guillermo Marcelo Arroba López",
+      "organizacion": "Sin afiliación (candidatura ciudadana)",
+      "propuestas": {
+        "designacion": [],
+        "anticorrupcion": [],
+        "participacion": [],
+        "transparencia": [],
+        "grupos": [],
+        "institucion": []
+      }
+    },
+    {
+      "id": "cristopher-chela",
+      "nombre": "Cristopher Chela",
+      "nombre_corto": "Cristopher Chela",
+      "lista": "Hombres",
+      "orden": 26,
+      "provincia": "Bolívar",
+      "edad": 25,
+      "profesion": "Licenciado en Sociología",
+      "perfil": "Declara haber elaborado y presentado un proyecto de ordenanza ante el GAD Municipal de Guaranda como iniciativa normativa ciudadana. Menciona voluntariado con la Concejalía de Guaranda y el Foro Provincial de la Mujer de Bolívar, y cursos de formación ciudadana con GAD municipales, universidades y organismos como la FAO. No registra iniciativas de lucha contra la corrupción.",
+      "situacion": null,
+      "perfil_fuente": "https://www.primicias.ec/politica/elecciones/seccionales-adelantadas-2027/cpccs/candidatos-cpccs-elecciones-consejo-cne-trayectoria-136118/",
+      "notas": null,
+      "nombre_completo": "Cristopher Fray Chela Agualongo",
+      "organizacion": "Sin afiliación (candidatura ciudadana)",
+      "propuestas": {
+        "designacion": [],
+        "anticorrupcion": [],
+        "participacion": [],
+        "transparencia": [],
+        "grupos": [],
+        "institucion": []
+      }
+    },
+    {
+      "id": "lenin-rojas",
+      "nombre": "Lenin Rojas",
+      "nombre_corto": "Lenin Rojas",
+      "lista": "Hombres",
+      "orden": 27,
+      "provincia": "Pichincha",
+      "edad": 46,
+      "profesion": "Magíster en Sistemas de Gestión Ambiental",
+      "perfil": "Declara el proyecto 'Huertos familiares' y capacitación en rendición de cuentas con una asociación agropecuaria de Zamora Chinchipe, y voluntariado con la Fundación Alex Quiñónez. Cursó una escuela de formación ciudadana de seis módulos. Ante el CPCCS, dice haber conformado una veeduría sobre la readecuación del mercado Juan Bernardo Dávalos y haber sido veedor de la rehabilitación del mercado La Merced, ambos en Riobamba.",
+      "situacion": null,
+      "perfil_fuente": "https://www.primicias.ec/politica/elecciones/seccionales-adelantadas-2027/cpccs/candidatos-cpccs-elecciones-consejo-cne-trayectoria-136118/",
+      "notas": null,
+      "nombre_completo": "Lenin Fabricio Rojas Oviedo",
+      "organizacion": "Sin afiliación (candidatura ciudadana)",
+      "propuestas": {
+        "designacion": [],
+        "anticorrupcion": [],
+        "participacion": [],
+        "transparencia": [],
+        "grupos": [],
+        "institucion": []
+      }
+    },
+    {
+      "id": "orlando-guanoluisa",
+      "nombre": "Orlando Guanoluisa",
+      "nombre_corto": "Orlando Guanoluisa",
+      "lista": "Hombres",
+      "orden": 28,
+      "provincia": "Cotopaxi",
+      "edad": 47,
+      "profesion": "MSC. Pedagogía de la Cultura Física, Mención en Educación Física Inclusiva",
+      "perfil": "Declara haber presentado, como presidente de una organización, proyectos de desarrollo y fortalecimiento de derechos para comunidades. Dice haber participado ad honorem en programas de voluntariado y en iniciativas de formación ciudadana en la parroquia Juan Montalvo (Latacunga). No registra iniciativas de lucha contra la corrupción.",
+      "situacion": null,
+      "perfil_fuente": "https://www.primicias.ec/politica/elecciones/seccionales-adelantadas-2027/cpccs/candidatos-cpccs-elecciones-consejo-cne-trayectoria-136118/",
+      "notas": "KCH escribe \"Guanolisa\".",
+      "nombre_completo": "Orlando Antonio Guanoluisa Zapata",
+      "organizacion": "Sin afiliación (candidatura ciudadana)",
+      "propuestas": {
+        "designacion": [],
+        "anticorrupcion": [],
+        "participacion": [],
+        "transparencia": [],
+        "grupos": [],
+        "institucion": []
+      }
+    },
+    {
+      "id": "fernando-alburquerque",
+      "nombre": "Fernando Alburquerque",
+      "nombre_corto": "Fernando Alburquerque",
+      "lista": "Hombres",
+      "orden": 29,
+      "provincia": "Guayas",
+      "edad": 34,
+      "profesion": "Ingeniero en Computación e Informática",
+      "perfil": "Declara el proyecto 'Camino a la Vida' para niños con cáncer (Fundación María Gabriela Palacios), una consulta popular cantonal en Santa Lucía y un programa para personas con discapacidad (Fundación VIDA). Dice tener 12 certificados de formación ciudadana del CPCCS y haber participado en la asamblea local de Guayaquil y en audiencia pública, cabildo y silla vacía en Colimes. En lucha contra la corrupción cita propuestas de transparencia en los GAD de Colimes y Bucay.",
+      "situacion": null,
+      "perfil_fuente": "https://www.primicias.ec/politica/elecciones/seccionales-adelantadas-2027/cpccs/candidatos-cpccs-elecciones-consejo-cne-trayectoria-136118/",
+      "notas": "Teleamazonas y El Universo (vía KCH) escriben \"Albuquerque\".",
+      "nombre_completo": "Fernando Rafael Alburquerque Bautista",
+      "organizacion": "Sin afiliación (candidatura ciudadana)",
+      "propuestas": {
+        "designacion": [],
+        "anticorrupcion": [],
+        "participacion": [],
+        "transparencia": [],
+        "grupos": [],
+        "institucion": []
+      }
+    },
+    {
+      "id": "andres-fantoni",
+      "nombre": "Andrés Fantoni",
+      "nombre_corto": "Andrés Fantoni",
+      "lista": "Hombres",
+      "orden": 30,
+      "provincia": "Guayas",
+      "edad": 40,
+      "profesion": "Licenciado en Ciencias de la Educación - Mención Gerencia Educativa",
+      "perfil": "Según PRIMICIAS, preside el CPCCS desde octubre de 2024 y busca la reelección. Declara haber cursado un diplomado en participación ciudadana y participado en los proyectos 'Quien Sabe Participa' y '100 Jóvenes Participa' del CPCCS. En lucha contra la corrupción menciona un reglamento de veedurías para la selección de comisiones ciudadanas y un memorando de entendimiento entre el CPCCS y una autoridad de los Emiratos Árabes Unidos sobre integridad.",
+      "situacion": "En funciones en el CPCCS, busca la reelección",
+      "perfil_fuente": "https://www.primicias.ec/politica/elecciones/seccionales-adelantadas-2027/cpccs/candidatos-cpccs-elecciones-consejo-cne-trayectoria-136118/",
+      "notas": "Presidente del CPCCS en funciones; busca la reelección (casillero 30). Su carta ante el CNE se centra en su experiencia; Primicias y El Universo indican que no presenta un plan detallado. Varias notas de KCH tienen formato de cobertura de campaña.",
+      "propuestas": {
+        "designacion": [],
+        "anticorrupcion": [
+          {
+            "texto": "Ofrece actuar, cuando corresponda, como investigador y denunciante de actos que afecten al país.",
+            "concreta": false,
+            "plazo": null,
+            "costo": null,
+            "competencia": "si",
+            "fuente": "https://www.eluniverso.com/noticias/politica/elecciones-seccionales-2027-consejo-de-participacion-ciudadana-y-control-social-campanas-electorales-nota/",
+            "medio": "El Universo",
+            "fecha": "2026-10-01",
+            "intereses": []
+          },
+          {
+            "texto": "Propone desarrollar una plataforma para que los ciudadanos comuniquen directamente posibles irregularidades o dificultades en la atención estatal, e incorporar herramientas tecnológicas para denuncias y reportes.",
+            "concreta": true,
+            "plazo": null,
+            "costo": null,
+            "competencia": "si",
+            "fuente": "https://kchcomunicacion.com/2026/11/16/andres-fantoni-destaca-avances-del-cpccs-y-plantea-fortalecer-participacion-ciudadana-y-transparencia/",
+            "medio": "KCH FM",
+            "fecha": "2026-11-16",
+            "intereses": []
+          }
+        ],
+        "participacion": [
+          {
+            "texto": "Busca continuar la capacitación ciudadana, reducir los tiempos de respuesta y ampliar el trabajo territorial del organismo.",
+            "concreta": false,
+            "plazo": null,
+            "costo": null,
+            "competencia": "si",
+            "fuente": "https://kchcomunicacion.com/2026/11/16/andres-fantoni-destaca-avances-del-cpccs-y-plantea-fortalecer-participacion-ciudadana-y-transparencia/",
+            "medio": "KCH FM",
+            "fecha": "2026-11-16",
+            "intereses": []
+          }
+        ],
+        "transparencia": [
+          {
+            "texto": "Se compromete a ejercer vigilancia constante sobre la gestión de las autoridades que inciden en los derechos y garantías ciudadanas.",
+            "concreta": false,
+            "plazo": null,
+            "costo": null,
+            "competencia": "si",
+            "fuente": "https://www.primicias.ec/politica/elecciones/seccionales-adelantadas-2027/cpccs/candidatos-reeleccion-consejo-participacion-cpccs-cne-plan-trabajo-andres-fantoni-134003/",
+            "medio": "Primicias",
+            "fecha": "2026-10-04",
+            "intereses": []
+          },
+          {
+            "texto": "Plantea impulsar un \"sello de transparencia\" para instituciones públicas.",
+            "concreta": true,
+            "plazo": null,
+            "costo": null,
+            "competencia": "si",
+            "fuente": "https://kchcomunicacion.com/2026/11/16/andres-fantoni-destaca-avances-del-cpccs-y-plantea-fortalecer-participacion-ciudadana-y-transparencia/",
+            "medio": "KCH FM",
+            "fecha": "2026-11-16",
+            "intereses": []
+          }
+        ],
+        "grupos": [
+          {
+            "texto": "Plantea dar continuidad a iniciativas que acerquen el CPCCS a las universidades, con proyectos de formación, liderazgo juvenil y participación para estudiantes.",
+            "concreta": false,
+            "plazo": null,
+            "costo": null,
+            "competencia": "si",
+            "fuente": "https://kchcomunicacion.com/2026/11/13/milagro-apuesta-por-la-participacion-juvenil-andres-fantoni-impulsa-acercamientos-con-la-unemi/",
+            "medio": "KCH FM",
+            "fecha": "2026-11-13",
+            "intereses": []
+          }
+        ],
+        "institucion": []
+      },
+      "nombre_completo": "Andrés Xavier Fantoni Baldeón",
+      "organizacion": "Sin afiliación (candidatura ciudadana)"
+    },
+    {
+      "id": "jhony-toaquiza",
+      "nombre": "Jhony Toaquiza",
+      "nombre_corto": "Jhony Toaquiza",
+      "lista": "Hombres",
+      "orden": 31,
+      "provincia": "Napo",
+      "edad": 27,
+      "profesion": "Abogado de los Tribunales y Juzgdos de la República",
+      "perfil": "Declara proyectos con la Asociación Vozandes Media sobre transparencia y derechos (Guayaquil), control social en una fundación, justicia comunitaria y consulta previa en la comunidad Yutzupino (Tena), además de un artículo académico sobre migración climática. En lucha contra la corrupción menciona propuestas sobre manejo de recursos privados y veedurías con una corporación evangélica. En reconocido prestigio cita propuestas de transparencia en Quito y un artículo científico sobre la extradición de nacionales.",
+      "situacion": null,
+      "perfil_fuente": "https://www.primicias.ec/politica/elecciones/seccionales-adelantadas-2027/cpccs/candidatos-cpccs-elecciones-consejo-cne-trayectoria-136118/",
+      "notas": null,
+      "nombre_completo": "Jhony Marcelo Toaquiza Díaz",
+      "organizacion": "Sin afiliación (candidatura ciudadana)",
+      "propuestas": {
+        "designacion": [],
+        "anticorrupcion": [],
+        "participacion": [],
+        "transparencia": [],
+        "grupos": [],
+        "institucion": []
+      }
+    },
+    {
+      "id": "daniel-pazmino",
+      "nombre": "Daniel Pazmiño",
+      "nombre_corto": "Daniel Pazmiño",
+      "lista": "Hombres",
+      "orden": 32,
+      "provincia": "Tungurahua",
+      "edad": 46,
+      "profesion": "Ingeniero Comercial",
+      "perfil": "Declara haber gestionado el proyecto de alcantarillado y planta de tratamiento de aguas para las comunidades La Clementina, Sálate y Los Cipreses, con mesas de trabajo y socialización comunitaria. Menciona normativa de movilidad y seguridad vial (EP Movilidad de Riobamba) y sesiones del consejo de protección de derechos de Pelileo. En lucha contra la corrupción cita iniciativas de transparencia en Santa Clara, la asamblea de planificación de Riobamba y una consulta pública de normas de tránsito de una mancomunidad amazónica.",
+      "situacion": null,
+      "perfil_fuente": "https://www.primicias.ec/politica/elecciones/seccionales-adelantadas-2027/cpccs/candidatos-cpccs-elecciones-consejo-cne-trayectoria-136118/",
+      "notas": "Solo se ubicó una nota de La Prensa (laprensa.com.ec), que no fue accesible; no se registran propuestas.",
+      "propuestas": {
+        "designacion": [],
+        "anticorrupcion": [],
+        "participacion": [],
+        "transparencia": [],
+        "grupos": [],
+        "institucion": []
+      },
+      "nombre_completo": "Daniel Adrián Pazmiño Real",
+      "organizacion": "Sin afiliación (candidatura ciudadana)"
+    },
+    {
+      "id": "johnny-escobar",
+      "nombre": "Johnny Escobar",
+      "nombre_corto": "Johnny Escobar",
+      "lista": "Hombres",
+      "orden": 33,
+      "provincia": "Guayas",
+      "edad": 60,
+      "profesion": "Diseño Curricular por Competencia",
+      "perfil": "Según PRIMICIAS, llegó al CPCCS tras la renuncia de Roberto Gilbert y busca la reelección. Declara haber sido capacitador en un programa de voluntariado del Observatorio Ciudadano de Servicios Públicos. En lucha contra la corrupción menciona una denuncia por malos manejos de recursos públicos ante la Secretaría Nacional de Administración Pública (SNAP-D-00286-14).",
+      "situacion": "En funciones en el CPCCS, busca la reelección",
+      "perfil_fuente": "https://www.primicias.ec/politica/elecciones/seccionales-adelantadas-2027/cpccs/candidatos-cpccs-elecciones-consejo-cne-trayectoria-136118/",
+      "notas": "KCH escribe \"Johnny\" y \"Jhonny\" en la misma nota. Consejero en funciones desde el 7 de julio de 2026 (reemplazo de Roberto Gilbert); busca la reelección (casillero 33). El Universo lo nombra 'Jhonny Escobar'. Propuestas tomadas de su carta de justificación ante el CNE, según la prensa.",
+      "propuestas": {
+        "designacion": [],
+        "anticorrupcion": [
+          {
+            "texto": "Expresa preocupación por los índices de corrupción y señala que el CPCCS no ha aportado soluciones a ese problema, pese a ser una de sus funciones.",
+            "concreta": false,
+            "plazo": null,
+            "costo": null,
+            "competencia": "si",
+            "fuente": "https://www.primicias.ec/politica/elecciones/seccionales-adelantadas-2027/cpccs/candidatos-reeleccion-consejo-participacion-cpccs-cne-plan-trabajo-andres-fantoni-134003/",
+            "medio": "Primicias",
+            "fecha": "2026-10-04",
+            "intereses": []
+          }
+        ],
+        "participacion": [
+          {
+            "texto": "Propone difundir la participación ciudadana para que la población conozca sus derechos y se involucre en los distintos niveles de gobierno.",
+            "concreta": false,
+            "plazo": null,
+            "costo": null,
+            "competencia": "si",
+            "fuente": "https://www.eldiario.ec/ecuador/consejo-de-participacion-ciudadana-estas-son-las-propuestas-de-los-candidatos-que-buscan-volver-al-organismo-01102026/",
+            "medio": "El Diario",
+            "fecha": "2026-10-01",
+            "intereses": []
+          }
+        ],
+        "transparencia": [],
+        "grupos": [],
+        "institucion": []
+      },
+      "nombre_completo": "Johnny Xavier Escobar Coronel",
+      "organizacion": "Sin afiliación (candidatura ciudadana)"
+    },
+    {
+      "id": "gustavo-reyes",
+      "nombre": "Gustavo Reyes",
+      "nombre_corto": "Gustavo Reyes",
+      "lista": "Hombres",
+      "orden": 34,
+      "provincia": "Pichincha",
+      "edad": 45,
+      "profesion": "Ingeniero en Administración de Empresas",
+      "perfil": "Declara tres iniciativas con la Unión General de Trabajadores del Ecuador sobre derechos laborales y reformas al Código del Trabajo. En lucha contra la corrupción dice haber participado en la elaboración de la Política Pública Anticorrupción. Presenta cinco avales, entre ellos de un exvicerrector y del actual decano de Ciencias Agrícolas de la Universidad Central, de una exasambleísta y de un exministro de Ambiente.",
+      "situacion": null,
+      "perfil_fuente": "https://www.primicias.ec/politica/elecciones/seccionales-adelantadas-2027/cpccs/candidatos-cpccs-elecciones-consejo-cne-trayectoria-136118/",
+      "notas": "Abogado e ingeniero (casillero 34, papeleta amarilla).",
+      "propuestas": {
+        "designacion": [
+          {
+            "texto": "Usar plataformas tecnológicas para seguir en línea y en tiempo real los concursos de autoridades de control, de modo que la ciudadanía pueda impugnar.",
+            "concreta": true,
+            "plazo": null,
+            "costo": null,
+            "competencia": "si",
+            "fuente": "https://www.eldiario.ec/ecuador/gustavo-reyes-candidato-al-cpccs-busca-devolver-el-poder-a-la-ciudadania-y-revisar-los-concursos-de-autoridades-de-control-en-ecuador-17112026/",
+            "medio": "El Diario",
+            "fecha": "2026-11-17",
+            "intereses": []
+          },
+          {
+            "texto": "Exigir a los integrantes de las comisiones de selección una preparación y trayectoria iguales o superiores a las de los cargos que designan.",
+            "concreta": true,
+            "plazo": null,
+            "costo": null,
+            "competencia": "si",
+            "fuente": "https://www.eldiario.ec/ecuador/gustavo-reyes-candidato-al-cpccs-busca-devolver-el-poder-a-la-ciudadania-y-revisar-los-concursos-de-autoridades-de-control-en-ecuador-17112026/",
+            "medio": "El Diario",
+            "fecha": "2026-11-17",
+            "intereses": []
+          },
+          {
+            "texto": "Revisar los concursos con irregularidades, como el de fiscal general, y actuar para renovar a las autoridades prorrogadas, como las electorales y las de los Consejos Nacionales para la Igualdad.",
+            "concreta": true,
+            "plazo": null,
+            "costo": null,
+            "competencia": "si",
+            "fuente": "https://www.eldiario.ec/ecuador/gustavo-reyes-candidato-al-cpccs-busca-devolver-el-poder-a-la-ciudadania-y-revisar-los-concursos-de-autoridades-de-control-en-ecuador-17112026/",
+            "medio": "El Diario",
+            "fecha": "2026-11-17",
+            "intereses": []
+          }
+        ],
+        "anticorrupcion": [
+          {
+            "texto": "Que el CPCCS acompañe las investigaciones de veedurías y patrocine denuncias formales ante la Fiscalía (responsabilidad penal) o la Contraloría (administrativa).",
+            "concreta": true,
+            "plazo": null,
+            "costo": null,
+            "competencia": "si",
+            "fuente": "https://www.eldiario.ec/ecuador/gustavo-reyes-candidato-al-cpccs-busca-devolver-el-poder-a-la-ciudadania-y-revisar-los-concursos-de-autoridades-de-control-en-ecuador-17112026/",
+            "medio": "El Diario",
+            "fecha": "2026-11-17",
+            "intereses": []
+          },
+          {
+            "texto": "Permitir veedurías con confidencialidad de sus integrantes y proteger la identidad de los denunciantes.",
+            "concreta": true,
+            "plazo": null,
+            "costo": null,
+            "competencia": "si",
+            "fuente": "https://www.eldiario.ec/ecuador/gustavo-reyes-candidato-al-cpccs-busca-devolver-el-poder-a-la-ciudadania-y-revisar-los-concursos-de-autoridades-de-control-en-ecuador-17112026/",
+            "medio": "El Diario",
+            "fecha": "2026-11-17",
+            "intereses": []
+          }
+        ],
+        "participacion": [
+          {
+            "texto": "Fortalecer veedurías, observatorios y asambleas ciudadanas con acompañamiento y seguimiento del Consejo.",
+            "concreta": false,
+            "plazo": null,
+            "costo": null,
+            "competencia": "si",
+            "fuente": "https://www.eldiario.ec/ecuador/gustavo-reyes-candidato-al-cpccs-busca-devolver-el-poder-a-la-ciudadania-y-revisar-los-concursos-de-autoridades-de-control-en-ecuador-17112026/",
+            "medio": "El Diario",
+            "fecha": "2026-11-17",
+            "intereses": []
+          },
+          {
+            "texto": "Establecer convenios con universidades, centros de investigación y ONG para capacitar a la población en sus derechos y en los mecanismos de participación.",
+            "concreta": true,
+            "plazo": null,
+            "costo": null,
+            "competencia": "si",
+            "fuente": "https://www.eldiario.ec/ecuador/gustavo-reyes-candidato-al-cpccs-busca-devolver-el-poder-a-la-ciudadania-y-revisar-los-concursos-de-autoridades-de-control-en-ecuador-17112026/",
+            "medio": "El Diario",
+            "fecha": "2026-11-17",
+            "intereses": []
+          }
+        ],
+        "transparencia": [],
+        "grupos": [],
+        "institucion": [
+          {
+            "texto": "Optimizar el presupuesto del CPCCS (alrededor de 8 millones de dólares, según el candidato) para invertir más en educación y formación ciudadana.",
+            "concreta": false,
+            "plazo": null,
+            "costo": null,
+            "competencia": "si",
+            "fuente": "https://www.eldiario.ec/ecuador/gustavo-reyes-candidato-al-cpccs-busca-devolver-el-poder-a-la-ciudadania-y-revisar-los-concursos-de-autoridades-de-control-en-ecuador-17112026/",
+            "medio": "El Diario",
+            "fecha": "2026-11-17",
+            "intereses": []
+          }
+        ]
+      },
+      "nombre_completo": "Gustavo Rubén Reyes Encalada",
+      "organizacion": "Sin afiliación (candidatura ciudadana)"
+    },
+    {
+      "id": "christian-vega",
+      "nombre": "Christian Vega",
+      "nombre_corto": "Christian Vega",
+      "lista": "Hombres",
+      "orden": 35,
+      "provincia": "Pichincha",
+      "edad": 40,
+      "profesion": "Ingeniero Comercial",
+      "perfil": "Declara haber sido delegado técnico del proyecto 'Cartografía del Kichwa' y coordinador de talleres de formación de líderes de pueblos y nacionalidades en Quito, con la Corporación Cojnapis (Inti Sisa). Menciona una propuesta de planta de lácteos para ganaderos de Tupigachi (Pedro Moncayo) y voluntariado con la Fundación Wamrayariy. No registra iniciativas de lucha contra la corrupción.",
+      "situacion": null,
+      "perfil_fuente": "https://www.primicias.ec/politica/elecciones/seccionales-adelantadas-2027/cpccs/candidatos-cpccs-elecciones-consejo-cne-trayectoria-136118/",
+      "notas": null,
+      "nombre_completo": "Christian Ismael Vega Caiza",
+      "organizacion": "Sin afiliación (candidatura ciudadana)",
+      "propuestas": {
+        "designacion": [],
+        "anticorrupcion": [],
+        "participacion": [],
+        "transparencia": [],
+        "grupos": [],
+        "institucion": []
+      }
+    },
+    {
+      "id": "hernan-cepeda",
+      "nombre": "Hernán Cepeda",
+      "nombre_corto": "Hernán Cepeda",
+      "lista": "Hombres",
+      "orden": 36,
+      "provincia": "Pichincha",
+      "edad": 48,
+      "profesion": "Magíster en Auditoría en Gestión de la Calidad",
+      "perfil": "No registra iniciativas de participación ciudadana ni de lucha contra la corrupción. En reconocido prestigio describe su carrera como auditor: auditor en las unidades de auditoría interna del IESS, el Consejo Nacional Electoral y la Empresa Pública Metropolitana de Agua Potable, coordinador y gerente subrogante de auditoría interna, y auditor general de la Empresa Eléctrica Quito durante un año y medio.",
+      "situacion": null,
+      "perfil_fuente": "https://www.primicias.ec/politica/elecciones/seccionales-adelantadas-2027/cpccs/candidatos-cpccs-elecciones-consejo-cne-trayectoria-136118/",
+      "notas": null,
+      "nombre_completo": "Hernán Rodrigo Cepeda Platanoff",
+      "organizacion": "Sin afiliación (candidatura ciudadana)",
+      "propuestas": {
+        "designacion": [],
+        "anticorrupcion": [],
+        "participacion": [],
+        "transparencia": [],
+        "grupos": [],
+        "institucion": []
+      }
+    },
+    {
+      "id": "alex-berrones",
+      "nombre": "Alex Berrones",
+      "nombre_corto": "Alex Berrones",
+      "lista": "Hombres",
+      "orden": 37,
+      "provincia": "Chimborazo",
+      "edad": 26,
+      "profesion": "Magíster en Derecho Mención en Derecho Procesal Constitucional",
+      "perfil": "No registra iniciativas de participación ciudadana. En lucha contra la corrupción declara haber integrado una veeduría del CPCCS para vigilar la compra de materiales y accesorios de agua potable y alcantarillado del GAD de Colta (Chimborazo). Presenta tres certificados de reconocido prestigio de profesionales que dicen conocerlo.",
+      "situacion": null,
+      "perfil_fuente": "https://www.primicias.ec/politica/elecciones/seccionales-adelantadas-2027/cpccs/candidatos-cpccs-elecciones-consejo-cne-trayectoria-136118/",
+      "notas": null,
+      "nombre_completo": "Alex Patricio Berrones Guevara",
+      "organizacion": "Sin afiliación (candidatura ciudadana)",
+      "propuestas": {
+        "designacion": [],
+        "anticorrupcion": [],
+        "participacion": [],
+        "transparencia": [],
+        "grupos": [],
+        "institucion": []
+      }
+    },
+    {
+      "id": "henry-marzano",
+      "nombre": "Henry Marzano",
+      "nombre_corto": "Henry Marzano",
+      "lista": "Hombres",
+      "orden": 38,
+      "provincia": "Manabí",
+      "edad": 27,
+      "profesion": "Maestría en Administración y Políticas Públicas",
+      "perfil": "Declara proyectos con el Patronato de Amparo Social de Sucre (Manabí), como un centro para niños con autismo y síndrome de Down, y con el Consejo Cantonal de Protección de Derechos. Dice haber impulsado cuatro ordenanzas o reglamentos en Sucre (iniciativas normativas, consejos barriales, salud mental), haber sido voluntario en un proyecto de regularización migratoria de niños de la OIM y el MIES y haber promovido consejos consultivos. En lucha contra la corrupción cita esas normas y haber presidido el Consejo Consultivo Nacional de Niños, Niñas y Adolescentes.",
+      "situacion": null,
+      "perfil_fuente": "https://www.primicias.ec/politica/elecciones/seccionales-adelantadas-2027/cpccs/candidatos-cpccs-elecciones-consejo-cne-trayectoria-136118/",
+      "notas": null,
+      "nombre_completo": "Henry Ramón Marzano Sacón",
+      "organizacion": "Sin afiliación (candidatura ciudadana)",
+      "propuestas": {
+        "designacion": [],
+        "anticorrupcion": [],
+        "participacion": [],
+        "transparencia": [],
+        "grupos": [],
+        "institucion": []
+      }
+    },
+    {
+      "id": "diana-jimenez",
+      "nombre": "Diana Jiménez",
+      "nombre_corto": "Diana Jiménez",
+      "lista": "Mujeres",
+      "orden": 1,
+      "provincia": "Cotopaxi",
+      "edad": 39,
+      "profesion": "Ingeniera en Alimentos",
+      "perfil": "Declara proyectos de derechos de la niñez y voluntariado con la Fundación para el Desarrollo de la Niñez y la Adolescencia de Cotopaxi, y proyectos de promoción de la participación con el CPCCS. Dice haber capacitado a los socios de la Cámara Artesanal de Quito en mecanismos como asambleas locales, presupuestos participativos, silla vacía, consulta previa y veedurías. En lucha contra la corrupción menciona iniciativas normativas de transparencia de la fundación.",
+      "situacion": null,
+      "perfil_fuente": "https://www.primicias.ec/politica/elecciones/seccionales-adelantadas-2027/cpccs/candidatos-cpccs-elecciones-consejo-cne-trayectoria-136118/",
+      "notas": "La nota de sorteo de PRIMICIAS escribe \"Diana Carolina\"; listas oficiales (Expreso, El Universo, Teleamazonas) y perfil escriben \"Karolina\".",
+      "nombre_completo": "Diana Karolina Jiménez Acurio",
+      "organizacion": "Sin afiliación (candidatura ciudadana)",
+      "propuestas": {
+        "designacion": [],
+        "anticorrupcion": [],
+        "participacion": [],
+        "transparencia": [],
+        "grupos": [],
+        "institucion": []
+      }
+    },
+    {
+      "id": "abigail-padilla",
+      "nombre": "Abigail Padilla",
+      "nombre_corto": "Abigail Padilla",
+      "lista": "Mujeres",
+      "orden": 2,
+      "provincia": "Pichincha",
+      "edad": 31,
+      "profesion": "Maestría en Alta Dirección (MBA)",
+      "perfil": "Declara iniciativas con la Fundación Bilamipaka por los derechos de familias con niños y personas con discapacidad, voluntariado con la Fundación Corazones Guerreros, a la que pertenece, y programas de formación ciudadana en transparencia, uno de ellos aplicado a la gestión contable. En lucha contra la corrupción dice haber integrado dos veedurías del CPCCS: la designación del vocal suplente del Consejo de la Judicatura y una compra de materiales de agua potable del GAD de Colta. Presenta cuatro certificados de referencia profesional y académica.",
+      "situacion": null,
+      "perfil_fuente": "https://www.primicias.ec/politica/elecciones/seccionales-adelantadas-2027/cpccs/candidatos-cpccs-elecciones-consejo-cne-trayectoria-136118/",
+      "notas": "La nota de El Diario está tras muro de pago; solo se leyó el titular y el subtítulo.",
+      "propuestas": {
+        "designacion": [
+          {
+            "texto": "Transparentar la designación de autoridades.",
+            "concreta": false,
+            "plazo": null,
+            "costo": null,
+            "competencia": "si",
+            "fuente": "https://www.eldiario.ec/ecuador/veedurias-denuncias-y-concursos-las-propuestas-de-abigail-padilla-para-el-consejo-de-participacion-ciudadana-17112026/",
+            "medio": "El Diario",
+            "fecha": "2026-11-17",
+            "intereses": []
+          }
+        ],
+        "anticorrupcion": [],
+        "participacion": [
+          {
+            "texto": "Acercar la institución a los barrios y fortalecer las veedurías ciudadanas.",
+            "concreta": false,
+            "plazo": null,
+            "costo": null,
+            "competencia": "si",
+            "fuente": "https://www.eldiario.ec/ecuador/veedurias-denuncias-y-concursos-las-propuestas-de-abigail-padilla-para-el-consejo-de-participacion-ciudadana-17112026/",
+            "medio": "El Diario",
+            "fecha": "2026-11-17",
+            "intereses": []
+          }
+        ],
+        "transparencia": [],
+        "grupos": [],
+        "institucion": []
+      },
+      "nombre_completo": "Abigail Alejandra Padilla Galarza",
+      "organizacion": "Sin afiliación (candidatura ciudadana)"
+    },
+    {
+      "id": "johanna-verdezoto",
+      "nombre": "Johanna Verdezoto",
+      "nombre_corto": "Johanna Verdezoto",
+      "lista": "Mujeres",
+      "orden": 3,
+      "provincia": "Los Ríos",
+      "edad": 35,
+      "profesion": "Maestría en Derecho Penal",
+      "perfil": "Según PRIMICIAS, es consejera en funciones y busca la reelección; en 2023 fue la más votada de la lista de pueblos y nacionalidades y en 2026 se inscribió en la lista de mujeres. No registra iniciativas de participación ciudadana ni de lucha contra la corrupción. Presenta cuatro certificados de experiencia profesional y académica: de la Universidad Regional Autónoma de los Andes, la Universidad Estatal de Bolívar, el Colegio de Abogados de Los Ríos y la Fundación Médica Ecuatoriana Mosquera.",
+      "situacion": "En funciones en el CPCCS, busca la reelección",
+      "perfil_fuente": "https://www.primicias.ec/politica/elecciones/seccionales-adelantadas-2027/cpccs/candidatos-cpccs-elecciones-consejo-cne-trayectoria-136118/",
+      "notas": "El Universo y Teleamazonas escriben \"Del Salto\". El Universo menciona solo a Verdezoto y Fantoni como consejeros que buscan la reelección; PRIMICIAS y KCH mencionan cuatro. Consejera en funciones; electa en 2023 por pueblos y nacionalidades, ahora postula en la lista de mujeres (casillero 3). Primicias escribe 'Verdesoto'/'Verdezoto'. Su carta, según la prensa, expresa motivaciones generales más que propuestas.",
+      "propuestas": {
+        "designacion": [],
+        "anticorrupcion": [],
+        "participacion": [],
+        "transparencia": [],
+        "grupos": [
+          {
+            "texto": "Plantea impulsar espacios más inclusivos, participativos e interculturales para mujeres, pueblos y nacionalidades, con base en su trabajo con organizaciones sociales.",
+            "concreta": false,
+            "plazo": null,
+            "costo": null,
+            "competencia": "si",
+            "fuente": "https://www.primicias.ec/politica/elecciones/seccionales-adelantadas-2027/cpccs/candidatos-reeleccion-consejo-participacion-cpccs-cne-plan-trabajo-andres-fantoni-134003/",
+            "medio": "Primicias",
+            "fecha": "2026-10-04",
+            "intereses": []
+          }
+        ],
+        "institucion": [
+          {
+            "texto": "Señala su intención de contribuir al fortalecimiento institucional y a un ejercicio del servicio público con ética.",
+            "concreta": false,
+            "plazo": null,
+            "costo": null,
+            "competencia": "si",
+            "fuente": "https://www.eluniverso.com/noticias/politica/elecciones-seccionales-2027-consejo-de-participacion-ciudadana-y-control-social-campanas-electorales-nota/",
+            "medio": "El Universo",
+            "fecha": "2026-10-01",
+            "intereses": []
+          }
+        ]
+      },
+      "nombre_completo": "Johanna Ivonne Verdezoto del Salto",
+      "organizacion": "Sin afiliación (candidatura ciudadana)"
+    },
+    {
+      "id": "isabela-barreiro",
+      "nombre": "Isabela Barreiro",
+      "nombre_corto": "Isabela Barreiro",
+      "lista": "Mujeres",
+      "orden": 4,
+      "provincia": "Guayas",
+      "edad": 41,
+      "profesion": "Abogada de los Tribunales y Juzgados de la República del Ecuador",
+      "perfil": "Declara haber participado en el proyecto 'Conoce a tu candidato' de la Fundación FULEFF y en jornadas de integración comunitaria. Menciona talleres sobre mecanismos de participación y control social, el proyecto 'Yo Legislo', conversatorios y la socialización de la Ley de Salud Mental. No registra iniciativas de lucha contra la corrupción.",
+      "situacion": null,
+      "perfil_fuente": "https://www.primicias.ec/politica/elecciones/seccionales-adelantadas-2027/cpccs/candidatos-cpccs-elecciones-consejo-cne-trayectoria-136118/",
+      "notas": "Abogada manabita (casillero 4, papeleta rosada).",
+      "propuestas": {
+        "designacion": [
+          {
+            "texto": "Corregir aspectos de los reglamentos de concursos, como la valoración equivalente de maestrías y doctorados en el concurso de fiscal general.",
+            "concreta": true,
+            "plazo": null,
+            "costo": null,
+            "competencia": "si",
+            "fuente": "https://www.eldiario.ec/ecuador/isabela-barreiro-plantea-fortalecer-las-veedurias-y-devolver-el-protagonismo-ciudadano-desde-el-consejo-de-participacion-ciudadana-y-control-social-cpccs-14112026/",
+            "medio": "El Diario",
+            "fecha": "2026-11-14",
+            "intereses": []
+          }
+        ],
+        "anticorrupcion": [],
+        "participacion": [
+          {
+            "texto": "Respaldar a todas las veedurías y acciones ciudadanas de fiscalización que quieran conformarse en el país, incluidas las dirigidas a municipios y GAD.",
+            "concreta": false,
+            "plazo": null,
+            "costo": null,
+            "competencia": "si",
+            "fuente": "https://www.eldiario.ec/ecuador/isabela-barreiro-plantea-fortalecer-las-veedurias-y-devolver-el-protagonismo-ciudadano-desde-el-consejo-de-participacion-ciudadana-y-control-social-cpccs-14112026/",
+            "medio": "El Diario",
+            "fecha": "2026-11-14",
+            "intereses": []
+          },
+          {
+            "texto": "Proteger a quienes fiscalizan la gestión pública y promover una participación más activa de las organizaciones sociales.",
+            "concreta": false,
+            "plazo": null,
+            "costo": null,
+            "competencia": "si",
+            "fuente": "https://www.eldiario.ec/ecuador/isabela-barreiro-plantea-fortalecer-las-veedurias-y-devolver-el-protagonismo-ciudadano-desde-el-consejo-de-participacion-ciudadana-y-control-social-cpccs-14112026/",
+            "medio": "El Diario",
+            "fecha": "2026-11-14",
+            "intereses": []
+          }
+        ],
+        "transparencia": [],
+        "grupos": [],
+        "institucion": []
+      },
+      "nombre_completo": "Isabela Victoria Barreiro Iglesias",
+      "organizacion": "Sin afiliación (candidatura ciudadana)"
+    },
+    {
+      "id": "michelle-garzon",
+      "nombre": "Michelle Garzón",
+      "nombre_corto": "Michelle Garzón",
+      "lista": "Mujeres",
+      "orden": 5,
+      "provincia": "Pichincha",
+      "edad": 30,
+      "profesion": "Abogada de los Tribunales y Juzgados de la República",
+      "perfil": "Declara haber asesorado a la Unión de Organizaciones Campesinas de Quevedo (filial de la FENOCIN) en proyectos de desarrollo social, y haber participado en un programa de atención a personas vulnerables de la Fundación Génesis y en el proyecto 'Quien Sabe Participa' del CPCCS. No registra iniciativas de lucha contra la corrupción. Presenta tres certificados de conducta intachable y probidad notoria.",
+      "situacion": null,
+      "perfil_fuente": "https://www.primicias.ec/politica/elecciones/seccionales-adelantadas-2027/cpccs/candidatos-cpccs-elecciones-consejo-cne-trayectoria-136118/",
+      "notas": "KCH/El Universo la identifican como asesora del consejero Andrés Fantoni.",
+      "nombre_completo": "Michelle Denisse Garzón Pacheco",
+      "organizacion": "Sin afiliación (candidatura ciudadana)",
+      "propuestas": {
+        "designacion": [],
+        "anticorrupcion": [],
+        "participacion": [],
+        "transparencia": [],
+        "grupos": [],
+        "institucion": []
+      }
+    },
+    {
+      "id": "rosa-chala",
+      "nombre": "Rosa Chalá",
+      "nombre_corto": "Rosa Chalá",
+      "lista": "Mujeres",
+      "orden": 6,
+      "provincia": "Pichincha",
+      "edad": 62,
+      "profesion": "Maestría en Desarrollo Humano, Cultura de Cooperación de Paz y Cooperación Internacional",
+      "perfil": "Según PRIMICIAS, fue vicepresidenta del CPCCS en 2019 y fue censurada y destituida en juicio político por la Asamblea Nacional. Declara proyectos de desarrollo sostenible y de derechos e identidad afroecuatoriana (fundaciones Ana Lidia Quiñónez de Rubio y Martin Luther King), voluntariado en las fundaciones Con Reflejos de Niños y Renacer, el proyecto 'Renacer Montubio' y haber sido observadora electoral con una federación de comunas de Loja. En lucha contra la corrupción menciona haber sido veedora ciudadana en el GAD parroquial de Tachina (Esmeraldas).",
+      "situacion": "Integró antes el CPCCS",
+      "perfil_fuente": "https://www.primicias.ec/politica/elecciones/seccionales-adelantadas-2027/cpccs/candidatos-cpccs-elecciones-consejo-cne-trayectoria-136118/",
+      "notas": "Conflicto: la nota de PRIMICIAS del 1/10/2026 (133825) dice que el CNE consideró que no cumplía requisitos, pero figura en la lista oficial de 65 (Expreso, El Universo, Teleamazonas) y en el sorteo. Exconsejera electa en 2019 y destituida por la Asamblea. Figura en la lista de 26 mujeres que publicaron Expreso (28/09/2026), El Diario y El Universo (01/10/2026); una nota de Primicias del 30/09/2026 afirmó que el CNE consideró que no cumplía los requisitos. Hay que verificar su estado.",
+      "propuestas": {
+        "designacion": [
+          {
+            "texto": "Convocar de forma inmediata a concursos de oposición y méritos para la designación de autoridades.",
+            "concreta": true,
+            "plazo": "de forma inmediata",
+            "costo": null,
+            "competencia": "si",
+            "fuente": "https://www.eluniverso.com/noticias/politica/elecciones-seccionales-2027-consejo-de-participacion-ciudadana-y-control-social-campanas-electorales-nota/",
+            "medio": "El Universo",
+            "fecha": "2026-10-01",
+            "intereses": []
+          }
+        ],
+        "anticorrupcion": [],
+        "participacion": [],
+        "transparencia": [
+          {
+            "texto": "Institucionalizar los procesos de rendición de cuentas con mecanismos periódicos y obligatorios de evaluación ciudadana.",
+            "concreta": true,
+            "plazo": null,
+            "costo": null,
+            "competencia": "si",
+            "fuente": "https://www.eluniverso.com/noticias/politica/elecciones-seccionales-2027-consejo-de-participacion-ciudadana-y-control-social-campanas-electorales-nota/",
+            "medio": "El Universo",
+            "fecha": "2026-10-01",
+            "intereses": []
+          }
+        ],
+        "grupos": [
+          {
+            "texto": "Promover la creación y el fortalecimiento de observatorios ciudadanos especializados en vigilar el cumplimiento de los derechos colectivos de los pueblos afroecuatoriano, indígenas y montubio.",
+            "concreta": true,
+            "plazo": null,
+            "costo": null,
+            "competencia": "si",
+            "fuente": "https://www.eluniverso.com/noticias/politica/elecciones-seccionales-2027-consejo-de-participacion-ciudadana-y-control-social-campanas-electorales-nota/",
+            "medio": "El Universo",
+            "fecha": "2026-10-01",
+            "intereses": []
+          }
+        ],
+        "institucion": []
+      },
+      "nombre_completo": "María Rosa Eremita Chalá Alencastro",
+      "organizacion": "Sin afiliación (candidatura ciudadana)"
+    },
+    {
+      "id": "elena-berrazueta",
+      "nombre": "Elena Berrazueta",
+      "nombre_corto": "Elena Berrazueta",
+      "lista": "Mujeres",
+      "orden": 7,
+      "provincia": "Pichincha",
+      "edad": 38,
+      "profesion": "Magíster en Derecho Mención en Derecho Notarial y Registral",
+      "perfil": "Declara trabajo con la Coordinadora Política de Mujeres Ecuatorianas en Cotopaxi: liderazgo de mujeres, asesoría jurídica, incidencia por la igualdad de género y presupuestos con enfoque de género. Menciona proyectos por los derechos de personas con discapacidad y voluntariado con la Comunidad de Vida Cristiana en Guamote, con niños en situación de desnutrición. En lucha contra la corrupción cita su cargo de procuradora síndica del GAD de Latacunga, que incluía supervisar la contratación pública.",
+      "situacion": null,
+      "perfil_fuente": "https://www.primicias.ec/politica/elecciones/seccionales-adelantadas-2027/cpccs/candidatos-cpccs-elecciones-consejo-cne-trayectoria-136118/",
+      "notas": "Abogada y docente, de Latacunga. Postula sin auspicio, según declaró.",
+      "propuestas": {
+        "designacion": [
+          {
+            "texto": "Propone una \"caja de cristal\" para que todas las etapas de los concursos de designación, incluidas revisión de documentos, convocatorias, reuniones e impugnaciones, sean abiertas al escrutinio público.",
+            "concreta": true,
+            "plazo": null,
+            "costo": null,
+            "competencia": "si",
+            "fuente": "https://www.extra.ec/noticia/politica/elena-berrazueta-candidata-cpccs-cree-derecho-disenso-importa-democracia-165269.html",
+            "medio": "Extra",
+            "fecha": "2026-10-20",
+            "intereses": []
+          }
+        ],
+        "anticorrupcion": [
+          {
+            "texto": "Dar seguimiento a las denuncias ciudadanas con procesos objetivos, protección de la identidad del denunciante, informe e investigación.",
+            "concreta": true,
+            "plazo": null,
+            "costo": null,
+            "competencia": "si",
+            "fuente": "https://www.extra.ec/noticia/politica/elena-berrazueta-candidata-cpccs-cree-derecho-disenso-importa-democracia-165269.html",
+            "medio": "Extra",
+            "fecha": "2026-10-20",
+            "intereses": []
+          }
+        ],
+        "participacion": [
+          {
+            "texto": "Fortalecer las delegaciones provinciales del CPCCS para que tengan presencia activa en territorio y acerquen la participación, el control social y la denuncia.",
+            "concreta": true,
+            "plazo": null,
+            "costo": null,
+            "competencia": "si",
+            "fuente": "https://www.expreso.ec/politica/propuesta-caja-cristal-cpccs-consiste-iniciativa-elena-berrazueta-296041.html",
+            "medio": "Expreso",
+            "fecha": "2026-09-16",
+            "intereses": []
+          },
+          {
+            "texto": "Impulsar mecanismos como la silla vacía, las asambleas locales y las veedurías, y organizar espacios de educación en derechos en todas las provincias.",
+            "concreta": false,
+            "plazo": null,
+            "costo": null,
+            "competencia": "si",
+            "fuente": "https://www.extra.ec/noticia/politica/elena-berrazueta-candidata-cpccs-cree-derecho-disenso-importa-democracia-165269.html",
+            "medio": "Extra",
+            "fecha": "2026-10-20",
+            "intereses": []
+          }
+        ],
+        "transparencia": [],
+        "grupos": [],
+        "institucion": []
+      },
+      "nombre_completo": "Elena Alexandra Berrazueta Peñaherrera",
+      "organizacion": "Sin afiliación (candidatura ciudadana)"
+    },
+    {
+      "id": "rosa-acosta",
+      "nombre": "Rosa Acosta",
+      "nombre_corto": "Rosa Acosta",
+      "lista": "Mujeres",
+      "orden": 8,
+      "provincia": "Pichincha",
+      "edad": 37,
+      "profesion": "Ingeniera en Contabilidad y Auditoría",
+      "perfil": "Declara la promoción del liderazgo ciudadano con una unión de organizaciones de sectores populares de Portoviejo, un proyecto productivo de la Asociación Agropecuaria Sembrando Prosperidad, voluntariado para la gestión comunitaria y un proceso de formación en liderazgo para la asociación Asopagril. No registra iniciativas de lucha contra la corrupción. Presenta cuatro certificados de prestigio profesional: dos de la Universidad Técnica de Manabí, uno de una fundación y uno de un exdirector del IESS.",
+      "situacion": null,
+      "perfil_fuente": "https://www.primicias.ec/politica/elecciones/seccionales-adelantadas-2027/cpccs/candidatos-cpccs-elecciones-consejo-cne-trayectoria-136118/",
+      "notas": null,
+      "nombre_completo": "Rosa Carolina Acosta Chávez",
+      "organizacion": "Sin afiliación (candidatura ciudadana)",
+      "propuestas": {
+        "designacion": [],
+        "anticorrupcion": [],
+        "participacion": [],
+        "transparencia": [],
+        "grupos": [],
+        "institucion": []
+      }
+    },
+    {
+      "id": "jessica-bajana",
+      "nombre": "Jessica Bajaña",
+      "nombre_corto": "Jessica Bajaña",
+      "lista": "Mujeres",
+      "orden": 9,
+      "provincia": "Los Ríos",
+      "edad": 36,
+      "profesion": "Abogada de los Tribunales y Juzgados de la República del Ecuador",
+      "perfil": "Declara jornadas comunitarias y campañas solidarias con la Fundación Manuelita Cozarelli, y actividades de formación y promoción de mecanismos de participación ciudadana con el GAD parroquial de Guare (Los Ríos). No registra iniciativas de lucha contra la corrupción. Presenta tres avales de abogados.",
+      "situacion": null,
+      "perfil_fuente": "https://www.primicias.ec/politica/elecciones/seccionales-adelantadas-2027/cpccs/candidatos-cpccs-elecciones-consejo-cne-trayectoria-136118/",
+      "notas": null,
+      "nombre_completo": "Jessica Sthefania Bajaña Alvear",
+      "organizacion": "Sin afiliación (candidatura ciudadana)",
+      "propuestas": {
+        "designacion": [],
+        "anticorrupcion": [],
+        "participacion": [],
+        "transparencia": [],
+        "grupos": [],
+        "institucion": []
+      }
+    },
+    {
+      "id": "angeles-tapia",
+      "nombre": "Ángeles Tapia",
+      "nombre_corto": "Ángeles Tapia",
+      "lista": "Mujeres",
+      "orden": 10,
+      "provincia": "Cotopaxi",
+      "edad": 63,
+      "profesion": "Magíster en Desarrollo Humano Sostenible con Perspectiva Local",
+      "perfil": "Declara una amplia trayectoria en Cotopaxi: el programa 'Organizaciones Campesinas hacia la Economía Circular' (Fondo Ecuatoriano Populorum Progressio), la actualización de la normativa de participación de la parroquia Antonio José Holguín y la revisión de la ordenanza de participación de Latacunga. Dice haber dirigido escuelas de formación ciudadana con comités de salud y en Pangua, y haber impulsado asambleas locales, presupuestos participativos, audiencias públicas y consejos consultivos. En lucha contra la corrupción, menciona acompañamiento técnico a la rendición de cuentas del GAD de Mulaló.",
+      "situacion": null,
+      "perfil_fuente": "https://www.primicias.ec/politica/elecciones/seccionales-adelantadas-2027/cpccs/candidatos-cpccs-elecciones-consejo-cne-trayectoria-136118/",
+      "notas": "El Universo escribe \"Ángeles Noem\" (truncado); KCH la nombra \"Noemí Tapia\".",
+      "nombre_completo": "Ángeles Noemí Tapia Trujillo",
+      "organizacion": "Sin afiliación (candidatura ciudadana)",
+      "propuestas": {
+        "designacion": [],
+        "anticorrupcion": [],
+        "participacion": [],
+        "transparencia": [],
+        "grupos": [],
+        "institucion": []
+      }
+    },
+    {
+      "id": "yumi-andrade",
+      "nombre": "Yumi Andrade",
+      "nombre_corto": "Yumi Andrade",
+      "lista": "Mujeres",
+      "orden": 11,
+      "provincia": "Pichincha",
+      "edad": 28,
+      "profesion": "Maestría en Gerencia de Proyectos",
+      "perfil": "Declara un proyecto de prevención del consumo de drogas con la Dirección Nacional de Investigación Antidrogas y capacitaciones en derechos para una compañía de transporte. Dice haber elaborado la propuesta de ordenanza 'Quito Incluyente' (SIMEBIS-Q), presentada ante una concejala, y menciona asistencia comunitaria en García Moreno (Cotacachi), capacitación a mujeres con la Fundación ArteSanar y la promoción de la silla vacía. No registra iniciativas de lucha contra la corrupción.",
+      "situacion": null,
+      "perfil_fuente": "https://www.primicias.ec/politica/elecciones/seccionales-adelantadas-2027/cpccs/candidatos-cpccs-elecciones-consejo-cne-trayectoria-136118/",
+      "notas": "KCH la nombra \"Simone Andrade\". Abogada y máster en Gerencia de Proyectos.",
+      "propuestas": {
+        "designacion": [
+          {
+            "texto": "Plantea reiniciar en parte desde cero el concurso de fiscal general, considerando perfiles, trayectoria y puntajes de los postulantes.",
+            "concreta": true,
+            "plazo": null,
+            "costo": null,
+            "competencia": "si",
+            "fuente": "https://www.expreso.ec/politica/concurso-fiscal-general-deberia-iniciar-cero-yumi-andrade-candidata-cpccs-299515.html",
+            "medio": "Expreso",
+            "fecha": "2026-10-17",
+            "intereses": []
+          },
+          {
+            "texto": "Para la renovación del CNE, propone continuar el concurso con los postulantes actuales en lugar de convocar uno nuevo.",
+            "concreta": true,
+            "plazo": null,
+            "costo": null,
+            "competencia": "si",
+            "fuente": "https://www.expreso.ec/politica/concurso-fiscal-general-deberia-iniciar-cero-yumi-andrade-candidata-cpccs-299515.html",
+            "medio": "Expreso",
+            "fecha": "2026-10-17",
+            "intereses": []
+          },
+          {
+            "texto": "Verificar desde el inicio que las comisiones de selección tengan experiencia en el área, como Derecho Penal en el caso de la Fiscalía, y que los concursos cumplan el cronograma.",
+            "concreta": false,
+            "plazo": null,
+            "costo": null,
+            "competencia": "si",
+            "fuente": "https://www.expreso.ec/politica/concurso-fiscal-general-deberia-iniciar-cero-yumi-andrade-candidata-cpccs-299515.html",
+            "medio": "Expreso",
+            "fecha": "2026-10-17",
+            "intereses": []
+          }
+        ],
+        "anticorrupcion": [],
+        "participacion": [
+          {
+            "texto": "Realizar talleres y capacitaciones presenciales sobre silla vacía, veedurías, observatorios y comités de usuarios con las delegaciones provinciales, incluidas zonas rurales y comunidades.",
+            "concreta": true,
+            "plazo": null,
+            "costo": null,
+            "competencia": "si",
+            "fuente": "https://www.expreso.ec/politica/concurso-fiscal-general-deberia-iniciar-cero-yumi-andrade-candidata-cpccs-299515.html",
+            "medio": "Expreso",
+            "fecha": "2026-10-17",
+            "intereses": []
+          }
+        ],
+        "transparencia": [],
+        "grupos": [
+          {
+            "texto": "Trabajar con jóvenes para que conozcan cómo solicitar los mecanismos de participación en sus comunidades.",
+            "concreta": false,
+            "plazo": null,
+            "costo": null,
+            "competencia": "si",
+            "fuente": "https://www.expreso.ec/politica/concurso-fiscal-general-deberia-iniciar-cero-yumi-andrade-candidata-cpccs-299515.html",
+            "medio": "Expreso",
+            "fecha": "2026-10-17",
+            "intereses": []
+          }
+        ],
+        "institucion": []
+      },
+      "nombre_completo": "Yumi Simone Andrade Betancourt",
+      "organizacion": "Sin afiliación (candidatura ciudadana)"
+    },
+    {
+      "id": "gisela-jimenez",
+      "nombre": "Gisela Jiménez",
+      "nombre_corto": "Gisela Jiménez",
+      "lista": "Mujeres",
+      "orden": 12,
+      "provincia": "Guayas",
+      "edad": 54,
+      "profesion": "Ingeniera Comercial",
+      "perfil": "Declara haber participado en propuestas de reforma a la Ley de Tránsito sobre los derechos de las personas con discapacidad y en una mesa de justicia multiactores, con un observatorio ciudadano de discapacidad y derechos humanos. Dice haber sido miembro del Consejo Provincial de Defensores de Derechos Humanos y de la Naturaleza de la Defensoría del Pueblo y haber recibido capacitación en cultura de paz. En lucha contra la corrupción menciona la rendición de cuentas de las empresas públicas de Guayaquil.",
+      "situacion": null,
+      "perfil_fuente": "https://www.primicias.ec/politica/elecciones/seccionales-adelantadas-2027/cpccs/candidatos-cpccs-elecciones-consejo-cne-trayectoria-136118/",
+      "notas": null,
+      "nombre_completo": "Gisela Elizabeth Jiménez Muñoz",
+      "organizacion": "Sin afiliación (candidatura ciudadana)",
+      "propuestas": {
+        "designacion": [],
+        "anticorrupcion": [],
+        "participacion": [],
+        "transparencia": [],
+        "grupos": [],
+        "institucion": []
+      }
+    },
+    {
+      "id": "nelly-proano",
+      "nombre": "Nelly Proaño",
+      "nombre_corto": "Nelly Proaño",
+      "lista": "Mujeres",
+      "orden": 13,
+      "provincia": "Pichincha",
+      "edad": 64,
+      "profesion": "Magíster en Gerencia y Liderazgo Educacional",
+      "perfil": "Declara capacitación ciudadana en el Guasmo Sur (Guayaquil), iniciativas normativas sobre participación, voluntariado en la Fundación Inti Daquilema y cinco cursos virtuales de ONU Mujeres. En lucha contra la corrupción cita una capacitación en transparencia y veedurías, cursos de auditoría que dice haber desarrollado como directora nacional de Talento Humano de la Contraloría y cursos en línea de la UNODC. Sus cuatro avales refieren su paso por la Contraloría y el INNFA.",
+      "situacion": null,
+      "perfil_fuente": "https://www.primicias.ec/politica/elecciones/seccionales-adelantadas-2027/cpccs/candidatos-cpccs-elecciones-consejo-cne-trayectoria-136118/",
+      "notas": null,
+      "nombre_completo": "Nelly Natalia Proaño Gallegos",
+      "organizacion": "Sin afiliación (candidatura ciudadana)",
+      "propuestas": {
+        "designacion": [],
+        "anticorrupcion": [],
+        "participacion": [],
+        "transparencia": [],
+        "grupos": [],
+        "institucion": []
+      }
+    },
+    {
+      "id": "jacqueline-ludena",
+      "nombre": "Jacqueline Ludeña",
+      "nombre_corto": "Jacqueline Ludeña",
+      "lista": "Mujeres",
+      "orden": 14,
+      "provincia": "Guayas",
+      "edad": 60,
+      "profesion": "Ingeniera Mecánica",
+      "perfil": "No registra iniciativas de participación ciudadana ni de lucha contra la corrupción. Presenta cuatro certificados de reconocido prestigio profesional de ingenieros que dicen conocerla; uno de ellos firma como presidente de la Sociedad de Ingenieros del Ecuador.",
+      "situacion": null,
+      "perfil_fuente": "https://www.primicias.ec/politica/elecciones/seccionales-adelantadas-2027/cpccs/candidatos-cpccs-elecciones-consejo-cne-trayectoria-136118/",
+      "notas": "KCH escribe \"Jaqueline\".",
+      "nombre_completo": "Jacqueline Cristina Ludeña Díaz",
+      "organizacion": "Sin afiliación (candidatura ciudadana)",
+      "propuestas": {
+        "designacion": [],
+        "anticorrupcion": [],
+        "participacion": [],
+        "transparencia": [],
+        "grupos": [],
+        "institucion": []
+      }
+    },
+    {
+      "id": "amada-guerrero",
+      "nombre": "Amada Guerrero",
+      "nombre_corto": "Amada Guerrero",
+      "lista": "Mujeres",
+      "orden": 15,
+      "provincia": "Pichincha",
+      "edad": 49,
+      "profesion": "Magíster Tecnológico en Herramientas de Innovación y Emprendimiento Empresarial",
+      "perfil": "No registra iniciativas de participación ciudadana ni de lucha contra la corrupción. Presenta tres certificados de reconocido prestigio con el mismo texto, que destacan su mérito académico (escolta del pabellón, mejor egresada de su maestría) y su desempeño laboral.",
+      "situacion": null,
+      "perfil_fuente": "https://www.primicias.ec/politica/elecciones/seccionales-adelantadas-2027/cpccs/candidatos-cpccs-elecciones-consejo-cne-trayectoria-136118/",
+      "notas": null,
+      "nombre_completo": "Amada Violeta Guerrero Floril",
+      "organizacion": "Sin afiliación (candidatura ciudadana)",
+      "propuestas": {
+        "designacion": [],
+        "anticorrupcion": [],
+        "participacion": [],
+        "transparencia": [],
+        "grupos": [],
+        "institucion": []
+      }
+    },
+    {
+      "id": "pilar-calderon",
+      "nombre": "Pilar Calderón",
+      "nombre_corto": "Pilar Calderón",
+      "lista": "Mujeres",
+      "orden": 16,
+      "provincia": "Pichincha",
+      "edad": 55,
+      "profesion": "Master en Políticas Sociales de Infancia y Adolescencia",
+      "perfil": "Declara haber coordinado proyectos de la Fundación Cambiando Vidas, que también auspicia su candidatura: atención a 330 personas con discapacidad en el sur de Quito (convenio con el MIES), erradicación del trabajo infantil para 160 niños de mercados y atención a la primera infancia. Dice haber trabajado en normativa de seguridad en el transporte con enfoque de género y haber integrado el Consejo de Defensores de Derechos Humanos de Pichincha. En reconocido prestigio menciona haber sido miembro de la Junta de Protección de Derechos de Niñez del DMQ.",
+      "situacion": null,
+      "perfil_fuente": "https://www.primicias.ec/politica/elecciones/seccionales-adelantadas-2027/cpccs/candidatos-cpccs-elecciones-consejo-cne-trayectoria-136118/",
+      "notas": null,
+      "nombre_completo": "Pilar Sebastianouska Calderón Jurado",
+      "organizacion": "Sin afiliación (candidatura ciudadana)",
+      "propuestas": {
+        "designacion": [],
+        "anticorrupcion": [],
+        "participacion": [],
+        "transparencia": [],
+        "grupos": [],
+        "institucion": []
+      }
+    },
+    {
+      "id": "ana-bastidas",
+      "nombre": "Ana Bastidas",
+      "nombre_corto": "Ana Bastidas",
+      "lista": "Mujeres",
+      "orden": 17,
+      "provincia": "Pichincha",
+      "edad": 45,
+      "profesion": "Ingeniera en Empresas Turísticas y Áreas Naturales",
+      "perfil": "Declara iniciativas por la igualdad y no discriminación con el Consejo Nacional para la Igualdad de Pueblos y Nacionalidades, propuestas normativas sobre igualdad de género en el GAD de Santa Rosa, voluntariado con la Fundación Sumak Kawsay, formación en la Universidad Amawtay Wasi y procesos de control social con 23 comunidades de Cacha. En lucha contra la corrupción cita la transparencia en la legalización de tierras del Ministerio de Agricultura. En reconocido prestigio menciona becas a seminarios en Corea del Sur y China y proyectos con Cojnapis (Inti Sisa).",
+      "situacion": null,
+      "perfil_fuente": "https://www.primicias.ec/politica/elecciones/seccionales-adelantadas-2027/cpccs/candidatos-cpccs-elecciones-consejo-cne-trayectoria-136118/",
+      "notas": null,
+      "nombre_completo": "Ana Dolores Bastidas Tene",
+      "organizacion": "Sin afiliación (candidatura ciudadana)",
+      "propuestas": {
+        "designacion": [],
+        "anticorrupcion": [],
+        "participacion": [],
+        "transparencia": [],
+        "grupos": [],
+        "institucion": []
+      }
+    },
+    {
+      "id": "meliza-chica",
+      "nombre": "Meliza Chica",
+      "nombre_corto": "Meliza Chica",
+      "lista": "Mujeres",
+      "orden": 18,
+      "provincia": "Los Ríos",
+      "edad": 34,
+      "profesion": "Abogada de los Tribunales de Justicia de la República",
+      "perfil": "Declara haber impulsado con la Alcaldía Ciudadana de Quevedo una ordenanza sobre iniciativa normativa y control del trámite legislativo, y otra sobre alianzas público-privadas. Menciona iniciativas sociales para niños, adultos mayores y personas con discapacidad con la Fundación Reina de Quevedo. No registra iniciativas de lucha contra la corrupción.",
+      "situacion": null,
+      "perfil_fuente": "https://www.primicias.ec/politica/elecciones/seccionales-adelantadas-2027/cpccs/candidatos-cpccs-elecciones-consejo-cne-trayectoria-136118/",
+      "notas": null,
+      "nombre_completo": "Meliza Pamela Chica Campuzano",
+      "organizacion": "Sin afiliación (candidatura ciudadana)",
+      "propuestas": {
+        "designacion": [],
+        "anticorrupcion": [],
+        "participacion": [],
+        "transparencia": [],
+        "grupos": [],
+        "institucion": []
+      }
+    },
+    {
+      "id": "tamara-cedeno",
+      "nombre": "Tamara Cedeño",
+      "nombre_corto": "Tamara Cedeño",
+      "lista": "Mujeres",
+      "orden": 19,
+      "provincia": "Pichincha",
+      "edad": 35,
+      "profesion": "Master Universitario en Alta Dirección",
+      "perfil": "Declara los proyectos 'Comercio 3.0' de la Cámara de Comercio de Pedro Moncayo y 'Galería de Talentos' de la Fundación Deportiva Élite, y un programa de formación ciudadana. No registra iniciativas de lucha contra la corrupción. Presenta tres avales de experiencia profesional.",
+      "situacion": null,
+      "perfil_fuente": "https://www.primicias.ec/politica/elecciones/seccionales-adelantadas-2027/cpccs/candidatos-cpccs-elecciones-consejo-cne-trayectoria-136118/",
+      "notas": "KCH la nombra \"Solange Cedeño\".",
+      "nombre_completo": "Tamara Solange Cedeño Flores",
+      "organizacion": "Sin afiliación (candidatura ciudadana)",
+      "propuestas": {
+        "designacion": [],
+        "anticorrupcion": [],
+        "participacion": [],
+        "transparencia": [],
+        "grupos": [],
+        "institucion": []
+      }
+    },
+    {
+      "id": "jenny-torres",
+      "nombre": "Jenny Torres",
+      "nombre_corto": "Jenny Torres",
+      "lista": "Mujeres",
+      "orden": 20,
+      "provincia": "Santo Domingo de los Tsáchilas",
+      "edad": 33,
+      "profesion": "Master Universitario en Victimología y Criminología Aplicada",
+      "perfil": "Declara haber coordinado un convenio con el Seguro Campesino y la Federación Nacional de Organizaciones Campesinas (FENOC) para vivienda, bono y crédito, con construcción de viviendas gratuitas. Dice haber sido gestora de acción social en la Liga Deportiva Barrial de San Gabriel y haber coordinado una brigada médica y de vacunación contra el sarampión. No registra iniciativas de lucha contra la corrupción.",
+      "situacion": null,
+      "perfil_fuente": "https://www.primicias.ec/politica/elecciones/seccionales-adelantadas-2027/cpccs/candidatos-cpccs-elecciones-consejo-cne-trayectoria-136118/",
+      "notas": null,
+      "nombre_completo": "Jenny Elizabeth Torres Aguirre",
+      "organizacion": "Sin afiliación (candidatura ciudadana)",
+      "propuestas": {
+        "designacion": [],
+        "anticorrupcion": [],
+        "participacion": [],
+        "transparencia": [],
+        "grupos": [],
+        "institucion": []
+      }
+    },
+    {
+      "id": "gabriella-guerrero",
+      "nombre": "Gabriella Guerrero",
+      "nombre_corto": "Gabriella Guerrero",
+      "lista": "Mujeres",
+      "orden": 21,
+      "provincia": "Pichincha",
+      "edad": 32,
+      "profesion": "Licenciada en Relaciones Internacionales",
+      "perfil": "Declara haber participado en el proyecto 'Influyentes' de políticas públicas, con apoyo de la Embajada de Canadá (Libre Razón), y en el proyecto 'Día Uno' de reformas normativas y constitucionales de la Fundación Konrad Adenauer. Dice formar a jóvenes en política y cívica en programas de Libre Razón. No registra iniciativas de lucha contra la corrupción.",
+      "situacion": null,
+      "perfil_fuente": "https://www.primicias.ec/politica/elecciones/seccionales-adelantadas-2027/cpccs/candidatos-cpccs-elecciones-consejo-cne-trayectoria-136118/",
+      "notas": null,
+      "nombre_completo": "Gabriella Nycole Guerrero Sánchez",
+      "organizacion": "Sin afiliación (candidatura ciudadana)",
+      "propuestas": {
+        "designacion": [],
+        "anticorrupcion": [],
+        "participacion": [],
+        "transparencia": [],
+        "grupos": [],
+        "institucion": []
+      }
+    },
+    {
+      "id": "melanie-guerrero",
+      "nombre": "Melanie Guerrero",
+      "nombre_corto": "Melanie Guerrero",
+      "lista": "Mujeres",
+      "orden": 22,
+      "provincia": "Santo Domingo de los Tsáchilas",
+      "edad": 28,
+      "profesion": "Magíster en Derechos Humanos con Mención en Sistemas Internacionales de Protección",
+      "perfil": "Declara proyectos de prevención del trabajo infantil y de formación para mujeres víctimas de violencia (Fundación Kimi Manos que Dan Reciben), el proyecto 'Mujeres Seguras, Familias Fuertes' (Fundación Cristo Rey) y dos programas de voluntariado para familias vulnerables (Fundación Manitos de Esperanza). No registra iniciativas de lucha contra la corrupción. Presenta tres certificados de mérito cívico, académico y profesional.",
+      "situacion": null,
+      "perfil_fuente": "https://www.primicias.ec/politica/elecciones/seccionales-adelantadas-2027/cpccs/candidatos-cpccs-elecciones-consejo-cne-trayectoria-136118/",
+      "notas": null,
+      "nombre_completo": "Melanie Serafina Guerrero Molina",
+      "organizacion": "Sin afiliación (candidatura ciudadana)",
+      "propuestas": {
+        "designacion": [],
+        "anticorrupcion": [],
+        "participacion": [],
+        "transparencia": [],
+        "grupos": [],
+        "institucion": []
+      }
+    },
+    {
+      "id": "carla-davalos",
+      "nombre": "Carla Dávalos",
+      "nombre_corto": "Carla Dávalos",
+      "lista": "Mujeres",
+      "orden": 23,
+      "provincia": "Pichincha",
+      "edad": 38,
+      "profesion": "Especialista en Contratación Pública",
+      "perfil": "Declara proyectos de derechos, voluntariado y formación ciudadana de niños y adolescentes con la Corporación Comoesposible. En lucha contra la corrupción cita una propuesta ciudadana de iniciativa normativa para la transparencia y el seguimiento del uso de recursos del GAD parroquial de Checa. No presenta certificados de reconocido prestigio.",
+      "situacion": null,
+      "perfil_fuente": "https://www.primicias.ec/politica/elecciones/seccionales-adelantadas-2027/cpccs/candidatos-cpccs-elecciones-consejo-cne-trayectoria-136118/",
+      "notas": null,
+      "nombre_completo": "Carla Alejandra Dávalos Benítez",
+      "organizacion": "Sin afiliación (candidatura ciudadana)",
+      "propuestas": {
+        "designacion": [],
+        "anticorrupcion": [],
+        "participacion": [],
+        "transparencia": [],
+        "grupos": [],
+        "institucion": []
+      }
+    },
+    {
+      "id": "shirlley-borja",
+      "nombre": "Shirlley Borja",
+      "nombre_corto": "Shirlley Borja",
+      "lista": "Mujeres",
+      "orden": 24,
+      "provincia": "Pichincha",
+      "edad": 56,
+      "profesion": "Abogada",
+      "perfil": "Declara haber colaborado en foros sobre derechos de la niñez con Asonic y en espacios sobre derechos de la juventud y democracia, incluida la Segunda Asamblea Nacional de Organizaciones Sociales Juveniles, con la Fundación Unión Latinoamericana de Líderes Estudiantiles por el Futuro. Fue ponente y voluntaria en vinculación comunitaria del Centro de Investigación Superior Logos. En lucha contra la corrupción cita ponencias sobre institucionalidad y educación cívica.",
+      "situacion": null,
+      "perfil_fuente": "https://www.primicias.ec/politica/elecciones/seccionales-adelantadas-2027/cpccs/candidatos-cpccs-elecciones-consejo-cne-trayectoria-136118/",
+      "notas": null,
+      "nombre_completo": "Shirlley Geoconda Borja Bonilla",
+      "organizacion": "Sin afiliación (candidatura ciudadana)",
+      "propuestas": {
+        "designacion": [],
+        "anticorrupcion": [],
+        "participacion": [],
+        "transparencia": [],
+        "grupos": [],
+        "institucion": []
+      }
+    },
+    {
+      "id": "karen-cordova",
+      "nombre": "Karen Córdova",
+      "nombre_corto": "Karen Córdova",
+      "lista": "Mujeres",
+      "orden": 25,
+      "provincia": "Guayas",
+      "edad": 33,
+      "profesion": "Economista",
+      "perfil": "No registra iniciativas de participación ciudadana ni de lucha contra la corrupción. Presenta tres certificados de referencia: dos de profesores y uno profesional que menciona su trabajo en proyectos de inclusión económica para población vulnerable en la organización internacional HIAS, donde llegó a dirigir esa área a nivel nacional.",
+      "situacion": null,
+      "perfil_fuente": "https://www.primicias.ec/politica/elecciones/seccionales-adelantadas-2027/cpccs/candidatos-cpccs-elecciones-consejo-cne-trayectoria-136118/",
+      "notas": "Economista (casillero 25 de mujeres). Plan 'Si estamos todos, es de todos', con tres ejes.",
+      "propuestas": {
+        "designacion": [
+          {
+            "texto": "Mantener el reglamento, requisitos y cronograma de los concursos sin cambios desde el inicio hasta el fin, y publicar los expedientes de los postulantes para que universidades y organizaciones puedan replicar los resultados.",
+            "concreta": true,
+            "plazo": null,
+            "costo": null,
+            "competencia": "si",
+            "fuente": "https://www.eldiario.ec/ecuador/entrevista-karen-cordova-plantea-transformar-el-cpccs-con-control-ciudadano-y-transparencia-16112026/",
+            "medio": "El Diario",
+            "fecha": "2026-11-16",
+            "intereses": []
+          },
+          {
+            "texto": "Transparentar ponderaciones, requisitos, costos de pruebas y metodologías de los concursos de méritos y oposición.",
+            "concreta": true,
+            "plazo": null,
+            "costo": null,
+            "competencia": "si",
+            "fuente": "https://www.extra.ec/noticia/politica/karen-cordova-candidata-cpccs-apuesta-seguir-renovacion-parcial-cne-165787.html",
+            "medio": "Extra",
+            "fecha": "2026-10-24",
+            "intereses": []
+          }
+        ],
+        "anticorrupcion": [],
+        "participacion": [
+          {
+            "texto": "Eje 'Participar para cambiar': medir la incidencia de los mecanismos de participación ciudadana y qué cambia en lo público cuando se activan.",
+            "concreta": true,
+            "plazo": null,
+            "costo": null,
+            "competencia": "si",
+            "fuente": "https://www.extra.ec/noticia/politica/karen-cordova-candidata-cpccs-apuesta-seguir-renovacion-parcial-cne-165787.html",
+            "medio": "Extra",
+            "fecha": "2026-10-24",
+            "intereses": []
+          },
+          {
+            "texto": "Comunicar mejor los mecanismos que ya existen en la ley (cabildos populares, presupuestos participativos, audiencias y veedurías) para que la ciudadanía sepa cómo activarlos.",
+            "concreta": false,
+            "plazo": null,
+            "costo": null,
+            "competencia": "si",
+            "fuente": "https://www.extra.ec/noticia/politica/karen-cordova-candidata-cpccs-apuesta-seguir-renovacion-parcial-cne-165787.html",
+            "medio": "Extra",
+            "fecha": "2026-10-24",
+            "intereses": []
+          }
+        ],
+        "transparencia": [
+          {
+            "texto": "Crear un sistema de trazabilidad del control social que permita seguir veedurías, observatorios y comités de usuarios desde su conformación hasta los resultados de sus informes.",
+            "concreta": true,
+            "plazo": null,
+            "costo": null,
+            "competencia": "si",
+            "fuente": "https://www.eldiario.ec/ecuador/entrevista-karen-cordova-plantea-transformar-el-cpccs-con-control-ciudadano-y-transparencia-16112026/",
+            "medio": "El Diario",
+            "fecha": "2026-11-16",
+            "intereses": []
+          },
+          {
+            "texto": "Implementar un semáforo de rendición de cuentas: las cerca de 10.000 instituciones obligadas presentarían planes anuales con indicadores, metas y presupuestos, y se contrastaría lo prometido con lo cumplido mediante alertas verde, amarilla y roja.",
+            "concreta": true,
+            "plazo": null,
+            "costo": null,
+            "competencia": "si",
+            "fuente": "https://www.eldiario.ec/ecuador/entrevista-karen-cordova-plantea-transformar-el-cpccs-con-control-ciudadano-y-transparencia-16112026/",
+            "medio": "El Diario",
+            "fecha": "2026-11-16",
+            "intereses": []
+          }
+        ],
+        "grupos": [],
+        "institucion": [
+          {
+            "texto": "Revisar la distribución del presupuesto del CPCCS (alrededor de 8 millones de dólares, 70 % en sueldos según la candidata) y priorizar la gestión en territorio.",
+            "concreta": true,
+            "plazo": null,
+            "costo": null,
+            "competencia": "si",
+            "fuente": "https://www.extra.ec/noticia/politica/karen-cordova-candidata-cpccs-apuesta-seguir-renovacion-parcial-cne-165787.html",
+            "medio": "Extra",
+            "fecha": "2026-10-24",
+            "intereses": []
+          }
+        ]
+      },
+      "nombre_completo": "Karen Janeth Córdova Orrala",
+      "organizacion": "Sin afiliación (candidatura ciudadana)"
+    },
+    {
+      "id": "jazmin-enriquez",
+      "nombre": "Jazmín Enríquez",
+      "nombre_corto": "Jazmín Enríquez",
+      "lista": "Mujeres",
+      "orden": 26,
+      "provincia": "Santo Domingo de los Tsáchilas",
+      "edad": 29,
+      "profesion": "Master Universitario en Victimología y Criminilogia Aplicada",
+      "perfil": "Según PRIMICIAS, es vicepresidenta del CPCCS y busca la reelección. Es consejera del CPCCS en funciones y basa su trayectoria en ese cargo: dice haber promovido en el Pleno el Reglamento de Rendición de Cuentas y haber propuesto resoluciones sobre veedurías e informes, como los del Yasuní ITT, los bares escolares, la Universidad de las Artes y un contrato del MTOP en Rocafuerte. Menciona también voluntariado y apoyo a la constitución de varias fundaciones de inclusión social, prevención de drogas y derechos de mujeres y niños.",
+      "situacion": "En funciones en el CPCCS, busca la reelección",
+      "perfil_fuente": "https://www.primicias.ec/politica/elecciones/seccionales-adelantadas-2027/cpccs/candidatos-cpccs-elecciones-consejo-cne-trayectoria-136118/",
+      "notas": "El Universo no la menciona entre quienes buscan la reelección; PRIMICIAS y KCH sí. Vicepresidenta del CPCCS en funciones; busca la reelección (último casillero de la papeleta de mujeres). Objetivos tomados de su justificación ante el CNE.",
+      "propuestas": {
+        "designacion": [],
+        "anticorrupcion": [],
+        "participacion": [],
+        "transparencia": [
+          {
+            "texto": "Promover la transparencia y el control social fortaleciendo la participación ciudadana en la vigilancia y seguimiento de la gestión pública.",
+            "concreta": false,
+            "plazo": null,
+            "costo": null,
+            "competencia": "si",
+            "fuente": "https://www.primicias.ec/politica/elecciones/seccionales-adelantadas-2027/cpccs/candidatos-reeleccion-consejo-participacion-cpccs-cne-plan-trabajo-andres-fantoni-134003/",
+            "medio": "Primicias",
+            "fecha": "2026-10-04",
+            "intereses": []
+          },
+          {
+            "texto": "Impulsar mecanismos de diálogo, rendición de cuentas y participación democrática entre la ciudadanía y las instituciones.",
+            "concreta": false,
+            "plazo": null,
+            "costo": null,
+            "competencia": "si",
+            "fuente": "https://www.primicias.ec/politica/elecciones/seccionales-adelantadas-2027/cpccs/candidatos-reeleccion-consejo-participacion-cpccs-cne-plan-trabajo-andres-fantoni-134003/",
+            "medio": "Primicias",
+            "fecha": "2026-10-04",
+            "intereses": []
+          }
+        ],
+        "grupos": [
+          {
+            "texto": "Impulsar el empoderamiento de las mujeres mediante programas de capacitación, liderazgo y desarrollo de emprendimientos.",
+            "concreta": false,
+            "plazo": null,
+            "costo": null,
+            "competencia": "si",
+            "fuente": "https://www.primicias.ec/politica/elecciones/seccionales-adelantadas-2027/cpccs/candidatos-reeleccion-consejo-participacion-cpccs-cne-plan-trabajo-andres-fantoni-134003/",
+            "medio": "Primicias",
+            "fecha": "2026-10-04",
+            "intereses": []
+          },
+          {
+            "texto": "Fortalecer la participación de los jóvenes con espacios de formación cívica, liderazgo comunitario e innovación social.",
+            "concreta": false,
+            "plazo": null,
+            "costo": null,
+            "competencia": "si",
+            "fuente": "https://www.primicias.ec/politica/elecciones/seccionales-adelantadas-2027/cpccs/candidatos-reeleccion-consejo-participacion-cpccs-cne-plan-trabajo-andres-fantoni-134003/",
+            "medio": "Primicias",
+            "fecha": "2026-10-04",
+            "intereses": []
+          },
+          {
+            "texto": "Fomentar la inclusión y la igualdad de oportunidades en trabajo articulado con organizaciones sociales, comunidades y sectores ciudadanos.",
+            "concreta": false,
+            "plazo": null,
+            "costo": null,
+            "competencia": "si",
+            "fuente": "https://www.primicias.ec/politica/elecciones/seccionales-adelantadas-2027/cpccs/candidatos-reeleccion-consejo-participacion-cpccs-cne-plan-trabajo-andres-fantoni-134003/",
+            "medio": "Primicias",
+            "fecha": "2026-10-04",
+            "intereses": []
+          }
+        ],
+        "institucion": []
+      },
+      "nombre_completo": "Jazmín Lilibeth Enríquez Castro",
+      "organizacion": "Sin afiliación (candidatura ciudadana)"
+    },
+    {
+      "id": "martha-toapanta",
+      "nombre": "Martha Toapanta",
+      "nombre_corto": "Martha Toapanta",
+      "lista": "Pueblos y nacionalidades",
+      "orden": 1,
+      "provincia": "Pichincha",
+      "edad": 44,
+      "profesion": "Magíster en Planificación y Prospectiva Multisectorial",
+      "perfil": "Según PRIMICIAS, es la única candidata calificada en la lista de pueblos y nacionalidades, fue concejal de Pedro Moncayo entre 2009 y 2018 y preside la Fundación Agua y Vida. Declara haber liderado un proyecto de acceso a la justicia y asesoría legal comunitaria (Fundación Solidaridad, Justicia & Paz), haber sido promotora comunitaria en una formación en gobernanza local y haber participado en la elección de la directiva de la comunidad San Pablito de Agualongo. En lucha contra la corrupción dice haber sido veedora acreditada por el CPCCS en la selección de vocales del Consejo de la Judicatura.",
+      "situacion": null,
+      "perfil_fuente": "https://www.primicias.ec/politica/elecciones/seccionales-adelantadas-2027/cpccs/candidatos-cpccs-elecciones-consejo-cne-trayectoria-136118/",
+      "notas": "Conflicto: PRIMICIAS (133642) la ubica como funcionaria del MIES en 2022; PRIMICIAS (133825) en 2021. Sin sorteo: única candidata de su lista. Única candidata de su lista (pueblo Kayambi). Pilares de su justificación ante el CNE.",
+      "propuestas": {
+        "designacion": [],
+        "anticorrupcion": [],
+        "participacion": [
+          {
+            "texto": "Fortalecer los mecanismos de participación ciudadana en todos los niveles de gobierno.",
+            "concreta": false,
+            "plazo": null,
+            "costo": null,
+            "competencia": "si",
+            "fuente": "https://www.primicias.ec/politica/elecciones/seccionales-adelantadas-2027/cpccs/cne-sorteo-papeleta-candidatos-consejo-participacion-martha-toapanta-133825/",
+            "medio": "Primicias",
+            "fecha": "2026-09-30",
+            "intereses": []
+          }
+        ],
+        "transparencia": [
+          {
+            "texto": "Consolidar el control social en la gestión pública, garantizando transparencia, rendición de cuentas y lucha contra la corrupción.",
+            "concreta": false,
+            "plazo": null,
+            "costo": null,
+            "competencia": "si",
+            "fuente": "https://www.primicias.ec/politica/elecciones/seccionales-adelantadas-2027/cpccs/cne-sorteo-papeleta-candidatos-consejo-participacion-martha-toapanta-133825/",
+            "medio": "Primicias",
+            "fecha": "2026-09-30",
+            "intereses": []
+          }
+        ],
+        "grupos": [
+          {
+            "texto": "Promover la cultura democrática, la equidad y la justicia social, y el ejercicio pleno de los derechos ciudadanos.",
+            "concreta": false,
+            "plazo": null,
+            "costo": null,
+            "competencia": "si",
+            "fuente": "https://www.primicias.ec/politica/elecciones/seccionales-adelantadas-2027/cpccs/cne-sorteo-papeleta-candidatos-consejo-participacion-martha-toapanta-133825/",
+            "medio": "Primicias",
+            "fecha": "2026-09-30",
+            "intereses": []
+          }
+        ],
+        "institucion": []
+      },
+      "nombre_completo": "Martha Susana Toapanta Cuascota",
+      "organizacion": "Sin afiliación (candidatura ciudadana)"
+    }
+  ],
+  "ejes": [
+    {
+      "key": "designacion",
+      "nombre": "Designación de autoridades",
+      "desc": "Concursos y comisiones ciudadanas para elegir autoridades de control."
+    },
+    {
+      "key": "anticorrupcion",
+      "nombre": "Lucha contra la corrupción",
+      "desc": "Investigación de denuncias y control social."
+    },
+    {
+      "key": "participacion",
+      "nombre": "Participación ciudadana",
+      "desc": "Veedurías, asambleas, silla vacía, presupuestos participativos."
+    },
+    {
+      "key": "transparencia",
+      "nombre": "Transparencia y rendición de cuentas",
+      "desc": "Información pública y rendición de cuentas de las autoridades."
+    },
+    {
+      "key": "grupos",
+      "nombre": "Mujeres, jóvenes y grupos prioritarios",
+      "desc": "Inclusión y participación de grupos históricamente excluidos."
+    },
+    {
+      "key": "institucion",
+      "nombre": "Reforma y gestión del CPCCS",
+      "desc": "Cambios al organismo, su gestión interna o su eliminación."
+    }
+  ]
+}

@@ -4,6 +4,7 @@ Comparación neutral de las propuestas de los candidatos a alcalde en las elecci
 
 - **Quito** (10 candidatos): `index.html`
 - **Latacunga** (9 candidatos): `index.html?ciudad=latacunga`. Los planes de trabajo oficiales del CNE están en `fuentes/latacunga/`.
+- **CPCCS** (65 candidatos, se eligen 7): `index.html?ciudad=cpccs`. Tiene los perfiles de los 65 y las propuestas publicadas en la prensa, que cubren a 17 candidatos. Todavía no tiene afinidad, porque los planes oficiales no se han revisado. Este conjunto define sus propios ejes en `ejes_custom` y usa `"tipo": "cpccs"`.
  No hay ranking: cada propuesta lleva su fuente y cuatro indicadores descriptivos (concreta, plazo, costo, competencia municipal).
 
 ## Mi afinidad
